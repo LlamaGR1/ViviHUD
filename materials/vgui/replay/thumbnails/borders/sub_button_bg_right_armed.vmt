@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/borders/sub_button_bg_right_armed"
+	"$translucent"	1
+}

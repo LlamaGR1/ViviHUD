@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/loadout/classes/soldier"
+	"$translucent"	1
+	"$vertexcolor"	1
+}

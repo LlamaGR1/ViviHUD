@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/vote_no"
+	"$translucent"	1
+}

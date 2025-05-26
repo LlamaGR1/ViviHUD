@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/icon_check"
+	"$translucent"	1
+	"$vertexcolor"	1
+}
