@@ -11,7 +11,7 @@
 
 - 4:3 & 16:10 support
 - 1080p and lower resolutions support
-- Steam Deck support
+- Steam Deck support (1280x800 - 16:10)
 - New icons for: Party Chat, Replays, Utilities Drawer, Alerts / Notifications, Shop, Loadout, Mute Players
 - Mann Co. Store overhaul
 - Workshop menu overhaul
@@ -25,6 +25,7 @@
 - 'Explanations' & Save / Load saved settings are off-set
 - Remove 'Be a Coach' & 'Request Coach' buttons
 - Fix 'Queued for...' & other MMDashboard related stuff
+- Only Main Menu mode
 </details>
 
 # ISSUES
@@ -44,6 +45,9 @@
 - [ ] Alerts / Notifications BG cuts off in lower resolutions
 - [ ] 'Report Bugs' button missing
 - [ ] '<< Back' button doesn't have a border until you hover over it in Casual, Comp, MvM
+- [ ] 'Disconnect' button is off-set in some resolutions
+- [ ] 1 of the 6 backgrounds doesn't support 4:3 & 16:10 (image)![Screenshot 2025-05-26 220652](https://github.com/user-attachments/assets/9d5dc7fa-acab-404f-989e-8433650b2bf5)
+
 </details>
 
 # CREDITS
