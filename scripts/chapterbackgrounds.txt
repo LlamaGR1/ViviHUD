@@ -1,0 +1,11 @@
+"chapters"
+{
+	1	"title_blue"
+	2	"title_red"
+	3	"title_invasion"
+	4	"title_scream_fortress_2017"
+	5	"title_summer_operation_2015"
+	6	"title_team_jungle_inferno_2017"
+	7	"title_team_tough_break"
+	8	"title_war"
+}

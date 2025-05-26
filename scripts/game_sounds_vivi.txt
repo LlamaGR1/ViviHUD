@@ -1,0 +1,10 @@
+"HudChat.Message"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel" "SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+//	"wave"		"ui/message_update.wav"
+	"wave"		"message.wav"
+}

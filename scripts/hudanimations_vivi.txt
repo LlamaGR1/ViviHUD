@@ -1,0 +1,14 @@
+event HudHealthBonusPulse
+{
+	Animate		PlayerStatusHealthValueMinMode		fgcolor		"69 190 150 255"	Linear	0.0	0.2
+	Animate		PlayerStatusHealthValueMinMode		fgcolor		"69 190 230 255"	Accel	0.2	0.2
+
+	RunEvent	HudHealthBonusPulseLoop				0.4
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent	HudHealthBonusPulse					0.0
+
+	Animate		PlayerStatusHealthValueMinMode		fgcolor		"TanLight"
+}
