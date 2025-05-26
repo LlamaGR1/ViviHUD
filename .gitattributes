@@ -1,0 +1,5 @@
+*.res linguist-language=vdf
+**/*.res linguist-detectable=true
+
+.gitattributes export-ignore
+.github export-ignore
