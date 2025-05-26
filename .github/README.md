@@ -26,6 +26,7 @@
 - Remove 'Be a Coach' & 'Request Coach' buttons
 - Fix 'Queued for...' & other MMDashboard related stuff
 - Only Main Menu mode
+- Replace current logo with 'https://gamebanana.com/mods/596663'
 </details>
 
 # ISSUES
