@@ -4,14 +4,27 @@
 
 ---
 
-# TODOS
+# TO-DOS
 <details>
 <summary>Expand</summary>
 <br>
-fix things
-maybe 4:3 and 16:10 support
-steam deck support (1080p and lower)
-other stuff
+
+- 4:3 & 16:10 support
+- 1080p and lower resolutions support
+- Steam Deck support
+- New icons for: Party Chat, Replays, Utilities Drawer, Alerts / Notifications, Shop, Loadout, Mute Players
+- Mann Co. Store overhaul
+- Workshop menu overhaul
+- Replays menu overhaul
+- 'Mann Up' & 'Boot Camp' menus overhaul
+- Replace the 'Mann Co. Catalog' button with the Contracker & the existing Contracker button with smth else
+- Make texts in Advanced Options TanLight instead of TanDark
+- Replace the dark purple color backgrounds with images in Loadout & Shop
+- Better looking Credits menu
+- Better looking MvM mode selection
+- 'Explanations' & Save / Load saved settings are off-set
+- Remove 'Be a Coach' & 'Request Coach' buttons
+- Fix 'Queued for...' & other MMDashboard related stuff
 </details>
 
 # ISSUES
@@ -19,7 +32,18 @@ other stuff
 <summary>Expand</summary>
 <br>
 
-- [ ] too many issues to list
+- [ ] Random Music doesn't work as intended while in-game
+- [ ] Loadout / Stats tab buttons are off-set in 4:3 & 16:10
+- [ ] Loadout / Stats tab buttons & class buttons get lower the lower resolution
+- [ ] Main Loadout page is missing ShowExplanation button
+- [ ] 'Stock Items' will be off-set in lower resolutions
+- [ ] Use 'CNavigationPanel' for class buttons in Loadout
+- [ ] Class button doesn't stay selected when clicking on it
+- [ ] Loadout Preset buttons (A - B - C - D) will be off-set in 4:3 & 16:10
+- [ ] Make the Explanation menu in Crafting a "CExplanationPopup"
+- [ ] Alerts / Notifications BG cuts off in lower resolutions
+- [ ] 'Report Bugs' button missing
+- [ ] '<< Back' button doesn't have a border until you hover over it in Casual, Comp, MvM
 </details>
 
 # CREDITS
