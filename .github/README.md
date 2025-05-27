@@ -46,7 +46,7 @@
 - [ ] Alerts / Notifications BG cuts off in lower resolutions
 - [ ] 'Report Bugs' button missing
 - [ ] '<< Back' button doesn't have a border until you hover over it in Casual, Comp, MvM
-- [ ] 'Disconnect' button is off-set in some resolutions
+- [x] 'Disconnect' button is off-set in some resolutions
 - [ ] Backgrounds 'title_scream_fortress_2017' & 'title_team_jungle_inferno_2017' are missing textures in 4:3 (image)![Screenshot 2025-05-26 220652](https://github.com/user-attachments/assets/9d5dc7fa-acab-404f-989e-8433650b2bf5)
 
 </details>
