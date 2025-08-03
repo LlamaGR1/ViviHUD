@@ -1,78 +1,139 @@
-#base "MatchMakingDashboardSidePanel.res"
+#base "matchmakingdashboardsidepanel.res"
 
-"Resource/UI/MatchMakingDashboardPlayList.res"
+"matchmakingdashboardplaylist"
 {
 	"ExpandableList"
 	{
-		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
-		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"480"
 		"proportionaltoparent"	"1"
 	}
 
 	"playlist"
 	{
-		"fieldName"		"playlist"
-		"xpos"			"c-25"
-		"ypos"			"143"
+		"xpos"			"316"
+		"ypos"			"154"
 		"zpos"			"105"
-		"wide"			"242"
-		"tall"			"250"
+		"wide"			"240"
+		"tall"			"225"
 		"proportionaltoparent"	"1"
+		"border"		"ViviBlackBG"
 
-		"CreateServerEntry"
+		"TrainingPanel"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"CreateServerEntry"
-			"xpos"			"rs1-127"
-			"ypos"			"154"
-			"wide"			"19"
-			"tall"			"19"
-			"labeltext"		""
+			"controlname"	"EditablePanel"
+			"xpos"			"2"
+			"ypos"			"rs1-2"
+			"zpos"			"12"
+			"wide"			"117"
+			"tall"			"41"
 			"proportionaltoparent"	"1"
-			"command"		"create_server"
-			"sound_armed"		"ui/buttonrollover.wav"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			"border"		"ViviPurpleBG"
 
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"border_selected"	"MainMenuButtonDepressed"
-			"border_disabled"	"MainMenuButtonDisabled"
-			"paintbackground"	"0"
-
-			"image_drawcolor"		"46 43 42 255"
-			"image_armedcolor"		"235 226 202 255"
-			"image_selectedcolor"	"46 43 42 255"
-			"SubImage"
+			"label"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"wide"			"9"
-				"tall"			"9"
+				"controlname"	"CExLabel"
+			//	"xpos"			"cs-0.5"
+			//	"ypos"			"1"
+				"wide"			"117"
+				"tall"			"21"
+				"labeltext"		"#MMenu_PlayList_Training_Desc"
+				"font"			"MMenuPlayListDesc"
+				"centerwrap"	"1"
+			//	"bgcolor_override"	"0 0 255 100"
+			}
+
+			"ModeButton"
+			{
+				"controlname"	"CExButton"
+				"ypos"			"rs1"
+				"zpos"			"6"
+				"wide"			"f0"
+				"tall"			"20"
 				"proportionaltoparent"	"1"
-				"scaleImage"	"1"
-				"image"			"glyph_create"
+				"labeltext"		"#TF_Training" // TF_Training
+				"textalignment"	"center"
+				"font"			"HudFontSmallestBold"
+				"command"		"play_training" // play_training
+				"actionsignallevel"	"2"
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+				"border_selected"	"MainMenuButtonDepressed"
+				"border_disabled"	"MainMenuButtonDisabled"
+				"paintbackground"	"0"
+
+				"defaultfgcolor_override"	"Black"
+				"selectedfgcolor_override"	"Black"
 			}
 		}
-	}
 
-	"FullScreenCloseButton"
-	{
-		"ControlName"	"Button"
-		"fieldName"		"FullScreenCloseButton"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"labelText"		""
-		"command"		"nav_close"
-		"PaintBackground"	"0"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
+		"CreateServerPanel"
+		{
+			"controlname"	"EditablePanel"
+			"xpos"			"rs1-2"
+			"ypos"			"rs1-2"
+			"zpos"			"12"
+			"wide"			"117"
+			"tall"			"41"
+			"proportionaltoparent"	"1"
+			"border"		"ViviPurpleBG"
+
+			"label"
+			{
+				"controlname"	"CExLabel"
+			//	"xpos"			"4"
+			//	"ypos"			"1"
+				"wide"			"117"
+				"tall"			"21"
+				"labeltext"		"#MMenu_PlayList_CreateServer_Desc"
+				"font"			"MMenuPlayListDesc"
+				"centerwrap"	"1"
+			//	"bgcolor_override"	"255 255 0 100"
+			}
+
+			"Image"
+			{
+				"controlname"	"ImagePanel"
+			//	"xpos"			"4"
+				"wide"			"110"
+				"tall"			"0"
+				"scaleimage"	"1"
+				"image"			"illustrations/gamemode_sd"
+			//	"bgcolor_override"	"255 0 0 100"
+			}
+
+			"ModeButton"
+			{
+				"controlname"	"CExButton"
+				"ypos"			"rs1"
+				"zpos"			"6"
+				"wide"			"f0"
+				"tall"			"20"
+				"proportionaltoparent"	"1"
+				"labeltext"		"#GameUI_CreateServer"
+				"textalignment"	"center"
+				"font"			"HudFontSmallestBold"
+				"command"		"create_server"
+				"actionsignallevel"	"2"
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+
+				"border_default"	"MainMenuButtonDefault"
+				"border_armed"		"MainMenuButtonArmed"
+				"border_selected"	"MainMenuButtonDepressed"
+				"border_disabled"	"MainMenuButtonDisabled"
+				"paintbackground"	"0"
+
+				"defaultfgcolor_override"	"Black"
+				"selectedfgcolor_override"	"Black"
+			}
+		}
 	}
 }

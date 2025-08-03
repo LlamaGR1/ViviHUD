@@ -1,8 +1,7 @@
-"Resource/UI/HudRoundCounter.res"
+"hudroundcounter"
 {
 	"RoundCounter"
 	{
-		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
 		"zpos"			"2"		
@@ -50,8 +49,7 @@
 
 	"Background" // aarbwtr34rtgw43eurtg
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Background"
+		"controlname"	"ImagePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -61,7 +59,7 @@
 //		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
 
-		"image"					"replay/thumbnails/misc/round_timer" // ../hud/comp_round_timer
+		"image"					"replay/thumbnails/ingame/round_timer" // ../hud/comp_round_timer
 		"scaleimage"			"1"
 	}
 }

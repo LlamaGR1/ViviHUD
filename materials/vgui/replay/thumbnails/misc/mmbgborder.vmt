@@ -1,6 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"	"vgui/replay/thumbnails/misc/mmbgborder"
-	"$alphatest"	1
-	"$allowAlphaToCoverage"	1
-}

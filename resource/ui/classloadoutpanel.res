@@ -1,17 +1,10 @@
-"Resource/UI/FullLoadoutPanel.res"
+"classloadoutpanel"
 {
 	"class_loadout_panel"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"class_loadout_panel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"controlname"	"Frame"
+		"fieldname"		"class_loadout_panel"
 		"wide"			"f0"
-		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"0 0 0 0"
-		"infocus_bgcolor_override" "0 0 0 0"
-		"outoffocus_bgcolor_override" "0 0 0 0"
 
 		"item_xpos_offcenter_a"	"75" // 110
 		"item_xpos_offcenter_b"	"180" // 215
@@ -30,7 +23,7 @@
 
 		"modelpanels_kv"
 		{
-			"ControlName"	"CItemModelPanel"
+			"controlname"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
 			"wide"			"100" // 140
@@ -38,7 +31,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"paintborder"	"1"
 
 			"model_center_x" "1"
@@ -64,36 +57,34 @@
 
 		"itemoptionpanels_kv"
 		{
-			"ControlName"	"CExButton"
+			"controlname"	"CExButton"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
 			"visible"		"0"
-			"labelText"		"+"
+			"labeltext"		"+"
 			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
+			"textalignment"	"center"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuSubButtonBGOne"
-			"border_armed"		"MainMenuSubButtonBGOneArmed"
-			"border_selected"	"MainMenuSubButtonBGOneArmed"
+			"border_default"	"ViviButtonOne"
+			"border_armed"		"ViviButtonOneArmed"
+			"border_selected"	"ViviButtonOneArmed"
 			"paintbackground"	"0"
 
-			"defaultFgColor_override"	"235 226 202 255"
-			"armedFgColor_override"		"235 226 202 255"
-			"depressedFgColor_override"	"195 186 162 255"
-			"selectedFgColor_override"	"195 186 162 255"
+			"depressedfgcolor_override"	"TanLightDark"
+			"selectedfgcolor_override"	"TanLightDark"
 		}
 	}
 
 	"classmodelpanel"
 	{
-		"ControlName"	"CTFPlayerModelPanel"
-		"fieldName"		"classmodelpanel"
+		"controlname"	"CTFPlayerModelPanel"
+		"fieldname"		"classmodelpanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-1"
@@ -103,14 +94,14 @@
 		"render_texture"	"0"
 		"fov"			"70" // 36
 		"allow_rot"		"1"
-		"allow_manip"	"1"
+	//	"allow_manip"	"1"
 
 		"model"
 		{
 			"force_pos"		"1"
-			"angles_x"		"5"
+			"angles_x"		"0"
 			"angles_y"		"165"
-			"angles_z"		"-2"
+			"angles_z"		"0"
 			"origin_x"		"190"
 			"origin_y"		"0"
 			"origin_z"		"-40"
@@ -125,8 +116,8 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
+		"controlname"	"CItemModelPanel"
+		"fieldname"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -146,17 +137,17 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"labeltext"		"%attriblist%"
+			"textalignment"	"center"
 			"centerwrap"	"1"
+			"fgcolor"		"117 107 94 255"
 		}
 	}
 
 	"ItemOptionsPanel"
 	{
-		"ControlName"	"CLoadoutParticleSlider"
-		"fieldName"		"ItemOptionsPanel"
+		"controlname"	"CLoadoutParticleSlider"
+		"fieldname"		"ItemOptionsPanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"100"
@@ -164,56 +155,54 @@
 		"tall"			"75"	// game ignores
 		"visible"		"0"
 //		"bgcolor_override"		"69 64 63 255"	// 69 64 63 255
-//		"PaintBackgroundType"	"2"				// 2
+//		"paintbackgroundtype"	"2"				// 2
 		"border"	"MainMenuBGBorder"
 	}
 
 	"BackgroundColor"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundColor"
+		"controlname"	"EditablePanel"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
-		"bgcolor_override"	"45 42 43 255"
+		"bgcolor_override"	"BackgroundColor"
 	}
 
 	"BackgroundImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundImage"
+		"controlname"	"ImagePanel"
+		"fieldname"		"BackgroundImage"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"competitive/comp_background_tier004a"
 	}
 
 	"CaratLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CaratLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
+		"labeltext"		">>"
 		"xpos"			"c-295"
 		"ypos"			"11"
 		"zpos"			"1"
 		"auto_wide_tocontents"	"1"
 		"tall"			"30"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
 
 	"ClassLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"ClassLabel"
 		"font"			"HudFontBiggerBold"
-		"labelText"		"#ClassBeingEquipped"
+		"labeltext"		"#ClassBeingEquipped"
 		"xpos"			"-15"
 		"zpos"			"2"
-		"auto_wide_tocontents" "1"
+		"auto_wide_tocontents"	"1"
 		"tall"			"30"
 
 		"pin_to_sibling" "CaratLabel"
@@ -221,14 +210,14 @@
 
 	"ClassLabelShadow"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabelShadow"
+		"controlname"	"CExLabel"
+		"fieldname"		"ClassLabelShadow"
 		"font"			"HudFontBiggerBold"
-		"labelText"		"#ClassBeingEquipped"
+		"labeltext"		"#ClassBeingEquipped"
 		"xpos"			"-17"
 		"ypos"			"-3"
 		"zpos"			"1"
-		"auto_wide_tocontents" "1"
+		"auto_wide_tocontents"	"1"
 		"tall"			"30"
 		"fgcolor"		"65 65 65 255"
 
@@ -237,80 +226,74 @@
 
 	"TopLeftLine"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TopLeftLine"
+		"controlname"	"ImagePanel"
+		"fieldname"		"TopLeftLine"
 		"xpos"			"c-280"
 		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"170"
 		"tall"			"10"
-		"tileImage"		"1"
+		"tileimage"		"1"
 		"tileVertically" "0"
 		"image"			"loadout_dotted_line"
 	}
 
 	"RedButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"RedButton"
+		"controlname"	"CExImageButton"
+		"fieldname"		"RedButton"
 		"xpos"			"c-280"
 		"ypos"			"52"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
-		"labelText"		""
-		"Command"		"sv_cheats 1; r_skin 0"
+		"labeltext"		""
+		"command"		"sv_cheats 1; r_skin 0"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+
 		"paintbackground"	"0"
 
-		"stay_armed_on_click"	"1"
-
-		"image_drawcolor"		"200 200 200 255"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		"SubImage"
+		"image_drawcolor"	"200 200 200 255"
+		"subimage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
 			"wide"			"20"
 			"tall"			"20"
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/loadout/team_red"
+			"scaleimage"	"1"
+			"image"			"replay/thumbnails/loadout/loadout_red"
 		}
 	}
 
 	"BluButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"BluButton"
+		"controlname"	"CExImageButton"
+		"fieldname"		"BluButton"
 		"xpos"			"-25"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
-		"labelText"		""
-		"Command"		"sv_cheats 1; r_skin 1"
+		"labeltext"		""
+		"command"		"sv_cheats 1; r_skin 1"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+
 		"paintbackground"	"0"
 
-		"stay_armed_on_click"	"1"
-
-		"image_drawcolor"		"200 200 200 255"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		"SubImage"
+		"image_drawcolor"	"200 200 200 255"
+		"subimage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
 			"wide"			"20"
 			"tall"			"20"
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/loadout/team_blu"
+			"scaleimage"	"1"
+			"image"			"replay/thumbnails/loadout/loadout_blu"
 		}
 
 		"pin_to_sibling" "RedButton"
@@ -318,33 +301,30 @@
 
 	"CharacterLoadoutButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CharacterLoadoutButton"
+		"controlname"	"CExImageButton"
+		"fieldname"		"CharacterLoadoutButton"
 		"xpos"			"-25"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
-		"labelText"		""
-		"Command"		"characterloadout"
+		"labeltext"		""
+		"command"		"characterloadout"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+
 		"paintbackground"	"0"
 
-		"stay_armed_on_click"	"1"
-
 		"image_drawcolor"	"200 200 200 255"
-		"image_armedcolor"	"255 255 255 255"
-		"image_selectedcolor" "255 255 255 255"
-		"SubImage"
+		"subimage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
 			"wide"			"20"
 			"tall"			"20"
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/loadout/loadout"
+			"scaleimage"	"1"
+			"image"			"replay/thumbnails/loadout/loadout_character"
 		}
 
 		"pin_to_sibling" "BluButton"
@@ -352,33 +332,30 @@
 
 	"TauntLoadoutButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"TauntLoadoutButton"
+		"controlname"	"CExImageButton"
+		"fieldname"		"TauntLoadoutButton"
 		"xpos"			"-25"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
-		"labelText"		""
-		"Command"		"tauntloadout"
+		"labeltext"		""
+		"command"		"tauntloadout"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
+		"stay_armed_on_click"		"1"
+		"button_activation_type"	"2"
+
 		"paintbackground"	"0"
 
-		"stay_armed_on_click"	"1"
-
 		"image_drawcolor"	"200 200 200 255"
-		"image_armedcolor"	"255 255 255 255"
-		"image_selectedcolor" "255 255 255 255"
-		"SubImage"
+		"subimage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
 			"wide"			"20"
 			"tall"			"20"
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/loadout/taunts"
+			"scaleimage"	"1"
+			"image"			"replay/thumbnails/loadout/loadout_taunts"
 		}
 
 		"pin_to_sibling" "CharacterLoadoutButton"
@@ -386,15 +363,15 @@
 
 	"LoadoutPresetPin"
 	{
-		"ControlName"	"Panel"
+		"controlname"	"Panel"
 		"xpos"			"c208"
 		"ypos"			"104"
 	}
 	
 	"loadout_preset_panel"
 	{
-		"ControlName"	"CLoadoutPresetPanel"
-		"fieldName"		"loadout_preset_panel"
+		"controlname"	"CLoadoutPresetPanel"
+		"fieldname"		"loadout_preset_panel"
 		"zpos"			"2"
 		"wide"			"75"
 		"tall"			"20"
@@ -404,16 +381,16 @@
 
 	"PassiveAttribsLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PassiveAttribsLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribSmall" // ItemFontAttribLarge
 		"xpos"			"c-280" // c-360
 		"ypos"			"77" // 27
 		"zpos"			"10"
 		"wide"			"200" // 270
 		"tall"			"275" // 240
-		"labelText"		""
-//		"textAlignment"	"south"
+		"labeltext"		""
+//		"textalignment"	"south"
 		"fgcolor"		"255 215 0 255"
 //		"centerwrap"	"1"
 		"wrap"			"1"
@@ -422,43 +399,43 @@
 
 	"TopRightLine"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TopRightLine"
+		"controlname"	"ImagePanel"
+		"fieldname"		"TopRightLine"
 		"xpos"			"c74"
 		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"207"
 		"tall"			"10"
-		"tileImage"		"1"
+		"tileimage"		"1"
 		"tileVertically" "0"
 		"image"			"loadout_dotted_line"
 	}
 
 	"TauntCaratLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TauntCaratLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"TauntCaratLabel"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"<<"
-		"textAlignment"	"east"
+		"labeltext"		"<<"
+		"textalignment"	"east"
 		"xpos"			"c287" // c320
 		"ypos"			"11"
 		"zpos"			"1"
 		"auto_wide_tocontents"	"1"
 		"tall"			"30"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
 
 	"TauntLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TauntLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"TauntLabel"
 		"font"			"HudFontBiggerBold"
-		"labelText"		"#TF_Taunt"
-		"textAlignment"	"east"
+		"labeltext"		"#TF_Taunt"
+		"textalignment"	"east"
 		"xpos"			"-15"
 		"zpos"			"2"
-		"auto_wide_tocontents" "1"
+		"auto_wide_tocontents"	"1"
 		"tall"			"30"
 
 		"pin_to_sibling" "TauntCaratLabel"
@@ -468,15 +445,15 @@
 
 	"TauntHintLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TauntHintLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"TauntHintLabel"
 		"font"			"HudFontBiggerBold"
-		"labelText"		"#TF_Taunt"
-		"textAlignment"	"east"
+		"labeltext"		"#TF_Taunt"
+		"textalignment"	"east"
 		"xpos"			"-13"
 		"ypos"			"-3"
 		"zpos"			"1"
-		"auto_wide_tocontents" "1"
+		"auto_wide_tocontents"	"1"
 		"tall"			"30"
 		"fgcolor"		"65 65 65 255"
 

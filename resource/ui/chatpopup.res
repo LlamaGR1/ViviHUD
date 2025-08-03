@@ -1,8 +1,7 @@
-"Resource/UI/ChatPopup.res"
+"chatpopup"
 {
 	"ChatPopup"
 	{
-		"wide"		"0"
-		"tall"		"0"
+		"tall"			"0"
 	}
 }

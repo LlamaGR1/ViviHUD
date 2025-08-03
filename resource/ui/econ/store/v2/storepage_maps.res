@@ -1,21 +1,13 @@
-#base "StorePage.res"
-
-"Resource/UI/StorePage_Maps.res"
+"storepage_maps"
 {
 	"StorePage"
 	{
-		"modelpanels_kv"
-		{
-			"model_xpos"	"6"
-			"model_ypos"	"-3"
-			"model_wide"	"100"
-			"model_tall"	"70"
+		"ypos"			"40"
 
-			"itemmodelpanel"
-			{
-				"force_square_image"	"1"
-			}
-		}
+		"max_cart_model_panels"	"0"
+
+		"item_panels"			"0"
+		"item_columns"			"0"
 	}
 
 	"ClassFilterLabel"
@@ -24,21 +16,6 @@
 	}
 
 	"ClassFilterNavPanel"
-	{
-		"visible"		"0"
-	}
-
-	"ClassFilterLabel"
-	{
-		"visible"		"0"
-	}
-
-	"NameFilterLabel"
-	{
-		"visible"		"0"
-	}
-
-	"NameFilterTextEntry"
 	{
 		"visible"		"0"
 	}
@@ -53,57 +30,46 @@
 		"visible"		"0"
 	}
 
+	"NameFilterLabel"
+	{
+		"visible"		"0"
+	}
+
+	"NameFilterTextBG"
+	{
+		"visible"		"0"
+	}
+
+	"NameFilterTextEntry"		//		probably not needed
+	{
+		"visible"		"0"
+	}
+
 	"ShowExplanationsButton"
 	{
 		"visible"		"0"
 	}
 
-	"TitleLabel"
+	"CartButton"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"#Store_Maps_Title"
-		"textAlignment"	"north-west"
-		"xpos"			"c-300"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"450"
-		"tall"			"25"
+		"visible"		"0"
 	}
 
-	"SubTitleLabel"
+	"BackpackSpaceLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SubTitleLabel"
-		"font"			"FontStoreOriginalPrice"
-		"labelText"		"#Store_Maps_SubTitle"
-		"textAlignment"	"south-west"
-		"xpos"			"c-300"
-		"ypos"			"30"
-		"zpos"			"5"
-		"wide"			"450"
-		"tall"			"25"
-		"fgcolor"		"TanDark"
+		"visible"		"0"
 	}
 
-	"LearnMoreButton"
+	"LoadingImage"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"LearnMoreButton"
-		"xpos"			"c166"
-		"ypos"			"29"
-		"zpos"			"5"
-		"wide"			"136"
-		"tall"			"20"
-		"labelText"		"#Store_LearnMore"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"Command"		"maps_learnmore"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-
-		"defaultBgColor_override" "Yellow"
-		"defaultFgColor_override" "TanDark"
+		"controlname"	"ImagePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"150"
+		"zpos"			"70"
+		"wide"			"70"
+		"tall"			"o1"
+		"asynchandling"	"show"
+		"scaleimage"	"1"
+		"image"			"animated/tf2_logo_hourglass"
 	}
 }

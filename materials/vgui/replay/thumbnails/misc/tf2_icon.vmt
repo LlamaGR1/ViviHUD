@@ -1,5 +1,5 @@
 "UnlitGeneric"
 {
 	"$basetexture"	"vgui/replay/thumbnails/misc/tf2_icon"
-	"$translucent"	1
+	"$vertexalpha"	1
 }

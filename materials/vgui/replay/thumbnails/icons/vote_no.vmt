@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/glyph_close_x"
+	"$vertexalpha"	1
+	"$vertexcolor"	1
+	"$color"		"{200 80 60}"
+}

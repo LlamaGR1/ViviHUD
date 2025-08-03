@@ -1,15 +1,14 @@
-"Resource/UI/econ/QuestEditorPanel.res"
+"inspectionpanel"
 {
 	"BGImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGImage"
+		"controlname"	"ImagePanel"
 		"xpos"			"c-50"
 		"zpos"			"1"
 		"wide"			"o1"
 		"tall"			"350"
 		"proportionaltoparent"	"1"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"item_carousel_bg"
 
 		"fixed_paintkit"
@@ -21,8 +20,7 @@
 
 	"ItemName"
 	{		
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"ItemName"
+		"controlname"	"CItemModelPanel"
 		"xpos"			"cs-0.5"
 		"zpos"			"1"
 		"wide"			"f0"
@@ -38,7 +36,6 @@
 
 	"ModelInspectionPanel"
 	{
-		"fieldName"		"ModelInspectionPanel"
 		"xpos"			"c-90"
 		"ypos"			"30"
 		"zpos"			"2"
@@ -85,8 +82,7 @@
 
 	"TeamNavPanel"
 	{
-		"ControlName"	"CNavigationPanel"
-		"fieldName"		"TeamNavPanel"
+		"controlname"	"CNavigationPanel"
 		"xpos"			"c-92"
 		"ypos"			"38"
 		"zpos"			"100"
@@ -106,46 +102,42 @@
 		{
 			"wide"				"20"
 			"tall"				"20"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
-			"sound_armed"		"ui/buttonrollover.wav"
 
 			"paintbackground"	"0"
 
 			"stayselectedonclick"	"1"
 
 			"image_drawcolor"		"200 200 200 255"
-			"image_armedcolor"		"255 255 255 255"
-			"image_selectedcolor"	"255 255 255 255"
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
 				"wide"			"20"
 				"tall"			"20"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 			}				
 		}
 		
 		"Buttons"
 		{
-			"all"
+			"red"
 			{
 				"userdata"			"2"
-				"image_default"		"replay/thumbnails/loadout/team_red"			
+				"image_default"		"replay/thumbnails/loadout/loadout_red"				
 			}
-			"scout"
+
+			"blu"
 			{
 				"userdata"			"3"
-				"image_default"		"replay/thumbnails/loadout/team_blu"				
+				"image_default"		"replay/thumbnails/loadout/loadout_blu"			
 			}
 		}
 	}
 
 	"PaintkitPreviewContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PaintkitPreviewContainer"
+		"controlname"	"EditablePanel"
 		"xpos"			"c-270" 
 		"ypos"			"60"
 		"zpos"			"3"
@@ -165,10 +157,9 @@
 
 		"PaintkitLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"PaintkitLabel"
+			"controlname"	"CExLabel"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"#TF_ItemPreview_ItemPaintkit"
+			"labeltext"		"#TF_ItemPreview_ItemPaintkit"
 			"xpos"			"10"
 			"ypos"			"4"
 			"wide"			"100"
@@ -183,9 +174,8 @@
 
 		"ComboBoxValidPaintkits"
 		{
-			"ControlName"	"ComboBox"
-			"fieldName"		"ComboBoxValidPaintkits"
-			"Font"			"HudFontSmallestBold"
+			"controlname"	"ComboBox"
+			"font"			"HudFontSmallestBold"
 			"xpos"			"cs-0.5"
 			"ypos"			"25"
 //			"zpos"			"1"
@@ -194,12 +184,11 @@
 			"proportionaltoparent"	"1"
 			"actionsignallevel"	"2"
 			"editable"		"0"
-			"border_override"	"MainMenuSubButtonBGOne"
+			"border_override"	"ViviButtonOne"
 
-			"fgcolor_override"				"235 226 202 255"
-			"bgcolor_override"				"0 0 0 0"
-			"selectionColor_override"		"0 0 0 0"
-			"selectionTextColor_override"	"235 226 202 255"
+			"fgcolor_override"				"TanLight"
+			"selectionColor_override"		"Blank"
+			"selectionTextColor_override"	"TanLight"
 
 			"fixed_paintkit"
 			{
@@ -210,10 +199,9 @@
 
 		"ItemLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ItemLabel"
+			"controlname"	"CExLabel"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"#TF_ItemPreview_ItemPreview"
+			"labeltext"		"#TF_ItemPreview_ItemPreview"
 			"xpos"			"10"
 			"ypos"			"47"
 			"wide"			"100"
@@ -222,16 +210,15 @@
 
 			"fixed_paintkit"
 			{
-				"labelText"	"#TF_ItemPreview_RedeemItem"
+				"labeltext"	"#TF_ItemPreview_RedeemItem"
 				"ypos"		"9"
 			}
 		}
 
 		"ComboBoxValidItems"
 		{
-			"ControlName"	"ComboBox"
-			"fieldName"		"ComboBoxValidItems"
-			"Font"			"HudFontSmallestBold"
+			"controlname"	"ComboBox"
+			"font"			"HudFontSmallestBold"
 			"xpos"			"cs-0.5"
 			"ypos"			"68"
 //			"zpos"			"1"
@@ -240,12 +227,11 @@
 			"proportionaltoparent"	"1"
 			"actionsignallevel"	"2"
 			"editable"		"0"
-			"border_override"	"MainMenuSubButtonBGOne"
+			"border_override"	"ViviButtonOne"
 
-			"fgcolor_override"				"235 226 202 255"
-			"bgcolor_override"				"0 0 0 0"
-			"selectionColor_override"		"0 0 0 0"
-			"selectionTextColor_override"	"235 226 202 255"
+			"fgcolor_override"				"TanLight"
+			"selectionColor_override"		"Blank"
+			"selectionTextColor_override"	"TanLight"
 
 			"fixed_paintkit"
 			{
@@ -257,10 +243,9 @@
 
 		"WearLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"WearLabel"
+			"controlname"	"CExLabel"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"#TF_ItemPreview_ItemWear"
+			"labeltext"		"#TF_ItemPreview_ItemWear"
 			"xpos"			"10"
 			"ypos"			"90"
 			"wide"			"100"
@@ -276,10 +261,9 @@
 
 		"WearSlider"
 		{
-			"ControlName"	"Slider"
-			"fieldName"		"WearSlider"
+			"controlname"	"Slider"
 			"xpos"			"cs-0.5+4"
-			"ypos"			"108"
+			"ypos"			"109"
 //			"zpos"			"3"
 			"wide"			"212"
 			"tall"			"30"
@@ -302,66 +286,68 @@
 
 		"SeedBG" //				---				=		---			=			---			=			---			=			---			=		CHANGE ICON			=			---			=			---				=		---			=			---			=		---			=			---
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"SeedBG"
+			"controlname"	"EditablePanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"r92"
-//			"zpos"			"3"
 			"wide"			"205"
 			"tall"			"20"
 			"proportionaltoparent"	"1"
-			"border"		"MainMenuSubButtonBGOne"
+			"border"		"ViviButtonOne"
 
-			"SubImage"	//		CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON	
+			"subimage"	//		CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON			CHANGE ICON	
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
 				"xpos"			"r15"
 				"ypos"			"cs-0.5"
 				"wide"			"11"
 				"tall"			"11"
-				"drawcolor"		"235 226 202 255"
 				"proportionaltoparent"	"1"
-				"scaleImage"	"1"
-				"image"			"cyoa/cyoa_icon_maps" // cyoa/node_item_icon
+				"drawcolor"		"TanLight"
+				"scaleimage"	"1"
+				"image"			"glyph_workshop_edit" // replay/thumbnails/icon_random		glyph_workshop_edit
 			}
 		}
 
 		"SeedTextEntry"
 		{
-			"ControlName"	"TextEntry"
-			"fieldName"		"SeedTextEntry"
-			"font"			"HudFontSmallest"
+			"controlname"	"TextEntry"
 			"xpos"			"-2"
-//			"zpos"			"4"
+			"zpos"			"1"
 			"wide"			"185"
 			"tall"			"20"
-			"NumericInputOnly"	"1"
+			"font"			"HudFontSmallest"
 			"actionsignallevel"	"2"
-
-			"fgcolor_override"				"235 226 202 255"
-			"selectionColor_override"		"140 42 43 255"
-			"selectionTextColor_override"	"46 43 42 255"
+			"fgcolor_override"			"TanLight"
+			"disabledfgcolor_override"	"TanLight"		//		does this work
 
 			"pin_to_sibling" "SeedBG"
 			"pin_corner_to_sibling" "2"
 			"pin_to_sibling_corner" "2"
 		}
 
+		"BlockEditSeed"
+		{
+			"controlname"	"Panel"
+			"zpos"			"2"
+			"wide"			"205"
+			"tall"			"20"
+
+			"pin_to_sibling" "SeedBG"
+		}
+
 		"RandomizeButton"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"RandomizeButton"
+			"controlname"	"CExButton"
 			"xpos"			"cs-0.5"
 			"ypos"			"r65"
 //			"zpos"			"3"
 			"wide"			"210"
 			"tall"			"26"
 			"proportionaltoparent"	"1"
-			"labelText"		"#TF_ItemPreview_PaintkitSeed"
+			"labeltext"		"#TF_ItemPreview_PaintkitSeed"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"Command"		"random_seed"
+			"textalignment"	"center"
+			"command"		"random_seed"
 			"actionsignallevel" "2"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -372,11 +358,9 @@
 			"border_selected"	"MainMenuButtonDepressed"
 			"paintbackground"	"0"
 
-			"fgcolor"					"46 43 42 255"
-			"defaultFgColor_override"	"46 43 42 255"
-			"armedFgColor_override"		"235 226 202 255"
-			"depressedFgColor_override"	"46 43 42 255"
-			"selectedFgColor_override"	"46 43 42 255"
+			"fgcolor"					"Black"
+			"defaultfgcolor_override"	"Black"
+			"selectedfgcolor_override"	"Black"
 
 			"fixed_paintkit"
 			{
@@ -388,18 +372,17 @@
 
 		"ViewOnMarketButton"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"ViewOnMarketButton"
+			"controlname"	"CExButton"
 			"xpos"			"cs-0.5"
 			"ypos"			"r34"
 //			"zpos"			"3"
 			"wide"			"210"
 			"tall"			"26"
 			"proportionaltoparent"	"1"
-			"labelText"		"#TF_ItemAd_ViewOnMarket"
+			"labeltext"		"#TF_ItemAd_ViewOnMarket"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"Command"		"market"
+			"textalignment"	"center"
+			"command"		"market"
 			"actionsignallevel" "2"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
@@ -410,11 +393,9 @@
 			"border_selected"	"MainMenuButtonDepressed"
 			"paintbackground"	"0"
 
-			"fgcolor"					"46 43 42 255"
-			"defaultFgColor_override"	"46 43 42 255"
-			"armedFgColor_override"		"235 226 202 255"
-			"depressedFgColor_override"	"46 43 42 255"
-			"selectedFgColor_override"	"46 43 42 255"
+			"fgcolor"					"Black"
+			"defaultfgcolor_override"	"Black"
+			"selectedfgcolor_override"	"Black"
 
 			"fixed_paintkit"
 			{

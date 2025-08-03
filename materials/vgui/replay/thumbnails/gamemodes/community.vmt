@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/gamemodes/community"
+	"$vertexalpha"	1
+	"$vertexcolor"	1
+}

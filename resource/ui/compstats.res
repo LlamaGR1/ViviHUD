@@ -1,261 +1,256 @@
-"Resource/UI/CompStats.res"
+"compstats"
 {
 	"ScrollableContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ScrollableContainer"
-		"xpos"			"0"
+		"controlname"	"EditablePanel"
+		"xpos"			"7"		//		cs-0.5 no work
 		"ypos"			"16"
 		"zpos"			"100"
-		"wide"			"255"
-		"tall"			"262"
+		"wide"			"240"
+		"tall"			"239"
 		"proportionaltoparent"	"1"
 
-		"SelectedCountBGPanel"
+		"TopPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"SelectedCountBGPanel"
-			"xpos"			"7"
+			"controlname"	"EditablePanel"
+			"xpos"			"cs-0.5"
 			"ypos"			"14"
-			"zpos"			"0"
 			"wide"			"240"
 			"tall"			"16"
-			"bgcolor_override"		"36 33 32 255"
-			"PaintBackgroundType"	"2"
-			"mouseinputenabled"		"0"
-		}
+			"proportionaltoparent"	"1"
+			"border"		"ViviPurpleBG"
+		
+			"label"
+			{
+				"controlname"	"label"
+				"xpos"			"cs-0.5"
+				"wide"			"240"
+				"tall"			"16"
+				"proportionaltoparent"	"1"
+				"labeltext"		"#Vivi_Match_History"
+				"textalignment"	"center"
+				"font"			"HudFontSmallestBold"
+			}
 
-		"SelectedCount"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"SelectedCount"
-			"xpos"			"7"
-			"ypos"			"14"
-			"zpos"			"1"
-			"wide"			"240"
-			"tall"			"16"
-			"labeltext"		"MATCH HISTORY"
-			"textAlignment"	"center"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"ShowExplanationsButton"
+			{
+				"controlname"	"CExButton"
+				"xpos"			"rs1"
+				"zpos"			"102"
+				"wide"			"16"
+				"tall"			"16"
+				"proportionaltoparent"	"1"
+				"labeltext"		"?"
+				"font"			"HudFontSmallestBold"
+				"textalignment"	"center"
+				"command"		"show_explanations"
+				"actionsignallevel" "4"
+				"sound_armed"		"ui/buttonrollover.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
+
+				"border_default"	"ViviButtonOne"
+				"border_armed"		"ViviButtonOneArmed"
+				"border_selected"	"ViviButtonOneArmed"
+				"paintbackground"	"0"
+
+				"depressedfgcolor_override"	"TanLightDark"
+				"selectedfgcolor_override"	"TanLightDark"
+			}
 		}
 
 		"PlaylistBGPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"PlaylistBGPanel"
-			"xpos"			"cs-0.5"
+			"controlname"	"EditablePanel"
 			"ypos"			"10"
 			"zpos"			"-1"
-			"wide"			"p1.0"
+			"wide"			"240"
 			"tall"			"p1-200"
-			"PaintBackgroundType"	"2"
 			"proportionaltoparent"	"1"
 
 			"PlayListDropShadow"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"PlayListDropShadow"
-				"xpos"			"cs-0.5"
+				"controlname"	"EditablePanel"
+//				"xpos"			"cs-0.5"
 				"ypos"			"25"
-				"zpos"			"100"
-				"wide"			"p0.95"
-				"tall"			"p0.895"
-				"PaintBackgroundType"	"2"
-				"border"		"InnerShadowBorder"
-				"proportionaltoparent"	"1"
+		//		"zpos"			"9"
+				"wide"			"240"
+				"tall"			"204"
+			//	"proportionaltoparent"	"1"
+				"border"		"ViviBlackBG"
 				"mouseinputenabled"	"0"
 			}
 
 			"MatchHistoryCategories"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"MatchHistoryCategories"
+				"controlname"	"EditablePanel"
 				"xpos"			"cs-0.5"
 				"ypos"			"25"
 				"zpos"			"10"
-				"wide"			"p0.95"
+				"wide"			"240"
 				"tall"			"20"
 				"proportionaltoparent"	"1"
 
 				"BGPanel"
 				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"BGPanel"
+					"controlname"	"EditablePanel"
 					"xpos"			"cs-0.5"
 					"ypos"			"rs1"
 					"zpos"			"-100"
-					"wide"			"p1.2"
+					"wide"			"240"
 					"tall"			"p1.3"
 					"proportionaltoparent"	"1"
-					"border"		"MainMenuBGBorder"
 				}
 
 				"SortArrow"
 				{
-					"ControlName"	"Label"
-					"fieldName"		"SortArrow"
-					"xpos"			"0"
-					"ypos"			"0"
+					"controlname"	"label"
 					"wide"			"20"
 					"tall"			"f0"
 					"proportionaltoparent"	"1"
-					"paintbackground"	"0"
-					"mouseinputenabled"	"0"
-					"labeltext"			"6"
-					"font"				"MarlettSmall"
+				//	"paintbackground"	"0"
+				//	"mouseinputenabled"	"0"
+					"labeltext"		"6"
+					"font"			"MarlettSmall"
 
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"TanDark"
-					"selectedFgColor_override" "TanDark"
+				//	"defaultfgcolor_override" "TanDark"
+				//	"armedfgcolor_override"	"TanDark"
+				//	"selectedfgcolor_override" "TanDark"
 				}
 
 				"ResultButton"
 				{
-					"ControlName"	"CExButton"
-					"fieldName"		"ResultButton"
-					"xpos"			"0"
-					"ypos"			"0"
+					"controlname"	"CExButton"
 					"wide"			"p0.18"
 					"tall"			"18"
 					"proportionaltoparent"	"1"
-					"paintbackground"	"0"
-					"border_default"	"SortCategoryBorder"
-					"labeltext"			"#TF_Competitive_Result"
-					"font"				"HudFontSmallest"
-					"fgcolor_override"	"141 63 63 255"
-					"textinsetx"		"15"
-
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
-
-					"command"	"sort0"
+					"labeltext"		"#TF_Competitive_Result"
+					"font"			"HudFontSmallest"
+					"use_proportional_insets"	"1"
+					"textinsetx"	"4"
+					"command"		"sort0"
 					"actionsignallevel"	"4"
-
+					"sound_armed"		"ui/buttonrollover.wav"
 					"sound_depressed"	"ui/buttonclick.wav"
 					"sound_released"	"ui/buttonclickrelease.wav"
+
+					"button_activation_type"	"2"
+
+					"border_default"	"SortCategoryBorder"
+					"paintbackground"	"0"
+
+					"defaultfgcolor_override"	"TanDark"
+					"armedfgcolor_override"		"Orange"
+					"selectedfgcolor_override"	"TanLight"
 				}
 
 				"DateButton"
 				{
-					"ControlName"	"CExButton"
-					"fieldName"		"DateButton"
+					"controlname"	"CExButton"
 					"xpos"			"p0.18"
-					"ypos"			"0"
 					"wide"			"p0.4"
 					"tall"			"18"
 					"proportionaltoparent"	"1"
-					"paintbackground"	"0"
-					"border_default"	"SortCategoryBorder"
-					"labeltext"			"#TF_Competitive_Date"
-					"font"				"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textinsetx"		"15"
-
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
-
-					"command"	"sort1"
+					"labeltext"		"#TF_Competitive_Date"
+					"font"			"HudFontSmallest"
+					"use_proportional_insets"	"1"
+					"textinsetx"	"4"
+					"command"		"sort1"
 					"actionsignallevel"	"4"
-
+					"sound_armed"		"ui/buttonrollover.wav"
 					"sound_depressed"	"ui/buttonclick.wav"
 					"sound_released"	"ui/buttonclickrelease.wav"
+
+					"button_activation_type"	"2"
+
+					"border_default"	"SortCategoryBorder"
+					"paintbackground"	"0"
+
+					"defaultfgcolor_override"	"TanDark"
+					"armedfgcolor_override"		"Orange"
+					"selectedfgcolor_override"	"TanLight"
 				}
 
 				"MapButton"
 				{
-					"ControlName"	"CExButton"
-					"fieldName"		"MapButton"
+					"controlname"	"CExButton"
 					"xpos"			"p0.58"
-					"ypos"			"0"
-					"wide"			"p0.29"
+					"wide"			"p0.28"
 					"tall"			"18"
 					"proportionaltoparent"	"1"
-					"paintbackground"	"0"
-					"border_default"	"SortCategoryBorder"
-					"labeltext"			"#TF_Competitive_Map"
-					"font"				"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textinsetx"		"15"
-
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
-
-					"command"	"sort2"
+					"labeltext"		"#TF_Competitive_Map"
+					"font"			"HudFontSmallest"
+					"use_proportional_insets"	"1"
+					"textinsetx"	"4"
+					"command"		"sort2"
 					"actionsignallevel"	"4"
-
+					"sound_armed"		"ui/buttonrollover.wav"
 					"sound_depressed"	"ui/buttonclick.wav"
 					"sound_released"	"ui/buttonclickrelease.wav"
+
+					"button_activation_type"	"2"
+
+					"border_default"	"SortCategoryBorder"
+					"paintbackground"	"0"
+
+					"defaultfgcolor_override"	"TanDark"
+					"armedfgcolor_override"		"Orange"
+					"selectedfgcolor_override"	"TanLight"
 				}
 
 				"KDRButton"
 				{
-					"ControlName"	"CExButton"
-					"fieldName"		"KDRButton"
-					"xpos"			"p0.87"
-					"ypos"			"0"
+					"controlname"	"CExButton"
+					"xpos"			"p0.86"
 					"wide"			"p0.12"
 					"tall"			"18"
 					"proportionaltoparent"	"1"
-					"paintbackground"	"0"
-					"labeltext"			"#TF_Competitive_KDR"
-					"font"				"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-
-					"defaultFgColor_override" "TanDark"
-					"armedFgColor_override"	"Orange"
-					"selectedFgColor_override" "TanLight"
-
-					"command"	"sort3"
+					"labeltext"		"#TF_Competitive_KDR"
+					"font"			"HudFontSmallest"
+					"use_proportional_insets"	"1"
+					"textinsetx"	"4"
+					"command"		"sort3"
 					"actionsignallevel"	"4"
-
+					"sound_armed"		"ui/buttonrollover.wav"
 					"sound_depressed"	"ui/buttonclick.wav"
 					"sound_released"	"ui/buttonclickrelease.wav"
+
+					"button_activation_type"	"2"
+
+					"paintbackground"	"0"
+
+					"defaultfgcolor_override"	"TanDark"
+					"armedfgcolor_override"		"Orange"
+					"selectedfgcolor_override"	"TanLight"
 				}
 			}
 
 			"MatchHistoryContainer"
 			{
-				"ControlName"	"CScrollableList"
-				"fieldName"		"MatchHistoryContainer"
+				"controlname"	"CScrollableList"
 				"xpos"			"cs-0.5"
-				"ypos"			"40"
-				"wide"			"p0.95"
-				"tall"			"p0.81"
+				"ypos"			"43"
+				"wide"			"240"
+				"tall"			"p0.78"
 				"proportionaltoparent"	"1"
-				"restrict_width" "0"
+				"restrict_width"	"0"
 
 				"ScrollBar"
 				{
-					"ControlName"	"ScrollBar"
-					"FieldName"		"ScrollBar"
-					"xpos"			"rs1-1"
-					"ypos"			"0"
-					"tall"			"f0"
-					"wide"			"5"
-					"zpos"			"1000"
-					"nobuttons"		"1"
+					"controlname"	"ScrollBar"
+					"xpos"			"rs1"
+					"zpos"			"1069"
+					"wide"			"4"
 					"proportionaltoparent"	"1"
-
-					"Slider"
-					{
-						"fgcolor_override"	"TanDark"
-					}
+					"nobuttons"		"1"
 
 					"UpButton"
 					{
-						"ControlName"	"Button"
-						"FieldName"		"UpButton"
 						"visible"		"0"
 					}
 
 					"DownButton"
 					{
-						"ControlName"	"Button"
-						"FieldName"		"DownButton"
 						"visible"		"0"
 					}
 				}

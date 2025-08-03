@@ -1,49 +1,42 @@
-"Resource/UI/GenericNotificationToast.res"
+"genericnotificationtoastmainmenu"
 {
 	"GenericNotificationToast"
 	{
-		"ControlName"	"CGenericNotificationToast"
-		"fieldName"		"GenericNotificationToast"
+		"controlname"	"CGenericNotificationToast"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"50"
-//		"fgcolor"		"56 47 29 255"
-//		"fgcolor_override"	"56 47 29 255"
 	}
 
 	"AvatarBGPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"AvatarBGPanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"7"
 		"ypos"			"7"
 		"zpos"			"-1"
 		"wide"			"36"
 		"tall"			"36"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"bgcolor_override"	"117 107 94 255"
 	}
 
 	"AvatarImage"
 	{
-		"ControlName"	"CAvatarImagePanel"
-		"fieldName"		"AvatarImage"
+		"controlname"	"CAvatarImagePanel"
 		"xpos"			"9"
 		"ypos"			"9"
 		"zpos"			"0"
 		"wide"			"32"
 		"tall"			"32"
+		"scaleimage"	"1"
 		"image"			""
-		"scaleImage"	"1"
-		"color_outline"	"52 48 45 255"
 	}
 
 	"AvatarTextLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AvatarTextLabel"
-		"fgcolor"		"56 47 29 255"
-		"fgcolor_override"	"56 47 29 255"
+		"controlname"	"CExLabel"
+		"fgcolor"		"235 226 202 255"
+		"fgcolor_override"	"235 226 202 255"
 		"xpos"			"45"
 		"ypos"			"7"
 		"zpos"			"2"
@@ -51,16 +44,13 @@
 		"tall"			"38"
 		"visible"		"0"
 		"wrap"			"1"
-		"labelText"		"%avatartext%"
+		"labeltext"		"%avatartext%"
 		"font"			"HudFontSmallest"
 	}
 
 	"TextLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TextLabel"
-//		"fgcolor"		"156 47 29 255"
-//		"fgcolor_override"	"156 47 29 255"
+		"controlname"	"CExLabel"
 		"if_high_priority"
 		{
 			"fgcolor"			"BrightYellow"
@@ -74,7 +64,7 @@
 		"tall"			"38"
 		"visible"		"0"
 		"wrap"			"1"
-		"labelText"		"%text%"
+		"labeltext"		"%text%"
 		"font"			"HudFontSmallest"
 	}
 }

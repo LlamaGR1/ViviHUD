@@ -1,20 +1,18 @@
-"Resource/UI/MatchMakingPingPanel.res"
+"matchmakingpingpanel"
 {
 	"PingPanel"
 	{
-		"fieldName"		"PingPanel"
 		"xpos"			"r0"
 		"zpos"			"1069"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"480"
 
 		"datacenter_y"			"3"
 		"datacenter_y_space"	"1"
 
 		"BGPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BGPanel"
+			"controlname"	"EditablePanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"40"
 			"zpos"			"1"
@@ -27,27 +25,24 @@
 
 	"FullScreenCloseButton"
 	{
-		"ControlName"	"Button"
-		"fieldName"		"FullScreenCloseButton"
-		"zpos"			"0"
+		"controlname"	"Button"
 		"wide"			"f0"
 		"tall"			"f0"
-		"labelText"		""
-		"RoundedCorners"	"0"
+		"labeltext"		""
 		"command"		"nav_close"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"0 0 0 230"
-		"armedBgColor_override"		"0 0 0 230"
-		"depressedBgColor_override"	"0 0 0 230"
-		"selectedBgColor_override"	"0 0 0 230"
+		"roundedcorners"			"0"
+		"button_activation_type"	"2"
+
+		"defaultbgcolor_override"	"0 0 0 230"
+		"armedbgcolor_override"		"0 0 0 230"
 	}
 
 	"InviteModeLabel"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"InviteModeLabel"
+		"controlname"	"label"
 		"xpos"			"c-116"
 		"ypos"			"45"
 		"zpos"			"2"
@@ -60,7 +55,6 @@
 
 	"InviteModeComboBox"
 	{
-		"fieldName"		"InviteModeComboBox"
 		"xpos"			"c-116"
 		"ypos"			"65"
 		"zpos"			"3"
@@ -68,67 +62,60 @@
 		"tall"			"15"
 		"font"			"HudFontSmallestBold"
 		"editable"		"0"
-
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"0 0 0 196"
+		"fgcolor_override"	"TanLight"
+		"bgcolor_override"	"TransparentBlack"
 	}
 
 	"IgnorePartyInvites"
 	{
-		"ControlName"	"CvarToggleCheckButton"
-		"fieldName"		"IgnorePartyInvites"
+		"controlname"	"CvarToggleCheckButton"
 		"xpos"			"c-120"
 		"ypos"			"85"
 		"zpos"			"3"
-		"wide"			"236"
+		"wide"			"237"
 		"tall"			"20"
 		"labeltext"		"#TF_MM_IgnoreInvites"
 		"font"			"HudFontSmallBold"
+		"cvar_name"		"tf_party_ignore_invites"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
-
-		"cvar_name"		"tf_party_ignore_invites"
 	}
 
 	"CustomPingCheckButton"
 	{
-		"ControlName"	"CvarToggleCheckButton"
-		"fieldName"		"CustomPingCheckButton"
+		"controlname"	"CvarToggleCheckButton"
 		"xpos"			"c-120"
 		"ypos"			"109"
 		"zpos"			"3"
-		"wide"			"236"
+		"wide"			"237"
 		"tall"			"20"
 		"labeltext"		"#TF_LobbyContainer_CustomPingButton"
 		"font"			"HudFontSmallBold"
+		"cvar_name"		"tf_mm_custom_ping_enabled"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
-
-		"cvar_name"		"tf_mm_custom_ping_enabled"
 	}
 
 	"DescLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DescLabel"
+		"controlname"	"CExLabel"
 		"xpos"			"c-92"
 		"ypos"			"130"
 		"zpos"			"2"
 		"wide"			"210"
 		"tall"			"45"
 		"labeltext"		"#TF_LobbyContainer_CustomPingDesc"
-		"textAlignment"	"north-west"
+		"textalignment"	"north-west"
 		"font"			"HudFontSmallest"
 		"wrap"			"1"
-		"fgcolor"		"117 107 94 255"
+		"fgcolor"		"TanDark"
 	}
 
 	"CurrentPingLabel"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"CurrentPingLabel"
+		"controlname"	"label"
 		"xpos"			"c-120"
-		"ypos"			"164"
+		"ypos"			"167"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"20"
@@ -137,22 +124,19 @@
 
 	"PingSlider"
 	{
-		"ControlName"	"CCvarSlider"
-		"fieldName"		"PingSlider"
+		"controlname"	"CCvarSlider"
 		"xpos"			"c-33"
 		"ypos"			"162"
 		"zpos"			"3"
 		"wide"			"160"
 		"tall"			"30"
-
 		"cvar_name"		"tf_mm_custom_ping"
 		"use_convar_minmax"	"1"
 	}
 
 	"DataCenterContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"DataCenterContainer"
+		"controlname"	"EditablePanel"
 		"xpos"			"c-120"
 		"ypos"			"190"
 		"zpos"			"3"
@@ -161,8 +145,7 @@
 
 		"DataCenterList"
 		{
-			"ControlName"	"CScrollableList"
-			"fieldName"		"DataCenterList"
+			"controlname"	"CScrollableList"
 			"zpos"			"1"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -170,15 +153,12 @@
 
 			"ScrollBar"
 			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
+				"controlname"	"ScrollBar"
 				"xpos"			"rs1-1"
-				"ypos"			"0"
-				"tall"			"f0"
-				"wide"			"5"
 				"zpos"			"1000"
-				"nobuttons"		"1"
+				"wide"			"5"
 				"proportionaltoparent"	"1"
+				"nobuttons"		"1"
 
 				"Slider"
 				{
@@ -199,8 +179,7 @@
 
 		"Frame"
 		{
-			"Controlname"	"EditablePanel"
-			"fieldName"		"Frame"
+			"controlname"	"EditablePanel"
 			"zpos"			"2"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -211,9 +190,7 @@
 
 		"Background"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"zpos"			"0"
+			"controlname"	"EditablePanel"
 			"wide"			"f0"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"

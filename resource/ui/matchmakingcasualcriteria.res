@@ -1,211 +1,186 @@
-"Resource/UI/MatchmakingCasualCriteria.res"
+"matchmakingcasualcriteria"
 {
 	"PlaylistBGPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlaylistBGPanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"16"
-		"zpos"			"-1"
-		"wide"			"p0.98"
-		"tall"			"269" // 289
-		"PaintBackgroundType"	"2"
+		"zpos"			"100"
+		"wide"			"240"
+		"tall"			"246" // 239
 		"proportionaltoparent"	"1"
 
-		"RestoreCasualSearchCriteria"
+		"TopPanel"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"5"
-			"ypos"			"15"
-			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"o1"
-			"labelText"		""
-			"Command"		"restore_search_criteria"
-			"actionsignallevel" "2"
-			"proportionaltoparent" "1"
-			"sound_armed"		"ui/buttonrollover.wav"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"border_default"	"MainMenuSubButtonBGLeft"
-			"border_armed"		"MainMenuSubButtonBGLeftArmed"
-			"border_selected"	"MainMenuSubButtonBGLeftArmed"
-			"border_disabled"	"MainMenuSubButtonBGLeft"
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
-			"image_selectedcolor" "195 186 162 255"
-			"image_disabledcolor" "135 126 102 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"wide"			"9"
-				"tall"			"9"
-				"scaleImage"	"1"
-				"image"			"button_load"
-			}
-		}
-
-		"SaveCasualSearchCriteria"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SaveCasualSearchCriteria"
-			"xpos"			"-1"
-			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"o1"
-			"labelText"		""
-			"Command"		"save_search_criteria"
-			"actionsignallevel" "2"
-			"proportionaltoparent" "1"
-			"sound_armed"		"ui/buttonrollover.wav"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"pin_to_sibling" "RestoreCasualSearchCriteria"
-			"pin_corner_to_sibling" "2" // 5
-			"pin_to_sibling_corner" "3" // 5
-
-			"border_default"	"MainMenuSubButtonBGRight"
-			"border_armed"		"MainMenuSubButtonBGRightArmed"
-			"border_selected"	"MainMenuSubButtonBGRightArmed"
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
-			"image_selectedcolor" "195 186 162 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"3"
-				"wide"			"9"
-				"tall"			"9"
-				"scaleImage"	"1"
-				"image"			"button_save"
-			}
-		}
-
-		"ShowExplanationsButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"ShowExplanationsButton"
-			"xpos"			"rs1-6"
-			"ypos"			"15"
-			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"15"
-			"labelText"		"?"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
-			"Command"		"show_explanations"
-			"actionsignallevel" "2"
-			"proportionaltoparent" "1"
-			"sound_armed"		"ui/buttonrollover.wav"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"border_default"	"MainMenuSubButtonBGOne"
-			"border_armed"		"MainMenuSubButtonBGOneArmed"
-			"border_selected"	"MainMenuSubButtonBGOneArmed"
-			"paintbackground"	"0"
-
-			"depressedFgColor_override"	"195 186 162 255"
-			"selectedFgColor_override"	"195 186 162 255"
-		}
-
-		"SelectedCountBGPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"SelectedCountBGPanel"
-			"xpos"			"4"
+			"controlname"	"EditablePanel"
+			"xpos"			"cs-0.5"
 			"ypos"			"14"
-			"zpos"			"0"
 			"wide"			"240"
 			"tall"			"16"
-			"bgcolor_override"		"36 33 32 255"
-			"PaintBackgroundType"	"2"
-			"mouseinputenabled"		"0"
+			"proportionaltoparent"	"1"
+			"border"		"ViviPurpleBG"
 		}
 
-		"SelectedCount"
+		"Label"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"SelectedCount"
-			"xpos"			"4"
+			"controlname"	"Label"
+			"xpos"			"cs-0.5"
 			"ypos"			"14"
 			"zpos"			"1"
 			"wide"			"240"
 			"tall"			"16"
+			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
-			"textAlignment"	"center"
+			"textalignment"	"center"
 			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+		}
+
+		"RestoreCasualSearchCriteria"
+		{
+			"controlname"	"CExImageButton"
+			"zpos"			"2"
+			"wide"			"16"
+			"tall"			"16"
+			"proportionaltoparent"	"1"
+			"labeltext"		""
+			"command"		"restore_search_criteria"
+			"actionsignallevel" "2"
+			"sound_armed"		"ui/buttonrollover.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"border_default"	"ViviButtonLeft"
+			"border_armed"		"ViviButtonLeftArmed"
+			"border_selected"	"ViviButtonLeftArmed"
+			"paintbackground"	"0"
+
+			"image_drawcolor"		"235 226 202 255"
+			"image_armedcolor"		"235 226 202 255"
+			"image_selectedcolor"	"169 163 146 255"
+			"subimage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"9"
+				"tall"			"9"
+				"proportionaltoparent"	"1"
+				"scaleimage"	"1"
+				"image"			"button_load"
+			}
+
+			"pin_to_sibling" "TopPanel"
+		}
+
+		"SaveCasualSearchCriteria"
+		{
+			"controlname"	"CExImageButton"
+			"xpos"			"-1"
+			"zpos"			"2"
+			"wide"			"16"
+			"tall"			"16"
+			"proportionaltoparent"	"1"
+			"labeltext"		""
+			"command"		"save_search_criteria"
+			"actionsignallevel" "2"
+			"sound_armed"		"ui/buttonrollover.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"border_default"	"ViviButtonRight"
+			"border_armed"		"ViviButtonRightArmed"
+			"border_selected"	"ViviButtonRightArmed"
+			"paintbackground"	"0"
+
+			"image_drawcolor"		"235 226 202 255"
+			"image_armedcolor"		"235 226 202 255"
+			"image_selectedcolor"	"169 163 146 255"
+			"subimage"
+			{
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"wide"			"9"
+				"tall"			"9"
+				"proportionaltoparent"	"1"
+				"scaleimage"	"1"
+				"image"			"button_save"
+			}
+
+			"pin_to_sibling" "RestoreCasualSearchCriteria"
+			"pin_corner_to_sibling" "2"
+			"pin_to_sibling_corner" "3"
+		}
+
+		"ShowExplanationsButton"
+		{
+			"controlname"	"CExButton"
+			"zpos"			"2"
+			"wide"			"16"
+			"tall"			"16"
+			"proportionaltoparent"	"1"
+			"labeltext"		"?"
+			"font"			"HudFontSmallestBold"
+			"textalignment"	"center"
+			"command"		"show_explanations"
+			"actionsignallevel" "2"
+			"sound_armed"		"ui/buttonrollover.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"border_default"	"ViviButtonOne"
+			"border_armed"		"ViviButtonOneArmed"
+			"border_selected"	"ViviButtonOneArmed"
+			"paintbackground"	"0"
+
+			"depressedfgcolor_override"	"TanLightDark"
+			"selectedfgcolor_override"	"TanLightDark"
+
+			"pin_to_sibling" "TopPanel"
+			"pin_corner_to_sibling" "3"
+			"pin_to_sibling_corner" "3"
 		}
 
 		"PlayListDropShadow"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"PlayListDropShadow"
+			"controlname"	"EditablePanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"35"
-			"zpos"			"101"
-			"wide"			"f8"
+			"zpos"			"-1"
+			"wide"			"240"
 			"tall"			"f42"
-			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
+			"border"		"ViviBlackBG"
 			"mouseinputenabled"	"0"
 		}
 
 		"GameModesList"
 		{
-			"ControlName"	"CScrollableList"
-			"fieldName"		"GameModesList"
+			"controlname"	"CScrollableList"
 			"xpos"			"cs-0.5"
-			"ypos"			"35"
-			"wide"			"f8"
-			"tall"			"f42"
+			"ypos"			"37"
+			"wide"			"236"
+			"tall"			"f46"
 			"proportionaltoparent"	"1"
+		//	"bottom_buffer"	"2"
+		//	"border"		"ViviBlackBG"
+		//	"border"		"MainMenuBGBorder"
 			"restrict_width" "0"
-
-			"border"		"MainMenuBGBorder"
 
 			"ScrollBar"
 			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
-				"ypos"			"0"
-				"tall"			"f0"
-				"wide"			"5"
-				"zpos"			"1000"
-				"nobuttons"		"1"
+				"controlname"	"ScrollBar"
+				"xpos"			"rs1"
+				"zpos"			"1069"
+				"wide"			"4"
 				"proportionaltoparent"	"1"
-
-				"Slider"
-				{
-					"fgcolor_override"	"TanDark"
-				}
+				"nobuttons"		"1"
 
 				"UpButton"
 				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
 
 				"DownButton"
 				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
 					"visible"		"0"
 				}
 			}

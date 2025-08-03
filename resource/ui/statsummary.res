@@ -1,45 +1,40 @@
-"Resource/UI/winpanel.res"
+"statsummary"
 {
 	"TFStatsSummary"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TFStatsSummary"
-		"xpos"			"0"
-		"ypos"			"0"
+		"controlname"	"EditablePanel"
+		"fieldname"		"TFStatsSummary"
 		"wide"			"f0"
 		"tall"			"480"
 	}
 
 	"MainBackground"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBackground"
-		"xpos"			"0"
-		"ypos"			"0"
+		"controlname"	"ImagePanel"
+		"fieldname"		"MainBackground"
 		"wide"			"f0"
 		"tall"			"480"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			""
 	}
 
 	"ShadedBar"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
+		"controlname"	"EditablePanel"
+		"fieldname"		"ShadedBar"
 		"ypos"			"r50"
 		"zpos"			"4"
 		"wide"			"f0"
 		"tall"			"50"
-		"bgcolor_override"	"45 42 43 255"
+		"bgcolor_override"	"BackgroundColor"
 	}
 
 	"TipLabel"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"TipLabel"
+		"controlname"	"label"
+		"fieldname"		"TipLabel"
 		"font"			"HudFontMedium"
-		"labelText"		"#StatSummary_Label_TIP"
+		"labeltext"		"#StatSummary_Label_TIP"
 		"xpos"			"32"
 		"ypos"			"r100"
 		"zpos"			"12"
@@ -49,10 +44,10 @@
 
 	"TipLabelShadow"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TipLabelShadow"
+		"controlname"	"CExLabel"
+		"fieldname"		"TipLabelShadow"
 		"font"			"HudFontMedium"
-		"labelText"		"#StatSummary_Label_TIP"
+		"labeltext"		"#StatSummary_Label_TIP"
 		"xpos"			"33"
 		"ypos"			"r99"
 		"zpos"			"11"
@@ -64,10 +59,10 @@
 
 	"TipText1"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"TipText1"
+		"controlname"	"label"
+		"fieldname"		"TipText1"
 		"font"			"HudFontSmallestShadow"
-		"labelText"		"%tiptext%"
+		"labeltext"		"%tiptext%"
 		"zpos"			"13"
 		"wide"			"370"
 		"tall"			"50"
@@ -80,10 +75,10 @@
 
 	"OnYourWayLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"OnYourWayLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"OnYourWayLabel"
 		"font"			"HudFontMediumSmall"
-		"labelText"		"#LoadingMap"
+		"labeltext"		"#LoadingMap"
 		"xpos"			"30"
 		"ypos"			"r40"
 		"zpos"			"40"
@@ -93,10 +88,10 @@
 
 	"MapLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"MapLabel"
 		"font"			"HudFontMediumBold"
-		"labelText"		"%maplabel%"
+		"labeltext"		"%maplabel%"
 		"xpos"			"270"
 		"ypos"			"r47"
 		"zpos"			"50"
@@ -106,10 +101,10 @@
 
 	"MapType"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapType"
+		"controlname"	"CExLabel"
+		"fieldname"		"MapType"
 		"font"			"HudFontMediumSmallSecondary"
-		"labelText"		"%maptype%"
+		"labeltext"		"%maptype%"
 		"xpos"			"270"
 		"ypos"			"r26"
 		"zpos"			"50"
@@ -121,116 +116,83 @@
 
 	"MapInfo"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MapInfo"
-		"xpos"			"0"
-		"ypos"			"0"
+		"controlname"	"EditablePanel"
+		"fieldname"		"MapInfo"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
-		"bgcolor_override"	"45 42 43 255"
+		"bgcolor_override"	"BackgroundColor"
 
 		"Background"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
+			"controlname"	"ImagePanel"
+			"fieldname"		"Background"
 			"wide"			"640"
 			"tall"			"480"
-			"scaleImage"	"1"
+			"scaleimage"	"1"
 			"image"			"stamp_background_map"
 		}
 
 		"MapImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MapImage"
+			"controlname"	"ImagePanel"
+			"fieldname"		"MapImage"
 			"xpos"			"30"
 			"ypos"			"45"
-			"zpos"			"2"
 			"wide"			"300"
 			"tall"			"300"
-			"scaleImage"	"1"
+			"scaleimage"	"1"
 			"image"			""
 		}
 
 		"ContributedLabel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"ContributedLabel"
+			"controlname"	"EditablePanel"
+			"fieldname"		"ContributedLabel"
 			"xpos"			"30"
 			"ypos"			"345"
-			"zpos"			"40"
 			"wide"			"300"
 			"tall"			"100"
 			"visible"		"0"
 
-			"BG"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"BG"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"300"
-				"tall"			"55"
-				"border"		"TFThinLineBorder"
-			}
-
 			"ActualLabel"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"ActualLabel"
+				"controlname"	"CExLabel"
+				"fieldname"		"ActualLabel"
 				"font"			"HudFontSmallBold"
-				"labelText"		"#TF_Contributed"
+				"labeltext"		"#TF_Contributed"
 				"xpos"			"10"
-				"ypos"			"0"
-				"zpos"			"40"
 				"wide"			"280"
 				"tall"			"55"
 				"centerwrap"	"1"
 			}
 		}
 
-		"InfoBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"InfoBG"
-			"xpos"			"c+30"
-			"ypos"			"60"
-			"wide"			"285"
-			"tall"			"280"
-			"border"		"TFThinLineBorder"
-		}
-
 		"Title"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Title"
+			"controlname"	"CExLabel"
+			"fieldname"		"Title"
 			"font"			"HudFontSmallBold"
-			"labelText"		"%title%"
-			"textAlignment"	"north"
+			"labeltext"		"%title%"
+			"textalignment"	"north"
 			"xpos"			"c+30"
 			"ypos"			"75"
-			"zpos"			"2"
 			"wide"			"285"
 			"tall"			"30"
-			"fgcolor_override"	"255 181 50 255"
+			"fgcolor_override"	"255 180 50 255"
 		}
 
 		"MapAuthors"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MapAuthors"
+			"controlname"	"CExLabel"
+			"fieldname"		"MapAuthors"
 			"font"			"HudFontSmallBold"
-			"labelText"		"%authors%"
-			"textAlignment"	"north"
+			"labeltext"		"%authors%"
+			"textalignment"	"north"
 			"xpos"			"c+30"
 			"ypos"			"95"
-			"zpos"			"2"
 			"wide"			"285"
 			"tall"			"275"
-			"wrap"			"0"
 		}
 	}
 }

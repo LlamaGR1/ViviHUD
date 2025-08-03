@@ -1,8 +1,8 @@
-"Resource/UI/GlobalExplanations.res"
+"globalexplanations"
 {
 	"ExplanationManager"
 	{
-		"fieldName"		"ExplanationManager"
+		"fieldname"		"ExplanationManager"
 		"zpos"			"11945"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -10,8 +10,8 @@
 
 	"CasualIntro"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"CasualIntro"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"CasualIntro"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -31,8 +31,8 @@
 
 	"CasualLeveling"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"CasualLeveling"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"CasualLeveling"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -52,8 +52,8 @@
 
 	"CasualCriteria"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"CasualCriteria"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"CasualCriteria"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -73,8 +73,8 @@
 
 	"CriteriaSaving"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"CriteriaSaving"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"CriteriaSaving"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -94,8 +94,8 @@
 
 	"CasualPartying"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"CasualPartying"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"CasualPartying"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -114,8 +114,8 @@
 
 	"CompIntro"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"CompIntro"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"CompIntro"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -135,8 +135,8 @@
 
 	"History"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"History"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"History"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -156,8 +156,8 @@
 
 	"RankExplanation"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"RankExplanation"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"RankExplanation"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -177,8 +177,8 @@
 
 	"Crafting1"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"Crafting1"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"Crafting1"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -197,8 +197,8 @@
 
 	"CompPartying"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"CompPartying"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"CompPartying"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -217,8 +217,8 @@
 
 	"WarPaintUse"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"WarPaintUse"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"WarPaintUse"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -238,8 +238,8 @@
 
 	"TutorialHighlight"
 	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"TutorialHighlight"
+		"controlname"	"CExplanationPopup"
+		"fieldname"		"TutorialHighlight"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"

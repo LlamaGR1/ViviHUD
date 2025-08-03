@@ -1,11 +1,24 @@
 "chapters"
 {
-	1	"title_blue"
-	2	"title_red"
-	3	"title_invasion"
-	4	"title_scream_fortress_2017"
-	5	"title_summer_operation_2015"
-	6	"title_team_jungle_inferno_2017"
-	7	"title_team_tough_break"
-	8	"title_war"
+//	1	"vivian_bg"			//	ws: ok		43: ok
+//	2	"vivian_bg2"		//	ws: ok		43:	ok				//			removal reason:		reveals private body part
+//	3	"vivian_bg3"		//	ws: ok		43: ok
+//	4	"vivian_bg4"		//	ws: ok		43:	ok				//			removal reason:		rude language
+//	5	"vivian_bg5"		//	ws: ok		43: ok
+//	6	"vivian_bg6"		//	ws:	ok		43:	ok				//			removal reason:		too depressing
+//	7	"vivian_bg7"		//	ws:	ok		43:	ok				//			removal reason:		too depressing
+//	8	"vivian_bg8"		//	ws:	ok		43: ok				//			removal reason:		too blurry
+//	9	"vivian_bg9"		//	ws:	x		43:	x
+
+//	1	"vivian_bg9"		// test
+
+	1	"background01"						// ok
+	2	"title_blue"						// ok
+	3	"title_red"							// ok
+	4	"title_invasion"					// ok
+	5	"title_scream_fortress_2017"		// NO 4:3			- partially fixed
+	6	"title_summer_operation_2015"		// ok
+	7	"title_team_jungle_inferno_2017"	// NO 4:3			- fixed
+	8	"title_team_tough_break"			// ok
+	9	"title_war"							// ok
 }

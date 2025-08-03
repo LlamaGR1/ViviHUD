@@ -1,15 +1,170 @@
-"Resource/UI/GlobalChat.res"
+"globalchat" // this is ass
 {
+	"FriendsContainer"
+	{
+		"controlname"	"EditablePanel"
+//		"zpos"			"2"					//		added later
+		"wide"			"115"
+		"tall"			"164"
+		"border"		"MainMenuBGBorder"
+
+		"TopPanel"
+		{
+			"controlname"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"7"
+			"zpos"			"1"
+			"wide"			"101"
+			"tall"			"16"
+			"proportionaltoparent"	"1"
+			"border"		"ViviPurpleBG"
+			
+			"Label"
+			{
+				"controlname"	"Label"
+				"font"			"HudFontSmallestBold"
+				"labeltext"		"#TF_Competitive_Friends"
+				"textalignment"	"center"
+				"wide"			"101"
+				"tall"			"16"
+			}
+		}
+
+		"SteamFriendsList"
+		{
+			"controlname"	"CSteamFriendsListPanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"28"
+			"zpos"			"2"
+			"wide"			"101"
+			"tall"			"100"
+			"proportionaltoparent"	"1"
+			"border"		"ViviBlackBG"
+
+			"inset_x"		"2" // 5
+			"inset_y"		"3"
+		//	"row_gap"		"5" // 4 shows 5th friend						5=default
+			"bottom_buffer"	"2"
+			"restrict_width"	"0"
+
+			"friendpanel_kv"
+			{
+				"wide"		"97" // 100
+				"tall"		"20" // 20
+			}
+
+			"ScrollBar"
+			{
+				"controlname"	"ScrollBar"
+				"xpos"			"rs1" // rs1-1
+				"zpos"			"1069"
+				"wide"			"4"
+				"proportionaltoparent"	"1"
+				"nobuttons"		"1"
+
+			//	"Slider"
+			//	{
+			//		"fgcolor_override"	"58 52 47 255" // 58 52 47 255
+			//	}
+			}
+		}
+
+		"BottomPanel"
+		{
+			"controlname"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"133"
+			"zpos"			"1"
+			"wide"			"101"
+			"tall"			"24"
+			"proportionaltoparent"	"1"
+			"border"		"ViviBlackBG"
+		}
+
+		"PartySlot1"
+		{
+			"controlname"	"CDashboardPartyMember"
+			"xpos"			"3"
+			"zpos"			"3"
+			"wide"			"o1"
+			"tall"			"16"
+			"proportionaltoparent"	"1"
+
+			"party_slot"	"1"
+
+			"pin_to_sibling" "PartySlot2"
+			"pin_corner_to_sibling" "3"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"PartySlot2"
+		{
+			"controlname"	"CDashboardPartyMember"
+			"xpos"			"3"
+			"zpos"			"3"
+			"wide"			"o1"
+			"tall"			"16"
+			"proportionaltoparent"	"1"
+
+			"party_slot"	"2"
+
+			"pin_to_sibling" "PartySlot3"
+			"pin_corner_to_sibling" "3"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"PartySlot3"
+		{
+			"controlname"	"CDashboardPartyMember"
+			"xpos"			"cs-0.5"
+			"ypos"			"137"
+			"zpos"			"3"
+			"wide"			"o1"
+			"tall"			"16"
+			"proportionaltoparent"	"1"
+
+			"party_slot"	"3"
+		}
+
+		"PartySlot4"
+		{
+			"controlname"	"CDashboardPartyMember"
+			"xpos"			"3"
+			"zpos"			"3"
+			"wide"			"o1"
+			"tall"			"16"
+			"proportionaltoparent"	"1"
+
+			"party_slot"	"4"
+
+			"pin_to_sibling" "PartySlot3"
+			"pin_corner_to_sibling" "2"
+			"pin_to_sibling_corner" "3"
+		}
+
+		"PartySlot5"
+		{
+			"controlname"	"CDashboardPartyMember"
+			"xpos"			"3"
+			"zpos"			"3"
+			"wide"			"o1"
+			"tall"			"16"
+			"proportionaltoparent"	"1"
+
+			"party_slot"	"5"
+
+			"pin_to_sibling" "PartySlot4"
+			"pin_corner_to_sibling" "2"
+			"pin_to_sibling_corner" "3"
+		}
+	}
+
 	"partychat"
 	{
-		"fieldName"				"partychat"
-		"zpos"					"1069"
-		"wide"					"121"
-		"tall"					"93"
+		"zpos"			"-50"
+		"wide"			"115"
+		"tall"			"1"
 		"proportionaltoparent"	"1"
-		"keyboardinputenabled"	"1"
-		"mouseinputenabled"		"1"
-		"border"				"QuickplayBorder"
 
 		"log_font_small"	"ItemFontAttribSmall"
 		"log_font_medium"	"ItemFontAttribSmall"
@@ -20,52 +175,42 @@
 		"chat_color_chat_text"		"235 226 202 255"
 		"chat_color_party_event"	"Orange"
 
-		"ignorescheme"		"1"
-
 		"collapsed_height"	"0"
-		"expanded_height"	"93"
+		"expanded_height"	"279"
 		"resize_time"		"0"
 	}
 
 	"chatlog"
 	{
-		"fieldName"		"chatlog"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"165"
 		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f20"
+		"wide"			"f4"
 		"proportionaltoparent"	"1"
-		"RoundedCorners"	"0"
-		"font"			"ItemFontAttribSmall"
-
-		"bgcolor_override"	"0 0 0 50"
+		"border"		"QuickplayBorder"
 
 		"ScrollBar"
 		{
-			"FieldName"		"ScrollBar"
-			"xpos"			"rs1-1"
-			"ypos"			"0"
-			"tall"			"f0"
-			"wide"			"5"
-			"zpos"			"1000"
+			"xpos"			"rs1"
+		//	"tall"			"f0"
+			"wide"			"4"		//		3
+			"zpos"			"1069"
+		//	"visible"		"0"
 			"nobuttons"		"1"
 			"proportionaltoparent"	"1"
 
-			"Slider"
-			{
-				"fgcolor_override"	"73 73 73 255"
-			}
+		//	"Slider"
+		//	{
+		//		"fgcolor_override"	"57 52 47 255"
+		//	}
 
 			"UpButton"
 			{
-				"ControlName"	"Button"
 				"visible"		"0"
 			}
 
 			"DownButton"
 			{
-				"ControlName"	"Button"
 				"visible"		"0"
 			}
 		}
@@ -73,36 +218,30 @@
 
 	"EntryShadow"
 	{
-		"ControlName"	"Panel"
-		"fieldName"		"EntryShadow"
+		"controlname"	"Panel"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
-		"zpos"			"2"
-		"wide"			"f0"
+		"wide"			"f4"
 		"tall"			"15"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
-		"RoundedCorners"	"0"
+		"bgcolor_override"	"0 0 0 250"
 		"border"		"QuickplayBorder"
 
-		"keyboardinputenabled"	"0"
-		"mouseinputenabled"		"0"
+		"pinCorner"	"3"
 	}
 
 	"chatentry"
 	{
-		"fieldName"		"chatentry"
 		"xpos"			"-1"
 		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"f2"
+		"wide"			"f9"
 		"tall"			"13"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 250"
-		"RoundedCorners"	"0"
-		"font"			"ItemFontAttribSmall"
-		"alpha"			"0"
-		"mouseinputenabled"	"0"
+		"font"			"ScoreboardSmall"
+
+		"fgcolor_override"				"TanLight"
+		"selectionColor_override"		"140 42 43 255"
+		"selectionTextColor_override"	"Black"
 
 		"pin_to_sibling"	"EntryShadow"
 	}

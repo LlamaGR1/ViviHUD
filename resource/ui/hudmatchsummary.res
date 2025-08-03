@@ -1,9 +1,9 @@
-"Resource/UI/HudMatchSummary.res"
+"hudmatchsummary"
 {
 	"MatchSummary"
 	{
-		"ControlName"	"CTFMatchSummary"
-		"fieldName"		"MatchSummary"
+		"controlname"	"CTFMatchSummary"
+		"fieldname"		"MatchSummary"
 		"zpos"			"20"
 		"visible"		"0"
 		"paintbackground"	"0"
@@ -43,8 +43,8 @@
 
 	"TopBar" // まったく機能しない
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TopBar"
+		"controlname"	"EditablePanel"
+		"fieldname"		"TopBar"
 		"xpos"			"cs-0.5"
 		"ypos"			"-5"
 		"zpos"			"100"
@@ -54,36 +54,36 @@
 
 		"BGPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BGPanel"
+			"controlname"	"EditablePanel"
+			"fieldname"		"BGPanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"p1.1"
 			"tall"			"f5"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"border"		"ReplayDefaultBorder"
 			"proportionaltoparent"	"1"
 		}
 
 		"OuterShadow"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"OuterShadow"
+			"controlname"	"EditablePanel"
+			"fieldname"		"OuterShadow"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"-2"
 			"wide"			"p1.1"
 			"tall"			"p1"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
 		}
 
 		"DisconnectContainer"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"DisconnectContainer"
+			"controlname"	"EditablePanel"
+			"fieldname"		"DisconnectContainer"
 			"xpos"			"rs1-20"
 			"ypos"			"0"
 			"zpos"			"0"
@@ -93,8 +93,8 @@
 
 			"MatchSafeToLeaveState"
 			{
-				"ControlName"	"Label"
-				"fieldName"		"MatchSafeToLeaveState"
+				"controlname"	"label"
+				"fieldname"		"MatchSafeToLeaveState"
 				"xpos"			"rs1-87"
 				"ypos"			"0"
 				"wide"			"f0"
@@ -102,23 +102,23 @@
 				"tall"			"f0"
 				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"	"east"
-				"labelText"		"#TF_Matchmaking_SafeToLeave"
+				"textalignment"	"east"
+				"labeltext"		"#TF_Matchmaking_SafeToLeave"
 				"proportionaltoparent"	"1"
 			}
 
 			"DisconnectButton"
 			{
-				"ControlName"	"CExButton"
-				"fieldName"		"DisconnectButton"
+				"controlname"	"CExButton"
+				"fieldname"		"DisconnectButton"
 				"xpos"			"rs1"
 				"ypos"			"cs-0.5"
 				"zpos"			"100"
 				"wide"			"80"
 				"tall"			"11"
 				"font"			"HudFontSmallestBold"
-				"textAlignment"	"center"
-				"Command"		"disconnect"
+				"textalignment"	"center"
+				"command"		"disconnect"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#GameUI_GameMenu_Disconnect"
 				"actionsignallevel"	"3"
@@ -126,16 +126,35 @@
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
 
-				"armedBgColor_override"		"LightRed"
-				"defaultBgColor_override"	"HUDRedTeamSolid"
+				"armedbgcolor_override"		"LightRed"
+				"defaultbgcolor_override"	"HUDRedTeamSolid"
 			}
+		}
+	}
+
+	"RankBorder"
+	{
+		"controlname"	"EditablePanel"
+		"fieldname"		"RankBorder"
+		"xpos"			"cs-0.5"
+		"ypos"			"r0"
+		"zpos"			"9000"
+		"wide"			"510"
+		"tall"			"43"
+		"visible"		"0"
+		"border"		"MainMenuBGBorder"
+		"proportionaltoparent"		"1"
+
+		if_uses_xp
+		{
+			"visible"		"1"
 		}
 	}
 
 	"RankPanel"
 	{
-		"ControlName"	"CMiniPvPRankPanel"
-		"fieldName"		"RankPanel"
+		"controlname"	"CMiniPvPRankPanel"
+		"fieldname"		"RankPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"r0"
 		"zpos"			"9001"
@@ -158,8 +177,8 @@
 
 	"RankModelPanel"
 	{
-		"ControlName"	"CPvPRankPanel"
-		"fieldName"		"RankModelPanel"
+		"controlname"	"CPvPRankPanel"
+		"fieldname"		"RankModelPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"r1"
 		"zpos"			"9002"
@@ -181,22 +200,22 @@
 
 	"StatsBgPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"StatsBgPanel"
+		"controlname"	"EditablePanel"
+		"fieldname"		"StatsBgPanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"PaintBackgroundType"	"1"
+		"paintbackgroundtype"	"1"
 		"bgcolor_override" "0 0 0 250"
 	}
 
 	"DrawingPanel"
 	{
-		"ControlName"	"CDrawingPanel"
-		"fieldName"		"DrawingPanel"
+		"controlname"	"CDrawingPanel"
+		"fieldname"		"DrawingPanel"
 		"xpos"			"c-320"
 		"ypos"			"35"
 		"wide"			"640"
@@ -211,7 +230,7 @@
 
 	"MainStatsContainer"
 	{
-		"Controlname"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"fieldnName"	"MainStatsContainer"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -222,8 +241,8 @@
 
 		"ParticlePanel"
 		{
-			"ControlName"	"CTFParticlePanel"
-			"fieldName"		"ParticlePanel"
+			"controlname"	"CTFParticlePanel"
+			"fieldname"		"ParticlePanel"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"55"
@@ -233,8 +252,8 @@
 
 		"StatsLabelPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"StatsLabelPanel"
+			"controlname"	"EditablePanel"
+			"fieldname"		"StatsLabelPanel"
 			"xpos"			"c-100"
 			"ypos"			"-20"
 			"zpos"			"70"
@@ -244,11 +263,11 @@
 
 			"StatsAndMedals"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"StatsAndMedals"
+				"controlname"	"CExLabel"
+				"fieldname"		"StatsAndMedals"
 				"font"			"MatchSummaryStatsAndMedals"
-				"labelText"		"#TF_StatsAndMedals"
-				"textAlignment"	"center"
+				"labeltext"		"#TF_StatsAndMedals"
+				"textalignment"	"center"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"4"
@@ -258,12 +277,12 @@
 
 			"StatsAndMedalsShadow"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"StatsAndMedalsShadow"
+				"controlname"	"CExLabel"
+				"fieldname"		"StatsAndMedalsShadow"
 				"font"			"MatchSummaryStatsAndMedals"
-				"labelText"		"#TF_StatsAndMedals"
+				"labeltext"		"#TF_StatsAndMedals"
 				"fgcolor"		"Black"
-				"textAlignment"	"center"
+				"textalignment"	"center"
 				"xpos"			"1"
 				"ypos"			"1"
 				"zpos"			"3"
@@ -274,8 +293,8 @@
 
 		"TeamScoresPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"TeamScoresPanel"
+			"controlname"	"EditablePanel"
+			"fieldname"		"TeamScoresPanel"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"50"
@@ -284,8 +303,8 @@
 
 			"BlueTeamPanel"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"BlueTeamPanel"
+				"controlname"	"EditablePanel"
+				"fieldname"		"BlueTeamPanel"
 				"xpos"			"-320"
 				"ypos"			"0"
 				"zpos"			"0"
@@ -294,8 +313,8 @@
 
 				"BlueTeamScoreBG"
 				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"BlueTeamScoreBG"
+					"controlname"	"EditablePanel"
+					"fieldname"		"BlueTeamScoreBG"
 					"xpos"			"5"
 					"ypos"			"99"
 					"zpos"			"2"
@@ -311,11 +330,11 @@
 
 				"BlueTeamScore"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"BlueTeamScore"
+					"controlname"	"CExLabel"
+					"fieldname"		"BlueTeamScore"
 					"font"			"MatchSummaryTeamScores"
-					"labelText"		"%blueteamscore%"
-					"textAlignment"	"east"
+					"labeltext"		"%blueteamscore%"
+					"textalignment"	"east"
 					"xpos"			"5"
 					"ypos"			"103"
 					"zpos"			"4"
@@ -330,12 +349,12 @@
 
 				"BlueTeamScoreDropshadow"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"BlueTeamScoreDropshadow"
+					"controlname"	"CExLabel"
+					"fieldname"		"BlueTeamScoreDropshadow"
 					"font"			"MatchSummaryTeamScores"
 					"fgcolor"		"Black"
-					"labelText"		"%blueteamscore%"
-					"textAlignment"	"east"
+					"labeltext"		"%blueteamscore%"
+					"textalignment"	"east"
 					"xpos"			"6"
 					"ypos"			"104"
 					"zpos"			"3"
@@ -350,11 +369,11 @@
 
 				"BlueTeamWinner"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"BlueTeamWinner"
+					"controlname"	"CExLabel"
+					"fieldname"		"BlueTeamWinner"
 					"font"			"MatchSummaryWinner"
-					"labelText"		"%blueteamwinner%"
-					"textAlignment"	"east"
+					"labeltext"		"%blueteamwinner%"
+					"textalignment"	"east"
 					"xpos"			"5"
 					"ypos"			"103"
 					"zpos"			"4"
@@ -369,12 +388,12 @@
 
 				"BlueTeamWinnerDropshadow"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"BlueTeamWinnerDropshadow"
+					"controlname"	"CExLabel"
+					"fieldname"		"BlueTeamWinnerDropshadow"
 					"font"			"MatchSummaryWinner"
 					"fgcolor"		"Black"
-					"labelText"		"%blueteamwinner%"
-					"textAlignment"	"east"
+					"labeltext"		"%blueteamwinner%"
+					"textalignment"	"east"
 					"xpos"			"6"
 					"ypos"			"104"
 					"zpos"			"3"
@@ -389,14 +408,14 @@
 
 				"BlueTeamImage"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"BlueTeamImage"
+					"controlname"	"ImagePanel"
+					"fieldname"		"BlueTeamImage"
 					"xpos"			"14"
 					"ypos"			"89"
 					"zpos"			"5"
 					"wide"			"56"
 					"tall"			"56"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"../hud/team_blue"
 
 					if_large
@@ -407,10 +426,10 @@
 
 				"BlueTeamLabel"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"BlueTeamLabel"
+					"controlname"	"CExLabel"
+					"fieldname"		"BlueTeamLabel"
 					"font"			"CompMatchStartTeamNames"
-					"labelText"		"%blueteamname%"
+					"labeltext"		"%blueteamname%"
 					"xpos"			"60"
 					"ypos"			"-25"
 					"zpos"			"20"
@@ -420,15 +439,15 @@
 
 				"BlueLeaderAvatar"
 				{
-					"ControlName"	"CAvatarImagePanel"
-					"fieldName"		"BlueLeaderAvatar"
+					"controlname"	"CAvatarImagePanel"
+					"fieldname"		"BlueLeaderAvatar"
 					"xpos"			"18"
 					"ypos"			"100"
 					"zpos"			"5"
 					"wide"			"34"
 					"tall"			"34"
 					"visible"		"0"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			""
 					"color_outline"	"52 48 45 255"
 
@@ -440,14 +459,14 @@
 
 				"BlueLeaderAvatarBG"
 				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"BlueLeaderAvatarBG"
+					"controlname"	"EditablePanel"
+					"fieldname"		"BlueLeaderAvatarBG"
 					"xpos"			"16"
 					"ypos"			"98"
 					"zpos"			"4"
 					"wide"			"38"
 					"tall"			"38"
-					"PaintBackgroundType"	"2"
+					"paintbackgroundtype"	"2"
 					"bgcolor_override"	"117 107 94 255"
 
 					if_large
@@ -458,8 +477,8 @@
 
 				"BluePlayerListParent"
 				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"BluePlayerListParent"
+					"controlname"	"EditablePanel"
+					"fieldname"		"BluePlayerListParent"
 					"xpos"			"12"
 					"ypos"			"137"
 					"zpos"			"1"
@@ -474,8 +493,8 @@
 
 					"BluePlayerList"
 					{
-						"ControlName"	"TFSectionedListPanel"
-						"fieldName"		"BluePlayerList"
+						"controlname"	"TFSectionedListPanel"
+						"fieldname"		"BluePlayerList"
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"1"
@@ -503,8 +522,8 @@
 
 				"BluePlayerListBG"
 				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"BluePlayerListBG"
+					"controlname"	"EditablePanel"
+					"fieldname"		"BluePlayerListBG"
 					"xpos"			"9"
 					"ypos"			"117"
 					"zpos"			"0"
@@ -522,8 +541,8 @@
 
 			"RedTeamPanel"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"RedTeamPanel"
+				"controlname"	"EditablePanel"
+				"fieldname"		"RedTeamPanel"
 				"xpos"			"320"
 				"ypos"			"0"
 				"zpos"			"0"
@@ -532,8 +551,8 @@
 
 				"RedTeamScoreBG"
 				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"RedTeamScoreBG"
+					"controlname"	"EditablePanel"
+					"fieldname"		"RedTeamScoreBG"
 					"xpos"			"r5-p.213"
 					"ypos"			"99"
 					"zpos"			"2"
@@ -549,10 +568,10 @@
 
 				"RedTeamScore"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"RedTeamScore"
+					"controlname"	"CExLabel"
+					"fieldname"		"RedTeamScore"
 					"font"			"MatchSummaryTeamScores"
-					"labelText"		"%redteamscore%"
+					"labeltext"		"%redteamscore%"
 					"xpos"			"r5-p.19"
 					"ypos"			"103"
 					"zpos"			"4"
@@ -567,11 +586,11 @@
 
 				"RedTeamScoreDropshadow"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"RedTeamScoreDropshadow"
+					"controlname"	"CExLabel"
+					"fieldname"		"RedTeamScoreDropshadow"
 					"font"			"MatchSummaryTeamScores"
 					"fgcolor"		"Black"
-					"labelText"		"%redteamscore%"
+					"labeltext"		"%redteamscore%"
 					"xpos"			"r4-p.19"
 					"ypos"			"104"
 					"zpos"			"3"
@@ -586,10 +605,10 @@
 
 				"RedTeamWinner"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"RedTeamWinner"
+					"controlname"	"CExLabel"
+					"fieldname"		"RedTeamWinner"
 					"font"			"MatchSummaryWinner"
-					"labelText"		"%redteamwinner%"
+					"labeltext"		"%redteamwinner%"
 					"xpos"			"r5-p.19"
 					"ypos"			"103"
 					"zpos"			"4"
@@ -604,11 +623,11 @@
 
 				"RedTeamWinnerDropshadow"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"RedTeamWinnerDropshadow"
+					"controlname"	"CExLabel"
+					"fieldname"		"RedTeamWinnerDropshadow"
 					"font"			"MatchSummaryWinner"
 					"fgcolor"		"Black"
-					"labelText"		"%redteamwinner%"
+					"labeltext"		"%redteamwinner%"
 					"xpos"			"r4-p.19"
 					"ypos"			"104"
 					"zpos"			"3"
@@ -623,14 +642,14 @@
 
 				"RedTeamImage"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"RedTeamImage"
+					"controlname"	"ImagePanel"
+					"fieldname"		"RedTeamImage"
 					"xpos"			"r68"
 					"ypos"			"80"
 					"zpos"			"5"
 					"wide"			"70"
 					"tall"			"70"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"../hud/team_red"
 
 					if_large
@@ -641,11 +660,11 @@
 
 				"RedTeamLabel"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"RedTeamLabel"
+					"controlname"	"CExLabel"
+					"fieldname"		"RedTeamLabel"
 					"font"			"CompMatchStartTeamNames"
-					"labelText"		"%redteamname%"
-					"textAlignment"	"east"
+					"labeltext"		"%redteamname%"
+					"textalignment"	"east"
 					"xpos"			"r255"
 					"ypos"			"-25"
 					"zpos"			"20"
@@ -655,15 +674,15 @@
 
 				"RedLeaderAvatar"
 				{
-					"ControlName"	"CAvatarImagePanel"
-					"fieldName"		"RedLeaderAvatar"
+					"controlname"	"CAvatarImagePanel"
+					"fieldname"		"RedLeaderAvatar"
 					"xpos"			"r52"
 					"ypos"			"100"
 					"zpos"			"5"
 					"wide"			"34"
 					"tall"			"34"
 					"visible"		"0"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			""
 					"color_outline"	"52 48 45 255"
 
@@ -675,14 +694,14 @@
 
 				"RedLeaderAvatarBG"
 				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"RedLeaderAvatarBG"
+					"controlname"	"EditablePanel"
+					"fieldname"		"RedLeaderAvatarBG"
 					"xpos"			"r54"
 					"ypos"			"98"
 					"zpos"			"4"
 					"wide"			"38"
 					"tall"			"38"
-					"PaintBackgroundType"	"2"
+					"paintbackgroundtype"	"2"
 					"bgcolor_override"	"117 107 94 255"
 
 					if_large
@@ -693,8 +712,8 @@
 
 				"RedPlayerListParent"
 				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"RedPlayerListParent"
+					"controlname"	"EditablePanel"
+					"fieldname"		"RedPlayerListParent"
 					"xpos"			"r12-p.193"
 					"ypos"			"137"
 					"zpos"			"1"
@@ -709,8 +728,8 @@
 
 					"RedPlayerList"
 					{
-						"ControlName"	"TFSectionedListPanel"
-						"fieldName"		"RedPlayerList"
+						"controlname"	"TFSectionedListPanel"
+						"fieldname"		"RedPlayerList"
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"1"
@@ -738,8 +757,8 @@
 
 				"RedPlayerListBG"
 				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"RedPlayerListBG"
+					"controlname"	"EditablePanel"
+					"fieldname"		"RedPlayerListBG"
 					"xpos"			"r9-p.2"
 					"ypos"			"117"
 					"zpos"			"0"
@@ -757,8 +776,8 @@
 
 			"BlueMedals"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"BlueMedals"
+				"controlname"	"EditablePanel"
+				"fieldname"		"BlueMedals"
 				"xpos"			"c-250"
 				"ypos"			"-20"
 				"zpos"			"50"
@@ -772,24 +791,24 @@
 
 				"BlueGoldMedal"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"BlueGoldMedal"
+					"controlname"	"ImagePanel"
+					"fieldname"		"BlueGoldMedal"
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"competitive/competitive_coin_gold"
 				}
 
 				"BlueGoldMedalValue"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"BlueGoldMedalValue"
+					"controlname"	"CExLabel"
+					"fieldname"		"BlueGoldMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
-					"labelText"		"%blueteammedals_gold%"
-					"textAlignment"	"center"
+					"labeltext"		"%blueteammedals_gold%"
+					"textalignment"	"center"
 					"xpos"			"15"
 					"ypos"			"0"
 					"zpos"			"6"
@@ -799,24 +818,24 @@
 
 				"BlueSilverMedal"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"BlueSilverMedal"
+					"controlname"	"ImagePanel"
+					"fieldname"		"BlueSilverMedal"
 					"xpos"			"55"
 					"ypos"			"0"
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"competitive/competitive_coin_silver"
 				}
 
 				"BlueSilverMedalValue"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"BlueSilverMedalValue"
+					"controlname"	"CExLabel"
+					"fieldname"		"BlueSilverMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
-					"labelText"		"%blueteammedals_silver%"
-					"textAlignment"	"center"
+					"labeltext"		"%blueteammedals_silver%"
+					"textalignment"	"center"
 					"xpos"			"70"
 					"ypos"			"0"
 					"zpos"			"6"
@@ -826,25 +845,25 @@
 
 				"BlueBronzeMedal"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"BlueBronzeMedal"
+					"controlname"	"ImagePanel"
+					"fieldname"		"BlueBronzeMedal"
 					"xpos"			"110"
 					"ypos"			"0"
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"competitive/competitive_coin_bronze"
 					
 				}
 
 				"BlueBronzeMedalValue"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"BlueBronzeMedalValue"
+					"controlname"	"CExLabel"
+					"fieldname"		"BlueBronzeMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
-					"labelText"		"%blueteammedals_bronze%"
-					"textAlignment"	"center"
+					"labeltext"		"%blueteammedals_bronze%"
+					"textalignment"	"center"
 					"xpos"			"125"
 					"ypos"			"0"
 					"zpos"			"6"
@@ -855,8 +874,8 @@
 
 			"RedMedals"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"RedMedals"
+				"controlname"	"EditablePanel"
+				"fieldname"		"RedMedals"
 				"xpos"			"c100"
 				"ypos"			"-20"
 				"zpos"			"50"
@@ -870,24 +889,24 @@
 
 				"RedGoldMedal"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"RedGoldMedal"
+					"controlname"	"ImagePanel"
+					"fieldname"		"RedGoldMedal"
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"competitive/competitive_coin_gold"
 				}
 
 				"RedGoldMedalValue"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"RedGoldMedalValue"
+					"controlname"	"CExLabel"
+					"fieldname"		"RedGoldMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
-					"labelText"		"%redteammedals_gold%"
-					"textAlignment"	"center"
+					"labeltext"		"%redteammedals_gold%"
+					"textalignment"	"center"
 					"xpos"			"15"
 					"ypos"			"0"
 					"zpos"			"6"
@@ -897,24 +916,24 @@
 
 				"RedSilverMedal"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"RedSilverMedal"
+					"controlname"	"ImagePanel"
+					"fieldname"		"RedSilverMedal"
 					"xpos"			"55"
 					"ypos"			"0"
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"competitive/competitive_coin_silver"
 				}
 
 				"RedSilverMedalValue"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"RedSilverMedalValue"
+					"controlname"	"CExLabel"
+					"fieldname"		"RedSilverMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
-					"labelText"		"%redteammedals_silver%"
-					"textAlignment"	"center"
+					"labeltext"		"%redteammedals_silver%"
+					"textalignment"	"center"
 					"xpos"			"70"
 					"ypos"			"0"
 					"zpos"			"6"
@@ -924,24 +943,24 @@
 
 				"RedBronzeMedal"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"RedBronzeMedal"
+					"controlname"	"ImagePanel"
+					"fieldname"		"RedBronzeMedal"
 					"xpos"			"110"
 					"ypos"			"0"
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"competitive/competitive_coin_bronze"
 				}
 
 				"RedBronzeMedalValue"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"RedBronzeMedalValue"
+					"controlname"	"CExLabel"
+					"fieldname"		"RedBronzeMedalValue"
 					"font"			"MatchSummaryStatsAndMedals"
-					"labelText"		"%redteammedals_bronze%"
-					"textAlignment"	"center"
+					"labeltext"		"%redteammedals_bronze%"
+					"textalignment"	"center"
 					"xpos"			"125"
 					"ypos"			"0"
 					"zpos"			"6"

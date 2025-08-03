@@ -1,18 +1,16 @@
-"Resource/UI/LoadoutPresetPanel.res"
+"loadoutpresetpanel"
 {
 	"loadout_preset_panel"
 	{
-		"ControlName"	"CLoadoutPresetPanel"
-		"fieldName"		"loadout_preset_panel"
+		"controlname"	"CLoadoutPresetPanel"
 
 		"LoadPresetButton0"
 		{
-			"ControlName"	"Button"
-			"fieldName"		"LoadPresetButton0"
+			"controlname"	"Button"
 			"wide"			"15"
 			"tall"			"20"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
+			"textalignment"	"center"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
@@ -22,12 +20,11 @@
 
 		"LoadPresetButton1"
 		{
-			"ControlName"	"Button"
-			"fieldName"		"LoadPresetButton1"
+			"controlname"	"Button"
 			"wide"			"15"
 			"tall"			"20"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
+			"textalignment"	"center"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
@@ -37,12 +34,11 @@
 
 		"LoadPresetButton2"
 		{
-			"ControlName"	"Button"
-			"fieldName"		"LoadPresetButton2"
+			"controlname"	"Button"
 			"wide"			"15"
 			"tall"			"20"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
+			"textalignment"	"center"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
@@ -52,12 +48,11 @@
 
 		"LoadPresetButton3"
 		{
-			"ControlName"	"Button"
-			"fieldName"		"LoadPresetButton3"
+			"controlname"	"Button"
 			"wide"			"15"
 			"tall"			"20"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
+			"textalignment"	"center"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"

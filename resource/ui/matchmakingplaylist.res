@@ -1,120 +1,100 @@
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"matchmakingplaylist"
 {
 	"EventEntry"
 	{
-		"ControlName"	"CEventPlayListEntry"
-		"fieldName"		"EventEntry"
-		"tall"			"0"
-		"wide"			"0"
-
-		"button_command"	"play_event"
+		"controlname"	"CEventPlayListEntry"
 	}
 
 	"CasualEntry"
 	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"CasualEntry"
-		"xpos"			"0"
-		"ypos"			"3"
-		"tall"			"45"
-		"wide"			"242"
+		"controlname"	"CPlayListEntry"
+		"xpos"			"2"
+		"ypos"			"2"
+		"wide"			"236"
+		"tall"			"43"
 		"proportionaltoparent"	"1"
+		"matchgroup"	"7"
 
-		"image_name"		"main_menu/main_menu_button_casual"
 		"button_token"		"#MMenu_PlayList_Casual_Button"
-		"button_command"	"play_casual"
 		"desc_token"		"#MMenu_PlayList_Casual_Desc"
-		"matchgroup"		"7"
-
-		if_event
-		{
-			"ypos"			"3"
-		}
+		"button_command"	"play_casual"
+		"image_name"		"replay/thumbnails/gamemodes/casual"
 	}
 
 	"CompetitiveEntry"
 	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"CompetitiveEntry"
-		"xpos"			"0"
-		"ypos"			"53"
-		"tall"			"45"
-		"wide"			"242"
+		"controlname"	"CPlayListEntry"
+		"xpos"			"2"
+		"ypos"			"47"
+		"wide"			"236"
+		"tall"			"43"
 		"proportionaltoparent"	"1"
+		"matchgroup"	"2"
 
-		"image_name"		"main_menu/main_menu_button_competitive"
 		"button_token"		"#MMenu_PlayList_Competitive_Button"
-		"button_command"	"play_competitive"
 		"desc_token"		"#MMenu_PlayList_Competitive_Desc"
-		"matchgroup"		"2"
-
-		if_event
-		{
-			"ypos"			"53"
-		}
+		"button_command"	"play_competitive"
+		"image_name"		"replay/thumbnails/gamemodes/comp"
 	}
 
 	"MvMEntry"
 	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"MvMEntry"
-		"xpos"			"0"
-		"ypos"			"103"
-		"tall"			"45"
-		"wide"			"242"
+		"controlname"	"CPlayListEntry"
+		"xpos"			"2"
+		"ypos"			"92"
+		"wide"			"236"
+		"tall"			"43"
 		"proportionaltoparent"	"1"
+		"matchgroup"	"1"
 
-		"image_name"		"main_menu/main_menu_button_mvm"
 		"button_token"		"#MMenu_PlayList_MvM_Button"
-		"button_command"	"play_mvm"
 		"desc_token"		"#MMenu_PlayList_MvM_Desc"
-		"matchgroup"		"1"
-
-		if_event
-		{
-			"ypos"			"103"
-		}
+		"button_command"	"play_mvm"
+		"image_name"		"replay/thumbnails/gamemodes/mvm"
 	}
 
 	"ServerBrowserEntry"
 	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"ServerBrowserEntry"
-		"xpos"			"0"
-		"ypos"			"153"
-		"tall"			"45"
-		"wide"			"242"
+		"controlname"	"CPlayListEntry"
+		"xpos"			"2"
+		"ypos"			"137"
+		"wide"			"236"
+		"tall"			"43"
 		"proportionaltoparent"	"1"
 
-		"image_name"		"main_menu/main_menu_button_community_server"
 		"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
-		"button_command"	"play_community"
 		"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
-
-		if_event
-		{
-			"ypos"			"153"
-		}
+		"button_command"	"play_community"
+		"image_name"		"replay/thumbnails/gamemodes/community"
 	}
 
 	"TrainingEntry"
 	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"TrainingEntry"
-		"xpos"			"0"
-		"ypos"			"203"
-		"tall"			"45"
-		"wide"			"242"
+		"controlname"	"CPlayListEntry"
+		"xpos"			"992"
+		"ypos"			"182"
+		"wide"			"117"
+		"tall"			"41"
 		"proportionaltoparent"	"1"
 
-		"image_name"		"main_menu/main_menu_button_training"
 		"button_token"		"#MMenu_PlayList_Training_Button"
-		"button_command"	"play_training"
 		"desc_token"		"#MMenu_PlayList_Training_Desc"
+		"button_command"	"play_training"
+	//	"image_name"		"main_menu/main_menu_button_training"
+	}
 
-		if_event
-		{
-			"ypos"			"203"
-		}
+	"CreateServerEntry"
+	{
+		"controlname"	"CPlayListEntry"
+		"xpos"			"992"
+		"ypos"			"182"
+		"wide"			"117"
+		"tall"			"41"
+		"proportionaltoparent"	"1"
+
+		"button_token"		"#MMenu_PlayList_CreateServer_Button"
+		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
+		"button_command"	"create_server"
+	//	"image_name"		"main_menu/main_menu_button_custom_server"
 	}
 }

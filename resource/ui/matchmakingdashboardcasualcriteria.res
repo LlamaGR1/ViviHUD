@@ -1,46 +1,39 @@
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"matchmakingdashboardcasualcriteria"
 {
 	"CasualCriteria"
 	{
-		"fieldName"		"CasualCriteria"
 		"xpos"			"r0"
-		"ypos"			"120"
+		"ypos"			"130"
 		"zpos"			"1002"
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		
-//		"bgcolor_override"	"0 100 0 100"
 	}
 
 	"criteria"
 	{
-		"ControlName"	"CCasualCriteriaPanel"
-		"fieldName"		"criteria"
-		"xpos"			"c-31"
+		"controlname"	"CCasualCriteriaPanel"
+		"xpos"			"309"
 		"ypos"			"-27"
 		"zpos"			"100"
 		"wide"			"254"
-		"tall"			"308"
+		"tall"			"283"
 		"proportionaltoparent"	"1"
-
-		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 	}
 
 	"QueueButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"QueueButton"
-		"xpos"			"c-26"
-		"ypos"			"254"
+		"controlname"	"CExButton"
+		"xpos"			"314"
+		"ypos"			"231"
 		"zpos"			"105"
 		"wide"			"244"
-		"tall"			"22"
-		"labelText"		"START SEARCH >>"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"find_game"
+		"tall"			"20"
+		"labeltext"		"#Vivi_Start_Search"
+		"font"			"HudFontSmallestBold"
+		"textalignment"	"center"
+		"command"		"find_game"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
@@ -51,36 +44,31 @@
 		"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
 
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultfgcolor_override"	"Black"
 	}
 
 	"ToolTipButtonHack"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ToolTipButtonHack"
-		"xpos"			"c+177"
-		"ypos"			"-4"
+		"controlname"	"EditablePanel"
+		"xpos"			"-17"
+		"ypos"			"-23"
 		"zpos"			"106"
 		"wide"			"30"
 		"tall"			"30"
-		"visible"		"0"
-		"mouseinputenabled" "0"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "criteria"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 
 		"LoadingImage"
 		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"LoadingImage"
-			"xpos"				"cs-0.5"
-			"ypos"				"cs-0.5"
-			"wide"				"f0"
-			"tall"				"f0"
-			"drawcolor"			"255 255 255 255"
+			"controlname"	"ImagePanel"
+			"wide"			"f0"
+			"tall"			"f0"
 			"proportionaltoparent"	"1"
-			"asynchandling"		"show"
-			"scaleImage"		"1"
-			"image"				"animated/tf2_logo_hourglass"
+			"scaleimage"	"1"
+			"image"			"animated/tf2_logo_hourglass"
 		}
 	}
 }

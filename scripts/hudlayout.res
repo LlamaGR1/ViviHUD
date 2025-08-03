@@ -1,18 +1,17 @@
-"Resource/HudLayout.res"
+"hudlayout"
 {
 	HudDeathNotice
 	{
-		"fieldName"		"HudDeathNotice"
 		"xpos"			"r640"
 		"ypos"			"18"
 		"wide"			"628"
 		"tall"			"468"
 
-		"MaxDeathNotices"	"4"
+		"MaxDeathNotices"	"5"
 		"IconScale"		"0.35"
 		"LineHeight"	"16"
 		"LineSpacing"	"4"
-		"CornerRadius"	"3"
+		"CornerRadius"	"2"
 		"RightJustify"	"1"
 
 		"TextFont"		"HudFontSmallest"
@@ -22,13 +21,13 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"TanLight"
 
-		"BaseBackgroundColor"	"39 39 44 255"
+		"BaseBackgroundColor"	"0 0 0 196"
 		"LocalBackgroundColor"	"0 0 0 255"
 	}
 
 	MMDashBoardPopupContainer
 	{
-		"ypos"			"-288"
+		"ypos"			"-266"		//		-252
 	}
 
 	HudPlayerStatus

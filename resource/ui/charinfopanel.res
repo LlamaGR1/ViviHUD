@@ -1,9 +1,8 @@
-"Resource/UI/CharInfoPanel.res" // THIS WHOLE THING SHITS ITSELF IN OTHER ASPECT RATIOS!!!!! FUCK YOU IF YOU USE 4:3 OR ANY OTHER SHITTY ASPECT RATIO
+"charinfopanel"
 {
 	"character_info"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"character_info"
+		"controlname"	"EditablePanel"
 		"wide"			"f0"
 		"tall"			"480"
 		"title_font"	"HudFontMediumBold"
@@ -13,55 +12,48 @@
 
 	"BackgroundColor"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundColor"
+		"controlname"	"EditablePanel"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
-		"bgcolor_override"	"45 42 43 255"
+		"bgcolor_override"	"BackgroundColor"
 	}
 
 	"BackgroundImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundImage"
+		"controlname"	"ImagePanel"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"competitive/comp_background_endscreen01"
 	}
 
 	"BackgroundHeader"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundHeader"
+		"controlname"	"ImagePanel"
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"60"
-		"tileImage"		"1"
+		"tileimage"		"1"
 		"image"			"loadout_header"
 	}
 
 	"HeaderLine"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HeaderLine"
-		"xpos"			"0"
+		"controlname"	"ImagePanel"
 		"ypos"			"c-180" // c-191
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"10"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"loadout_solid_line"
 	}
 
 	"Tab"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Tab"
+		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"5"
 		"zpos"			"-1"
@@ -72,34 +64,29 @@
 
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFooter"
-		"xpos"			"0"
+		"controlname"	"ImagePanel"
 		"ypos"			"420"
 		"zpos"			"698"
 		"wide"			"f0"
-		"tall"			"60"
-		"tileImage"		"1"
+		"tall"			"72"
+		"tileimage"		"1"
 		"image"			"loadout_bottom_gradient"
 	}
 
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FooterLine"
-		"xpos"			"0"
+		"controlname"	"ImagePanel"
 		"ypos"			"420"
 		"zpos"			"699"
 		"wide"			"f0"
 		"tall"			"10"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"loadout_solid_line"
 	}
 
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
+		"controlname"	"EditablePanel"
 		"tabxindent"	"45"
 		"tabxdelta"		"560"
 		"tabheight"		"34"
@@ -107,8 +94,7 @@
 
 		"TabPin"
 		{
-			"ControlName"	"Panel"
-			"fieldName"		"TabPin"
+			"controlname"	"Panel"
 			"ypos"			"56"
 			"wide"			"0"
 			"tall"			"0"
@@ -116,7 +102,7 @@
 
 		"tabskv"
 		{
-			"textAlignment"		"center"
+			"textalignment"		"center"
 			"font"				"HudFontMediumSmallBold"
 			"normalborder_override"	"OutlinedDullGreyBox"
 			"activeborder_override"	"OutlinedGreyBox"
@@ -131,17 +117,16 @@
 
 	"BackButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
-		"xpos"			"35" // c-300
-		"ypos"			"r44" // 437
+		"controlname"	"CExButton"
+		"xpos"			"35"
+		"ypos"			"r44"
 		"zpos"			"769"
-		"wide"			"130" // 100
-		"tall"			"30" // 26
-		"labelText"		"#TF_BackCarat"
+		"wide"			"130"
+		"tall"			"30"
+		"labeltext"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"back"
+		"textalignment"	"center"
+		"command"		"back"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
@@ -152,26 +137,22 @@
 		"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
 
-		"defaultFgColor_override"	"46 43 42 255"
-		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override"	"46 43 42 255"
-		"selectedFgColor_override"	"46 43 42 255"
+		"defaultfgcolor_override"	"Black"
+		"selectedfgcolor_override"	"Black"
 	}
 
 	"BackButton2"
 	{
-		"ControlName"	"Button"
-		"wide"			"0"
+		"controlname"	"Button"
 		"tall"			"0"
-		"labelText"		"&Q"
-		"Command"		"back"
+		"labeltext"		"&q"
+		"command"		"back"
 		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"NotificationsPresentPanel"
 	{
-		"ControlName"	"CNotificationsPresentPanel"
-		"fieldName"		"NotificationsPresentPanel"
+		"controlname"	"CNotificationsPresentPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"r42"
 		"zpos"			"10069"
@@ -181,17 +162,16 @@
 
 	"CloseButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"r165" // c200
-		"ypos"			"r44" // 437
+		"controlname"	"CExButton"
+		"xpos"			"r165"
+		"ypos"			"r44"
 		"zpos"			"769"
-		"wide"			"130" // 100
-		"tall"			"30" // 26
-		"labelText"		"X CLOSE"
+		"wide"			"130"
+		"tall"			"30"
+		"labeltext"		"#Vivi_Close"
 		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"close"
+		"textalignment"	"center"
+		"command"		"close"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
@@ -202,19 +182,16 @@
 		"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
 
-		"defaultFgColor_override"	"46 43 42 255"
-		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override"	"46 43 42 255"
-		"selectedFgColor_override"	"46 43 42 255"
+		"defaultfgcolor_override"	"Black"
+		"selectedfgcolor_override"	"Black"
 	}
 
 	"CloseButton2"
 	{
-		"ControlName"	"Button"
-		"wide"			"0"
+		"controlname"	"Button"
 		"tall"			"0"
-		"labelText"		"&E"
-		"Command"		"close"
+		"labeltext"		"&e"
+		"command"		"close"
 		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 }

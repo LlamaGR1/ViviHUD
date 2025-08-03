@@ -1,22 +1,17 @@
-"Resource/UI/MatchMakingDashboard.res"
+"matchmakingdashboard"
 {
 	"TopBar"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TopBar"
-		"xpos"			"cs-0.5"
-		"ypos"			"10"
-		"zpos"			"1"
+		"controlname"	"EditablePanel"
 		"wide"			"f0"
-		"tall"			"35"
+		"tall"			"30"
 		"proportionaltoparent"	"1"
 
 		"QueueContainer"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"QueueContainer"
+			"controlname"	"EditablePanel"
 			"xpos"			"cs-0.5"
-			"ypos"			"-50"
+			"ypos"			"-69"
 			"zpos"			"111"
 			"wide"			"220"
 			"tall"			"f0"
@@ -24,70 +19,53 @@
 
 			"OuterShadow"
 			{
-				"ControlName"	"Panel"
-				"fieldName"		"OuterShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
+				"controlname"	"Panel"
 				"wide"			"f0"
 				"tall"			"f0"
 				"proportionaltoparent"	"1"
-
 				"bgcolor_override"	"0 0 0 200"
 				"border"		"QuickplayBorder"
 			}
 
 			"QueueLogoButton"
 			{
-				"ControlName"	"Button"
-				"fieldName"		"QueueLogoButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"10"
+				"controlname"	"Button"
+				"xpos"			"3"
+				"zpos"			"2"
 				"wide"			"o1"
 				"tall"			"f0"
-				"labeltext"		""
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"Command"		"queue_logo_clicked"
 				"proportionaltoparent"	"1"
+				"labeltext"		""
+				"command"		"queue_logo_clicked"
 				"actionsignallevel"	"3"
+
 				"button_activation_type"	"1"
 
 				"paintbackground"	"0"
-				"paintborder"		"0"
 			}
 
 			"CTFLogoPanel"
 			{
-				"ControlName"	"CTFLogoPanel"
-				"fieldname"		"CTFLogoPanel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"5"
+				"controlname"	"CTFLogoPanel"
+				"xpos"			"3"
+				"zpos"			"1"
 				"wide"			"o1"
 				"tall"			"f0"
 				"proportionaltoparent"	"1"
-
 				"radius"		"10"
 				"velocity"		"100"
-
-				"fgcolor_override"	"TFOrange"
 			}
 
 			"QueueText"
 			{
-				"ControlName"	"CAutoFittingLabel"
-				"fieldName"		"QueueText"
-				"xpos"			"33"
-				"ypos"			"0"
-				"wide"			"f55"
-				"zpos"			"100"
+				"controlname"	"CAutoFittingLabel"
+				"xpos"			"35"
+				"zpos"			"1"
+				"wide"			"161"
 				"tall"			"f0"
-				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
-				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
+				"labeltext"		"%queue_state%"
+				"font"			"HudFontSmallestBold"
 				"mouseinputenabled"	"0"
 
 				"fonts"
@@ -109,64 +87,64 @@
 
 			"MultiQueuesManageButton"
 			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"MultiQueuesManageButton"
-				"xpos"			"rs1-6"
-				"ypos"			"11"
-				"zpos"			"10"
+				"controlname"	"CExImageButton"
+				"xpos"			"rs1-7"
+				"ypos"			"cs-0.5"
+				"zpos"			"3"
 				"wide"			"14"
 				"tall"			"14"
+				"proportionaltoparent"	"1"
 				"labeltext"		""
+				"command"		"manage_queues"
+				"actionsignallevel"	"3"
+				"sound_armed"		"ui/buttonrollover.wav"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
-				"Command"		"manage_queues"
-				"proportionaltoparent"	"1"
-				"actionsignallevel"	"3"
+
+				"button_activation_type"	"2"
 
 				"paintbackground"	"0"
 
-				"image_drawcolor"	"235 226 202 255"
-				"image_armedcolor"	"104 124 155 255"
-				"image_selectedcolor" "104 124 155 255"
-				"SubImage"
+				"image_drawcolor"		"235 226 202 255"
+				"image_armedcolor"		"104 124 155 255"
+		//		"image_selectedcolor"	"104 124 155 255"
+				"subimage"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
 					"wide"			"14"
 					"tall"			"14"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"glyph_options"
 				}
 			}
 
 			"CloseButton"
 			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"CloseButton"
-				"xpos"			"rs1-6"
-				"ypos"			"11"
-				"zpos"			"10"
+				"controlname"	"CExImageButton"
+				"xpos"			"rs1-7"
+				"ypos"			"cs-0.5"
+				"zpos"			"3"
 				"wide"			"14"
 				"tall"			"14"
+				"proportionaltoparent"	"1"
 				"labeltext"		""
+				"command"		"leave_queue"
+				"actionsignallevel"	"3"
+				"sound_armed"		"ui/buttonrollover.wav"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
-				"Command"		"leave_queue"
-				"proportionaltoparent"	"1"
-				"actionsignallevel"	"3"
+
+				"button_activation_type"	"2"
 
 				"paintbackground"	"0"
 
-				"image_drawcolor"	"235 226 202 255"
-				"image_armedcolor"	"200 80 60 255"
-				"image_selectedcolor" "200 80 60 255"
-				"SubImage"
+				"image_drawcolor"		"235 226 202 255"
+				"image_armedcolor"		"200 80 60 255"
+			//	"image_selectedcolor"	"200 80 60 255"
+				"subimage"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
 					"wide"			"14"
 					"tall"			"14"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"close_button"
 				}
 			}
@@ -174,10 +152,9 @@
 
 		"JoinPartyLobbyContainer"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"JoinPartyLobbyContainer"
+			"controlname"	"EditablePanel"
 			"xpos"			"cs-0.5"
-			"ypos"			"-50"
+			"ypos"			"-69"
 			"zpos"			"110"
 			"wide"			"220"
 			"tall"			"f0"
@@ -185,13 +162,9 @@
 
 			"BGPanel"
 			{
-				"ControlName"	"Panel"
-				"fieldName"		"BGPanel"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"0"
-				"wide"			"f6"
-				"tall"			"f6"
+				"controlname"	"Panel"
+				"wide"			"f0"
+				"tall"			"f0"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 200"
 				"border"		"QuickplayBorder"
@@ -199,72 +172,54 @@
 
 			"PromptText"
 			{
-				"ControlName"	"Label"
-				"fieldName"		"PromptText"
-				"xpos"			"cs-0.5"
-				"ypos"			"1"
-				"wide"			"f35"
-				"zpos"			"100"
+				"controlname"	"label"
+				"xpos"			"7"
+				"zpos"			"1"
+				"wide"			"163"
 				"tall"			"f0"
-				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
-				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"	"1"
+				"labeltext"		"#TF_MM_JoinPartyLobby_Prompt"
+				"font"			"HudFontSmallestBold"
 				"mouseinputenabled"	"0"
 			}
 
 			"JoinNowButton"
 			{
-				"ControlName"	"CExButton"
-				"fieldName"		"JoinNowButton"
-				"xpos"			"rs1-10"
-				"ypos"			"rs1-9"
+				"controlname"	"CExButton"
+				"xpos"			"rs1-7"
+				"ypos"			"cs-0.5"
+				"zpos"			"2"
 				"wide"			"40"
-				"zpos"			"100"
 				"tall"			"15"
 
 				if_queued
 				{
 					"xpos"		"cs-0.5"
-					"wide"		"150"
+					"wide"		"130"
 				}
 
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"center"
-				"Command"		"join_party_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_MM_JoinPartyLobby_Join"
-				"mouseinputenabled"	"1"
-				"keyboardinputenabled"	"0"
+				"textalignment"	"center"
+				"font"			"HudFontSmallestBold"
+				"command"		"join_party_match"
 				"actionsignallevel"	"3"
-
+				"sound_armed"		"ui/buttonrollover.wav"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
-			}
-		}
 
-		"QuitButton"
-		{
-			"wide"		"0"
-			"tall"		"0"
+				"button_activation_type"	"2"
+			}
 		}
 
 		"DisconnectButton"
 		{
-			"wide"		"0"
-			"tall"		"0"
+			"tall"			"0"
 		}
 
-		"ResumeButton"
+		"QuitButton"
 		{
-			"wide"		"0"
-			"tall"		"0"
-		}
-
-		"FindAGameButton"
-		{
-			"wide"		"0"
-			"tall"		"0"
+			"tall"			"0"
 		}
 	}
 }

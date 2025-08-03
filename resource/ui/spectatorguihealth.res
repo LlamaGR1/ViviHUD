@@ -1,9 +1,8 @@
-"Resource/UI/SpectatorGUIHealth.res"
+"spectatorguihealth"
 {
 	"PlayerStatusHealthImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
+		"controlname"	"ImagePanel"
 		"xpos"			"4"
 		"ypos"			"4"
 		"zpos"			"4"
@@ -11,13 +10,12 @@
 		"wide_minmode"	"0"
 		"tall"			"23"
 		"tall_minmode"	"0"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
 
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
+		"controlname"	"ImagePanel"
 		"xpos"			"3"
 		"ypos"			"3"
 		"zpos"			"3"
@@ -25,14 +23,13 @@
 		"wide_minmode"	"0"
 		"tall"			"26"
 		"tall_minmode"	"0"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"../hud/health_bg"
 	}
 
 	"BuildingStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingStatusHealthImageBG"
+		"controlname"	"ImagePanel"
 		"xpos"			"0"
 		"xpos_minmode"	"6"
 		"ypos"			"2"
@@ -43,14 +40,13 @@
 		"tall"			"28"
 		"tall_minmode"	"20"
 		"visible"		"0"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"../hud/health_equip_bg"
 	}
 
 	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
+		"controlname"	"ImagePanel"
 		"xpos"			"3"
 		"xpos_minmode"	"9"
 		"ypos"			"3"
@@ -61,14 +57,13 @@
 		"tall"			"26"
 		"tall_minmode"	"15"
 		"visible"		"0"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"../hud/health_over_bg"
 	}
 
 	"PlayerStatusHealthValueNormal"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueNormal"
+		"controlname"	"CExLabel"
 		"xpos"			"6"
 		"ypos"			"11"
 		"zpos"			"6"
@@ -76,16 +71,15 @@
 		"wide_minmode"	"0"
 		"tall"			"10"
 		"tall_minmode"	"0"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"
+		"labeltext"		"%Health%"
+		"textalignment"	"center"
 		"font"			"StorePromotionsTitle"
 		"fgcolor"		"TanDark"
 	}
 
 	"PlayerStatusHealthValueMinMode"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueMinMode"
+		"controlname"	"CExLabel"
 		"xpos_minmode"	"4"
 		"ypos_minmode"	"7"
 		"zpos"			"6"
@@ -93,16 +87,15 @@
 		"wide_minmode"	"25"
 		"tall"			"0"
 		"tall_minmode"	"15"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"
+		"labeltext"		"%Health%"
+		"textalignment"	"center"
 		"font_minmode"	"HudFontSmallBold"
 		"fgcolor_minmode" "TanLight"
 	}
 
 	"PlayerStatusHealthValueMinModeShadow"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueMinModeShadow"
+		"controlname"	"CExLabel"
 		"xpos_minmode"	"5"
 		"ypos_minmode"	"8"
 		"zpos"			"5"
@@ -110,16 +103,15 @@
 		"wide_minmode"	"25"
 		"tall"			"0"
 		"tall_minmode"	"15"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"
+		"labeltext"		"%Health%"
+		"textalignment"	"center"
 		"font_minmode"	"HudFontSmallBold"
 		"fgcolor_minmode" "TanDarker"
 	}
 
 	"PlayerStatusPlayerLevel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusPlayerLevel"
+		"controlname"	"CExLabel"
 		"xpos"			"8"
 		"xpos_minmode"	"0"
 		"ypos"			"9"
@@ -127,7 +119,7 @@
 		"wide"			"16"
 		"tall"			"12"
 		"visible"		"0"
-		"textAlignment"	"center"
+		"textalignment"	"center"
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
 	}

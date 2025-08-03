@@ -1,10 +1,32 @@
 "HudChat.Message"
 {
-	"channel"	"CHAN_STATIC"
-	"volume"	"VOL_NORM"
-	"soundlevel" "SNDLVL_NONE"
-	"pitch"		"PITCH_NORM"
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"message.wav"
+}
 
-//	"wave"		"ui/message_update.wav"
-	"wave"		"message.wav"
+
+
+
+
+
+
+"music.class_menu"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"VOL_NORM" // 0.55
+	"wave"			""
+}
+
+
+
+
+"music.class_menu_09"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"0" // 0.55
+	"wave"			"#*music/mvm_end_last_wave.wav"
 }

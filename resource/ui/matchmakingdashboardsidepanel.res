@@ -1,56 +1,50 @@
-"Resource/UI/MatchMakingDashboardSidePanel.res"
+"matchmakingdashboardsidepanel"
 {
 	"BGPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel"
-		"xpos"			"c-31" // c-287
-		"ypos"			"92" // 148
+		"controlname"	"EditablePanel"
+		"xpos"			"309" // c-287
+		"ypos"			"105" // 148
 		"zpos"			"-1000"
 		"wide"			"254"
-		"tall"			"309" // 258
+		"tall"			"281" // 258
 		"proportionaltoparent"	"1"
 		"border"		"MainMenuBGBorder"
-	}
 
-	"ModeSelectBGPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ModeSelectBGPanel"
-		"xpos"			"c-24"
-		"ypos"			"123"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"16"
-		"bgcolor_override"		"36 33 32 255"
-		"PaintBackgroundType"	"2"
-		"mouseinputenabled"		"0"
-		
-		"ModeSelectLabel"
+		"TopPanel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ModeSelectLabel"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"#TF_Matchmaking_HeaderModeSelect"
-			"textAlignment"	"center"
+			"controlname"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"28"
+			"zpos"			"1"
 			"wide"			"240"
 			"tall"			"16"
-			"fgcolor_override"	"235 226 202 255"
+			"proportionaltoparent"	"1"
+			"border"		"ViviPurpleBG"
+			
+			"Label"
+			{
+				"controlname"	"Label"
+				"font"			"HudFontSmallestBold"
+				"labeltext"		"#Vivi_GameMode_Selection"
+				"textalignment"	"center"
+				"wide"			"240"
+				"tall"			"16"
+			}
 		}
 	}
 
 	"CloseButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"c-26"
-		"ypos"			"98"
+		"controlname"	"CExButton"
+		"xpos"			"314"
+		"ypos"			"110"
 		"zpos"			"10"
 		"wide"			"244"
-		"tall"			"22"
-		"labeltext"		"X CLOSE"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"tall"			"20"
+		"labeltext"		"#Vivi_Close"
+		"font"			"HudFontSmallestBold"
+		"textalignment"	"center"
 		"command"		"nav_close"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -61,21 +55,20 @@
 		"border_selected"	"MainMenuButtonDepressedArmed"
 		"paintbackground"	"0"
 
-		"depressedFgColor_override" "195 186 162 255"
+		"depressedfgcolor_override"	"TanLightDark"
 	}
 
 	"ReturnButton" ////////////////////////////////////////////////////////////////////////////////////////////////////////////			default border broken			////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReturnButton"
-		"xpos"			"c-26"
-		"ypos"			"98"
+		"controlname"	"CExButton"
+		"xpos"			"314"
+		"ypos"			"110"
 		"zpos"			"11"
 		"wide"			"244"
-		"tall"			"22"
+		"tall"			"20"
 		"labeltext"		"#TF_BackCarat" //#TF_BackCarat
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"font"			"HudFontSmallestBold"
+		"textalignment"	"center"
 		"command"		"nav_to"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -86,6 +79,6 @@
 		"border_selected"	"MainMenuButtonDepressedArmed"
 		"paintbackground"	"0"
 
-		"depressedFgColor_override" "195 186 162 255"
+		"depressedfgcolor_override"	"TanLightDark"
 	}
 }

@@ -1,364 +1,288 @@
-"Resource/BenchmarkDialog.res"
+"benchmarkdialog"
 {
 	"BenchmarkDialog"
 	{
-		"ControlName"	"CBenchmarkDialog"
-		"fieldName"		"BenchmarkDialog"
-		"wide"			"430"
-		"tall"			"345"
-		"title"			"CREDITS"
+		"controlname"	"CBenchmarkDialog"
+		"wide"			"420"
+		"tall"			"300"
+		"title"			"#Vivi_Credits"
 	}
 
 	"RunButton"
 	{
-		"wide"			"0"
-		"tall"			"0"
+		"visible"		"0"
 	}
 
 	"Credits1"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"15"
 		"ypos"			"40"
-		"wide"			"185"
-		"tall"			"250"
-//		"bgcolor_override"	"36 33 32 255"
+		"wide"			"180"
+		"tall"			"145"
+	//	"bgcolor_override"	"36 33 32 255"
 
 		"1"
 		{
-			"ControlName"	"URLLabel"
-			"ypos"			"0"
+			"controlname"	"URLLabel"
 			"auto_wide_tocontents"	"1"
 			"tall"			"20"
-			"labelText"		"HUD based on >"
+			"visible"		"0"
+			"labeltext"		"#Vivi_Credits_1"
+			"URLText"		"https://zenless.hoyoverse.com"
+			"tooltiptext"	"#Vivi_Link_1"
+		}
+
+		"temp1"
+		{
+			"controlname"	"URLLabel"
+			"auto_wide_tocontents"	"1"
+			"tall"			"20"
+			"labeltext"		"HUD Based On" //  ⭧
 			"URLText"		"https://gamebanana.com/wips/58201"
-			"tooltiptext"	"Open link (GameBanana)"
+			"tooltiptext"	"#Vivi_Link_5"
 		}
 
-		"2"
+		"VivianImage33"
 		{
-			"ControlName"	"URLLabel"
-			"ypos"			"20"
-			"auto_wide_tocontents"	"1"
-			"tall"			"20"
-			"labelText"		"TF2 logo >"
-			"URLText"		"https://commons.wikimedia.org/wiki/File:Team-Fortress-2-logo.png"
-			"tooltiptext"	"Open link (Wikimedia Commons)"
+			"controlname"	"ImagePanel"
+			"xpos"			"5"
+			"wide"			"9"
+			"tall"			"9"
+			"drawcolor"		"TanLight"
+			"scaleimage"	"1"
+			"image"			"replay/thumbnails/icons/icon_link"
+
+			"pin_to_sibling" "temp1"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
 		}
 
-		"3"
-		{
-			"ControlName"	"URLLabel"
-			"ypos"			"40"
-			"auto_wide_tocontents"	"1"
-			"tall"			"20"
-			"labelText"		"TF2 icon >"
-			"URLText"		"https://wiki.teamfortress.com/wiki/File:TF2_crosshair_orange.png"
-			"tooltiptext"	"Open link (TF2 Wiki)"
-		}
-
-		"4"
-		{
-			"ControlName"	"URLLabel"
-			"ypos"			"60"
-			"auto_wide_tocontents"	"1"
-			"tall"			"20"
-			"labelText"		"Random music play guide >"
-			"URLText"		"https://www.reddit.com/r/tf2/comments/paeffz/comment/ha4zeyv/"
-			"tooltiptext"	"Open link (Reddit)"
-		}
-
-		"5"
-		{
-			"ControlName"	"URLLabel"
-			"ypos"			"80"
-			"auto_wide_tocontents"	"1"
-			"tall"			"20"
-			"labelText"		"Crafting icon idea >"
-			"URLText"		"https://gamebanana.com/mods/25965"
-			"tooltiptext"	"Open link (GameBanana)"
-		}
+	//	"2"
+	//	{
+	//		"controlname"	"URLLabel"
+	//		"ypos"			"20"
+	//		"auto_wide_tocontents"	"1"
+	//		"tall"			"20"
+	//		"labeltext"		"#Vivi_Credits_2"
+	//		"URLText"		"https://www.steamgriddb.com/logo/41990"
+	//		"tooltiptext"	"#Vivi_Link_2"
+	//	}
 	}
 
 	"Divider"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"40"
-		"wide"			"2"
-		"tall"			"250"
-		"bgcolor_override"	"117 107 94 69" // 255 255 255 10
-		"proportionalToParent"	"1"
+		"wide"			"1"
+		"tall"			"100"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"117 107 94 69"
 	}
 
 	"Credits2"
 	{
-		"ControlName"	"EditablePanel"
-		"xpos"			"230"
+		"controlname"	"EditablePanel"
+		"xpos"			"225"
 		"ypos"			"40"
-		"wide"			"185"
-		"tall"			"250"
-//		"bgcolor_override"	"36 33 32 255"
-
-		"EminomaImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"EminomaImage"
-			"wide"			"80" // 100
-			"tall"			"33" // 40
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/misc/eminoma"
-			"tooltiptext"	"Eminoma" // 	Eminoma - Weapons & Industrial Equipment
-		}
+		"wide"			"180"
+		"tall"			"145"
+	//	"bgcolor_override"	"36 33 32 255"
 
 		"TF2CTeam"
 		{
-			"ControlName"	"URLLabel"
-			"fieldName"		"TF2CTeam"
-			"xpos"			"85" // 105
-			"wide"			"105" // 100
-			"tall"			"33" // 40
-			"labelText"		"Eminoma / TF2C Team >" // Copyright © 2025 Eminoma
-			"URLText"		"https://tf2classic.com"
-			"tooltiptext"	"Open link (tf2classic.com)"
+			"controlname"	"Label"
+			"wide"			"100"
+			"tall"			"35"
+			"labeltext"		"#Vivi_Credits_3"
 			"wrap"			"1"
-//			"bgcolor_override"	"200 0 0 30"
 		}
 
 		"1"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"ypos"			"40"
 			"auto_wide_tocontents"	"1"
 			"tall"			"15"
-			"labelText"		"- menus inspiration"
+			"labeltext"		"#Vivi_Credits_4"
 			"font"			"DefaultSmall"
 			"dulltext"		"1"
 		}
 
 		"2"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"ypos"			"55"
 			"auto_wide_tocontents"	"1"
 			"tall"			"15"
-			"labelText"		"- eminoma logo"
+			"labeltext"		"- toolbox.vtf"
 			"font"			"DefaultSmall"
 			"dulltext"		"1"
 		}
 
 		"3"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"ypos"			"70"
 			"auto_wide_tocontents"	"1"
 			"tall"			"15"
-			"labelText"		"- borders"
+			"labeltext"		"- team_class_bg.vtf"
 			"font"			"DefaultSmall"
 			"dulltext"		"1"
 		}
 
 		"4"
 		{
-			"ControlName"	"Label"
+			"controlname"	"Label"
 			"ypos"			"85"
 			"auto_wide_tocontents"	"1"
 			"tall"			"15"
-			"labelText"		"- class icons"
-			"font"			"DefaultSmall"
-			"dulltext"		"1"
-		}
-
-		"5"
-		{
-			"ControlName"	"Label"
-			"ypos"			"100"
-			"auto_wide_tocontents"	"1"
-			"tall"			"15"
-			"labelText"		"- team_blu.vtf"
-			"font"			"DefaultSmall"
-			"dulltext"		"1"
-		}
-
-		"6"
-		{
-			"ControlName"	"Label"
-			"ypos"			"115"
-			"auto_wide_tocontents"	"1"
-			"tall"			"15"
-			"labelText"		"- team_red.vtf"
-			"font"			"DefaultSmall"
-			"dulltext"		"1"
-		}
-
-		"7"
-		{
-			"ControlName"	"Label"
-			"ypos"			"130"
-			"auto_wide_tocontents"	"1"
-			"tall"			"15"
-			"labelText"		"- toolbox.vtf"
-			"font"			"DefaultSmall"
-			"dulltext"		"1"
-		}
-
-		"8"
-		{
-			"ControlName"	"Label"
-			"ypos"			"145"
-			"auto_wide_tocontents"	"1"
-			"tall"			"15"
-			"labelText"		"- icon_audio.vtf"
-			"font"			"DefaultSmall"
-			"dulltext"		"1"
-		}
-
-		"9"
-		{
-			"ControlName"	"Label"
-			"ypos"			"160"
-			"auto_wide_tocontents"	"1"
-			"tall"			"15"
-			"labelText"		"- icon_blog.vtf"
-			"font"			"DefaultSmall"
-			"dulltext"		"1"
-		}
-
-		"10"
-		{
-			"ControlName"	"Label"
-			"ypos"			"175"
-			"auto_wide_tocontents"	"1"
-			"tall"			"15"
-			"labelText"		"- icon_people.vtf"
-			"font"			"DefaultSmall"
-			"dulltext"		"1"
-		}
-
-		"11"
-		{
-			"ControlName"	"Label"
-			"ypos"			"190"
-			"auto_wide_tocontents"	"1"
-			"tall"			"15"
-			"labelText"		"- icon_random.vtf"
-			"font"			"DefaultSmall"
-			"dulltext"		"1"
-		}
-
-		"12"
-		{
-			"ControlName"	"Label"
-			"ypos"			"205"
-			"auto_wide_tocontents"	"1"
-			"tall"			"15"
-			"labelText"		"- vote_no.vtf"
-			"font"			"DefaultSmall"
-			"dulltext"		"1"
-		}
-
-		"13"
-		{
-			"ControlName"	"Label"
-			"ypos"			"220"
-			"auto_wide_tocontents"	"1"
-			"tall"			"15"
-			"labelText"		"- vote_yes.vtf"
-			"font"			"DefaultSmall"
-			"dulltext"		"1"
-		}
-
-		"14"
-		{
-			"ControlName"	"Label"
-//			"xpos"			"110"
-			"ypos"			"235"
-			"auto_wide_tocontents"	"1"
-			"tall"			"15"
-			"labelText"		"- message.wav"
+			"labeltext"		"- message.wav"
 			"font"			"DefaultSmall"
 			"dulltext"		"1"
 		}
 	}
 
-	"ViviGitHub"
+	"VivianImage"
 	{
-		"ControlName"	"URLLabel"
+		"controlname"	"ImagePanel"
 		"xpos"			"15"
-		"ypos"			"293"
-		"auto_wide_tocontents"	"1"
-		"tall"			"20"
-		"labelText"		"ViviHUD GitHub >"
-		"URLText"		"https://github.com/LlamaGR1/ViviHUD"
-		"tooltiptext"	"Open link (GitHub)"
+		"ypos"			"235"
+		"wide"			"80"
+		"tall"			"76"
+		"visible"		"0"
+		"tooltiptext"	"#Vivi_Image_1"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/misc/vivian"
 	}
 
-	"ViviTFHUDs"
+	"GitHubLink"
 	{
-		"ControlName"	"URLLabel"
-		"xpos"			"915"
-		"ypos"			"293"
+		"controlname"	"URLLabel"
+		"xpos"			"15"	//	105
+		"ypos"			"231"
 		"auto_wide_tocontents"	"1"
 		"tall"			"20"
-		"labelText"		"ViviHUD TF2 HUDs >"
+		"labeltext"		"#Vivi_Page_1"
 		"URLText"		"https://github.com/LlamaGR1/ViviHUD"
-		"tooltiptext"	"Open link (GitHub)"
+		"tooltiptext"	"#Vivi_Link_3"
+		"fgcolor_override"	"111 104 196 255"
 	}
 
-	"ViviFPSBanana"
+	"VivianImage333"
 	{
-		"ControlName"	"URLLabel"
+		"controlname"	"ImagePanel"
+		"xpos"			"5"
+		"wide"			"9"
+		"tall"			"9"
+		"drawcolor"		"111 104 196 255"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/icons/icon_link"
+
+		"pin_to_sibling" "GitHubLink"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"TF2HUDsLink"
+	{
+		"controlname"	"URLLabel"
 		"xpos"			"15"
-		"ypos"			"313"
+		"ypos"			"251"
 		"auto_wide_tocontents"	"1"
 		"tall"			"20"
-		"labelText"		"ViviHUD GameBanana >"
-		"URLText"		"https://github.com/LlamaGR1/ViviHUD"
-		"tooltiptext"	"Open link (GitHub)"
+		"labeltext"		"#Vivi_Page_2"
+		"URLText"		"https://tf2huds.dev/hud/ViviHUD"
+		"tooltiptext"	"#Vivi_Link_4"
+		"fgcolor_override"	"111 104 196 255"
 	}
 
-
-
-
-
-
-
-
-	"TF2CLicense"
+	"VivianImage343"
 	{
-		"ControlName"	"URLLabel"
-		"xpos"			"3315"
-		"ypos"			"310"
-		"auto_wide_tocontents"	"1"
-		"tall"			"24"
-		"labelText"		"TF2C Assets License >"
-		"dulltext"		"1"
-		"URLText"		"https://en.wikipedia.org/wiki/Team_Fortress_2_Classic#:~:text=First%2Dperson%20shooter-,License,-Proprietary%20(code)"
-		"tooltiptext"	"Open link (Wikipedia)"
+		"controlname"	"ImagePanel"
+		"xpos"			"5"
+		"wide"			"9"
+		"tall"			"9"
+		"drawcolor"		"111 104 196 255"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/icons/icon_link"
+
+		"pin_to_sibling" "TF2HUDsLink"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
 	}
 
-	"License" // remove
+	"GameBananaLink"
 	{
-		"ControlName"	"Label"
-		"xpos"			"4415"
-		"ypos"			"310"
+		"controlname"	"URLLabel"
+		"xpos"			"15"
+		"ypos"			"271"
 		"auto_wide_tocontents"	"1"
-		"tall"			"24"
-//		"labelText"		"Meet Your Match Casual Menu Test Build and shit" // 
-		"labelText"		"TF2C assets are under license CC-BY-NC-ND"
-		"font"			"DefaultSmall" // 
-		"dulltext"		"1"
+		"tall"			"20"
+		"labeltext"		"#Vivi_Page_3"
+		"URLText"		"https://gamebanana.com/mods/596766"
+		"tooltiptext"	"#Vivi_Link_5"
+		"fgcolor_override"	"111 104 196 255"
+	}
+
+	"VivianImag11e33"
+	{
+		"controlname"	"ImagePanel"
+		"xpos"			"5"
+		"wide"			"9"
+		"tall"			"9"
+		"drawcolor"		"111 104 196 255"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/icons/icon_link"
+
+		"pin_to_sibling" "GameBananaLink"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"45454"
+	{
+		"controlname"	"Button"
+		"xpos"			"318"
+		"ypos"			"232"
+		"wide"			"89"
+		"tall"			"25"
+		"visible"		"0"
+		"labeltext"		"#Vivi_Credits_5"
+		"command"		"engine bug"
+		"actionsignallevel"	"2"
 	}
 
 	"OKButton"
 	{
-		"ControlName"	"Button"
-		"fieldName"		"OKButton"
-		"xpos"			"347"
-		"ypos"			"310"
-		"wide"			"73"
+		"controlname"	"Button"
+		"xpos"			"318"
+		"ypos"			"266"
+		"wide"			"89"
 		"tall"			"24"
-		"labelText"		"#vgui_ok"
-		"Command"		"Close"
+		"labeltext"		"#GameUI_Close" // vgui_ok		//	localise
+		"command"		"Close"
+	//	"sound_armed"		"ui/buttonrollover.wav"
+	//	"sound_depressed"	"ui/buttonclick.wav"
+	//	"sound_released"	"ui/buttonclickrelease.wav"
+	}
+
+	"OKButton2"
+	{
+		"controlname"	"Button"
+		"tall"			"0"
+		"labeltext"		"&q"
+		"command"		"Close"
+	//	"sound_released"	"ui/buttonclickrelease.wav"
+	}
+
+	"OKButton3"
+	{
+		"controlname"	"Button"
+		"tall"			"0"
+		"labeltext"		"&e"
+		"command"		"Close"
+	//	"sound_released"	"ui/buttonclickrelease.wav"
 	}
 }

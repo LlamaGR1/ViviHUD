@@ -1,63 +1,72 @@
-"Resource/UI/SteamFriendPanel.res"
+"steamfriendpanel"
 {
 	"avatar"
 	{
-		"fieldName"		"avatar"
 		"xpos"			"1"
 		"ypos"			"1"
 		"wide"			"o1"
-		"tall"			"f2"
+		"tall"			"f2" // f2
 		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 	}
 
 	"InteractButton"
 	{
-		"fieldName"		"InteractButton"
-		"zpos"			"-1"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
+		"proportionaltoparent"	"1"
 		"command"		"open_menu"
-		"labeltext"		""
-		"roundedcorners"	"0"
-
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"0 0 0 0"
-		"armedBgColor_override"		"140 42 43 80"		// 140 42 43 80
-		"depressedBgColor_override"	"112 33 34 80"		// 140 42 43 50
+		"roundedcorners"	"0"
+
+		"defaultbgcolor_override"	"0 0 0 0"
+		"armedbgcolor_override"		"140 42 43 80"
+		"depressedbgcolor_override"	"91 27 28 80"
 	}
 
 	"NameLabel"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"NameLabel"
+		"controlname"	"CAutoFittingLabel"
 		"xpos"			"rs1"
 		"ypos"			"1"
-		"zpos"			"100"
-		"wide"			"f22"
+		"wide"			"76" // 78
 		"tall"			"10"
-		"textAlignment"	"north-west"
-		"labelText"		"%name%"
-		"font"			"ControlPointTimer"
-		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
+		"labeltext"		"%name%"
+	//	"bgcolor_override"	"0 255 0 30"
+
+		"fonts"
+		{
+			"1"
+			{
+				"font"	"ControlPointTimer"
+			}
+
+			"2"
+			{
+				"font"	"ItemFontAttribSmall"
+			}
+
+			"3"
+			{
+				"font"	"FriendsListSmall"
+			}
+		}
 	}
 
 	"StatusLabel"
 	{
-		"fieldName"		"StatusLabel"
 		"xpos"			"rs1"
-		"ypos"			"11"
-		"zpos"			"100"
-		"wide"			"f22"
+		"ypos"			"10"
+		"wide"			"76" // 78
 		"tall"			"10"
-		"textAlignment"	"north-west"
-		"labelText"		"%status%"
+		"proportionaltoparent"	"1"
+		"labeltext"		"%status%"
 		"font"			"ItemFontAttribSmall"
-		"fgcolor_override"	"TanDark"
-		"mouseinputenabled"	"0"
+	//	"bgcolor_override"	"255 0 0 30"
 	}
 }

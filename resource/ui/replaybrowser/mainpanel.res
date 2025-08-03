@@ -1,9 +1,8 @@
-"Resource/UI/replaybrowser/mainpanel.res"
+"mainpanel"
 {
 	"ReplayBrowser"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ReplayBrowser"
+		"controlname"	"EditablePanel"
 		"wide"			"f0"
 		"tall"			"480"
 		"title_font"	"HudFontMediumBold"
@@ -13,43 +12,39 @@
 
 	"BackgroundHeader"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundHeader"
+		"controlname"	"ImagePanel"
 		"zpos"			"-1"
 		"wide"			"f0"
-		"tall"			"60"
-		"tileImage"		"1"
+		"tall"			"72"
+		"tileimage"		"1"
 		"image"			"loadout_header"
 	}
 
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFooter"
+		"controlname"	"ImagePanel"
 		"ypos"			"420"
 		"zpos"			"0"
 		"wide"			"f0"
-		"tall"			"60"
-		"tileImage"		"1"
+		"tall"			"72"
+		"tileimage"		"1"
 		"image"			"loadout_bottom_gradient"
 	}
 
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FooterLine"
+		"controlname"	"ImagePanel"
 		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"10"
-		"scaleImage"	"1"
+		"scaleimage"	"1"
 		"image"			"loadout_solid_line"
 	}
 
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
+		"controlname"	"EditablePanel"
 		"tabxindent"	"375"
 		"tabxdelta"		"10"
 		"tabheight"		"34"
@@ -57,18 +52,17 @@
 
 		"HeaderLine"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"HeaderLine"
+			"controlname"	"ImagePanel"
 			"ypos"			"32"
 			"wide"			"f0"
 			"tall"			"10"
-			"scaleImage"	"1"
+			"scaleimage"	"1"
 			"image"			"loadout_solid_line"
 		}
 
 		"tabskv"
 		{
-			"textAlignment"		"center"
+			"textalignment"		"center"
 			"font"				"HudFontMediumSmallBold"
 			"normalborder_override"	"OutlinedDullGreyBox"
 			"activeborder_override"	"OutlinedGreyBox"
@@ -80,17 +74,16 @@
 
 	"BackButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
+		"controlname"	"CExButton"
 		"xpos"			"35" // c-300
 		"ypos"			"r44" // 437
 		"zpos"			"2"
 		"wide"			"130" // 100
 		"tall"			"30" // 26
-		"labelText"		"#TF_BackCarat"
+		"labeltext"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"back"
+		"textalignment"	"center"
+		"command"		"back"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
@@ -101,19 +94,16 @@
 		"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
 
-		"defaultFgColor_override"	"46 43 42 255"
-		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override"	"46 43 42 255"
-		"selectedFgColor_override"	"46 43 42 255"
+		"defaultfgcolor_override"	"Black"
+		"selectedfgcolor_override"	"Black"
 	}
 
 	"BackButton2"
 	{
-		"ControlName"	"Button"
-		"wide"			"0"
+		"controlname"	"Button"
 		"tall"			"0"
-		"labelText"		"&Q"
-		"Command"		"back"
+		"labeltext"		"&q"
+		"command"		"back"
 		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 }

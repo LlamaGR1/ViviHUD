@@ -1,9 +1,8 @@
-"Resource/UI/MatchMakingDashboardPopup_NewMatch.res"
+"matchmakingdashboardpopup_newmatch"
 {
 	"NewMatchFound"
 	{
-		"ControlName"	"CExpandablePanel"
-		"fieldName"		"NewMatchFound"
+		"controlname"	"CExpandablePanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"9999"
@@ -18,22 +17,20 @@
 
 		"BGPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BGPanel"
+			"controlname"	"EditablePanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"-1"
 			"wide"			"f5"
 			"tall"			"f5"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"bgcolor_override"	"0 0 0 200"
 			"border"		"QuickplayBorder"
 			"proportionaltoparent"	"1"
 
 			"DescLabel"
 			{
-				"ControlName"	"CAutoFittingLabel"
-				"fieldName"		"DescLabel"
+				"controlname"	"CAutoFittingLabel"
 				"xpos"			"0"
 				"ypos"			"7"
 				"wide"			"f0"
@@ -41,8 +38,8 @@
 				"tall"			"20"
 				"font"			"HudFontSmallBold"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"	"center"
-				"labelText"		"%match_type%"
+				"textalignment"	"center"
+				"labeltext"		"%match_type%"
 				"proportionaltoparent"	"1"
 
 				"fonts"
@@ -55,8 +52,7 @@
 
 			"AutoJoinLabel"
 			{
-				"ControlName"	"Label"
-				"fieldName"		"AutoJoinLabel"
+				"controlname"	"label"
 				"xpos"			"0"
 				"ypos"			"rs1-17"
 				"wide"			"f0"
@@ -64,23 +60,22 @@
 				"tall"			"20"
 				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"	"center"
-				"labelText"		"%auto_join%"
+				"textalignment"	"center"
+				"labeltext"		"%auto_join%"
 				"proportionaltoparent"	"1"
 			}
 
 			"AbandonButton"
 			{
-				"ControlName"	"CExButton"
-				"fieldName"		"AbandonButton"
+				"controlname"	"CExButton"
 				"xpos"			"rs1-10"
 				"ypos"			"rs1-5"
 				"zpos"			"100"
 				"wide"			"75"
 				"tall"			"15"
 				"font"			"HudFontSmallestBold"
-				"textAlignment"	"center"
-				"Command"		"abandon_match"
+				"textalignment"	"center"
+				"command"		"abandon_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_MM_Rejoin_Abandon"
 				"mouseinputenabled"	"1"
@@ -94,8 +89,7 @@
 
 			"SmallJoinButton"
 			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SmallJoinButton"
+				"controlname"	"CExButton"
 				"xpos"			"10"
 				"ypos"			"rs1-5"
 				"wide"			"90"
@@ -109,8 +103,8 @@
 				}
 
 				"font"			"HudFontSmallestBold"
-				"textAlignment"	"center"
-				"Command"		"join_match"
+				"textalignment"	"center"
+				"command"		"join_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"
 				"mouseinputenabled"	"1"
@@ -123,16 +117,15 @@
 
 			"WideJoinButton"
 			{
-				"ControlName"	"CExButton"
-				"fieldName"		"WideJoinButton"
+				"controlname"	"CExButton"
 				"xpos"			"cs-0.5"
 				"ypos"			"rs1-5"
 				"wide"			"150"
 				"zpos"			"150"
 				"tall"			"15"
 				"font"			"HudFontSmallestBold"
-				"textAlignment"	"center"
-				"Command"		"join_match"
+				"textalignment"	"center"
+				"command"		"join_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"
 				"mouseinputenabled"	"1"
@@ -145,8 +138,7 @@
 
 			"JoiningLabel"
 			{
-				"ControlName"	"Label"
-				"fieldName"		"JoiningLabel"
+				"controlname"	"label"
 				"xpos"			"cs-1"
 				"ypos"			"rs1-17"
 				"wide"			"f0"
@@ -154,15 +146,14 @@
 				"tall"			"20"
 				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"	"east"
-				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
+				"textalignment"	"east"
+				"labeltext"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"	"1"
 			}
 
 			"Spinner"
 			{
-				"ControlName"	"CTFLogoPanel"
-				"fieldName"		"Spinner"
+				"controlname"	"CTFLogoPanel"
 				"xpos"			"c+5"
 				"ypos"			"rs1-17"
 				"zpos"			"104"

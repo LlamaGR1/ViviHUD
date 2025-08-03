@@ -1,9 +1,9 @@
-"Resource/UI/CraftingPanel.res"
+"craftingpanel"
 {
 	"crafting_panel"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"crafting_panel"
+		"controlname"	"Frame"
+		"fieldname"		"crafting_panel"
 		"ypos"			"60"
 		"zpos"			"501"
 		"wide"			"f0"
@@ -22,46 +22,34 @@
 
 		"modelpanels_kv"
 		{
-			"ControlName"	"CItemModelPanel"
+			"controlname"	"CItemModelPanel"
 			"wide"			"70"
 			"tall"			"45"
 			"visible"		"0"
-			"noitem_textcolor"	"117 107 94 255"
+			"noitem_textcolor"	"Gray"
 
 			"model_ypos"	"5"
 			"model_tall"	"35"
 			"text_center"	"1"
 			"name_only"		"1"
-			"text_forcesize" "3"
-			"noitem_use_fullpanel" "1"
+			"text_forcesize"	"3"
+			"noitem_use_fullpanel"	"1"
 
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
 			"MainContentsContainer"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"MainContentsContainer"
+				"controlname"	"EditablePanel"
+				"fieldname"		"MainContentsContainer"
 				"wide"			"f0"
 				"tall"			"f0"
 
-				"itemmodelpanel"
-				{
-					"use_item_rendertarget"	"0"
-					"allow_rot"				"0"
-				}
-
 				"namelabel"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"namelabel"
-					"zpos"			"2"
-					"wide"			"50"
-					"tall"			"30"
-					"labelText"		"%itemname%"
-					"textAlignment"	"south"
-					"fgcolor"		"235 226 202 255"
-					"wrap"			"1"
+					"controlname"	"CExLabel"
+					"fieldname"		"namelabel"
+					"textalignment"	"center"
 					"centerwrap"	"1"
 				}
 			}
@@ -71,18 +59,18 @@
 		{
 			"font"			"HudFontSmallestBold"
 			"zpos"			"1"
-			"wide"			"280"
+			"wide"			"270"
 			"tall"			"13"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"117 107 94 255"
-			"defaultBgColor_override"	"0 0 0 0"
-			"armedFgColor_override"		"235 226 202 255"
-			"armedBgColor_override"		"0 0 0 0"
-			"depressedFgColor_override"	"178 82 22 255"
-			"depressedBgColor_override"	"0 0 0 0"
+			"button_activation_type"	"2"
+
+			"paintbackground"	"0"
+
+			"defaultfgcolor_override"	"117 107 94 255"
+			"depressedfgcolor_override"	"LightRed"
 		}
 
 		"filter_xoffset"	"-290"
@@ -95,129 +83,120 @@
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"30"
-			"labelText"		""
-			"textAlignment"	"south-west"
-			"Command"		""
+			"labeltext"		""
+			"command"		""
 			"font"			"MenuKeys"
-			"scaleImage"	"1"
+			"scaleimage"	"1"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"button_activation_type"	"2"
 		}
 	}
 
 	"BackgroundColor"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundColor"
+		"controlname"	"EditablePanel"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
-		"bgcolor_override"	"45 42 43 255"
+		"bgcolor_override"	"BackgroundColor"
 	}
 
 	"ClassLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabel"
+		"controlname"	"CExLabel"
+		"fieldname"		"ClassLabel"
 		"font"			"HudFontSmallBold"
-		"labelText"		"#CraftStep1"
-		"textAlignment"	"north-west"
+		"labeltext"		"#CraftStep1"
 		"xpos"			"c-290"
 		"ypos"			"10"
 		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"25"
-		"fgcolor_override" "200 187 161 255"
+		"wide"			"280"
+		"tall"			"15"
+		"fgcolor"		"HudOffWhite"
 	}
 
 	"selectedrecipecontainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"selectedrecipecontainer"
+		"controlname"	"EditablePanel"
+		"fieldname"		"selectedrecipecontainer"
 		"xpos"			"c0"
-		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"350"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"200 187 161 0"
 
 		"RecipeTitle"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"RecipeTitle"
+			"controlname"	"CExLabel"
+			"fieldname"		"RecipeTitle"
 			"font"			"HudFontSmallBold"
-			"labelText"		"%recipetitle%"
-			"xpos"			"0"
+			"labeltext"		"%recipetitle%"
 			"ypos"			"10"
 			"zpos"			"1"
 			"wide"			"280"
 			"tall"			"30"
-			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
+			"fgcolor"		"HudOffWhite"
 		}
 
 		"RecipeInputStringLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"RecipeInputStringLabel"
+			"controlname"	"CExLabel"
+			"fieldname"		"RecipeInputStringLabel"
 			"font"			"ItemFontAttribLarge"
-			"labelText"		"%recipeinputstring%"
-			"textAlignment"	"north-west"
-			"xpos"			"0"
+			"labeltext"		"%recipeinputstring%"
+			"textalignment"	"north-west"
 			"ypos"			"45"
 			"zpos"			"1"
 			"wide"			"280"
 			"tall"			"25"
-			"fgcolor"		"153 204 255 255"
 			"wrap"			"1"
+			"fgcolor"		"ItemAttribPositive"
 		}
 
 		"InputLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"InputLabel"
+			"controlname"	"CExLabel"
+			"fieldname"		"InputLabel"
 			"font"			"HudFontSmallBold"
-			"labelText"		"#Craft_Recipe_Inputs"
-			"textAlignment"	"north-west"
-			"xpos"			"0"
+			"labeltext"		"#Craft_Recipe_Inputs"
+			"textalignment"	"north-west"
 			"ypos"			"68"
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"15"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"ItemAttribLevel"
 		}
 
 		"OutputLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"OutputLabel"
+			"controlname"	"CExLabel"
+			"fieldname"		"OutputLabel"
 			"font"			"HudFontSmallBold"
-			"labelText"		"#Craft_Recipe_Outputs"
-			"textAlignment"	"north-west"
-			"xpos"			"0"
+			"labeltext"		"#Craft_Recipe_Outputs"
+			"textalignment"	"north-west"
 			"ypos"			"238"
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"15"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"ItemAttribLevel"
 		}
 
 		"CraftButton"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"CraftButton"
-			"xpos"			"0"
+			"controlname"	"CExButton"
+			"fieldname"		"CraftButton"
 			"ypos"			"318"
 			"zpos"			"20"
-			"wide"			"200"
+			"wide"			"145"
 			"tall"			"30"
 			"enabled"		"0"
-			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
-			"textAlignment"	"center"
-			"Command"		"craft"
+			"labeltext"		"#CraftConfirm"
+			"font"			"HudFontMediumSmallBold"
+			"textalignment"	"center"
+			"command"		"craft"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
@@ -228,70 +207,65 @@
 			"border_disabled"	"MainMenuButtonDisabled"
 			"paintbackground"	"0"
 
-			"defaultFgColor_override"	"46 43 42 255"
-			"armedFgColor_override"		"235 226 202 255"
-			"depressedFgColor_override"	"46 43 42 255"
-			"selectedFgColor_override"	"46 43 42 255"
+			"defaultfgcolor_override"	"Black"
+			"selectedfgcolor_override"	"Black"
 		}
 
 		"FreeAccountLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"FreeAccountLabel"
+			"controlname"	"CExLabel"
+			"fieldname"		"FreeAccountLabel"
 			"font"			"HudFontSmallestBold"
-			"labelText"		"#Craft_PremiumRecipe"
-			"xpos"			"0"
+			"labeltext"		"#Craft_PremiumRecipe"
 			"ypos"			"318"
 			"zpos"			"21"
-			"wide"			"200"
+			"wide"			"195"
 			"tall"			"25"
 			"wrap"			"1"
-			"fgcolor"		"178 82 22 255"
+			"fgcolor"		"LightRed"
 		}
 
 		"UpgradeButton"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"UpgradeButton"
+			"controlname"	"CExButton"
+			"fieldname"		"UpgradeButton"
 			"xpos"			"200"
 			"ypos"			"318"
 			"zpos"			"20"
 			"wide"			"100"
 			"tall"			"25"
-			"labelText"		"#TF_Trial_Upgrade"
+			"labeltext"		"#TF_Trial_Upgrade"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"Command"		"upgrade"
+			"textalignment"	"center"
+			"command"		"upgrade"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
-			"defaultBgColor_override"	"102 122 42 255"
-			"armedBgColor_override"		"143 167 57 255"
-			"depressedBgColor_override"	"143 167 57 255"
-			"selectedBgColor_override"	"143 167 57 255"
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"border_selected"	"MainMenuButtonDepressed"
+			"paintbackground"	"0"
+
+			"defaultfgcolor_override"	"Black"
+			"selectedfgcolor_override"	"Black"
 		}
 	}
 
 	"recipecontainerscroller"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"recipecontainerscroller"
+		"controlname"	"EditablePanel"
 		"xpos"			"c-290"
 		"ypos"			"70"
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"240"
-		"fgcolor_override"	"117 107 94 255"
 
 		"ScrollBar"
 		{
-			"ControlName"	"ScrollBar"
-			"FieldName"		"ScrollBar"
+			"controlname"	"ScrollBar"
 			"xpos"			"rs1"
-			"ypos"			"0"
 			"wide"			"8"
-			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
 			"UpButton"
@@ -308,8 +282,7 @@
 
 	"recipecontainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"recipecontainer"
+		"controlname"	"EditablePanel"
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"240"
@@ -317,14 +290,12 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
+		"controlname"	"CItemModelPanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
 		"wide"			"300"
 		"tall"			"300"
-		"noitem_textcolor"	"117 107 94 255"
 
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -339,72 +310,34 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"labelText"		"%attriblist%"
-			"fgcolor"		"117 107 94 255"
+			"labeltext"		"%attriblist%"
 			"centerwrap"	"1"
-		}
-	}
-
-	"mousedragitempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mousedragitempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"54"
-		"tall"			"42"
-		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
-
-		"model_ypos"	"5"
-		"model_tall"	"35"
-		"text_ypos"		"60"
-		"text_center"	"1"
-		"name_only"		"1"
-
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" "0"
-			"allow_rot"				"0"
 		}
 	}
 
 	"TooltipPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TooltipPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"140"
-		"tall"			"50"
+		"controlname"	"EditablePanel"
+		"fieldname"		"TooltipPanel"
+		"zpos"			"777" // 99% of gamblers quit right before they win big
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
 		"TipLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TipLabel"
+			"controlname"	"CExLabel"
+			"fieldname"		"TipLabel"
 			"font"			"HudFontSmallest"
-			"labelText"		"%tiptext%"
-			"xpos"			"20"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"100"
-			"tall"			"30"
-			"fgcolor_override"	"235 226 202 255"
-			"centerwrap"	"1"
+			"labeltext"		"%tiptext%"
+			"xpos"			"10"
+			"ypos"			"9"
+			"auto_wide_tocontents"	"1"
 		}
 	}
 
 	"ShowExplanationsButton"
 	{
-		"ControlName"	"CMatchHistoryEntryPanel"
+		"controlname"	"CMatchHistoryEntryPanel"
 		"xpos"			"0"
 		"ypos"			"13"
 		"zpos"			"106"
@@ -428,32 +361,31 @@
 
 		"HelpButton"
 		{
-			"ControlName"	"CExButton"
+			"controlname"	"CExButton"
 			"xpos"			"c248"
-			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"20"
 			"tall"			"20"
-			"labelText"		"?"
+			"labeltext"		"?"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
+			"textalignment"	"center"
 			"command"		"toggle_collapse"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/hint.wav"
 
-			"border_default"	"MainMenuSubButtonBGOne"
-			"border_armed"		"MainMenuSubButtonBGOneArmed"
-			"border_selected"	"MainMenuSubButtonBGOneArmed"
+			"border_default"	"ViviButtonOne"
+			"border_armed"		"ViviButtonOneArmed"
+			"border_selected"	"ViviButtonOneArmed"
 			"paintbackground"	"0"
 
-			"depressedFgColor_override"	"195 186 162 255"
-			"selectedFgColor_override"	"195 186 162 255"
+			"depressedfgcolor_override"	"TanLightDark"
+			"selectedfgcolor_override"	"TanLightDark"
 		}
 
 		"CraftingDialog"
 		{
-			"ControlName"	"EditablePanel"
+			"controlname"	"EditablePanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"75"
 			"zpos"			"2"
@@ -465,92 +397,91 @@
 
 			"TitleLabel"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
+				"controlname"	"CExLabel"
+				"fieldname"		"TitleLabel"
 				"font"			"HudFontSmallBold"
-				"labelText"		"NEED HELP WITH CRAFTING?"
-				"textAlignment"	"north"
+				"labeltext"		"#Vivi_Explanation_Crafting_Title"
+				"textalignment"	"north"
 				"xpos"			"20"
 				"ypos"			"10"
 				"wide"			"260"
 				"tall"			"30"
 				"wrap"			"1"
-				"fgcolor_override" "46 43 42 255"
+				"fgcolor_override"	"Black"
 			}
 
 			"TextLabel"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TextLabel"
+				"controlname"	"CExLabel"
+				"fieldname"		"TextLabel"
 				"font"			"HudFontSmall"
-				"labelText"		"Press 'LEARN MORE' to open a crafting guide in your Web Browser."
-				"textAlignment"	"north-west"
+				"labeltext"		"#Vivi_Explanation_Crafting_Des"
+				"textalignment"	"north-west"
 				"xpos"			"20"
 				"ypos"			"45"
 				"wide"			"260"
 				"tall"			"85"
 				"wrap"			"1"
-				"fgcolor_override" "46 43 42 255"
+				"fgcolor_override"	"Black"
 			}
 
 			"CloseButton"
 			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"CloseButton"
+				"controlname"	"CExImageButton"
 				"xpos"			"281"
 				"ypos"			"5"
 				"wide"			"14"
 				"tall"			"14"
 				"labeltext"		""
-				"Command"		"toggle_collapse"
+				"command"		"toggle_collapse"
 				"actionsignallevel"	"2"
+				"sound_armed"		"ui/buttonrollover.wav"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
+
+				"button_activation_type"	"2"
 
 				"paintbackground"	"0"
 
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
-				"image_selectedcolor" "200 80 60 255"
-				"SubImage"
+				"subimage"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
 					"wide"			"14"
 					"tall"			"14"
-					"scaleImage"	"1"
+					"scaleimage"	"1"
 					"image"			"close_button"
 				}
 			}
 
 			"TextLabel2"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TextLabel2"
+				"controlname"	"CExLabel"
+				"fieldname"		"TextLabel2"
 				"font"			"HudFontSmallest"
-				"labelText"		"(OFFICIAL WIKI PAGE)"
-				"textAlignment"	"center"
+				"labeltext"		"#Vivi_Explanation_Crafting_Des_2"
+				"textalignment"	"center"
 				"xpos"			"cs-0.5"
 				"ypos"			"102"
 				"wide"			"110"
 				"tall"			"10"
 				"proportionaltoparent"	"1"
-				"fgcolor_override" "TanDark"
+				"fgcolor_override"	"TanDark"
 			}
 
 			"LearnMoreButton"
 			{
-				"ControlName"	"CExButton"
-				"fieldName"		"LearnMoreButton"
+				"controlname"	"CExButton"
+				"fieldname"		"LearnMoreButton"
 				"xpos"			"cs-0.5"
 				"ypos"			"118"
 				"wide"			"130"
 				"tall"			"26"
 				"proportionaltoparent"	"1"
-				"labelText"		"#Store_LearnMore"
+				"labeltext"		"#Store_LearnMore"
 				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"Command"		"url https://wiki.teamfortress.com/wiki/Crafting"
+				"textalignment"	"center"
+				"command"		"url https://wiki.teamfortress.com/wiki/Crafting"
 				"sound_armed"		"ui/buttonrollover.wav"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
@@ -558,19 +489,11 @@
 				"border_default"	"MainMenuBGBorder"
 				"border_armed"		"MainMenuButtonArmed"
 				"border_selected"	"MainMenuButtonDepressedArmed"
-				"border_disabled"	"MainMenuButtonDisabled"
 				"paintbackground"	"0"
 
-				"defaultFgColor_override"	"235 226 202 255"
-				"armedFgColor_override"		"235 226 202 255"
-				"depressedFgColor_override"	"195 186 162 255"
-				"selectedFgColor_override"	"195 186 162 255"
+				"depressedfgcolor_override"	"TanLightDark"
+				"selectedfgcolor_override"	"TanLightDark"
 			}
-
-
-
 		}
-
-
 	}
 }

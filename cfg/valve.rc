@@ -5,20 +5,18 @@ stuffcmds
 startupmenu
 sv_unlockedchapters 99
 
-//
 con_enable 1
 wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1
 
 tf_dashboard_slide_time 0.2
 tf_mm_dashboard_slide_panel_step 0
-cl_mainmenu_safemode 0
-tf_hud_target_id_alpha 100
-tf_hud_target_id_show_avatars 1
+cl_mainmenu_safemode 1
+tf_hud_target_id_alpha 255
 vgui_cache_res_files 0
 hud_combattext_red 200
 
 alias 1q "toggle mat_aaquality"
-alias zz "sv_use_steam_networking 0; sv_vote_creation_timer 1; sv_vote_failure_timer 1; sv_vote_issue_autobalance_cooldown 10; tf_bot_add 1; map itemtest"
-alias xx "sv_use_steam_networking 0; sv_allow_point_servercommand always; map workshop/606778917"
+alias zz "mp_respawnwavetime -1; mp_disable_respawn_times 1; sv_vote_creation_timer 1; sv_vote_failure_timer 1; sv_vote_issue_autobalance_cooldown 10; map itemtest; tf_bot_add 1"
+alias xx "sv_allow_point_servercommand always; map workshop/606778917"
 
 exec music.cfg

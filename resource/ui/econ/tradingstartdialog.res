@@ -1,13 +1,12 @@
-"Resource/UI/TradingStartDialog.res"
+"tradingstartdialog"
 {
 	"TradingStartDialog"
 	{
-		"fieldName"		"TradingStartDialog"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"wide"			"400"
 		"tall"			"300"
-		"border"		"LoadoutItemMouseOverBorder"
+		"border"		"LoadoutItemMouseOverBorder2"
 
 		"button_kv"
 		{
@@ -21,7 +20,7 @@
 				"xpos"			"10"
 				"wide"			"340"
 				"tall"			"30"
-				"labelText"		""
+				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textinsetx"	"30"
 				"use_proportional_insets" "1"
@@ -35,22 +34,19 @@
 				"border_disabled"	"MainMenuButtonDisabled"
 				"paintbackground"	"0"
 
-				"defaultFgColor_override"	"46 43 42 255"
-				"armedFgColor_override"		"235 226 202 255"
-				"depressedFgColor_override"	"46 43 42 255"
-				"selectedFgColor_override"	"46 43 42 255"
+				"defaultfgcolor_override"	"Black"
+				"selectedfgcolor_override"	"Black"
 			}
 
 			"avatar"
 			{
-				"ControlName"	"CAvatarImagePanel"
-				"fieldName"		"avatar"
+				"controlname"	"CAvatarImagePanel"
 				"xpos"			"15"
 				"ypos"			"5"
 				"zpos"			"1"
 				"wide"			"20"
 				"tall"			"20"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
 				"image"			""
 			}
 		}
@@ -58,38 +54,33 @@
 
 	"TitleLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
+		"controlname"	"CExLabel"
 		"font"			"HudFontMediumBold"
-		"labelText"		"#TF_TradeStartDialog_Title"
-		"textAlignment"	"north"
-		"xpos"			"0"
+		"labeltext"		"#TF_TradeStartDialog_Title"
+		"textalignment"	"north"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"400"
 		"tall"			"25"
-		"fgcolor_override"	"200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
 
 	"PlayerListScroller"
 	{
-		"ControlName"	"ScrollableEditablePanel"
-		"fieldName"		"PlayerListScroller"
+		"controlname"	"ScrollableEditablePanel"
 		"xpos"			"20"
 		"ypos"			"80"
 		"wide"			"360"
 		"tall"			"162"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"0 0 0 69"
+		"fgcolor_override"		"TanDark"
+		"bgcolor_override"		"0 0 0 69"
+		"paintbackgroundtype"	"2"
 
-		"ScrollBar"
+		"ScrollBar"		//		fix
 		{
-			"ControlName"	"ScrollBar"
-			"FieldName"		"ScrollBar"
+			"controlname"	"ScrollBar"
 			"xpos"			"rs1-1"
-			"ypos"			"0"
 			"wide"			"8"
-			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
 			"UpButton"
@@ -106,8 +97,7 @@
 
 	"StatePanel0"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"StatePanel0"
+		"controlname"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"50"
 		"wide"			"400"
@@ -115,11 +105,10 @@
 
 		"QueryLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"QueryLabel"
+			"controlname"	"CExLabel"
 			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_TradeStartDialog_Select"
-			"textAlignment"	"center"
+			"labeltext"		"#TF_TradeStartDialog_Select"
+			"textalignment"	"center"
 			"ypos"			"2"
 			"wide"			"400"
 			"tall"			"25"
@@ -127,17 +116,16 @@
 
 		"subbutton0"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"subbutton0"
+			"controlname"	"CExButton"
 			"xpos"			"100"
 			"ypos"			"50"
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"26"
-			"labelText"		"#TF_TradeStartDialog_SelectFriends"
+			"labeltext"		"#TF_TradeStartDialog_SelectFriends"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"Command"		"friends"
+			"textalignment"	"center"
+			"command"		"friends"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
@@ -148,26 +136,23 @@
 			"border_disabled"	"MainMenuButtonDisabled"
 			"paintbackground"	"0"
 
-			"fgcolor"					"46 43 42 255"
-			"defaultFgColor_override"	"46 43 42 255"
-			"armedFgColor_override"		"235 226 202 255"
-			"depressedFgColor_override"	"46 43 42 255"
-			"selectedFgColor_override"	"46 43 42 255"
+			"fgcolor"					"Black"
+			"defaultfgcolor_override"	"Black"
+			"selectedfgcolor_override"	"Black"
 		}
 
 		"subbutton1"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"subbutton1"
+			"controlname"	"CExButton"
 			"xpos"			"100"
 			"ypos"			"90"
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"26"
-			"labelText"		"#TF_TradeStartDialog_SelectServer"
+			"labeltext"		"#TF_TradeStartDialog_SelectServer"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"Command"		"server"
+			"textalignment"	"center"
+			"command"		"server"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
@@ -178,26 +163,23 @@
 			"border_disabled"	"MainMenuButtonDisabled"
 			"paintbackground"	"0"
 
-			"fgcolor"					"46 43 42 255"
-			"defaultFgColor_override"	"46 43 42 255"
-			"armedFgColor_override"		"235 226 202 255"
-			"depressedFgColor_override"	"46 43 42 255"
-			"selectedFgColor_override"	"46 43 42 255"
+			"fgcolor"					"Black"
+			"defaultfgcolor_override"	"Black"
+			"selectedfgcolor_override"	"Black"
 		}
 
 		"subbutton2"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"subbutton2"
+			"controlname"	"CExButton"
 			"xpos"			"100"
 			"ypos"			"130"
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"26"
-			"labelText"		"#TF_TradeStartDialog_SelectProfile"
+			"labeltext"		"#TF_TradeStartDialog_SelectProfile"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"Command"		"profile"
+			"textalignment"	"center"
+			"command"		"profile"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
@@ -208,40 +190,35 @@
 			"border_disabled"	"MainMenuButtonDisabled"
 			"paintbackground"	"0"
 
-			"fgcolor"					"46 43 42 255"
-			"defaultFgColor_override"	"46 43 42 255"
-			"armedFgColor_override"		"235 226 202 255"
-			"depressedFgColor_override"	"46 43 42 255"
-			"selectedFgColor_override"	"46 43 42 255"
+			"fgcolor"					"Black"
+			"defaultfgcolor_override"	"Black"
+			"selectedfgcolor_override"	"Black"
 		}
 	}
 
 	"StatePanel1"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"StatePanel1"
+		"controlname"	"EditablePanel"
 		"ypos"			"50"
 		"wide"			"400"
 		"tall"			"180"
 
 		"QueryLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"QueryLabel"
+			"controlname"	"CExLabel"
 			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_TradeStartDialog_Friends"
-			"textAlignment"	"center"
-			"xpos"			"2"
+			"labeltext"		"#TF_TradeStartDialog_Friends"
+			"textalignment"	"center"
+			"ypos"			"2"
 			"wide"			"400"
 			"tall"			"25"
 		}
 
 		"EmptyPlayerListLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"EmptyPlayerListLabel"
+			"controlname"	"CExLabel"
 			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_TradeStartDialog_FriendsNone"
+			"labeltext"		"#TF_TradeStartDialog_FriendsNone"
 			"ypos"			"80"
 			"wide"			"400"
 			"tall"			"30"
@@ -251,8 +228,7 @@
 
 	"StatePanel2"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"StatePanel2"
+		"controlname"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"50"
 		"wide"			"400"
@@ -260,11 +236,10 @@
 
 		"QueryLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"QueryLabel"
+			"controlname"	"CExLabel"
 			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_TradeStartDialog_Server"
-			"textAlignment"	"center"
+			"labeltext"		"#TF_TradeStartDialog_Server"
+			"textalignment"	"center"
 			"ypos"			"2"
 			"wide"			"400"
 			"tall"			"25"
@@ -272,10 +247,9 @@
 
 		"EmptyPlayerListLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"EmptyPlayerListLabel"
+			"controlname"	"CExLabel"
 			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_TradeStartDialog_ServerNone"
+			"labeltext"		"#TF_TradeStartDialog_ServerNone"
 			"ypos"			"80"
 			"wide"			"400"
 			"tall"			"30"
@@ -285,8 +259,7 @@
 
 	"StatePanel3"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"StatePanel3"
+		"controlname"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"50"
 		"wide"			"400"
@@ -294,11 +267,10 @@
 
 		"QueryLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"QueryLabel"
+			"controlname"	"CExLabel"
 			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_TradeStartDialog_Profile"
-			"textAlignment"	"center"
+			"labeltext"		"#TF_TradeStartDialog_Profile"
+			"textalignment"	"center"
 			"ypos"			"2"
 			"wide"			"400"
 			"tall"			"25"
@@ -306,10 +278,9 @@
 
 		"URLHelpLabel"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"URLHelpLabel"
+			"controlname"	"label"
 			"font"			"HudFontSmallest"
-			"labelText"		"#TF_TradeStartDialog_ProfileHelp"
+			"labeltext"		"#TF_TradeStartDialog_ProfileHelp"
 			"ypos"			"35"
 			"wide"			"400"
 			"tall"			"40"
@@ -319,72 +290,66 @@
 
 		"URLFailLabel"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"URLFailLabel"
+			"controlname"	"label"
 			"font"			"HudFontSmallest"
-			"labelText"		"#TF_TradeStartDialog_ProfileFail"
+			"labeltext"		"#TF_TradeStartDialog_ProfileFail"
 			"ypos"			"107"
 			"wide"			"400"
 			"tall"			"40"
 			"visible"		"0"
 			"centerwrap"	"1"
-			"fgcolor_override"	"200 80 60 255"
+			"fgcolor_override"	"LightRed"
 		}
 
 		"URLSearchingLabel"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"URLSearchingLabel"
+			"controlname"	"label"
 			"font"			"HudFontSmallest"
-			"labelText"		"#TF_TradeStartDialog_ProfileLookup"
+			"labeltext"		"#TF_TradeStartDialog_ProfileLookup"
 			"ypos"			"107"
 			"wide"			"400"
 			"tall"			"40"
 			"visible"		"0"
 			"centerwrap"	"1"
-			"fgcolor_override"	"200 80 60 255"
+			"fgcolor_override"	"LightRed"
 		}
 
 		"URLEntryBG"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"URLEntryBG"
+			"controlname"	"EditablePanel"
 			"xpos"			"20"
 			"ypos"			"82"
 			"zpos"			"1"
 			"wide"			"360"
 			"tall"			"20"
-			"border"		"MainMenuSubButtonBGOne"
+			"border"		"ViviButtonOne"
 
-			"SubImage"
+			"subimage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"controlname"	"ImagePanel"
 				"xpos"			"r15"
 				"ypos"			"cs-0.5"
 				"wide"			"11"
 				"tall"			"11"
-				"drawcolor"		"235 226 202 255"
 				"proportionaltoparent"	"1"
-				"scaleImage"	"1"
+				"drawcolor"		"TanLight"
+				"scaleimage"	"1"
 				"image"			"glyph_workshop_view"
 			}
 		}
 
 		"URLEntry"
 		{
-			"ControlName"	"TextEntry"
-			"fieldName"		"URLEntry"
-			"font"			"HudFontSmallest"
+			"controlname"	"TextEntry"
 			"xpos"			"-2"
 			"zpos"			"2"
 			"wide"			"340"
 			"tall"			"20"
+			"font"			"HudFontSmallest"
 			"maxchars"		"69"
-
-			"fgcolor_override"				"235 226 202 255"
+			"fgcolor_override"				"TanLight"
 			"selectionColor_override"		"140 42 43 255"
-			"selectionTextColor_override"	"46 43 42 255"
+			"selectionTextColor_override"	"Black"
 
 			"pin_to_sibling" "URLEntryBG"
 			"pin_corner_to_sibling" "2"
@@ -393,17 +358,16 @@
 
 		"subbutton0"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"subbutton0"
+			"controlname"	"CExButton"
 			"xpos"			"100"
 			"ypos"			"150"
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"26"
-			"labelText"		"#TF_TradeStartDialog_ProfileGo"
+			"labeltext"		"#TF_TradeStartDialog_ProfileGo"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"Command"		"url_ok"
+			"textalignment"	"center"
+			"command"		"url_ok"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
@@ -414,26 +378,23 @@
 			"border_disabled"	"MainMenuButtonDisabled"
 			"paintbackground"	"0"
 
-			"defaultFgColor_override"	"46 43 42 255"
-			"armedFgColor_override"		"235 226 202 255"
-			"depressedFgColor_override"	"46 43 42 255"
-			"selectedFgColor_override"	"46 43 42 255"
+			"defaultfgcolor_override"	"Black"
+			"selectedfgcolor_override"	"Black"
 		}
 	}
 
 	"CancelButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
+		"controlname"	"CExButton"
 		"xpos"			"150"
 		"ypos"			"250"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"26"
-		"labelText"		"#Cancel"
+		"labeltext"		"#Cancel"
 		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		"cancel"
+		"textalignment"	"center"
+		"command"		"cancel"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
@@ -444,29 +405,25 @@
 		"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
 
-		"defaultFgColor_override"	"46 43 42 255"
-		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override"	"46 43 42 255"
-		"selectedFgColor_override"	"46 43 42 255"
+		"defaultfgcolor_override"	"Black"
+		"selectedfgcolor_override"	"Black"
 	}
 
 	"CancelButton2"
 	{
-		"ControlName"	"Button"
-		"wide"			"0"
+		"controlname"	"Button"
 		"tall"			"0"
-		"labelText"		"&Q"
-		"Command"		"cancel"
+		"labeltext"		"&q"
+		"command"		"cancel"
 		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"CancelButton3"
 	{
-		"ControlName"	"Button"
-		"wide"			"0"
+		"controlname"	"Button"
 		"tall"			"0"
-		"labelText"		"&E"
-		"Command"		"cancel"
+		"labeltext"		"&e"
+		"command"		"cancel"
 		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 }

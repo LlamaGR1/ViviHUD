@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/polaroid_overlay"
+	"$vertexalpha"	1
+}

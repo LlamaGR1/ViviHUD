@@ -1,16 +1,14 @@
-"Resource/UI/Spectator.res"
+"spectator"
 {
 	"Spectator"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"Spectator"
+		"controlname"	"Frame"
 		"tall"			"480"
 	}
 
 	"ShadedBar"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ShadedBar"
+		"controlname"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"r50"
 		"zpos"			"1"
@@ -21,77 +19,71 @@
 
 	"TipLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TipLabel"
+		"controlname"	"CExLabel"
 		"xpos"			"5"
 		"ypos"			"r48"
 		"zpos"			"2"
 		"wide"			"169"
 		"tall"			"46"
-		"labelText"		"%tip%"
+		"labeltext"		"%tip%"
 		"font"			"ItemFontAttribSmallShadow"
 		"wrap"			"1"
 	}
 
 	"ReinforcementsLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ReinforcementsLabel"
+		"controlname"	"CExLabel"
 		"xpos"			"cs-0.5"
 		"ypos"			"50"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"20"
-		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"	"center"
+		"labeltext"		"#game_respawntime_in_secs"
+		"textalignment"	"center"
 		"font"			"HudFontMediumSmallSecondary"
 	}
 
 	"BuyBackLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BuyBackLabel"
+		"controlname"	"CExLabel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"20"
 		"visible"		"0"
-		"labelText"		""
-		"textAlignment"	"center"
+		"labeltext"		""
+		"textalignment"	"center"
 		"font"			"HudFontMediumSmallSecondary"
 	}
 
 	"ClassOrTeamLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassOrTeamLabel"
+		"controlname"	"CExLabel"
 		"xpos"			"cs-0.5"
 		"ypos"			"r33"
 		"zpos"			"2"
 		"wide"			"169"
 		"tall"			"15"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"	"center"
+		"labeltext"		"#TF_Spectator_ChangeTeam"
+		"textalignment"	"center"
 		"font"			"ItemFontAttribLargeShadow"
 	}
 
 	"MapLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapLabel"
+		"controlname"	"CExLabel"
 		"xpos"			"r174"
 		"ypos"			"r33"
 		"zpos"			"2"
 		"wide"			"169"
 		"tall"			"15"
-		"textAlignment"	"east"
+		"textalignment"	"east"
 		"font"			"ItemFontAttribLargeShadow"
 	}
 
 	"itempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
+		"controlname"	"CItemModelPanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
@@ -99,7 +91,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -118,30 +110,27 @@
 
 		"itemmodelpanel"
 		{
-			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget"	"0"
 			"useparentbg"	"1"
 		}
 
 		"ItemLabel"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
+			"controlname"	"label"
 			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
+			"labeltext"		"#FreezePanel_Item"
+			"textalignment"	"Left"
 		}
 	}
 
 	"spectator_extras"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"spectator_extras"
+		"controlname"	"EditablePanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
@@ -170,37 +159,31 @@
 
 	"SwitchCamModeKeyLabel"
 	{
-		"wide"			"0"
 		"tall"			"0"
 	}
 
 	"SwitchCamModeLabel"
 	{
-		"wide"			"0"
 		"tall"			"0"
 	}
 
 	"CycleTargetFwdKeyLabel"
 	{
-		"wide"			"0"
 		"tall"			"0"
 	}
 
 	"CycleTargetFwdLabel"
 	{
-		"wide"			"0"
 		"tall"			"0"
 	}
 
 	"CycleTargetRevKeyLabel"
 	{
-		"wide"			"0"
 		"tall"			"0"
 	}
 
 	"CycleTargetRevLabel"
 	{
-		"wide"			"0"
 		"tall"			"0"
 	}
 }
