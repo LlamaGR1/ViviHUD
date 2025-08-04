@@ -4,6 +4,9 @@
 
 ---
 
+> [!CAUTION]
+> [Download the latest version here](https://github.com/LlamaGR1/ViviHUD/archive/refs/heads/main.zip)
+
 # TO-DOS
 <details>
 <summary>Expand</summary>
