@@ -9,24 +9,22 @@
 <summary>Expand</summary>
 <br>
 
-- 4:3 & 16:10 support
+- Polish HUD
+- Real 4:3 & 16:10 support
 - 1080p and lower resolutions support
 - Steam Deck support (1280x800 - 16:10)
-- New icons for: Party Chat, Replays, Utilities Drawer, Alerts / Notifications, Shop, Loadout, Mute Players
-- Mann Co. Store overhaul
+- New icons for: Call Vote
 - Workshop menu overhaul
 - Replays menu overhaul
 - 'Mann Up' & 'Boot Camp' menus overhaul
-- Replace the 'Mann Co. Catalog' button with the Contracker & the existing Contracker button with smth else
 - Make texts in Advanced Options TanLight instead of TanDark
-- Replace the dark purple color backgrounds with images in Loadout & Shop
-- Better looking Credits menu
-- Better looking MvM mode selection
-- 'Explanations' & Save / Load saved settings are off-set
-- Remove 'Be a Coach' & 'Request Coach' buttons
-- Fix 'Queued for...' & other MMDashboard related stuff
-- Only Main Menu mode
-- Replace current logo with 'https://gamebanana.com/mods/596663'
+- Replace the backgrounds with images in Loadout
+- Better looking MvM Mode Selection
+- New VAC icon when loading into a server
+- Finish SourceScheme
+- Make the TF2 Logo and TF icons purple themed...?
+- 'Matchmaking Settings' button icon is ass cheeks, and not the good kind of ass cheeks
+- Better bastard Killfeed
 </details>
 
 # ISSUES
@@ -34,20 +32,37 @@
 <summary>Expand</summary>
 <br>
 
-- [ ] Random Music doesn't work as intended while in-game
+- [ ] Casual Preloaders & custom comfig shit might break the HUD - that's something for you to fix on your own
+- [ ] Party Member's avatar might be invisible
+- [ ] Game may crash on start up in SteamOS
+- [ ] Game randomly crashes on Linux
 - [ ] Loadout / Stats tab buttons are off-set in 4:3 & 16:10
 - [ ] Loadout / Stats tab buttons & class buttons get lower the lower resolution
-- [ ] Main Loadout page is missing ShowExplanation button
-- [ ] 'Stock Items' will be off-set in lower resolutions
-- [ ] Use 'CNavigationPanel' for class buttons in Loadout
-- [ ] Class button doesn't stay selected when clicking on it
-- [ ] Loadout Preset buttons (A - B - C - D) will be off-set in 4:3 & 16:10
-- [ ] Make the Explanation menu in Crafting a "CExplanationPopup"
-- [ ] Alerts / Notifications BG cuts off in lower resolutions
+- [ ] Main Loadout page is missing 'ShowExplanation' button
+- [ ] If possible, use 'CNavigationPanel' for class buttons in Loadout
+- [ ] Class Loadout buttons don't stay selected when clicking on it
+- [ ] Loadout Preset buttons (A - B - C - D) are off-set in 4:3 & 16:10
+- [ ] Make the Explanation menu in Crafting a 'CExplanationPopup'
 - [ ] 'Report Bugs' button missing
 - [ ] '<< Back' button doesn't have a border until you hover over it in Casual, Comp, MvM
-- [x] 'Disconnect' button is off-set in some resolutions
-- [ ] Backgrounds 'title_scream_fortress_2017' & 'title_team_jungle_inferno_2017' are missing textures in 4:3 (image)![Screenshot 2025-05-26 220652](https://github.com/user-attachments/assets/9d5dc7fa-acab-404f-989e-8433650b2bf5)
+- [ ] Friend icon in Voice Chat might be bugged
+- [ ] Ammo count cuts off when Minimal HUD is enabled (TF2 issue)
+- [ ] Scrollbar in Trading menu might be bugged
+- [ ] Matchmaking Playlist might still be visible when loading into a server
+- [ ] Red tape icon in Contracts is off-set (Mercenary Park Gift Shop)
+- [ ] 'X YEAH, DELETE IT' button & label cut off (Acquired new items)
+- [ ] Mode Selection gamemode buttons have doubled UI sounds when already queued or no connection to TF2 servers
+- [ ] "Save This Moment" panel too high ypos (freezepanel_basic.res)
+- [ ] Hard to see Respawn time
+- [ ] Scoreboard Map name in MvM is off-set
+- [ ] Confirm Dialog for Restoring items has bugged border
+- [ ] Tips are hard to read in the Loading Screen
+- [ ] In-Game Chat Filters panel is off-set
+- [ ] 'Try It Out' button tooltip in Mann Co. Store has default font & might have invisible border, or not show up at all
+- [ ] Item Pick Up Panel shows prev and next items
+- [ ] Spinning circle in TF2 logo sometimes doesn't work in-game
+- [ ] Player kills cut off in Call Vote cut if exceed 99
+- [X] Friends panel is slightly off-set
 
 </details>
 
@@ -58,8 +73,6 @@
 
 - [Eminoma / TF2C Team](https://tf2classic.com)
   - some assets (check in game credits menu)
-- [TF2 logo](https://commons.wikimedia.org/wiki/File:Team-Fortress-2-logo.png)
-- [TF2 icon](https://wiki.teamfortress.com/wiki/File:TF2_crosshair_orange.png)
 </details>
 
 # [LICENSE](https://github.com/LlamaGR1/ViviHUD?tab=License-1-ov-file)
