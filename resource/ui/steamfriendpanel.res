@@ -43,17 +43,17 @@
 		{
 			"1"
 			{
-				"font"	"ControlPointTimer"
+				"font"		"ControlPointTimer"
 			}
 
 			"2"
 			{
-				"font"	"ItemFontAttribSmall"
+				"font"		"ItemFontAttribSmall"
 			}
 
 			"3"
 			{
-				"font"	"FriendsListSmall"
+				"font"		"FriendsListSmall"
 			}
 		}
 	}

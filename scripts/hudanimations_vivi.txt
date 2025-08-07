@@ -1,3 +1,7 @@
+event CompetitiveGame_LowerChatWindow {}
+event CompetitiveGame_RestoreChatWindow {}
+event HudTournament_MoveChatWindow {}
+
 event HudHealthBonusPulse
 {
 	Animate		PlayerStatusHealthValueMinMode		fgcolor		"69 190 150 255"	Linear	0.0	0.2

@@ -283,7 +283,7 @@
 			"tall"			"10"
 			"proportionaltoparent"	"1"
 			"labeltext"		"******************"
-			"font"			"QuestFlavorText"
+			"font"			"QuestMap_Small"
 			"fgcolor"		"Black"
 		//	"bgcolor_override"	"255 0 0 100"
 		}
@@ -298,7 +298,7 @@
 			"tall"			"40"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#Vivi_Blu"
-			"font"			"QuestFlavorText" // QuestStickyText
+			"font"			"QuestMap_Small" // QuestStickyText
 			"textalignment"	"north"
 			"fgcolor"		"Black"
 		//	"bgcolor_override"	"255 0 0 100"
@@ -315,7 +315,7 @@
 			"tall"			"10"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#Vivi_Mercs"
-			"font"			"QuestFlavorText"
+			"font"			"QuestMap_Small"
 			"textalignment"	"center"
 			"fgcolor"		"Black"
 		//	"bgcolor_override"	"255 0 0 100"
@@ -442,7 +442,7 @@
 			"tall"			"10"
 			"proportionaltoparent"	"1"
 			"labeltext"		"******************"
-			"font"			"QuestFlavorText"
+			"font"			"QuestMap_Small"
 			"fgcolor"		"Black"
 		//	"bgcolor_override"	"255 0 0 100"
 		}
@@ -457,7 +457,7 @@
 			"tall"			"40"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#Vivi_Red"
-			"font"			"QuestFlavorText"
+			"font"			"QuestMap_Small"
 			"textalignment"	"north"
 			"fgcolor"		"Black"
 		//	"bgcolor_override"	"255 0 0 100"
@@ -474,7 +474,7 @@
 			"tall"			"10"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#Vivi_Mercs"
-			"font"			"QuestFlavorText"
+			"font"			"QuestMap_Small"
 			"textalignment"	"center"
 			"fgcolor"		"Black"
 		//	"bgcolor_override"	"255 0 0 100"

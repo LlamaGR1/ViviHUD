@@ -1,18 +1,11 @@
 "mapselection"
 {
-	"MapImagePanel" // suicide to whoever implemented the images, they have like 2 pixels at the bottom for any fucking reason
+	"MapImagePanel"
 	{
 		"controlname"	"ImagePanel"
-	//	"xpos"			"10"
-	//	"zpos"			"0"
 		"wide"			"330"
 		"tall"			"330"
-	//	"visible"		"1"
-	//	"tileimage"		"0"
 		"scaleimage"	"1"
-	//	"border"		"ButtonBorder"
-	//	"paintbackgroundtype"	"2"
-	//	"paintbackground"	"1"
 	}
 
 	"PrevButton" // ok
@@ -25,8 +18,8 @@
 		"tall"			"43"
 		"proportionaltoparent"	"1"
 		"labeltext"		"<"
-		"textalignment"	"center"
 		"font"			"HudFontSmallBold"
+		"textalignment"	"center"
 		"command"		"goprev"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -51,8 +44,8 @@
 		"tall"			"43"
 		"proportionaltoparent"	"1"
 		"labeltext"		">"
-		"textalignment"	"center"
 		"font"			"HudFontSmallBold"
+		"textalignment"	"center"
 		"command"		"gonext"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -78,6 +71,46 @@
 		"border"		"QuickplayBorder"
 	}
 
+	"CurPageLabel"
+	{
+		"controlname"	"CExLabel"
+		"xpos"			"85"
+		"ypos"			"151"
+		"zpos"			"3"
+		"wide"			"40"
+		"tall"			"40"
+		"labeltext"		"%curpage%"
+		"font"			"HudFontSmallBold"
+		"textalignment"	"center"
+		"fgcolor"		"LightRed"
+	}
+
+	"MapNameLabel"
+	{
+		"controlname"	"CExLabel"
+		"ypos"			"150"
+		"zpos"			"3"
+		"wide"			"500"
+		"tall"			"40"
+		"labeltext"		"%mapname%"
+		"font"			"HudFontMediumBold"
+		"textalignment"	"center"
+	}
+
+	"MapNameLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"xpos"			"1"
+		"ypos"			"151"
+		"zpos"			"2"
+		"wide"			"500"
+		"tall"			"40"
+		"labeltext"		"%mapname%"
+		"font"			"HudFontMediumBold"
+		"textalignment"	"center"
+		"fgcolor"		"Black"
+	}
+
 	"GradientPanel"
 	{
 		"controlname"	"ImagePanel"
@@ -92,34 +125,7 @@
 		"image"			"training/gradient_black"
 	}
 
-	"MapNameLabel" // ass
-	{
-		"controlname"	"CExLabel"
-		"font"			"HudFontMediumBold"
-		"labeltext"		"%mapname%"
-		"textalignment"	"center"
-		"ypos"			"150"
-		"zpos"			"3"
-		"wide"			"500"
-		"tall"			"40"
-	}
-
-	"CurPageLabel" // ass color
-	{
-		"controlname"	"CExLabel"
-		"font"			"HudFontSmallBold"
-		"labeltext"		"%curpage%"
-		"textalignment"	"center"
-		"xpos"			"85"
-		"ypos"			"160"
-		"zpos"			"101"
-		"wide"			"40"
-		"tall"			"20"
-		"fgcolor"		"LightRed"
-//		"paintbackgroundtype"	"2"
-	}
-
-	"StartOfflinePracticeButton" // ok
+	"StartOfflinePracticeButton"
 	{
 		"controlname"	"CExButton"
 		"xpos"			"cs-0.5"
@@ -128,8 +134,8 @@
 		"tall"			"30"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_StartPractice"
-		"textalignment"	"center"
 		"font"			"HudFontSmallBold"
+		"textalignment"	"center"
 		"command"		"startofflinepractice"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -144,46 +150,42 @@
 		"selectedfgcolor_override"	"Black"
 	}
 
-	"DifficultyLabel" // ok
+	"DifficultyLabel"
 	{
 		"controlname"	"CExLabel"
-		"font"			"HudFontSmallest"
-		"labeltext"		"#TF_Bot_Difficulty"
 		"xpos"			"174"
 		"ypos"			"200"
 		"wide"			"62"
 		"tall"			"20"
-	//	"bgcolor_override"	"246 0 0 30"
+		"labeltext"		"#TF_Bot_Difficulty"
+		"font"			"HudFontSmallest"
 	}
 
-	"DifficultyComboBox" // does it work? 		- yes
+	"DifficultyComboBox"
 	{
 		"controlname"	"ComboBox"
-		"font"			"HudFontSmallestBold"
 		"xpos"			"237"
 		"ypos"			"200"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"20"
+		"font"			"HudFontSmallestBold"
 		"editable"		"0"
 		"border_override"	"ViviButtonOne"
 
-		"fgcolor_override"				"235 226 202 255"
-		"bgcolor_override"				"0 0 0 0"
-		"selectionColor_override"		"0 0 0 0"
-		"selectionTextColor_override"	"235 226 202 255"
+		"fgcolor_override"			"TanLight"
+		"selectionColor_override"	"Blank"
 	}
 
-	"PlayersLabel" // ok
+	"PlayersLabel"
 	{
 		"controlname"	"CExLabel"
-		"font"			"HudFontSmallest"
-		"labeltext"		"#IT_BotAddition_Title"
 		"xpos"			"174"
 		"ypos"			"233"
 		"wide"			"30"
 		"tall"			"20"
-	//	"bgcolor_override"	"246 0 0 30"
+		"labeltext"		"#IT_BotAddition_Title"
+		"font"			"HudFontSmallest"
 	}
 
 	"NumPlayersTextBG"
@@ -233,13 +235,12 @@
 	"SuggestedPlayerCountLabel"
 	{
 		"controlname"	"CExLabel"
-		"font"			"HudFontSmallest"
-		"textalignment"	"east"
 		"xpos"			"241"
 		"ypos"			"233"
 		"zpos"			"2"
 		"wide"			"86"
 		"tall"			"20"
-	//	"bgcolor_override"	"255 105 255 50" // 116 105 92 255				tandark
+		"font"			"HudFontSmallest"
+		"textalignment"	"east"
 	}
 }

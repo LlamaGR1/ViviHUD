@@ -241,10 +241,8 @@
 		"editable"		"0"
 		"border_override"	"ViviButtonOne"
 
-		"fgcolor_override"				"235 226 202 255"
-		"bgcolor_override"				"0 0 0 0"
-		"selectionColor_override"		"0 0 0 0"
-		"selectionTextColor_override"	"235 226 202 255"
+		"fgcolor_override"			"TanLight"
+		"selectionColor_override"	"Blank"
 	}
 
 	"ShowExplanationsButton"
@@ -352,10 +350,8 @@
 		"editable"		"0"
 		"border_override"	"ViviButtonOne"
 
-		"fgcolor_override"				"235 226 202 255"
-		"bgcolor_override"				"0 0 0 0"
-		"selectionColor_override"		"0 0 0 0"
-		"selectionTextColor_override"	"235 226 202 255"
+		"fgcolor_override"			"TanLight"
+		"selectionColor_override"	"Blank"
 	}
 
 	"CancelApplyToolButton"

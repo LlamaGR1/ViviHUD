@@ -1,5 +1,32 @@
 "gamemenu"
 {
+	// "TFLogoCircle"
+	// {
+	// 	"label"			""
+	// 	"command"		"0"
+	// //	"OnlyAtMenu"	"1"
+	// 	"OnlyInGame"	"1"
+	// }
+
+	// "TFLogoCircle2"
+	// {
+	// 	"label"			""
+	// 	"command"		"0"
+	// 	"OnlyAtMenu"	"1"
+	// //	"OnlyInGame"	"1"
+	// }
+
+
+
+	"ExplanationTooltipPanel"
+	{
+		"label"			"?"
+		"tooltip"		"#Vivi_Utilities_225"
+		"command"		"0"
+	}
+
+
+
 	"StartPlayingButton"
 	{
 		"label"			"#MMenu_StartPlaying"
@@ -117,7 +144,7 @@
 
 	"ConsoleButton"
 	{
-		"label"			">_"
+		"label"			""
 		"tooltip"		"#Vivi_Console"
 		"command"		"engine toggleconsole"
 	}
@@ -210,7 +237,7 @@
 		"command"		"engine next_map_vote 2"
 	}
 
-	"AdvReloadHudButton"
+	"AdvReloadHUDButton"
 	{
 		"label"			""
 		"tooltip"		"#Vivi_Utilities_3"

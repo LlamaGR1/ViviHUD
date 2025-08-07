@@ -831,7 +831,7 @@
 		"ypos"			"275"
 		"wide"			"320"
 		"tall"			"120"
-		"PaintBackgroundType"	"2"
+	//	"PaintBackgroundType"	"2"
 	}
 
 	"HudMenuEngyBuild"

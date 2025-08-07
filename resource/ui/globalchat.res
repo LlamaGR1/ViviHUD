@@ -13,7 +13,6 @@
 			"controlname"	"EditablePanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"7"
-			"zpos"			"1"
 			"wide"			"101"
 			"tall"			"16"
 			"proportionaltoparent"	"1"
@@ -35,7 +34,6 @@
 			"controlname"	"CSteamFriendsListPanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"28"
-			"zpos"			"2"
 			"wide"			"101"
 			"tall"			"100"
 			"proportionaltoparent"	"1"
@@ -55,7 +53,7 @@
 
 			"ScrollBar"
 			{
-				"controlname"	"ScrollBar"
+			//	"controlname"	"ScrollBar"
 				"xpos"			"rs1" // rs1-1
 				"zpos"			"1069"
 				"wide"			"4"
@@ -74,7 +72,6 @@
 			"controlname"	"EditablePanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"133"
-			"zpos"			"1"
 			"wide"			"101"
 			"tall"			"24"
 			"proportionaltoparent"	"1"
@@ -85,7 +82,7 @@
 		{
 			"controlname"	"CDashboardPartyMember"
 			"xpos"			"3"
-			"zpos"			"3"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"16"
 			"proportionaltoparent"	"1"
@@ -101,7 +98,7 @@
 		{
 			"controlname"	"CDashboardPartyMember"
 			"xpos"			"3"
-			"zpos"			"3"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"16"
 			"proportionaltoparent"	"1"
@@ -118,7 +115,7 @@
 			"controlname"	"CDashboardPartyMember"
 			"xpos"			"cs-0.5"
 			"ypos"			"137"
-			"zpos"			"3"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"16"
 			"proportionaltoparent"	"1"
@@ -130,7 +127,7 @@
 		{
 			"controlname"	"CDashboardPartyMember"
 			"xpos"			"3"
-			"zpos"			"3"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"16"
 			"proportionaltoparent"	"1"
@@ -146,7 +143,7 @@
 		{
 			"controlname"	"CDashboardPartyMember"
 			"xpos"			"3"
-			"zpos"			"3"
+			"zpos"			"1"
 			"wide"			"o1"
 			"tall"			"16"
 			"proportionaltoparent"	"1"
@@ -183,26 +180,19 @@
 	"chatlog"
 	{
 		"xpos"			"cs-0.5"
-		"ypos"			"165"
+		"ypos"			"191"
 		"zpos"			"1"
-		"wide"			"f4"
+		"wide"			"101"
 		"proportionaltoparent"	"1"
-		"border"		"QuickplayBorder"
+		"paintbackground"	"0"
 
 		"ScrollBar"
 		{
 			"xpos"			"rs1"
-		//	"tall"			"f0"
 			"wide"			"4"		//		3
 			"zpos"			"1069"
-		//	"visible"		"0"
 			"nobuttons"		"1"
 			"proportionaltoparent"	"1"
-
-		//	"Slider"
-		//	{
-		//		"fgcolor_override"	"57 52 47 255"
-		//	}
 
 			"UpButton"
 			{
@@ -216,33 +206,94 @@
 		}
 	}
 
+
+
+	"hoe"
+	{
+		"controlname"	"EditablePanel"
+		"ypos"			"163"
+		"wide"			"f0"
+		"tall"			"118"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"Blank"
+		"border"	"MainMenuBGBorder"
+
+		"TopPanel2"
+		{
+			"controlname"	"EditablePanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"7"
+			"zpos"			"13"
+			"wide"			"101"
+			"tall"			"16"
+			"proportionaltoparent"	"1"
+			"border"		"ViviPurpleBG"
+			
+			"Label"
+			{
+				"controlname"	"Label"
+				"font"			"HudFontSmallestBold"
+				"labeltext"		"#MMenu_MOTD_Show"
+				"textalignment"	"center"
+				"wide"			"101"
+				"tall"			"16"
+			}
+		}
+
+		"chatlogbackground"
+		{
+			"controlname"	"Panel"
+			"xpos"			"cs-0.5"
+			"ypos"			"28"
+			"zpos"			"11"
+			"wide"			"101"
+			"tall"			"83"		//		62
+			"proportionaltoparent"	"1"
+			"border"		"ViviBlackBG"
+
+		//	"pinCorner"	"3"
+		}
+
+		"Divider"
+		{
+			"controlname"	"Panel"
+			"xpos"			"cs-0.5"
+			"ypos"			"100"
+			"wide"			"101"
+			"tall"			"1"
+			"proportionaltoparent"	"1"
+			"border"	"ViviMessagesDivider"
+		}
+	}
+
 	"EntryShadow"
 	{
 		"controlname"	"Panel"
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1"
-		"wide"			"f4"
-		"tall"			"15"
+		"ypos"			"261"		//		258
+		"wide"			"101"
+		"tall"			"16"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 250"
-		"border"		"QuickplayBorder"
+	//	"border"		"ViviBlackBG"
 
-		"pinCorner"	"3"
+	//	"pinCorner"	"3"
 	}
 
 	"chatentry"
 	{
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"wide"			"f9"
-		"tall"			"13"
-		"proportionaltoparent"	"1"
-		"font"			"ScoreboardSmall"
+	//	"xpos"			"-1"
+	//	"ypos"			"-1"
+		"wide"			"101" // f9
+		"tall"			"16" // 16
+	//	"proportionaltoparent"	"1"
+		"font"			"ItemFontAttribSmall"
 
 		"fgcolor_override"				"TanLight"
 		"selectionColor_override"		"140 42 43 255"
 		"selectionTextColor_override"	"Black"
 
 		"pin_to_sibling"	"EntryShadow"
+	//	"pin_corner_to_sibling" "2"
+	//	"pin_to_sibling_corner" "3"
 	}
 }

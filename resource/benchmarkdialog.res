@@ -22,61 +22,63 @@
 		"tall"			"145"
 	//	"bgcolor_override"	"36 33 32 255"
 
-		"1"
-		{
-			"controlname"	"URLLabel"
-			"auto_wide_tocontents"	"1"
-			"tall"			"20"
-			"visible"		"0"
-			"labeltext"		"#Vivi_Credits_1"
-			"URLText"		"https://zenless.hoyoverse.com"
-			"tooltiptext"	"#Vivi_Link_1"
-		}
+		// "1"
+		// {
+		// 	"controlname"	"URLLabel"
+		// 	"auto_wide_tocontents"	"1"
+		// 	"tall"			"20"
+		// 	"labeltext"		"#Vivi_Credits_1"
+		// 	"URLText"		"https://zenless.hoyoverse.com"
+		// 	"tooltiptext"	"#Vivi_Link_1"
+		// }
+
+		// "1LinkIcon"
+		// {
+		// 	"controlname"	"Label"
+		// 	"xpos"			"5"
+		// 	"wide"			"9"
+		// 	"tall"			"9"
+		// 	"labeltext"		"9"
+		// 	"font"			"MarlettSmallest"
+
+		// 	"pin_to_sibling" "1"
+		// 	"pin_corner_to_sibling" "7"
+		// 	"pin_to_sibling_corner" "5"
+		// }
 
 		"temp1"
 		{
 			"controlname"	"URLLabel"
+		//	"ypos"			"20"
 			"auto_wide_tocontents"	"1"
 			"tall"			"20"
-			"labeltext"		"HUD Based On" //  ⭧
+			"labeltext"		"HUD Based On"
 			"URLText"		"https://gamebanana.com/wips/58201"
-			"tooltiptext"	"#Vivi_Link_5"
+			"tooltiptext"	"#Vivi_Link_4"
 		}
 
-		"VivianImage33"
+		"temp1LinkIcon"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"Label"
 			"xpos"			"5"
 			"wide"			"9"
 			"tall"			"9"
-			"drawcolor"		"TanLight"
-			"scaleimage"	"1"
-			"image"			"replay/thumbnails/icons/icon_link"
+			"labeltext"		"9"
+			"font"			"MarlettSmallest"
 
 			"pin_to_sibling" "temp1"
 			"pin_corner_to_sibling" "7"
 			"pin_to_sibling_corner" "5"
 		}
-
-	//	"2"
-	//	{
-	//		"controlname"	"URLLabel"
-	//		"ypos"			"20"
-	//		"auto_wide_tocontents"	"1"
-	//		"tall"			"20"
-	//		"labeltext"		"#Vivi_Credits_2"
-	//		"URLText"		"https://www.steamgriddb.com/logo/41990"
-	//		"tooltiptext"	"#Vivi_Link_2"
-	//	}
 	}
 
 	"Divider"
 	{
-		"controlname"	"EditablePanel"
+		"controlname"	"Panel"
 		"xpos"			"cs-0.5"
 		"ypos"			"40"
 		"wide"			"1"
-		"tall"			"100"
+		"tall"			"85"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"117 107 94 69"
 	}
@@ -93,19 +95,19 @@
 		"TF2CTeam"
 		{
 			"controlname"	"Label"
-			"wide"			"100"
-			"tall"			"35"
-			"labeltext"		"#Vivi_Credits_3"
+			"wide"			"180"
+			"tall"			"20"
+			"labeltext"		"Eminoma - TF2C Team"
 			"wrap"			"1"
 		}
 
 		"1"
 		{
 			"controlname"	"Label"
-			"ypos"			"40"
+			"ypos"			"25"
 			"auto_wide_tocontents"	"1"
 			"tall"			"15"
-			"labeltext"		"#Vivi_Credits_4"
+			"labeltext"		"- some borders"
 			"font"			"DefaultSmall"
 			"dulltext"		"1"
 		}
@@ -113,7 +115,7 @@
 		"2"
 		{
 			"controlname"	"Label"
-			"ypos"			"55"
+			"ypos"			"40"
 			"auto_wide_tocontents"	"1"
 			"tall"			"15"
 			"labeltext"		"- toolbox.vtf"
@@ -124,7 +126,7 @@
 		"3"
 		{
 			"controlname"	"Label"
-			"ypos"			"70"
+			"ypos"			"55"
 			"auto_wide_tocontents"	"1"
 			"tall"			"15"
 			"labeltext"		"- team_class_bg.vtf"
@@ -135,7 +137,7 @@
 		"4"
 		{
 			"controlname"	"Label"
-			"ypos"			"85"
+			"ypos"			"70"
 			"auto_wide_tocontents"	"1"
 			"tall"			"15"
 			"labeltext"		"- message.wav"
@@ -166,19 +168,19 @@
 		"tall"			"20"
 		"labeltext"		"#Vivi_Page_1"
 		"URLText"		"https://github.com/LlamaGR1/ViviHUD"
-		"tooltiptext"	"#Vivi_Link_3"
+		"tooltiptext"	"#Vivi_Link_2"
 		"fgcolor_override"	"111 104 196 255"
 	}
 
-	"VivianImage333"
+	"GitHubLinkIcon"
 	{
-		"controlname"	"ImagePanel"
+		"controlname"	"Label"
 		"xpos"			"5"
 		"wide"			"9"
 		"tall"			"9"
-		"drawcolor"		"111 104 196 255"
-		"scaleimage"	"1"
-		"image"			"replay/thumbnails/icons/icon_link"
+		"labeltext"		"9"
+		"font"			"MarlettSmallest"
+		"fgcolor_override"	"111 104 196 255"
 
 		"pin_to_sibling" "GitHubLink"
 		"pin_corner_to_sibling" "7"
@@ -194,19 +196,19 @@
 		"tall"			"20"
 		"labeltext"		"#Vivi_Page_2"
 		"URLText"		"https://tf2huds.dev/hud/ViviHUD"
-		"tooltiptext"	"#Vivi_Link_4"
+		"tooltiptext"	"#Vivi_Link_3"
 		"fgcolor_override"	"111 104 196 255"
 	}
 
-	"VivianImage343"
+	"TF2HUDsLinkIcon"
 	{
-		"controlname"	"ImagePanel"
+		"controlname"	"Label"
 		"xpos"			"5"
 		"wide"			"9"
 		"tall"			"9"
-		"drawcolor"		"111 104 196 255"
-		"scaleimage"	"1"
-		"image"			"replay/thumbnails/icons/icon_link"
+		"labeltext"		"9"
+		"font"			"MarlettSmallest"
+		"fgcolor_override"	"111 104 196 255"
 
 		"pin_to_sibling" "TF2HUDsLink"
 		"pin_corner_to_sibling" "7"
@@ -222,26 +224,26 @@
 		"tall"			"20"
 		"labeltext"		"#Vivi_Page_3"
 		"URLText"		"https://gamebanana.com/mods/596766"
-		"tooltiptext"	"#Vivi_Link_5"
+		"tooltiptext"	"#Vivi_Link_4"
 		"fgcolor_override"	"111 104 196 255"
 	}
 
-	"VivianImag11e33"
+	"GameBananaLinkIcon"
 	{
-		"controlname"	"ImagePanel"
+		"controlname"	"Label"
 		"xpos"			"5"
 		"wide"			"9"
 		"tall"			"9"
-		"drawcolor"		"111 104 196 255"
-		"scaleimage"	"1"
-		"image"			"replay/thumbnails/icons/icon_link"
+		"labeltext"		"9"
+		"font"			"MarlettSmallest"
+		"fgcolor_override"	"111 104 196 255"
 
 		"pin_to_sibling" "GameBananaLink"
 		"pin_corner_to_sibling" "7"
 		"pin_to_sibling_corner" "5"
 	}
 
-	"45454"
+	"VivianBGsButton"
 	{
 		"controlname"	"Button"
 		"xpos"			"318"
@@ -249,7 +251,7 @@
 		"wide"			"89"
 		"tall"			"25"
 		"visible"		"0"
-		"labeltext"		"#Vivi_Credits_5"
+		"labeltext"		"#Vivi_Credits_2"
 		"command"		"engine bug"
 		"actionsignallevel"	"2"
 	}

@@ -685,7 +685,7 @@
 		"end_wide"		"300"
 		"end_tall"		"195"
 		"callout_inparents_x"	"c0"
-		"callout_inparents_y"	"3"
+		"callout_inparents_y"	"1"
 		"next_explanation"		"PurchaseExplanation"
 
 		"TitleLabel"
@@ -829,7 +829,7 @@
 		"end_wide"		"300"
 		"end_tall"		"140"
 		"callout_inparents_x"	"c-13"
-		"callout_inparents_y"	"173"
+		"callout_inparents_y"	"172"
 		"next_explanation"		"SortExplanation"
 
 		"TitleLabel"

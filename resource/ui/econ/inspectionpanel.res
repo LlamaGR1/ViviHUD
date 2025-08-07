@@ -186,9 +186,8 @@
 			"editable"		"0"
 			"border_override"	"ViviButtonOne"
 
-			"fgcolor_override"				"TanLight"
-			"selectionColor_override"		"Blank"
-			"selectionTextColor_override"	"TanLight"
+			"fgcolor_override"			"TanLight"
+			"selectionColor_override"	"Blank"
 
 			"fixed_paintkit"
 			{
@@ -229,9 +228,8 @@
 			"editable"		"0"
 			"border_override"	"ViviButtonOne"
 
-			"fgcolor_override"				"TanLight"
-			"selectionColor_override"		"Blank"
-			"selectionTextColor_override"	"TanLight"
+			"fgcolor_override"			"TanLight"
+			"selectionColor_override"	"Blank"
 
 			"fixed_paintkit"
 			{

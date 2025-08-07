@@ -11,7 +11,7 @@ Scheme
 		"TransparentBlack"				"0 0 0 169" // 196
 		"TanLight"						"235 226 202 255"
 		"TanDark"						"117 107 94 255"
-		"Red"							"145 73 59 255"
+		"TFOrange"							"145 73 59 255"
 		"Gray"							"178 178 178 255"
 		"Blank"							"0 0 0 0"
 
@@ -28,31 +28,35 @@ Scheme
 		Border.Dark						"0 0 0 0"			//	0 0 0 90				the dark/unlit side of a control
 		Border.Selection				"Blank"				//							the additional border color for displaying the default/selected button
 
-		PropertySheet.TextColor					"TransparentBlack"
-		PropertySheet.SelectedTextColor			"TanLight"
-		PropertySheet.TransitionEffectTime		"0.25"	// 0.25
+		PropertySheet.TextColor				"TransparentBlack"
+		PropertySheet.SelectedTextColor		"TanLight"
+		PropertySheet.TransitionEffectTime	"0.25"	// 0.25
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark" // TanLight
+		Button.BgColor					"TanDark"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"Red"
-		Button.DepressedTextColor		"Black" // Black
-		Button.DepressedBgColor			"Red"	// TanDark
-		Button.FocusBorderColor			"will_fix_later" // idk
+		Button.ArmedBgColor				"TFOrange"
+		Button.DepressedTextColor		"Black"
+		Button.DepressedBgColor			"TFOrange"
+		Button.SelectedTextColor		"Black"
+		Button.SelectedBgColor			"TFOrange"
+
+//		Button.FocusBorderColor			"will_fix_later" // idk
 
 		CheckButton.TextColor			"TanLight"
 		CheckButton.SelectedTextColor	"TanLight"
 		CheckButton.BgColor				"TransparentBlack"
 		CheckButton.Border1				"TanLight"
+		CheckButton.Border2				"Blank"
 		CheckButton.Check				"TanLight"
-		CheckButton.HighlightFgColor	"Red"
+		CheckButton.HighlightFgColor	"TFOrange"
 		CheckButton.DisabledFgColor		"TanDark"
 		CheckButton.DisabledBgColor		"TransparentBlack"
 
-		ToggleButton.SelectedTextColor	"Red"
+		ToggleButton.SelectedTextColor	"TFOrange"
 
 		ComboBoxButton.ArrowColor		"TanLight"
-		ComboBoxButton.ArmedArrowColor	"Red"
+		ComboBoxButton.ArmedArrowColor	"TFOrange"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -85,8 +89,8 @@ Scheme
 
 		ListPanel.TextColor					"TanLight"
 		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedBgColor			"Red"
-		ListPanel.SelectedOutOfFocusBgColor	"Red"
+		ListPanel.SelectedBgColor			"TFOrange"
+		ListPanel.SelectedOutOfFocusBgColor	"TFOrange"
 
 		MainMenu.TextColor				"will_fix_later" // idk
 		MainMenu.ArmedTextColor			"will_fix_later" // idk
@@ -100,14 +104,14 @@ Scheme
 		Menu.TextColor					"TanLight"
 		Menu.BgColor					"Black"
 		Menu.ArmedFgColor				"will_fix_later" // idk
-		Menu.ArmedBgColor				"Red"
+		Menu.ArmedBgColor				"TFOrange"
 		Menu.DividerColor				"will_fix_later" // idk
 
 		ScrollBarButton.FgColor				"Gray" // Gray
 		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"Red" // Red
+		ScrollBarButton.ArmedFgColor		"TFOrange" // TFOrange
 		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"Red" // Red
+		ScrollBarButton.DepressedFgColor	"TFOrange" // TFOrange
 		ScrollBarButton.DepressedBgColor	"Blank"
 
 		ScrollBarSlider.BgColor			"Blank"		// this isn't really used
@@ -120,26 +124,26 @@ Scheme
 		SectionedListPanel.BrightTextColor	"TanLight"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"TanLight"
-		SectionedListPanel.SelectedBgColor				"Red"
+		SectionedListPanel.SelectedBgColor				"TFOrange"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"TanLight"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"Red"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"TFOrange"
 
-		Slider.NobColor					"Red"		// Red
+		Slider.NobColor					"TFOrange"		// TFOrange
 		Slider.TextColor				"TanLight"
 		Slider.TrackColor				"TransparentBlack" // TanLight
 		Slider.DisabledTextColor1		"TanDark"
         Slider.DisabledTextColor2		"Blank"
 
-		RichText.SelectedBgColor		"Red"
+		RichText.SelectedBgColor		"TFOrange"
 
 		TextEntry.TextColor				"TanLight"
 		TextEntry.BgColor				"TransparentBlack"
-		TextEntry.CursorColor			"Red" // TanLight
+		TextEntry.CursorColor			"TFOrange" // TanLight
 		TextEntry.DisabledTextColor		"TanDark"
 		TextEntry.DisabledBgColor		"will_fix_later" // idk
 		TextEntry.SelectedTextColor		"Black"
-		TextEntry.SelectedBgColor		"Red"
-		TextEntry.OutOfFocusSelectedBgColor		"Red"
+		TextEntry.SelectedBgColor		"TFOrange"
+		TextEntry.OutOfFocusSelectedBgColor		"TFOrange"
 		TextEntry.FocusEdgeColor		"will_fix_later" // idk
 
 		Tooltip.TextColor				"TanLight"
@@ -318,10 +322,21 @@ Scheme
 			{
 				"name"		"vivian"
 				"tall"		"16"
-				"weight"	"0"
+			//	"weight"	"0"
 				"antialias" "1"
 				"symbol"	"1"
 			//	"range"		"0x0000 0x007F"
+			}
+		}
+
+		"MarlettSmallest"
+		{
+			"1"
+			{
+				"name"		"vivian"
+				"tall"		"9"
+				"antialias" "1"
+				"symbol"	"1"
 			}
 		}
 	}

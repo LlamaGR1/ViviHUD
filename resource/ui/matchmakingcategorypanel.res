@@ -52,7 +52,7 @@
 			"textinsetx"	"18"
 			"command"		"toggle_collapse"
 			"actionsignallevel"	"2"
-			"sound_armed"		"ui/item_info_mouseover.wav"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 

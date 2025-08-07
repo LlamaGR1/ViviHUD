@@ -1,8 +1,6 @@
 "UnlitGeneric"
 {
 	"$basetexture"	"vgui/button_holder_central"
-	"$vertexalpha"	1
 	"$alphatest"	1
-	"$allowAlphaToCoverage"	1
-	"$ignorez"		1
+	"$allowalphatocoverage"	1
 }

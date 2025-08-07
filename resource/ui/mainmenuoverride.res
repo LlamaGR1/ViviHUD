@@ -535,15 +535,15 @@
 
 		"TFBlogButton"
 		{
-			"controlname"	"CExImageButton"
-			"xpos"			"cs-0.5-13"
-			"ypos"			"rs1-13"
+			"controlname"	"CExButton"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-15"
 			"zpos"			"6"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"52"
+			"tall"			"16"
 			"proportionaltoparent"	"1"
-			"labeltext"		"TF2"
-			"font"			"FontStorePriceSmall"
+			"labeltext"		"#MMenu_MOTD_URL"
+			"font"			"CyclingAdSmall"
 			"textalignment"	"center"
 			"command"		"motd_viewurl"
 			"actionsignallevel"	"2"
@@ -553,97 +553,25 @@
 
 			"button_activation_type"	"2"
 
-			"border_default"	"ViviButtonCircle"
-			"border_armed"		"ViviButtonCircleArmed"
+			"border_default"	"ViviButtonOrange"
+			"border_armed"		"ViviButtonOrangeArmed"
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"Black"
-			"armedfgcolor_override"		"Black"
-
-			"image_drawcolor"	"46 43 42 255"
-			"image_armedcolor"	"46 43 42 255"
-			"subimage"
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"wide"			"0" // 9
-				"tall"			"0" // 9
-				"proportionaltoparent"	"1"
-				"scaleimage"	"1"
-				"image"			"glyph_multiplayer"
-			}
+			"armedfgcolor_override"		"HudBlack"
 		}
 
 		"TFBlogButtonShadow"
 		{
-			"controlname"	"CExLabel"
-			"xpos"			"cs-0.5-13"
+			"controlname"	"EditablePanel"
+			"xpos"			"cs-0.5"
 			"ypos"			"rs1-8"
 			"zpos"			"5"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"75"
+			"tall"			"27"
 			"proportionaltoparent"	"1"
-			"labeltext"		"n"
-			"font"			"MarlettMediumShadow"
-			"textalignment"	"center"
-			"fgcolor"		"Black"
-		}
-
-		"HUDBlogButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"cs-0.5+13"
-			"ypos"			"rs1-13"
-			"zpos"			"6"
-			"wide"			"20"
-			"tall"			"20"
-			"proportionaltoparent"	"1"
-			"labeltext"		"VIVI"
-			"font"			"FontStorePriceSmall"
-			"textalignment"	"center"
-			"command"		"url https://github.com/LlamaGR1/ViviHUD"
-			"actionsignallevel"	"1"
-			"sound_armed"		"ui/buttonrollover.wav"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-		//	"urlText"				"https://github.com/CriticalFlaw/flawhud/blob/master/resource/links.res"
-
-			"button_activation_type"	"2"
-
-			"border_default"	"ViviButtonCircle"
-			"border_armed"		"ViviButtonCircleArmed"
-			"paintbackground"	"0"
-
-			"defaultfgcolor_override"	"Black"
-			"armedfgcolor_override"		"Black"
-
-			"image_drawcolor"	"46 43 42 255"
-			"image_armedcolor"	"46 43 42 255"
-			"subimage"
-			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"wide"			"0"
-				"tall"			"0"
-				"proportionaltoparent"	"1"
-				"scaleimage"	"1"
-				"image"			"replay/thumbnails/queen/vivi"
-			}
-		}
-
-		"HUDBlogButtonShadow"
-		{
-			"controlname"	"CExLabel"
-			"xpos"			"cs-0.5+13"
-			"ypos"			"rs1-8"
-			"zpos"			"5"
-			"wide"			"25"
-			"tall"			"25"
-			"proportionaltoparent"	"1"
-			"labeltext"		"n"
-			"font"			"MarlettMediumShadow"
-			"textalignment"	"center"
-			"fgcolor"		"Black"
+			"alpha"			"100"
+			"border"		"ViviButtonShadow"
 		}
 	}
 
@@ -651,37 +579,37 @@
 
 	"HUDLabel"
 	{
-		"controlname"	"CExLabel"
-		"xpos"			"r157"
+		"controlname"	"Label"
+		"xpos"			"r176"
 		"ypos"			"6"
-		"wide"			"150"
+		"wide"			"169"
 		"tall"			"20"
-		"labeltext"		"VIVIHUD"
+		"labeltext"		"ViviHUD"
 		"font"			"HudFontMediumSmall"
 		"textalignment"	"east"
 		"fgcolor_override"	"235 226 202 69"
 	}
 
-	"TestBuildLabel"
-	{
-		"controlname"	"CExLabel"
-		"xpos"			"r357"
-		"ypos"			"r48"
-		"wide"			"350"
-		"tall"			"20"
-		"visible"		"0"
-		"labeltext"		"#Vivi_Dev_State"
-		"font"			"HudFontMediumSmall"
-		"textalignment"	"east"
-		"fgcolor_override"	"235 226 202 69"
-	}
+	// "TestBuildLabel"
+	// {
+	// 	"controlname"	"CExLabel"
+	// 	"xpos"			"r176"
+	// 	"ypos"			"r48"
+	// 	"wide"			"169"
+	// 	"tall"			"20"
+	// 	"visible"		"1"
+	// 	"labeltext"		"#TF_Quickplay_Beta"		//		Vivi_Dev_State
+	// 	"font"			"HudFontMediumSmall"
+	// 	"textalignment"	"east"
+	// 	"fgcolor_override"	"235 226 202 69"
+	// }
 
 	"VersionLabel"
 	{
-		"controlname"	"CExLabel"
-		"xpos"			"r157"
+		"controlname"	"Label"
+		"xpos"			"r176"
 		"ypos"			"r25"
-		"wide"			"150"
+		"wide"			"169"
 		"tall"			"20"
 		"labeltext"		"#Vivi_Version"
 		"font"			"HudFontMediumSmall"
@@ -736,17 +664,44 @@
 		"image"			"replay/thumbnails/misc/tf2_logo"
 	}
 
+	// "TFLogoCircle2"
+	// {
+	// 	"controlname"	"EditablePanel"
+	// 	"xpos"			"121"
+	// 	"ypos"			"55"
+	// 	"zpos"			"-68"
+	// 	"wide"			"22"
+	// 	"tall"			"22"
+
+	// 	"LogoCircle"
+	// 	{
+	// 		"controlname"	"ImagePanel"
+	// 		"wide"			"22"
+	// 		"tall"			"22"
+	// 		"drawcolor"		"39 36 36 255"
+	// 		"scaleimage"	"1"
+	// 		"image"			"glyph_multiplayer"
+	// 	}
+	// }
+
 	"TFLogoCircle"
 	{
-		"controlname"	"CTFLogoPanel"
-		"xpos"			"108"		// 107
-		"ypos"			"42"		// 42
+		"controlname"	"EditablePanel"
+		"xpos"			"108"
+		"ypos"			"42"
 		"zpos"			"-68"
-		"wide"			"47"		// 50
-		"tall"			"47"		// 50
-		"fgcolor_override"	"39 36 36 255"
-		"radius"		"11"
-		"velocity"		"30"
+		"wide"			"47"
+		"tall"			"47"
+
+		"LogoCircle"
+		{
+			"controlname"	"CTFLogoPanel"
+			"wide"			"47"
+			"tall"			"47"
+			"fgcolor_override"	"39 36 36 255"
+			"radius"		"11"
+			"velocity"		"30"
+		}
 	}
 
 	"TFCharacterImage0"		//		Remove the '0' to enable this
@@ -820,7 +775,7 @@
 		"matchgroup"	"MatchGroup_Casual_12v12"
 
 		"show_model"	"0"
-		"show_type"		"0"
+	//	"show_type"		"0"
 	}
 
 	"RankModelPanel"
@@ -840,26 +795,28 @@
 
 	"RankTooltipPanel"
 	{
-		"controlname"	"ImagePanel"
+		"controlname"	"Label"
 		"xpos"			"295"
 		"ypos"			"114"
 		"zpos"			"-66"
 		"wide"			"7"
 		"tall"			"7"
-		"drawcolor"		"86 76 70 255"
-		"scaleimage"	"1"	
-		"image"			"replay/thumbnails/icons/icon_info"
+		"labeltext"		"q"
+		"font"			"MarlettSmallest"
+		"fgcolor_override"	"86 76 70 255"
 	}
 
 	"CycleRankTypeButton"
 	{
-		"controlname"	"CExImageButton"
+		"controlname"	"Button"
 		"xpos"			"295"
 		"ypos"			"150"
 		"zpos"			"-66"
 		"wide"			"7"
 		"tall"			"7"
-		"labeltext"		""
+		"labeltext"		"s"
+		"font"			"MarlettSmallest"
+		"textalignment"	"east"
 		"command"		"open_rank_type_menu"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -869,15 +826,7 @@
 
 		"paintbackground"	"0"
 
-		"image_drawcolor"	"86 76 70 255"
-		"image_armedcolor"	"235 226 202 255"
-		"subimage"
-		{
-			"wide"			"7"
-			"tall"			"7"
-			"scaleimage"	"1"
-			"image"			"replay/thumbnails/icons/icon_rank"
-		}
+		"defaultfgcolor_override"	"86 76 70 255"
 	}
 
 	"MMDashboard"
@@ -1943,17 +1892,25 @@
 						"controlname"	"CExImageButton"
 						"wide"			"16"
 						"tall"			"16"
-						"font"			"HudFontSmallestBold"
-						"textalignment"	"center"
 						"sound_armed"		"ui/buttonrollover.wav"
 						"sound_depressed"	"ui/buttonclick.wav"
 						"sound_released"	"ui/buttonclickrelease.wav"
 
 						"paintbackground"	"0"
 
-						"armedfgcolor_override"		"TanLightDark"
-						"depressedfgcolor_override"	"169 163 146 130"
-						"selectedfgcolor_override"	"169 163 146 130"
+						"image_drawcolor"		"235 226 202 255"
+						"image_armedcolor"		"169 163 146 255"
+						"image_selectedcolor"	"169 163 146 130"
+						"subimage"
+						{
+							"xpos"			"cs-0.5"
+							"ypos"			"cs-0.5"
+							"wide"			"11"
+							"tall"			"11"
+							"proportionaltoparent"	"1"
+							"scaleimage"	"1"
+							"image"			"replay/thumbnails/icons/icon_console"
+						}
 					}
 				}
 			}
@@ -2009,7 +1966,7 @@
 						"fgcolor_override"	"TanLightDark"
 					}
 
-					"Button"
+					"ReloadHUDButton"
 					{
 						"controlname"	"CExButton"
 						"zpos"			"1"
@@ -2033,12 +1990,12 @@
 						"defaultfgcolor_override"	"Black"
 						"selectedfgcolor_override"	"Black"
 
-						"pin_to_sibling" "AdvReloadHudButton"
+						"pin_to_sibling" "AdvReloadHUDButton"
 						"pin_corner_to_sibling" "3"
 						"pin_to_sibling_corner" "2"
 					}
 
-					"AdvReloadHudButton"
+					"AdvReloadHUDButton"
 					{
 						"controlname"	"EditablePanel"
 						"xpos"			"rs1-1"
@@ -2073,8 +2030,8 @@
 							{
 								"xpos"			"cs-0.5"
 								"ypos"			"cs-0.5"
-								"wide"			"10"
-								"tall"			"10"
+								"wide"			"11"
+								"tall"			"11"
 								"proportionaltoparent"	"1"
 								"scaleimage"	"1"
 								"image"			"cyoa/cyoa_engineer_icon"
@@ -2115,7 +2072,7 @@
 						"fgcolor_override"	"TanLightDark"
 					}
 
-					"Button"
+					"ReloadSoundsButton"
 					{
 						"controlname"	"CExButton"
 						"xpos"			"rs1-1"
@@ -2295,7 +2252,7 @@
 						"fgcolor_override"	"TanLightDark"
 					}
 
-					"Button"
+					"SteamWorkshopButton"
 					{
 						"controlname"	"CExButton"
 						"xpos"			"rs1-1"
@@ -2355,7 +2312,7 @@
 						"fgcolor_override"	"TanLightDark"
 					}
 
-					"Button"
+					"MinModeButton"
 					{
 						"controlname"	"CExButton"
 						"xpos"			"rs1-1"
@@ -2415,7 +2372,7 @@
 						"fgcolor_override"	"TanLightDark"
 					}
 
-					"Button"
+					"TeamStatusButton"
 					{
 						"controlname"	"CExButton"
 						"xpos"			"rs1-1"
@@ -2475,7 +2432,7 @@
 						"fgcolor_override"	"TanLightDark"
 					}
 
-					"Button"
+					"ClearDecalsButton"
 					{
 						"controlname"	"CExButton"
 						"xpos"			"rs1-1"
@@ -2535,7 +2492,7 @@
 						"fgcolor_override"	"TanLightDark"
 					}
 
-					"Button"
+					"FixINvisPlayersButton"
 					{
 						"controlname"	"CExButton"
 						"xpos"			"rs1-1"
@@ -2563,7 +2520,7 @@
 					}
 				}
 
-				"VoteMap"
+				"MapVote"
 				{
 					"controlname"	"EditablePanel"
 					"xpos"			"2"
@@ -2578,9 +2535,40 @@
 						"xpos"			"4"
 						"ypos"			"2"
 						"wide"			"170"
+					//	"auto_wide_tocontents"	"1"
 						"tall"			"10"
 						"labeltext"		"#Vivi_Utilities_18"
 						"font"			"AdFont_ItemName"
+					}
+
+					"ExplanationTooltipPanel"
+					{
+						"controlname"	"EditablePanel"
+						"xpos"			"rs1"
+					//	"ypos"			"1"
+						"zpos"			"1"
+						"wide"			"11"
+						"tall"			"11"
+						"proportionaltoparent"	"1"
+
+			//			"pin_to_sibling" "Title"
+			//			"pin_corner_to_sibling" "7"
+			//			"pin_to_sibling_corner" "5"
+
+						"SubButton"
+						{
+							"controlname"	"CExImageButton"
+							"wide"			"11"
+							"tall"			"11"
+							"proportionaltoparent"	"1"
+							"enabled"		"0"
+							"font"			"ItemFontNameSmall"
+							"textalignment"	"center"
+
+							"paintbackground"	"0"
+
+							"disabledfgcolor2_override"	"TanLightDark"
+						}
 					}
 
 					"Description"

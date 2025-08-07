@@ -38,6 +38,7 @@
 		"tall"			"18"
 		"labeltext"		""
 		"command"		"close"
+		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -65,6 +66,7 @@
 		"tall"			"30"
 		"labeltext"		""
 		"command"		"prevexplanation"
+		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -91,6 +93,7 @@
 		"tall"			"30"
 		"labeltext"		""
 		"command"		"nextexplanation"
+		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 

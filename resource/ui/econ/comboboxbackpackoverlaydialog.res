@@ -66,11 +66,8 @@
 		"editable"		"0"
 	//	"enabled"	"0"
 
-
-
-		"fgcolor_override"				"TanLight"
-	//	"bgcolor_override"				"40 39 37 142"
-		"selectionColor_override"		"Blank"
+		"fgcolor_override"			"TanLight"
+		"selectionColor_override"	"Blank"
 
 		"pin_to_sibling" "ComboBoxBG"
 		"pin_corner_to_sibling" "2"

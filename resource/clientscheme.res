@@ -239,6 +239,7 @@ Scheme
 		CheckButton.SelectedTextColor		"TanLight"
 		CheckButton.BgColor					"Black"
 		CheckButton.Border1					"TanLight"
+		CheckButton.Border2					"Blank"
 		CheckButton.Check					"TanLight"
 		CheckButton.HighlightFgColor		"TFOrange"
 		CheckButton.DisabledFgColor			"TanDark"
@@ -1514,11 +1515,9 @@ Scheme
 			"1"
 			{
 				"name"		"vivian"
-				"tall"		"24" // 2
-				"weight"	"0"
-				"blur"		"4" // 3
+				"tall"		"24"
+				"blur"		"4"
 				"symbol"	"1"
-		//		"range"		"0x0000 0x007F"
 			}
 		}
 
@@ -1528,9 +1527,17 @@ Scheme
 			{
 				"name"		"vivian"
 				"tall"		"14"
-				"weight"	"0"
 				"symbol"	"1"
-		//		"range"		"0x0000 0x007F"
+			}
+		}
+
+		"MarlettSmallest"
+		{
+			"1"
+			{
+				"name"		"vivian"
+				"tall"		"7"
+				"symbol"	"1"
 			}
 		}
 
@@ -2558,32 +2565,32 @@ Scheme
 			"1"
 			{
 				"name"		"ocra"
-				"tall"		"7" //	10		 14		18
+				"tall"		"10"
 				"weight"	"400"
-		//		"yres"		"480 599"
+				"yres"		"480 599"
 				"additive"	"0"
 				"antialias"	"1"
 			}
 
-	//		"2"
-	//		{
-	//			"name"		"ocra"
-	//			"tall"		"14"
-	//			"weight"	"400"
-	//			"additive"	"0"
-	//			"yres"		"600 1023"
-	//			"antialias"	"1"
-	//		}
+			"2"
+			{
+				"name"		"ocra"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
 
-	//		"3"
-	//		{
-	//			"name"		"ocra"	
-	//			"tall"		"18"
-	//			"weight"	"400"
-	//			"additive"	"0"
-	//			"yres"		"1024 6000"
-	//			"antialias"	"1"
-	//		}
+			"3"
+			{
+				"name"		"ocra"
+				"tall"		"18"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
 		}
 
 		"QuestObjectiveText"
@@ -2618,7 +2625,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
+		
 		"QuestLargeText"
 		{
 			"1"
@@ -3126,7 +3133,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ocra"		
+				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -5239,21 +5246,42 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
-		ViviButtonCircle
+
+
+		ViviButtonOrange
 		{
 			"bordertype"			"scalable_image"
 			"color"					"255 124 69 255"
 
-			"image"					"circle"
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
 		}
 
-		ViviButtonCircleArmed
+		ViviButtonOrangeArmed
 		{
 			"bordertype"			"scalable_image"
 			"color"					"255 169 110 255"
 
-			"image"					"circle"
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
 		}
+
+		ViviButtonShadow
+		{
+			"bordertype"			"scalable_image"
+			"color"					"Black"
+
+			"image"					"replay/thumbnails/borders/vivi_button_shadow"
+		}
+
+
+
 
 
 		ViviFilterBG
@@ -5409,7 +5437,17 @@ Scheme
 			"draw_corner_height"	"5"
 		}
 
-
+		ViviMessagesDivider
+		{
+			"proportional_scalar"	"0.5"
+			Bottom
+			{
+				"1"
+				{
+					"color"		"79 72 64 255"
+				}
+			}
+		}
 
 
 

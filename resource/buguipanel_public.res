@@ -24,7 +24,7 @@
 			"wide"			"125"
 			"tall"			"90"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/borders/vivi_polaroid_border"
+			"image"			"polaroid_overlay"
 		}
 
 		"2"
@@ -82,7 +82,7 @@
 			"wide"			"125"
 			"tall"			"90"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/borders/vivi_polaroid_border"
+			"image"			"polaroid_overlay"
 		}
 
 		"2"
@@ -140,7 +140,7 @@
 			"wide"			"125"
 			"tall"			"90"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/borders/vivi_polaroid_border"
+			"image"			"polaroid_overlay"
 		}
 
 		"2"
@@ -198,7 +198,7 @@
 			"wide"			"125"
 			"tall"			"90"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/borders/vivi_polaroid_border"
+			"image"			"polaroid_overlay"
 		}
 
 		"2"
@@ -256,7 +256,7 @@
 			"wide"			"125"
 			"tall"			"90"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/borders/vivi_polaroid_border"
+			"image"			"polaroid_overlay"
 		}
 
 		"2"
@@ -314,7 +314,7 @@
 			"wide"			"125"
 			"tall"			"90"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/borders/vivi_polaroid_border"
+			"image"			"polaroid_overlay"
 		}
 
 		"2"
@@ -372,7 +372,7 @@
 			"wide"			"125"
 			"tall"			"90"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/borders/vivi_polaroid_border"
+			"image"			"polaroid_overlay"
 		}
 
 		"2"
@@ -430,7 +430,7 @@
 			"wide"			"125"
 			"tall"			"90"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/borders/vivi_polaroid_border"
+			"image"			"polaroid_overlay"
 		}
 
 		"2"
@@ -462,15 +462,30 @@
 		"4"
 		{
 			"controlname"	"URLLabel"
+			"xpos"			"12"
 			"ypos"			"95"
-			"wide"			"150"
+			"wide"			"115"
 			"tall"			"30"
 			"labeltext"		"#Vivi_Credits_BG_7"
 			"font"			"DefaultSmall"
 			"textalignment"	"north"
 			"centerwrap"	"1"
 			"URLText"		"https://www.hoyolab.com/article/38306235"
-			"tooltiptext"	"#Vivi_Link_6"
+			"tooltiptext"	"#Vivi_Link_5"
+		}
+
+		"4LinkIcon"
+		{
+			"controlname"	"Label"
+			"xpos"			"-12"
+			"wide"			"9"
+			"tall"			"30"
+			"labeltext"		"9"
+			"font"			"MarlettSmallest"
+
+			"pin_to_sibling" "4"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
 		}
 	}
 
@@ -490,7 +505,7 @@
 			"wide"			"125"
 			"tall"			"90"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/borders/vivi_polaroid_border"
+			"image"			"polaroid_overlay"
 		}
 
 		"2"
@@ -522,15 +537,29 @@
 		"4"
 		{
 			"controlname"	"URLLabel"
+			"xpos"			"21"
 			"ypos"			"95"
-			"wide"			"150"
-			"tall"			"30"
+			"auto_wide_tocontents"	"1"
+			"tall"			"15"
 			"labeltext"		"#Vivi_Credits_BG_8"
 			"font"			"DefaultSmall"
 			"textalignment"	"north"
-			"centerwrap"	"1"
 			"URLText"		"https://www.hoyolab.com/article/38540498"
-			"tooltiptext"	"#Vivi_Link_6"
+			"tooltiptext"	"#Vivi_Link_5"
+		}
+
+		"4LinkIcon"
+		{
+			"controlname"	"Label"
+			"xpos"			"5"
+			"wide"			"9"
+			"tall"			"30"
+			"labeltext"		"9"
+			"font"			"MarlettSmallest"
+
+			"pin_to_sibling" "4"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
 		}
 	}
 
@@ -569,7 +598,7 @@
 		"ypos"			"401"
 		"wide"			"89"
 		"tall"			"24"
-		"labeltext"		"#vgui_ok"
+		"labeltext"		"#GameUI_Close"
 		"command"		"cancel"
 	//	"sound_armed"		"ui/buttonrollover.wav"
 	//	"sound_depressed"	"ui/buttonclick.wav"

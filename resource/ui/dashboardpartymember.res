@@ -33,7 +33,7 @@
 		"wide"			"12"
 		"tall"			"12"
 		"proportionaltoparent"	"1"
-		"drawcolor"		"HudTimerProgressInActive"
+		"drawcolor"		"HealthBgGrey"
 		"scaleimage"	"1"
 		"image"			"glyph_close_x"
 		"mouseinputenabled"	"0"
@@ -128,8 +128,8 @@
 		"roundedcorners"	"0"
 
 		"defaultbgcolor_override"	"0 0 0 0"
-		"armedbgcolor_override"		"140 42 43 80"
-		"depressedbgcolor_override"	"91 27 28 80"
+		"armedbgcolor_override"		"140 42 43 100"
+		"depressedbgcolor_override"	"91 27 28 100"
 	}
 
 	"Spinner"
