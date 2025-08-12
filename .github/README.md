@@ -5,9 +5,12 @@
 ---
 
 > [!CAUTION]
-> [Download the latest version here](https://github.com/LlamaGR1/ViviHUD/archive/refs/heads/main.zip)
+> [Download the latest experimental version here (NEW In-Game HUD)](https://github.com/LlamaGR1/ViviHUD/releases/download/v3.0.0B1/vivihud_3_0_0b1.zip)
 
-# TO-DOS
+> [!CAUTION]
+> [Download the latest stable version here](https://github.com/LlamaGR1/ViviHUD/releases/download/v2.0.2/vivihud_2_0_2.zip)
+
+# TO-DOS (might be outdated)
 <details>
 <summary>Expand</summary>
 <br>
@@ -30,7 +33,7 @@
 - Better bastard Killfeed
 </details>
 
-# ISSUES
+# ISSUES (might be outdated)
 <details>
 <summary>Expand</summary>
 <br>
@@ -73,6 +76,9 @@
 <details>
 <summary>Expand</summary>
 <br>
+
+  - [HoYoverse](https://zenless.hoyoverse.com)
+    - Vivian Banshee
 
 - [Eminoma / TF2C Team](https://tf2classic.com)
   - some assets (check in game credits menu)
