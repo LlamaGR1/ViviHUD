@@ -1,0 +1,5 @@
+"unlitgeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/ingame/uber_red"
+	"$vertexalpha"	1
+}

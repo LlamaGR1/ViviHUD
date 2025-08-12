@@ -1,0 +1,5 @@
+===== Switch between backgrounds =====
+- Drag either "tf2_bgs.txt" or "vivi_bgs.txt" to the "enabled" folder, not both
+
+===== Enable character images =====
+- Drag "character_images.res" to the "enabled" folder

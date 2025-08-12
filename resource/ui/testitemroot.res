@@ -660,8 +660,6 @@
 		"SteamWorkshopButtonSubButton"
 		{
 			"controlname"	"CExImageButton"
-			"xpos"			"0"
-			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"26"
 			"labeltext"		"#MMenu_SteamWorkshop"

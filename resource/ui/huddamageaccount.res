@@ -2,6 +2,7 @@
 {
 	"CDamageAccountPanel"
 	{
+	//	"fieldname"				"CDamageAccountPanel"
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
@@ -15,14 +16,15 @@
 	"AccountValue"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"120"
-		"xpos_minmode"	"100"
-		"ypos"			"r100"
-		"ypos_minmode"	"r67"
+	//	"fieldname"		"AccountValue"
+		"xpos"			"87"
+		"ypos"			"r95"
 		"wide"			"69"
 		"tall"			"26"
 		"labeltext"		"%metal%"
-		"font"			"HudFontMedium"
+		"font"			"HudFontMediumSmall"
+		"textAlignment"	"center"
 		"fgcolor"		"255 176 0 255"
+		"bgcolor_override"	"0 255 0 0"
 	}
 }

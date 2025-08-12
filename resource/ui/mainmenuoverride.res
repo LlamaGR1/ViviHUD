@@ -1,4 +1,6 @@
-"mainmenuoverride"		//		i got so much anger in me got no way to take it out
+#base "../../#customisation/enabled/character_images.res"
+
+"mainmenuoverride"
 {
 	MainMenuOverride
 	{
@@ -14,7 +16,7 @@
 			"wide"			"250"
 			"tall"			"26"
 
-			"SubButton"
+			"subbutton"
 			{
 				"controlname"	"CExImageButton"
 				"wide"			"250"
@@ -462,8 +464,6 @@
 			"image"			"gradient_pure_black"
 
 			"pin_to_sibling" "Tags1"
-		//	"pin_corner_to_sibling" "2"
-		//	"pin_to_sibling_corner" "3"
 		}
 
 		"ViviansImage"
@@ -472,7 +472,7 @@
 			"ypos"			"5"
 			"zpos"			"4"
 			"wide"			"170"
-			"tall"			"0" // 43
+			"tall"			"43"
 			"scaleimage"	"1"
 			"image"			"replay/thumbnails/misc/vivian_album"
 
@@ -488,19 +488,19 @@
 			"ypos"			"5"
 			"zpos"			"4"
 			"wide"			"178"
-			"tall"			"111"
-			"fgcolor"		"255 0 0 255" // what is this used for
-			"fgcolor_override"	"136 136 136 255"
+			"tall"			"80"
+			"fgcolor_override"	"TanDark"
 
 			"pin_to_sibling" "ViviansImage"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "2"
 
-			"ScrollBar"
+			"VerticalScrollBar"
 			{
 				"controlname"	"ScrollBar"
 				"xpos"			"rs1"
-				"wide"			"8"
+				"zpos"			"1069"
+				"wide"			"4"
 				"tall"			"f0"
 				"proportionaltoparent"	"1"
 				"nobuttons"		"1"
@@ -523,10 +523,10 @@
 				"MOTD_TextLabel"
 				{
 					"controlname"	"CExLabel"
-					"font"			"ScoreboardSmall"
-					"labeltext"		"%motdtext%"
-					"textalignment"	"north-west"
 					"wide"			"178"
+					"labeltext"		"%motdtext%"
+					"font"			"ScoreboardSmall"
+					"textalignment"	"north-west"
 					"wrap"			"1"
 					"fgcolor"		"Black"
 				}
@@ -575,46 +575,96 @@
 		}
 	}
 
-////////////////////// START OF NEW MAIN MENU //////////////////////
-
 	"HUDLabel"
 	{
 		"controlname"	"Label"
-		"xpos"			"r176"
-		"ypos"			"6"
+		"xpos"			"r169"
+		"zpos"			"1"
 		"wide"			"169"
-		"tall"			"20"
+		"tall"			"30"
 		"labeltext"		"ViviHUD"
 		"font"			"HudFontMediumSmall"
 		"textalignment"	"east"
-		"fgcolor_override"	"235 226 202 69"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"5"
+		"fgcolor_override"	"255 244 219 69"
 	}
 
-	// "TestBuildLabel"
-	// {
-	// 	"controlname"	"CExLabel"
-	// 	"xpos"			"r176"
-	// 	"ypos"			"r48"
-	// 	"wide"			"169"
-	// 	"tall"			"20"
-	// 	"visible"		"1"
-	// 	"labeltext"		"#TF_Quickplay_Beta"		//		Vivi_Dev_State
-	// 	"font"			"HudFontMediumSmall"
-	// 	"textalignment"	"east"
-	// 	"fgcolor_override"	"235 226 202 69"
-	// }
+	"HUDLabelShadow"
+	{
+		"controlname"	"Label"
+		"xpos"			"r169"
+		"wide"			"169"
+		"tall"			"30"
+		"labeltext"		"ViviHUD"
+		"font"			"HudFontMediumSmallShadow"
+		"textalignment"	"east"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"5"
+		"fgcolor_override"	"0 0 0 255"
+	}
+
+	"TestBuildLabel"
+	{
+		"controlname"	"Label"
+		"xpos"			"r169"
+		"ypos"			"r55"
+		"zpos"			"1"
+		"wide"			"169"
+		"tall"			"30"
+		"labeltext"		"#Vivi_Dev_State"
+		"font"			"HudFontMediumSmall"
+		"textalignment"	"east"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"5"
+		"tooltiptext"	"mr snortobeat slap my ass, seduce me"
+		"fgcolor_override"	"255 244 219 69"
+	}
+
+	"TestBuildLabelShadow"
+	{
+		"controlname"	"Label"
+		"xpos"			"r169"
+		"ypos"			"r55"
+		"wide"			"169"
+		"tall"			"30"
+		"labeltext"		"#Vivi_Dev_State"
+		"font"			"HudFontMediumSmallShadow"
+		"textalignment"	"east"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"5"
+		"fgcolor_override"	"0 0 0 255"
+	}
 
 	"VersionLabel"
 	{
 		"controlname"	"Label"
-		"xpos"			"r176"
-		"ypos"			"r25"
+		"xpos"			"r169"
+		"ypos"			"r30"
+		"zpos"			"1"
 		"wide"			"169"
-		"tall"			"20"
+		"tall"			"30"
 		"labeltext"		"#Vivi_Version"
 		"font"			"HudFontMediumSmall"
 		"textalignment"	"east"
-		"fgcolor_override"	"235 226 202 69"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"5"
+		"fgcolor_override"	"255 244 219 69"
+	}
+
+	"VersionLabelShadow"
+	{
+		"controlname"	"Label"
+		"xpos"			"r169"
+		"ypos"			"r30"
+		"wide"			"169"
+		"tall"			"30"
+		"labeltext"		"#Vivi_Version"
+		"font"			"HudFontMediumSmallShadow"
+		"textalignment"	"east"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"5"
+		"fgcolor_override"	"0 0 0 255"
 	}
 
 	"Background"
@@ -661,7 +711,7 @@
 		"wide"			"274"		// 266
 		"tall"			"74"		// 67
 		"scaleimage"	"1"
-		"image"			"replay/thumbnails/misc/tf2_logo"
+		"image"			"replay/thumbnails/misc/tf2_logo_p"
 	}
 
 	// "TFLogoCircle2"
@@ -704,14 +754,16 @@
 		}
 	}
 
-	"TFCharacterImage0"		//		Remove the '0' to enable this
+	"BetaImage"
 	{
-		"xpos"			"c-250"
-		"ypos"			"-80"
-		"zpos"			"-99"
-		"wide"			"600"
-		"tall"			"600"
+		"controlname"	"ImagePanel"
+		"xpos"			"273"
+		"ypos"			"75"
+		"wide"			"50"
+		"tall"			"50"
 		"scaleimage"	"1"
+		"image"			"beta_stress"
+		"mouseinputenabled"	"0"
 	}
 
 	"MainMenuPanel"
@@ -850,7 +902,7 @@
 
 		//	"bgcolor_override"	"0 255 0 140"
 
-			"SubButton"
+			"subbutton"
 			{
 				"controlname"	"CExImageButton"
 				"wide"			"27"
@@ -895,7 +947,7 @@
 			"wide"			"250"
 			"tall"			"26"
 
-			"SubButton"
+			"subbutton"
 			{
 				"controlname"	"CExImageButton"
 				"wide"			"250"
@@ -939,7 +991,7 @@
 			"wide"			"125"
 			"tall"			"26"
 
-			"SubButton"
+			"subbutton"
 			{
 				"controlname"	"CExImageButton"
 				"wide"			"125"
@@ -983,7 +1035,7 @@
 			"wide"			"18"
 			"tall"			"18"
 
-			"SubButton"
+			"subbutton"
 			{
 				"controlname"	"CExImageButton"
 				"wide"			"18"
@@ -1021,7 +1073,7 @@
 			"wide"			"18"
 			"tall"			"18"
 
-			"SubButton"
+			"subbutton"
 			{
 				"controlname"	"CExImageButton"
 				"wide"			"18"
@@ -1042,8 +1094,8 @@
 				{
 					"xpos"			"cs-0.5"
 					"ypos"			"cs-0.5"
-					"wide"			"11"
-					"tall"			"11"
+					"wide"			"12"
+					"tall"			"12"
 					"proportionaltoparent"	"1"
 					"scaleimage"	"1"
 					"image"			"replay/thumbnails/icons/icon_utilities"
@@ -1062,7 +1114,7 @@
 			"pin_corner_to_sibling" "2"
 			"pin_to_sibling_corner" "3"
 
-			"SubButton"
+			"subbutton"
 			{
 				"controlname"	"CExImageButton"
 				"wide"			"18"
@@ -1104,7 +1156,7 @@
 			"pin_corner_to_sibling" "2"
 			"pin_to_sibling_corner" "3"
 
-			"SubButton"
+			"subbutton"
 			{
 				"controlname"	"CExImageButton"
 				"wide"			"18"
@@ -1182,9 +1234,9 @@
 		"wide"			"125"
 		"tall"			"26"
 
-	//	"navToRelay"	"SubButton" // doesnt work
+	//	"navToRelay"	"subbutton" // doesnt work
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"wide"			"125"
@@ -1269,7 +1321,7 @@
 		"pin_corner_to_sibling" "3"
 		"pin_to_sibling_corner" "2"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"wide"			"21"
@@ -1311,7 +1363,7 @@
 		"pin_corner_to_sibling" "3"
 		"pin_to_sibling_corner" "2"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"wide"			"21"
@@ -1353,7 +1405,7 @@
 		"pin_corner_to_sibling" "5"
 		"pin_to_sibling_corner" "5"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"wide"			"21"
@@ -1391,7 +1443,7 @@
 		"wide"			"250"
 		"tall"			"26"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"wide"			"250"
@@ -1442,7 +1494,7 @@
 		"pin_corner_to_sibling" "5"
 		"pin_to_sibling_corner" "5"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"wide"			"90"
@@ -1488,7 +1540,7 @@
 		"wide"			"18"
 		"tall"			"18"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"wide"			"18"
@@ -1529,7 +1581,7 @@
 		"pin_corner_to_sibling" "2"
 		"pin_to_sibling_corner" "3"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"wide"			"18"
@@ -1567,7 +1619,7 @@
 		"wide"			"18"
 		"tall"			"18"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"wide"			"18"
@@ -1608,7 +1660,7 @@
 		"pin_corner_to_sibling" "2"
 		"pin_to_sibling_corner" "3"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"wide"			"18"
@@ -1641,26 +1693,7 @@
 	"QuitButton"
 	{
 		"controlname"	"CExImageButton"
-		"xpos"			"180"
-		"ypos"			"9264"
-		"zpos"			"-951"
-		"wide"			"125"
-		"tall"			"18"
-		"labeltext"		"#Vivi_Fallback_Quit"
-		"textalignment"	"center"
-		"font"			"HudFontSmallestBold"
-		"command"		"quit"
-		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"border_selected"	"MainMenuButtonDepressed"
-		"paintbackground"	"0"
-
-		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
+		"tall"			"0"
 	}
 
 	"DisconnectButton"
@@ -1711,7 +1744,6 @@
 		"tall"			"22"
 		"labeltext"		"#GameUI_GameMenu_ExitReplay"
 		"font"			"ItemFontNameLarge"
-		"textalignment"	"center"
 		"command"		"exitreplayeditor"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -1735,7 +1767,7 @@
 		"tall"			"38"
 		"border"		"MainMenuBGBorder"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExButton"
 			"xpos"			"5"
@@ -1771,7 +1803,7 @@
 		"tall"			"38"
 		"border"		"MainMenuBGBorder"
 
-		"SubButton"
+		"subbutton"
 		{
 			"controlname"	"CExImageButton"
 			"xpos"			"5"
@@ -1852,7 +1884,7 @@
 					"tall"			"16"
 					"proportionaltoparent"	"1"
 
-					"SubButton"
+					"subbutton"
 					{
 						"controlname"	"CExImageButton"
 						"wide"			"16"
@@ -1887,7 +1919,7 @@
 					"tall"			"16"
 					"proportionaltoparent"	"1"
 
-					"SubButton"
+					"subbutton"
 					{
 						"controlname"	"CExImageButton"
 						"wide"			"16"
@@ -2005,7 +2037,7 @@
 						"tall"			"12"
 						"proportionaltoparent"	"1"
 
-						"SubButton"
+						"subbutton"
 						{
 							"controlname"	"CExImageButton"
 							"wide"			"12"
@@ -2143,7 +2175,7 @@
 						"pin_corner_to_sibling" "3"
 						"pin_to_sibling_corner" "2"
 
-						"SubButton"
+						"subbutton"
 						{
 							"controlname"	"CExImageButton"
 							"wide"			"30"
@@ -2186,7 +2218,7 @@
 						"tall"			"12"
 						"proportionaltoparent"	"1"
 
-						"SubButton"
+						"subbutton"
 						{
 							"controlname"	"CExImageButton"
 							"wide"			"30"
@@ -2287,6 +2319,7 @@
 					"ypos"			"110"
 					"wide"			"237"
 					"tall"			"25"
+					"visible"		"0"
 					"border"		"ViviPurpleBG"
 
 					"Title"
@@ -2344,7 +2377,7 @@
 				{
 					"controlname"	"EditablePanel"
 					"xpos"			"2"
-					"ypos"			"137"
+					"ypos"			"110"
 					"wide"			"237"
 					"tall"			"25"
 					"border"		"ViviPurpleBG"
@@ -2404,7 +2437,7 @@
 				{
 					"controlname"	"EditablePanel"
 					"xpos"			"2"
-					"ypos"			"164"
+					"ypos"			"137"
 					"wide"			"237"
 					"tall"			"25"
 					"border"		"ViviPurpleBG"
@@ -2464,7 +2497,7 @@
 				{
 					"controlname"	"EditablePanel"
 					"xpos"			"2"
-					"ypos"			"191"
+					"ypos"			"164"
 					"wide"			"237"
 					"tall"			"25"
 					"border"		"ViviPurpleBG"
@@ -2492,7 +2525,7 @@
 						"fgcolor_override"	"TanLightDark"
 					}
 
-					"FixINvisPlayersButton"
+					"FixInvisPlayersButton"
 					{
 						"controlname"	"CExButton"
 						"xpos"			"rs1-1"
@@ -2524,7 +2557,7 @@
 				{
 					"controlname"	"EditablePanel"
 					"xpos"			"2"
-					"ypos"			"218"
+					"ypos"			"191"
 					"wide"			"237"
 					"tall"			"25"
 					"border"		"ViviPurpleBG"
@@ -2535,7 +2568,6 @@
 						"xpos"			"4"
 						"ypos"			"2"
 						"wide"			"170"
-					//	"auto_wide_tocontents"	"1"
 						"tall"			"10"
 						"labeltext"		"#Vivi_Utilities_18"
 						"font"			"AdFont_ItemName"
@@ -2545,17 +2577,12 @@
 					{
 						"controlname"	"EditablePanel"
 						"xpos"			"rs1"
-					//	"ypos"			"1"
 						"zpos"			"1"
 						"wide"			"11"
 						"tall"			"11"
 						"proportionaltoparent"	"1"
 
-			//			"pin_to_sibling" "Title"
-			//			"pin_corner_to_sibling" "7"
-			//			"pin_to_sibling_corner" "5"
-
-						"SubButton"
+						"subbutton"
 						{
 							"controlname"	"CExImageButton"
 							"wide"			"11"
@@ -2594,7 +2621,7 @@
 						"pin_corner_to_sibling" "3"
 						"pin_to_sibling_corner" "2"
 
-						"SubButton"
+						"subbutton"
 						{
 							"controlname"	"CExImageButton"
 							"wide"			"20"
@@ -2627,7 +2654,7 @@
 						"pin_corner_to_sibling" "3"
 						"pin_to_sibling_corner" "2"
 
-						"SubButton"
+						"subbutton"
 						{
 							"controlname"	"CExImageButton"
 							"wide"			"20"
@@ -2659,7 +2686,7 @@
 						"tall"			"12"
 						"proportionaltoparent"	"1"
 
-						"SubButton"
+						"subbutton"
 						{
 							"controlname"	"CExImageButton"
 							"wide"			"20"
@@ -2720,7 +2747,7 @@
 		"wrap"			"1"
 	}
 
-	"TooltipPanel"		//		in a perfect world																																																													where the tooltip could be centered in your cursor and not on the right
+	"TooltipPanel"
 	{
 		"controlname"	"EditablePanel"
 		"zpos"			"777" // 99% of gamblers quit right before they win big
@@ -2740,13 +2767,11 @@
 
 	"DashboardDimmer"		//		after start up or adv reload hud you need to click anywhere, wide 0 & tall 0 fixes
 	{
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"wide"			"1939"
-		"tall"			"1945"
-	//	"paintbackground"	"0"
-		"defaultbgcolor_override"	"255 0 0 200"
-		"visible"	"0"
+	//	"xpos"			"-2"
+	//	"ypos"			"-2"
+	//	"wide"			"1939"
+	//	"tall"			"1945"
+		"visible"		"0"
 	}
 
 	"ChatPin"

@@ -1,0 +1,7 @@
+"unlitgeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/ingame/ammo_icon"
+	"$vertexalpha"	1
+	"$vertexcolor"	1
+	"$color"		"{46 43 42}"
+}

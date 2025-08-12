@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/ingame/health_icon2"
+	"$vertexalpha"	1
+	"$vertexcolor"	1
+}

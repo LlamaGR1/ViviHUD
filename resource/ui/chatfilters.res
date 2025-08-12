@@ -3,8 +3,8 @@
 	"HudChatFilterPanel"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"250"
-		"ypos"			"305"
+		"xpos"			"245"	//	250
+		"ypos"			"55"	//	305
 		"wide"			"110"
 		"tall"			"70"
 		"visible"		"0"

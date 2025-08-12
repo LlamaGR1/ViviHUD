@@ -172,7 +172,7 @@
 		"xpos"			"c-292"
 		"ypos"			"18"
 		"zpos"			"1"
-		"wide"			"230"
+		"wide"			"180"
 		"tall"			"15"
 
 		"auto_layout"	"1"
@@ -291,7 +291,7 @@
 	"SubcategoryFiltersLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"c-82"
+		"xpos"			"c-58"
 		"wide"			"105"
 		"tall"			"22"
 		"labeltext"		"#Store_ItemTypeFilterLabel"
@@ -301,7 +301,7 @@
 	"SubcategoryFilterComboBox"
 	{
 		"controlname"	"ComboBox"
-		"xpos"			"c-82"
+		"xpos"			"c-58"
 		"ypos"			"18"
 		"zpos"			"1"
 		"wide"			"105"
@@ -324,7 +324,7 @@
 	"SortFilterLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"c39"
+		"xpos"			"c55"
 		"wide"			"105"
 		"tall"			"22"
 		"labeltext"		"#Store_SortByLabel"
@@ -334,7 +334,7 @@
 	"SortFilterComboBox"
 	{
 		"controlname"	"ComboBox"
-		"xpos"			"c39"
+		"xpos"			"c55"
 		"ypos"			"18"
 		"zpos"			"1"
 		"wide"			"105"
@@ -357,7 +357,7 @@
 	"NameFilterLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"c160"
+		"xpos"			"c168"
 		"wide"			"105"
 		"tall"			"22"
 		"labeltext"		"#Store_NameFilterLabel"
@@ -367,7 +367,7 @@
 	"NameFilterTextBG"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"c160"
+		"xpos"			"c168"
 		"ypos"			"18"
 		"wide"			"105"
 		"tall"			"15"
@@ -609,6 +609,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -653,6 +654,7 @@
 			"font"			"HudFontSmallBold"
 			"textalignment"	"center"
 			"command"		"nextexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -726,6 +728,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -754,6 +757,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"prevexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -797,6 +801,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"nextexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -870,6 +875,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -898,6 +904,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"prevexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -941,6 +948,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"nextexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -972,7 +980,7 @@
 		"end_y"			"100"
 		"end_wide"		"300"
 		"end_tall"		"125"
-		"callout_inparents_x"	"c+102"
+		"callout_inparents_x"	"c+107"
 		"callout_inparents_y"	"35"
 		"next_explanation"		"CartStatusExplanation"
 
@@ -1014,6 +1022,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1042,6 +1051,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"prevexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1085,6 +1095,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"nextexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1118,7 +1129,6 @@
 		"end_tall"		"170"
 		"callout_inparents_x"	"c-242"
 		"callout_inparents_y"	"319"
-	//	"next_explanation"		"HelpExplanation"
 
 		"TitleLabel"
 		{
@@ -1158,6 +1168,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1186,6 +1197,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"prevexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1230,6 +1242,7 @@
 			"visible"		"0"
 			"labeltext"		""
 			"command"		"nextexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1245,121 +1258,6 @@
 				"scaleimage"	"1"
 				"image"			"blog_forward"
 			}
-		}
-	}
-
-	"HelpExplanation"		//		disabled
-	{
-		"controlname"	"CExplanationPopup"
-		"zpos"			"10069"
-		"wide"			"250"
-		"visible"		"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"force_close"	"1"
-		"end_x"			"c-50"
-		"end_y"			"115"
-		"end_wide"		"300"
-		"end_tall"		"115"
-		"callout_inparents_x"	"c+289"
-		"callout_inparents_y"	"34"
-
-		"TitleLabel"
-		{
-			"controlname"	"CExLabel"
-			"xpos"			"20"
-			"ypos"			"10"
-			"wide"			"260"
-			"tall"			"30"
-			"labeltext"		"#StoreHelpExplanation_Title"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"north"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"TextLabel"
-		{
-			"controlname"	"CExLabel"
-			"xpos"			"20"
-			"ypos"			"45"
-			"wide"			"260"
-			"tall"			"85"
-			"labeltext"		"#StoreHelpExplanation_Text"
-			"font"			"HudFontSmall"
-			"textalignment"	"north-west"
-			"wrap"			"1"
-			"fgcolor_override"	"Black"
-		}
-
-		"CloseButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"281"
-			"ypos"			"5"
-			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
-			"labeltext"		""
-			"command"		"close"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"subimage"
-			{
-				"wide"			"14"
-				"tall"			"14"
-				"scaleimage"	"1"
-				"image"			"close_button"
-			}
-		}
-
-		"PrevButton"
-		{
-			"controlname"	"CExImageButton"
-			"xpos"			"10"
-			"ypos"			"80"
-			"zpos"			"10"
-			"wide"			"30"
-			"tall"			"30"
-			"labeltext"		""
-			"command"		"prevexplanation"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-
-			"button_activation_type"	"2"
-
-			"paintbackground"	"0"
-
-			"image_drawcolor"	"235 226 202 255"
-			"subimage"
-			{
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"30"
-				"tall"			"30"
-				"scaleimage"	"1"
-				"image"			"blog_back"
-			}
-		}
-
-		"PositionLabel"
-		{
-			"controlname"	"CExLabel"
-			"ypos"			"80"
-			"zpos"			"-1"
-			"wide"			"300"
-			"tall"			"30"
-			"labeltext"		"%explanationnumber%"
-			"font"			"HudFontSmallBold"
-			"textalignment"	"center"
-			"fgcolor_override"	"LightRed"
 		}
 	}
 }

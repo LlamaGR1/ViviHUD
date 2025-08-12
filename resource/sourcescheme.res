@@ -2,35 +2,32 @@
 
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
 		"Black"							"46 43 42 255"
 		"TransparentBlack"				"0 0 0 169" // 196
 		"TanLight"						"235 226 202 255"
 		"TanDark"						"117 107 94 255"
-		"TFOrange"							"145 73 59 255"
+		"TFOrange"						"145 73 59 255"
 		"Gray"							"178 178 178 255"
 		"Blank"							"0 0 0 0"
 
 
 		"qwertyuiopasdfghjklzxcvbnm1234567890qwertyuiopasdfghjklzxcvbnm1234567890"		"255 255 0 200"
 		"aa"							"255 0 0 255"
-	    "will_fix_later"				"255 0 255 255"		// remove
+		"will_fix_later"				"255 0 255 255"
 	}
 
 	BaseSettings
 	{
 		// scheme-specific colors
-		Border.Bright					"255 255 255 0"		//	255 255 255 15			the lit side of a control
-		Border.Dark						"0 0 0 0"			//	0 0 0 90				the dark/unlit side of a control
-		Border.Selection				"Blank"				//							the additional border color for displaying the default/selected button
+		Border.Bright					"Blank"
+		Border.Dark						"Blank"
+		Border.Selection				"Blank"
 
 		PropertySheet.TextColor				"TransparentBlack"
 		PropertySheet.SelectedTextColor		"TanLight"
-		PropertySheet.TransitionEffectTime	"0.25"	// 0.25
+		PropertySheet.TransitionEffectTime	"0.25"
 
 		Button.TextColor				"TanLight"
 		Button.BgColor					"TanDark"
@@ -53,7 +50,7 @@ Scheme
 		CheckButton.DisabledFgColor		"TanDark"
 		CheckButton.DisabledBgColor		"TransparentBlack"
 
-		ToggleButton.SelectedTextColor	"TFOrange"
+		ToggleButton.SelectedTextColor	"Black" // TFOrange
 
 		ComboBoxButton.ArrowColor		"TanLight"
 		ComboBoxButton.ArmedArrowColor	"TFOrange"
@@ -76,8 +73,8 @@ Scheme
 		FrameTitleBar.font				"MainMenuFont"
 		FrameTitleBar.TextColor			"TanLight"
 		FrameTitleBar.DisabledTextColor	"TanDark"
-	//	Frame.FocusTransitionEffectTime	"0.1"				// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.2"	//	0.25	   time it takes for a window to fade in/out on open/close
+	//	Frame.FocusTransitionEffectTime	"0.1"				//	time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.2"	//	0.25		time it takes for a window to fade in/out on open/close
 
 		label.TextDullColor				"TanDark"
 		label.TextColor					"TanLight"
@@ -132,7 +129,7 @@ Scheme
 		Slider.TextColor				"TanLight"
 		Slider.TrackColor				"TransparentBlack" // TanLight
 		Slider.DisabledTextColor1		"TanDark"
-        Slider.DisabledTextColor2		"Blank"
+		Slider.DisabledTextColor2		"Blank"
 
 		RichText.SelectedBgColor		"TFOrange"
 
@@ -143,7 +140,7 @@ Scheme
 		TextEntry.DisabledBgColor		"will_fix_later" // idk
 		TextEntry.SelectedTextColor		"Black"
 		TextEntry.SelectedBgColor		"TFOrange"
-		TextEntry.OutOfFocusSelectedBgColor		"TFOrange"
+		TextEntry.OutOfFocusSelectedBgColor	"TFOrange"
 		TextEntry.FocusEdgeColor		"will_fix_later" // idk
 
 		Tooltip.TextColor				"TanLight"
@@ -160,7 +157,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias"	"1"
 			}
 		}
 
@@ -172,7 +169,7 @@ Scheme
 				"tall"		"35"
 				"weight"	"500"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias"	"1"
 			}
 		}
 
@@ -183,7 +180,7 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"17"
 				"weight"	"500"
-				"antialias" "1"
+				"antialias"	"1"
 			}
 		}
 
@@ -194,7 +191,7 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"17"
 				"weight"	"500"
-				"antialias" "1"
+				"antialias"	"1"
 				"underline"	"0"
 			}
 		}
@@ -206,7 +203,7 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"500"
-				"antialias" "1"
+				"antialias"	"1"
 			}
 		}
 
@@ -217,7 +214,7 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"500"
-				"antialias" "1"
+				"antialias"	"1"
 			}
 		}
 
@@ -312,7 +309,7 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"17"
 				"weight"	"500"
-				"antialias" "1"
+				"antialias"	"1"
 			}
 		}
 
@@ -321,11 +318,9 @@ Scheme
 			"1"
 			{
 				"name"		"vivian"
-				"tall"		"16"
-			//	"weight"	"0"
-				"antialias" "1"
+				"tall"		"14"
+				"antialias"	"1"
 				"symbol"	"1"
-			//	"range"		"0x0000 0x007F"
 			}
 		}
 
@@ -335,7 +330,7 @@ Scheme
 			{
 				"name"		"vivian"
 				"tall"		"9"
-				"antialias" "1"
+				"antialias"	"1"
 				"symbol"	"1"
 			}
 		}

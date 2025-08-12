@@ -1,0 +1,7 @@
+"unlitgeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/ingame/uber_icon"
+	"$vertexalpha"	1
+	"$vertexcolor"	1
+	"$color"		"{39 39 44}"
+}

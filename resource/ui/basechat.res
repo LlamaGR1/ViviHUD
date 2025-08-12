@@ -2,8 +2,8 @@
 {
 	"HudChat"
 	{
-		"xpos"			"15"
-		"ypos"			"260"
+		"xpos"			"10"
+		"ypos"			"10"		//		260
 		"wide"			"230"
 		"tall"			"115"
 		"bgcolor_override"	"TFBlack"

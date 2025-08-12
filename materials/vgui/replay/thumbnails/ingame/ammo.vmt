@@ -1,0 +1,5 @@
+"unlitgeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/ingame/ammo"
+	"$vertexalpha"	1
+}

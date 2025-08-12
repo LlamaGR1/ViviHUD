@@ -2,29 +2,29 @@ Scheme
 {
 	Colors
 	{
-		"White"				"255 255 255 255"
-		"OffWhite"			"216 216 216 255"
-		"DullWhite"			"142 142 142 255"
-		"Orange"			"255 155 0 255"
-		"TransparentBlack"	"0 0 0 128"
-		"Black"				"0 0 0 255"
-		"Green"				"63 185 73 255"
+		"White"					"255 255 255 255"
+		"OffWhite"				"216 216 216 255"
+		"DullWhite"				"142 142 142 255"
+		"Orange"				"255 155 0 255"
+		"TransparentBlack"		"0 0 0 128"
+		"Black"					"0 0 0 255"
+		"Green"					"63 185 73 255"
 
-		"Blank"				"0 0 0 0"
+		"Blank"					"0 0 0 0"
 
 	 	
 
 
 
-		"TanDark"			"117 107 94 255"
-		"TanLight"			"235 226 202 255"
-		"TFOrange"			"145 73 59 255"
-		"TFBlack"			"46 43 42 255"
-		"TFTransparentBlack""0 0 0 196"
-		"TransparentBlack2"	"0 0 0 130"
-		"White"				"255 255 255 255"
-		"Gray"				"178 178 178 255"
-		"Blank"				"0 0 0 0"
+		"TanDark"				"117 107 94 255"
+		"TanLight"				"235 226 202 255"
+		"TFOrange"				"145 73 59 255"
+		"TFBlack"				"46 43 42 255"
+		"TFTransparentBlack"	"0 0 0 196"
+		"TransparentBlack2"		"0 0 0 130"
+		"White"					"255 255 255 255"
+		"Gray"					"178 178 178 255"
+		"Blank"					"0 0 0 0"
 
 
 
@@ -34,19 +34,17 @@ Scheme
 
 	BaseSettings
 	{
-	//	Border.Bright					"200 200 200 196"
-	//	Border.Dark						"40 40 40 196"	
+	//	Border.Bright				"200 200 200 196"
+	//	Border.Dark					"40 40 40 196"	
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.DepressedTextColor		"TFBlack"
-		Button.DepressedBgColor			"TFOrange"
-		Button.SelectedTextColor		"TFBlack"
-		Button.SelectedBgColor			"TFOrange"
-
-
+		Button.TextColor			"TanLight"
+		Button.BgColor				"TanDark"
+		Button.ArmedTextColor		"TanLight"
+		Button.ArmedBgColor			"TFOrange"
+		Button.DepressedTextColor	"TFBlack"
+		Button.DepressedBgColor		"TFOrange"
+		Button.SelectedTextColor	"TFBlack"
+		Button.SelectedBgColor		"TFOrange"
 
 
 
@@ -56,24 +54,26 @@ Scheme
 
 
 
-		CheckButton.TextColor				"TanLight"
-		CheckButton.SelectedTextColor		"TanLight"
-		CheckButton.BgColor					"TFBlack"
-		CheckButton.Border1					"TanLight"
-		CheckButton.Check					"TanLight"
-		CheckButton.HighlightFgColor		"TFOrange"
-		CheckButton.DisabledFgColor			"TanDark"
-		CheckButton.DisabledBgColor			"TFTransparentBlack"
 
 
-		// CheckButton.BgColor				"TFTransparentBlack"
-		// CheckButton.Border1				"Border.Dark"
-		// CheckButton.Check				"White"
-		// CheckButton.HighlightFgColor		"TFOrange"
+		CheckButton.TextColor			"TanLight"
+		CheckButton.SelectedTextColor	"TanLight"
+		CheckButton.BgColor				"TFBlack"
+		CheckButton.Border1				"TanLight"
+		CheckButton.Check				"TanLight"
+		CheckButton.HighlightFgColor	"TFOrange"
+		CheckButton.DisabledFgColor		"TanDark"
+		CheckButton.DisabledBgColor		"TFTransparentBlack"
+
+
+		// CheckButton.BgColor			"TFTransparentBlack"
+		// CheckButton.Border1			"Border.Dark"
+		// CheckButton.Check			"White"
+		// CheckButton.HighlightFgColor	"TFOrange"
 
 
 
-		Panel.FgColor						"TanLight"
+		Panel.FgColor					"TanLight"
 
 
 

@@ -3,7 +3,7 @@
 	"BugUIPanel"
 	{
 		"controlname"	"CBugUIPanel"
-		"wide"			"600"
+		"wide"			"660"
 		"tall"			"435"
 		"title"			"#Vivi_Credits_BG"
 	}
@@ -563,15 +563,89 @@
 		}
 	}
 
+	"BG10"
+	{
+		"controlname"	"EditablePanel"
+		"xpos"			"495"
+		"ypos"			"40"
+		"wide"			"150"
+		"tall"			"125"
+	//	"bgcolor_override"	"36 33 32 255"
+
+		"1"
+		{
+			"controlname"	"ImagePanel"
+			"xpos"			"12"
+			"wide"			"125"
+			"tall"			"90"
+			"scaleimage"	"1"
+			"image"			"polaroid_overlay"
+		}
+
+		"2"
+		{
+			"controlname"	"ImagePanel"
+			"xpos"			"17"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"116"
+			"tall"			"62"
+			"scaleimage"	"1"
+			"image"			"../console/vivian_bg10_widescreen"
+		}
+
+		"3"
+		{
+			"controlname"	"Label"
+			"xpos"			"20"
+			"ypos"			"69"
+			"zpos"			"1"
+			"wide"			"95"
+			"tall"			"20"
+			"labeltext"		"vivian_bg10"
+			"textalignment"	"north"
+			"centerwrap"	"1"
+			"fgcolor_override"	"Black"
+		}
+
+		"4"
+		{
+			"controlname"	"URLLabel"
+			"xpos"			"5"
+			"ypos"			"95"
+			"auto_wide_tocontents"	"1"
+			"tall"			"15"
+			"labeltext"		"#Vivi_Credits_BG_9"
+			"font"			"DefaultSmall"
+			"textalignment"	"north"
+			"URLText"		"https://www.hoyolab.com/article/38369042"
+			"tooltiptext"	"#Vivi_Link_5"
+		}
+
+		"4LinkIcon"
+		{
+			"controlname"	"Label"
+			"xpos"			"5"
+			"wide"			"9"
+			"tall"			"30"
+			"labeltext"		"9"
+			"font"			"MarlettSmallest"
+
+			"pin_to_sibling" "4"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+	}
+
 	"PropagandaImage"
 	{
 		"controlname"	"ImagePanel"
-		"xpos"			"495"
-		"ypos"			"72"
+		"xpos"			"530"
+		"ypos"			"195"
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"o3"
-		"tooltiptext"	"#Vivi_Image_2"
+	//	"tooltiptext"	"#Vivi_Image_2"
 		"scaleimage"	"1"
 		"image"			"replay/thumbnails/misc/vivian_propaganda"
 	}
@@ -579,11 +653,11 @@
 	"123213212"
 	{
 		"controlname"	"Label"
-		"xpos"			"495"
-		"ypos"			"185"
+		"xpos"			"530"
+		"ypos"			"315"
 		"wide"			"80"
 		"tall"			"200"
-		"labeltext"		"#Vivi_Credits_BG_9"
+		"labeltext"		"#Vivi_Image_2"
 		"font"			"DefaultSmall"
 		"textalignment"	"north"
 		"dulltext"		"1"
@@ -594,8 +668,9 @@
 	"BugCancel"
 	{
 		"controlname"	"Button"
-		"xpos"			"498"
+		"xpos"			"558"		//		498
 		"ypos"			"401"
+		"zpos"			"69999"
 		"wide"			"89"
 		"tall"			"24"
 		"labeltext"		"#GameUI_Close"

@@ -1,6 +1,5 @@
-"UnlitGeneric"
+"unlitgeneric"
 {
 	"$basetexture"	"vgui/replay/thumbnails/gamemodes/casual"
 	"$vertexalpha"	1
-	"$vertexcolor"	1
 }

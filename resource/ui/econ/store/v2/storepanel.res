@@ -82,7 +82,7 @@
 		}
 	}
 
-	"CloseButton"
+	"BackButton"
 	{
 		"controlname"	"CExButton"
 		"xpos"			"35"
@@ -108,7 +108,7 @@
 		"selectedfgcolor_override"	"Black"
 	}
 
-	"CloseButton2"
+	"BackButton2"
 	{
 		"controlname"	"Button"
 		"tall"			"0"
@@ -127,18 +127,18 @@
 		"tall"			"26"
 	}
 
-	"CheckoutButton"
+	"CloseButton"
 	{
 		"controlname"	"CExButton"
-		"xpos"			"c2202" // r165				c202
-		"ypos"			"r90" // r44
-		"zpos"			"2"
-		"wide"			"95" // 130
-		"tall"			"26" // 30
-		"labeltext"		"#Store_Checkout"
-		"font"			"HudFontSmallestBold" // HudFontSmallBold
+		"xpos"			"r165"
+		"ypos"			"r44"
+		"zpos"			"769"
+		"wide"			"130"
+		"tall"			"30"
+		"labeltext"		"#Vivi_Close"
+		"font"			"HudFontSmallBold"
 		"textalignment"	"center"
-		"command"		"checkout"
+		"command"		"close"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
@@ -151,6 +151,15 @@
 
 		"defaultfgcolor_override"	"Black"
 		"selectedfgcolor_override"	"Black"
+	}
+
+	"CloseButton2"
+	{
+		"controlname"	"Button"
+		"tall"			"0"
+		"labeltext"		"&e"
+		"command"		"close"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"armory_panel"

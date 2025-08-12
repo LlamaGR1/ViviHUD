@@ -80,7 +80,6 @@
 		"button_token"		"#MMenu_PlayList_Training_Button"
 		"desc_token"		"#MMenu_PlayList_Training_Desc"
 		"button_command"	"play_training"
-	//	"image_name"		"main_menu/main_menu_button_training"
 	}
 
 	"CreateServerEntry"
@@ -95,6 +94,5 @@
 		"button_token"		"#MMenu_PlayList_CreateServer_Button"
 		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
 		"button_command"	"create_server"
-	//	"image_name"		"main_menu/main_menu_button_custom_server"
 	}
 }

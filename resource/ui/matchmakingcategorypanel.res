@@ -5,7 +5,6 @@
 		"wide"			"f0"
 		"tall"			"50"
 		"proportionaltoparent"	"1"
-
 		"collapsed_height"	"57"
 		"resize_time"	"0.2"
 	}

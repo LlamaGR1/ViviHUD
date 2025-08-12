@@ -15,7 +15,6 @@
 		"controlname"	"EditablePanel"
 		"xpos"			"309"
 		"ypos"			"-27"
-		"zpos"			"100"
 		"wide"			"254"
 		"tall"			"283"
 		"border"		"MainMenuBGBorder"
@@ -33,11 +32,12 @@
 			"Label"
 			{
 				"controlname"	"Label"
-				"font"			"HudFontSmallestBold"
-				"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
-				"textalignment"	"center"
 				"wide"			"240"
 				"tall"			"16"
+				"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
+				"font"			"HudFontSmallestBold"
+				"textalignment"	"center"
+
 			}
 
 			"ShowExplanationsButton"
@@ -51,8 +51,7 @@
 				"labeltext"		"?"
 				"font"			"HudFontSmallestBold"
 				"textalignment"	"center"
-				"command"		"url https://www.teamfortress.com/mvm/"
-				"actionsignallevel"	"1"
+				"command"		"url https://www.teamfortress.com/mvm"
 				"sound_armed"		"ui/buttonrollover.wav"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
@@ -77,9 +76,9 @@
 			"proportionaltoparent"	"1"
 			"border"		"ViviBlackBG"
 
-			"MannVsMachineExplanation"
+			"MvMExplanation"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"ypos"			"3"
 				"zpos"			"2"
 				"wide"			"240"
@@ -89,9 +88,9 @@
 				"centerwrap"	"1"
 			}
 
-			"MannVsMachineExplanationShadow"
+			"MvMExplanationShadow"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"1"
 				"ypos"			"4"
 				"zpos"			"1"
@@ -111,6 +110,7 @@
 				"wide"			"240"
 				"tall"			"130"
 			//	"proportionaltoparent"	"1"
+				"alpha"		"145"
 				"scaleimage"	"1"
 				"image"			"illustrations/gamemode_mvm"
 				"mouseinputenabled"	"0"
@@ -122,13 +122,13 @@
 	{
 		"controlname"	"CExButton"
 		"xpos"			"361"
-		"ypos"			"127"
-		"zpos"			"102"
+		"ypos"			"144"
+		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"30"
 		"labeltext"		"#TF_MvM_MannUp"
-		"textalignment"	"center"
 		"font"			"HudFontMediumSmallBold"
+		"textalignment"	"center"
 		"command"		"mannup"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -140,17 +140,20 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
+		"selectedfgcolor_override"	"Black"
 	}
 
 	"PlayForBraggingRightsExplanation"
 	{
-		"controlname"	"CExLabel"
+		"controlname"	"Label"
 		"zpos"			"101"
-		"wide"			"190"
-		"tall"			"30"
+		"wide"			"222"
+		"tall"			"25"
 		"labeltext"		"#TF_MvM_BraggingRightsExplaination"
 		"font"			"HudFontSmallest"
+		"textalignment"	"north"
 		"centerwrap"	"1"
+		"bgcolor_override"	"255 0 0 0"
 
 		"pin_to_sibling" "PlayNowButton"
 		"pin_corner_to_sibling" "4"
@@ -161,13 +164,13 @@
 	{
 		"controlname"	"CExButton"
 		"xpos"			"361"
-		"ypos"			"190"
-		"zpos"			"102"
+		"ypos"			"202"
+		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"30"
 		"labeltext"		"#TF_MvM_BootCamp"
-		"textalignment"	"center"
 		"font"			"HudFontMediumSmallBold"
+		"textalignment"	"center"
 		"command"		"bootcamp"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
@@ -179,17 +182,20 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
+		"selectedfgcolor_override"	"Black"
 	}
 
 	"PlayOnCommunityServerExplanation"
 	{
-		"controlname"	"CExLabel"
+		"controlname"	"Label"
 		"zpos"			"101"
-		"wide"			"190"
-		"tall"			"30"
+		"wide"			"222"
+		"tall"			"15"
 		"labeltext"		"#TF_MvM_PracticeExplaination"
 		"font"			"HudFontSmallest"
+		"textalignment"	"north"
 		"centerwrap"	"1"
+		"bgcolor_override"	"255 0 0 0"
 
 		"pin_to_sibling" "PracticeButton"
 		"pin_corner_to_sibling" "4"
@@ -197,6 +203,11 @@
 	}
 
 	"PracticeGroupBox"
+	{
+		"tall"			"0"
+	}
+
+	"returnbutton"
 	{
 		"tall"			"0"
 	}

@@ -3,7 +3,6 @@
 	"backpack_panel"
 	{
 		"controlname"	"Frame"
-		"fieldname"		"backpack_panel"
 		"wide"			"f0"
 
 		"item_xpos_offcenter_a"	"-310"
@@ -36,7 +35,6 @@
 
 			"Button"
 			{
-				"fieldname"		"Button"
 				"controlname"	"CExButton"
 				"wide"			"25"
 				"tall"			"13"
@@ -50,7 +48,6 @@
 			"New"
 			{
 				"controlname"	"CExLabel"
-				"fieldname"		"New"
 				"font"			"FontStorePrice"
 				"textalignment"	"center"
 				"zpos"			"9999"
@@ -94,7 +91,6 @@
 			"New"
 			{
 				"controlname"	"CExLabel"
-				"fieldname"		"New"
 				"font"			"FontStorePrice"
 				"textalignment"	"center"
 				"xpos"			"rs1"
@@ -126,7 +122,6 @@
 	"BackgroundImage"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"BackgroundImage"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -138,7 +133,6 @@
 	"CaratLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		">>"
 		"xpos"			"c-295"
@@ -152,7 +146,6 @@
 	"BackpackLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"BackpackLabel"
 		"font"			"HudFontBiggerBold"
 		"labeltext"		"#BackpackTitle"
 		"xpos"			"-15"
@@ -166,7 +159,6 @@
 	"BackpackLabelShadow"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"BackpackLabelShadow"
 		"font"			"HudFontBiggerBold"
 		"labeltext"		"#BackpackTitle"
 		"xpos"			"-17"
@@ -182,7 +174,6 @@
 	"TopLeftLine"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"TopLeftLine"
 		"xpos"			"c-280"
 		"ypos"			"42"
 		"zpos"			"1"
@@ -196,7 +187,6 @@
 	"ShowBaseItemsLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"ShowBaseItemsLabel"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		"#ShowBaseItems"
 		"textalignment"	"east"
@@ -213,7 +203,6 @@
 	"ShowBaseItemsCheckbox"
 	{
 		"controlname"	"CheckButton"
-		"fieldname"		"ShowBaseItemsCheckbox"
 		"labeltext"		""
 		"xpos"			"4"
 		"zpos"			"1"
@@ -231,7 +220,6 @@
 	"ShowRarityComboBox"
 	{
 		"controlname"	"ComboBox"
-		"fieldname"		"ShowRarityComboBox"
 		"font"			"FontStorePrice"
 		"xpos"			"c74"
 		"ypos"			"25"
@@ -248,7 +236,6 @@
 	"ShowExplanationsButton"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"ShowExplanationsButton"
 		"xpos"			"c265"
 		"ypos"			"25"
 		"zpos"			"100"
@@ -274,7 +261,6 @@
 	"TopRightLine"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"TopRightLine"
 		"xpos"			"c74"
 		"ypos"			"42"
 		"zpos"			"1"
@@ -288,7 +274,6 @@
 	"DragToPrevPageButton"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"DragToPrevPageButton"
 		"xpos"			"c-316"
 		"ypos"			"149"
 		"zpos"			"1"
@@ -307,7 +292,6 @@
 	"DragToNextPageButton"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"DragToNextPageButton"
 		"xpos"			"c290"
 		"ypos"			"149"
 		"zpos"			"1"
@@ -326,7 +310,6 @@
 	"BottomLine"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"BottomLine"
 		"xpos"			"cs-0.5"
 		"ypos"			"285"
 		"zpos"			"1"
@@ -340,7 +323,6 @@
 	"SortByComboBox"
 	{
 		"controlname"	"ComboBox"
-		"fieldname"		"SortByComboBox"
 		"font"			"HudFontSmallestBold"
 		"xpos"			"c-280"
 		"ypos"			"310"
@@ -357,7 +339,6 @@
 	"CancelApplyToolButton"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"CancelApplyToolButton"
 		"xpos"			"c-282"
 		"ypos"			"307"
 		"zpos"			"2"
@@ -385,7 +366,6 @@
 	"PrevPageButton"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"PrevPageButton"
 		"zpos"			"1"
 		"wide"			"26"
 		"tall"			"26"
@@ -422,7 +402,6 @@
 	"CurPageLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"CurPageLabel"
 		"font"			"HudFontSmallBold"
 		"labeltext"		"%backpackpage%"
 		"textalignment"	"center"
@@ -437,7 +416,6 @@
 	"NextPageButton"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"NextPageButton"
 		"zpos"			"1"
 		"wide"			"26"
 		"tall"			"26"
@@ -516,7 +494,6 @@
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"fieldname"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"102"
@@ -546,7 +523,6 @@
 	"mousedragitempanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"fieldname"		"mousedragitempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -575,7 +551,6 @@
 	"StartExplanation"
 	{
 		"controlname"	"CExplanationPopup"
-		"fieldname"		"StartExplanation"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -593,14 +568,13 @@
 		"TitleLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TitleLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"#BackpackItemsExplanation_Title"
-			"textalignment"	"north"
 			"xpos"			"20"
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
+			"labeltext"		"#BackpackItemsExplanation_Title"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"north"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -608,14 +582,13 @@
 		"TextLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TextLabel"
-			"font"			"HudFontSmall"
-			"labeltext"		"#BackpackItemsExplanation_Text"
-			"textalignment"	"north-west"
 			"xpos"			"20"
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"85"
+			"labeltext"		"#BackpackItemsExplanation_Text"
+			"font"			"HudFontSmall"
+			"textalignment"	"north-west"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -623,7 +596,6 @@
 		"CloseButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"CloseButton"
 			"xpos"			"281"
 			"ypos"			"5"
 			"zpos"			"10"
@@ -631,6 +603,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -651,22 +624,19 @@
 		"PositionLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"PositionLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"%explanationnumber%"
-			"textalignment"	"center"
-			"xpos"			"0"
 			"ypos"			"120"
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
+			"labeltext"		"%explanationnumber%"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"center"
 			"fgcolor_override"	"LightRed"
 		}
 
 		"NextButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"NextButton"
 			"xpos"			"260"
 			"ypos"			"120"
 			"zpos"			"10"
@@ -674,6 +644,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"nextexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -693,7 +664,6 @@
 	"ContextExplanation"
 	{
 		"controlname"	"CExplanationPopup"
-		"fieldname"		"ContextExplanation"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -711,14 +681,13 @@
 		"TitleLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TitleLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"#BackpackContextExplanation_Title"
-			"textalignment"	"north"
 			"xpos"			"20"
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
+			"labeltext"		"#BackpackContextExplanation_Title"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"north"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -726,14 +695,13 @@
 		"TextLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TextLabel"
-			"font"			"HudFontSmall"
-			"labeltext"		"#BackpackContextExplanation_Text"
-			"textalignment"	"north-west"
 			"xpos"			"20"
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
+			"labeltext"		"#BackpackContextExplanation_Text"
+			"font"			"HudFontSmall"
+			"textalignment"	"north-west"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -741,7 +709,6 @@
 		"CloseButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"CloseButton"
 			"xpos"			"281"
 			"ypos"			"5"
 			"zpos"			"10"
@@ -749,6 +716,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -769,7 +737,6 @@
 		"PrevButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"PrevButton"
 			"xpos"			"10"
 			"ypos"			"135"
 			"zpos"			"10"
@@ -777,6 +744,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"prevexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -795,22 +763,19 @@
 		"PositionLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"PositionLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"%explanationnumber%"
-			"textalignment"	"center"
-			"xpos"			"0"
 			"ypos"			"135"
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
+			"labeltext"		"%explanationnumber%"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"center"
 			"fgcolor_override"	"LightRed"
 		}
 
 		"NextButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"NextButton"
 			"xpos"			"260"
 			"ypos"			"135"
 			"zpos"			"10"
@@ -818,6 +783,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"nextexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -837,7 +803,6 @@
 	"PagesExplanation"
 	{
 		"controlname"	"CExplanationPopup"
-		"fieldname"		"PagesExplanation"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -855,7 +820,6 @@
 		"TitleLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labeltext"		"#BackpackPagesExplanation_Title"
 			"textalignment"	"north"
@@ -870,14 +834,13 @@
 		"TextLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TextLabel"
-			"font"			"HudFontSmall"
-			"labeltext"		"#BackpackPagesExplanation_Text"
-			"textalignment"	"north-west"
 			"xpos"			"20"
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"45"
+			"labeltext"		"#BackpackPagesExplanation_Text"
+			"font"			"HudFontSmall"
+			"textalignment"	"north-west"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -885,7 +848,6 @@
 		"CloseButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"CloseButton"
 			"xpos"			"281"
 			"ypos"			"5"
 			"zpos"			"10"
@@ -893,6 +855,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -913,7 +876,6 @@
 		"PrevButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"PrevButton"
 			"xpos"			"10"
 			"ypos"			"80"
 			"zpos"			"10"
@@ -921,6 +883,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"prevexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -939,22 +902,19 @@
 		"PositionLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"PositionLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"%explanationnumber%"
-			"textalignment"	"center"
-			"xpos"			"0"
 			"ypos"			"80"
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
+			"labeltext"		"%explanationnumber%"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"center"
 			"fgcolor_override"	"LightRed"
 		}
 
 		"NextButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"NextButton"
 			"xpos"			"260"
 			"ypos"			"80"
 			"zpos"			"10"
@@ -962,6 +922,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"nextexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -981,7 +942,6 @@
 	"SortExplanation"
 	{
 		"controlname"	"CExplanationPopup"
-		"fieldname"		"SortExplanation"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -999,14 +959,13 @@
 		"TitleLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TitleLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"#BackpackSortExplanation_Title"
-			"textalignment"	"north"
 			"xpos"			"20"
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
+			"labeltext"		"#BackpackSortExplanation_Title"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"north"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -1014,14 +973,13 @@
 		"TextLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TextLabel"
-			"font"			"HudFontSmall"
-			"labeltext"		"#BackpackSortExplanation_Text"
-			"textalignment"	"north-west"
 			"xpos"			"20"
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
+			"labeltext"		"#BackpackSortExplanation_Text"
+			"font"			"HudFontSmall"
+			"textalignment"	"north-west"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -1029,7 +987,6 @@
 		"CloseButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"CloseButton"
 			"xpos"			"281"
 			"ypos"			"5"
 			"zpos"			"10"
@@ -1037,6 +994,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1057,7 +1015,6 @@
 		"PrevButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"PrevButton"
 			"xpos"			"10"
 			"ypos"			"105"
 			"zpos"			"10"
@@ -1065,6 +1022,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"prevexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1083,22 +1041,19 @@
 		"PositionLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"PositionLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"%explanationnumber%"
-			"textalignment"	"center"
-			"xpos"			"0"
 			"ypos"			"105"
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
+			"labeltext"		"%explanationnumber%"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"center"
 			"fgcolor_override"	"LightRed"
 		}
 
 		"NextButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"NextButton"
 			"xpos"			"260"
 			"ypos"			"105"
 			"zpos"			"10"
@@ -1106,6 +1061,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"nextexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1125,7 +1081,6 @@
 	"BordersExplanation"
 	{
 		"controlname"	"CExplanationPopup"
-		"fieldname"		"BordersExplanation"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -1143,14 +1098,13 @@
 		"TitleLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TitleLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"#Vivi_Explanation_Backpack_Title"
-			"textalignment"	"north"
 			"xpos"			"20"
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
+			"labeltext"		"#Vivi_Explanation_Backpack_Title"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"north"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -1158,14 +1112,13 @@
 		"TextLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TextLabel"
-			"font"			"HudFontSmall"
-			"labeltext"		"#Vivi_Explanation_Backpack_Des"
-			"textalignment"	"north-west"
 			"xpos"			"20"
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
+			"labeltext"		"#Vivi_Explanation_Backpack_Des"
+			"font"			"HudFontSmall"
+			"textalignment"	"north-west"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -1173,7 +1126,6 @@
 		"CloseButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"CloseButton"
 			"xpos"			"281"
 			"ypos"			"5"
 			"zpos"			"10"
@@ -1181,6 +1133,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1201,7 +1154,6 @@
 		"PrevButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"PrevButton"
 			"xpos"			"10"
 			"ypos"			"80"
 			"zpos"			"10"
@@ -1209,6 +1161,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"prevexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1227,22 +1180,19 @@
 		"PositionLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"PositionLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"%explanationnumber%"
-			"textalignment"	"center"
-			"xpos"			"0"
 			"ypos"			"80"
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
+			"labeltext"		"%explanationnumber%"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"center"
 			"fgcolor_override"	"LightRed"
 		}
 
 		"NextButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"NextButton"
 			"xpos"			"260"
 			"ypos"			"80"
 			"zpos"			"10"
@@ -1250,6 +1200,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"nextexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1269,7 +1220,6 @@
 	"StockExplanation"
 	{
 		"controlname"	"CExplanationPopup"
-		"fieldname"		"StockExplanation"
 		"zpos"			"10069"
 		"wide"			"250"
 		"visible"		"0"
@@ -1286,14 +1236,14 @@
 		"TitleLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TitleLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"#BackpackStockExplanation_Title"
-			"textalignment"	"north"
 			"xpos"			"20"
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
+			"labeltext"		"#BackpackStockExplanation_Title"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"north"
+
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -1301,14 +1251,13 @@
 		"TextLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TextLabel"
-			"font"			"HudFontSmall"
-			"labeltext"		"#BackpackStockExplanation_Text"
-			"textalignment"	"north-west"
 			"xpos"			"20"
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
+			"labeltext"		"#BackpackStockExplanation_Text"
+			"font"			"HudFontSmall"
+			"textalignment"	"north-west"
 			"wrap"			"1"
 			"fgcolor_override"	"Black"
 		}
@@ -1316,7 +1265,6 @@
 		"CloseButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"CloseButton"
 			"xpos"			"281"
 			"ypos"			"5"
 			"zpos"			"10"
@@ -1324,6 +1272,7 @@
 			"tall"			"14"
 			"labeltext"		""
 			"command"		"close"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1344,7 +1293,6 @@
 		"PrevButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"PrevButton"
 			"xpos"			"10"
 			"ypos"			"120"
 			"zpos"			"10"
@@ -1352,6 +1300,7 @@
 			"tall"			"30"
 			"labeltext"		""
 			"command"		"prevexplanation"
+			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -1370,15 +1319,13 @@
 		"PositionLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"PositionLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"%explanationnumber%"
-			"textalignment"	"center"
-			"xpos"			"0"
 			"ypos"			"120"
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
+			"labeltext"		"%explanationnumber%"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"center"
 			"fgcolor_override"	"LightRed"
 		}
 	}

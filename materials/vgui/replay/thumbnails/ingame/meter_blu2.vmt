@@ -1,0 +1,5 @@
+"unlitgeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/ingame/meter_blu2"
+	"$vertexalpha"	1
+}
