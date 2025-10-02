@@ -5,21 +5,20 @@
 		"collection_list_xpos"	"250"
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
-		"text_ypos"			"15"
-		"text_forcesize"	"0"
-		"text_xpos"		"15"
-		"text_wide"		"270"
+		"text_ypos"				"15"
+		"text_forcesize"		"0"
+		"text_xpos"				"15"
+		"text_wide"				"270"
 	}
 
 	"LoadingSpinner"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"LoadingSpinner"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"paintborder"	"0"
+	//	"paintborder"	"0"
 		"scaleimage"	"1"
 		"image"			"animated/tf2_logo_hourglass"
 	}
@@ -27,15 +26,13 @@
 	"MainContentsContainer"
 	{
 		"controlname"	"EditablePanel"
-		"fieldname"		"MainContentsContainer"
 		"wide"			"f0"
 		"tall"			"f0"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"Blank"		//		0 0 0 0
 
 		"itemmodelpanel"
 		{
 			"controlname"	"CEmbeddedItemModelPanel"
-			"fieldname"		"itemmodelpanel"
 			"zpos"			"1"
 			"wide"			"140"
 			"tall"			"100"
@@ -62,12 +59,11 @@
 		"namelabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"namelabel"
-			"font"			"ItemFontNameLarge"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"30"
 			"labeltext"		"%itemname%"
+			"font"			"ItemFontNameLarge"
 			"textalignment"	"center"
 			"centerwrap"	"1"
 		}
@@ -75,51 +71,45 @@
 		"attriblabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			"labeltext"		"%attriblist%"
+			"font"			"ItemFontAttribLarge"
 			"textalignment"	"south"
 			"centerwrap"	"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TFTanDark"
 		}
 
 		"equippedlabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"equippedlabel"
-			"font"			"ItemFontAttribSmall"
-			"xpos"			"37"
-			"ypos"			"28"
+	//		"xpos"			"rs1-14"		//		37
+	//		"ypos"			"rs1-14"		//		28
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"10"
+	//		"proportionaltoparent"	"1"
 			"labeltext"		"#ItemPanelEquipped"
+			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
 			"fgcolor"		"LightRed"
-			"bgcolor_override"		"0 0 0 255"
-			"paintbackgroundtype"	"2"
+			"border"		"ViviTrueBlackBG"
 		}
 
 		"paint_icon"
 		{
 			"controlname"	"CItemMaterialCustomizationIconPanel"
-			"fieldname"		"paint_icon"
 			"zpos"			"2"
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
-
 		}
 
 		"quantitylabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"quantitylabel"
-			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -127,17 +117,15 @@
 			"tall"			"10"
 			"visible"		"0"
 			"labeltext"		""
+			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
 			"fgcolor"		"LightRed"
-			"bgcolor_override"		"0 0 0 255"
-			"paintbackgroundtype"	"2"
+			"border"		"ViviTrueBlackBG"
 		}
 
 		"serieslabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"serieslabel"
-			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -145,16 +133,15 @@
 			"tall"			"10"
 			"visible"		"0"
 			"labeltext"		""
+			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
-			"paintbackgroundtype"	"2"
+			"border"		"ViviDarkCyanBG"
 		}
 
 		"matcheslabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"matcheslabel"
 			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
@@ -163,10 +150,10 @@
 			"tall"			"10"
 			"visible"		"0"
 			"labeltext"		""
+			"font"			"ItemFontAttribSmall"
 			"textalignment"	"center"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
-			"paintbackgroundtype"	"2"
+			"border"		"ViviDarkCyanBG"
 		}
 
 		"vision_restriction_icon"
@@ -208,7 +195,6 @@
 		"is_loaner_icon"
 		{
 			"controlname"	"ImagePanel"
-			"fieldname"		"is_loaner_icon"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"

@@ -3,29 +3,29 @@
 	"team"
 	{
 		"controlname"	"CTeamMenu"
-		"xpos"			"0"
-		"ypos"			"0"
+	//	"xpos"			"0"
+	//	"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
+	//	"autoresize"	"0"
+	//	"pincorner"		"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"tabPosition"	"0"
 	}
 
 	"SysMenu"
 	{
 		"controlname"	"Menu"
-		"xpos"			"0"
-		"ypos"			"0"
+	//	"xpos"			"0"
+	//	"ypos"			"0"
 		"wide"			"64"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+	//	"autoresize"	"0"
+	//	"pincorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
+	//	"tabPosition"	"0"
 	}
 
 	"MapInfo"
@@ -35,26 +35,26 @@
 		"ypos"			"34"
 		"wide"			"450"
 		"tall"			"365"
-		"autoResize"	"3"
-		"pinCorner"		"0"
+		"autoresize"	"3"
+	//	"pincorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
+	//	"tabPosition"	"0"
 	}
 
 	"mapname"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"xpos"			"c-310"
 		"ypos"			"50"
 		"wide"			"90"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+	//	"autoresize"	"0"
+	//	"pincorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"labeltext"		""
-		"dulltext"		"0"
+	//	"dulltext"		"0"
 		"brighttext"	"1"
 	}
 	
@@ -67,15 +67,15 @@
 
 	"TeamMenuSelect"
 	{
-		"controlname"	"CExLabel"
-		"font"			"HudFontMediumSmall"
-		"labeltext"		"#TF_SelectATeam"
+		"controlname"	"Label"
 		"xpos"			"269"
 		"ypos"			"30"
 		"zpos"			"40"
 		"wide"			"240"
 		"tall"			"30"
-		"fgcolor"		"Black"
+		"labeltext"		"#TF_SelectATeam"
+		"font"			"HudFontMediumSmall"
+		"fgcolor_override"	"Black"
 	}
 
 	"CancelButton2"
@@ -102,7 +102,6 @@
 
 		"fgcolor"					"Black"
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"CancelButton"
@@ -206,10 +205,10 @@
 
 	"BackgroundImage"
 	{
-		"controlname"	"ImagePanel"
+		"controlname"	"ScalableImagePanel"
 		"wide"			"f0"
 		"tall"			"f0"
-		"scaleimage"	"1"
+	//	"scaleimage"	"1"
 		"image"			"replay/thumbnails/misc/team_class_bg"
 	}
 
@@ -486,6 +485,118 @@
 		"controlname"	"CExLabel"
 		"xpos"			"-21"
 		"ypos"			"-5"
+		// Ah-ha
+		// (Hey, hey)
+		// (Ah-ha, Ah-ha)
+		// We know
+		// It's been pretty fun for me
+		// Smokin' presidential tree
+		// On the White House balcony
+		// And on the porch
+		// Crackers always Be hatin
+		// On the color of my skin
+		// I'm in the rose garden outside where weed grows
+		// I put a man on mars
+		// Stealed a couple cars
+		// And legalized backhanding girls so they know your in charge
+		// I shorted the word day
+		// (For me)
+		// And smoked a blunt with Dre
+		// And told Korean boy he's gay!
+		// I know that you'll miss Obama
+		// (Ah-ha)
+		// Don't lie you gun' miss the drama
+		// (Hey, hey)
+		// We had fried chicken every night for supper
+		// With a side of beans
+		// I know that you'll miss Obama
+		// (Ah-ha)
+		// I stole your brand-new Hummer
+		// (Hey, hey)
+		// I smoked with the rude fat drummer
+		// Yeah, that shit was sweet
+		// I blowed up all the world and I stole all their fucking gold
+		// (Yeah)
+		// I told the whole UN that the world's to fucking cold
+		// (Or something)
+		// I said to Hillary she can suck on my penis whole
+		// Dancing and sniffing coke
+		// Slapping and beating ho's
+		// I chocked
+		// And had sex with girls I liked
+		// Most of them were not my wife
+		// She was teaching black kids to eat white
+		// I played golf
+		// And sold grape soda on the side
+		// And gave gay people marriage rights
+		// I love LGBT's, Mexicans and Dikes
+		// My game is really sharp
+		// My skin is really dark
+		// I used to hang and sell cocaine outside of Rucka Park
+		// Got bitches is on the phone
+		// And snitches on the drone
+		// Gotta drone
+		// Gotta drone uh-uh own
+		// I know that you will miss Obama
+		// (Ah-ha)
+		// I killed my cousin Osama
+		// (Hey, hey)
+		// I chilled with a sick old lama
+		// Jail is where I've been
+		// I know that you will miss Obama
+		// (Ah-ha)
+		// I blew up the disco rama
+		// (Hey, hey)
+		// I prayed to Saddam Mohammad
+		// Paul Abdul Wakeem
+		// Bano, bano, bano, bano, bano, bano, bano (is gay)
+		// Bano, bano, bano, bano, bano, bano, bano (no, no, no) Is gay
+		// Blasting countries that don't have libraries and roads
+		// (It's how it goes)
+		// Blasting countries that won't, can't seem to find there clothes
+		// (We're gonna need some clothes)
+		// Haven't paid my bills lately
+		// Haven't seen my kids lately
+		// Blazing on the daily
+		// With some pills and Bailey's
+		// (This is how I get down)
+		// I have a few grams of coke
+		// Share it with average folks
+		// I sell crack to the average Joe
+		// Lowered the tax on Dope
+		// (I lowered that shit yo)
+		// If you're glad to see me go
+		// It's to bad we didn't flow
+		// If you vote against me I know
+		// I wrote it down and keep it close
+		// I have your votes deleted though
+		// So you didn't even need to vote
+		// (You didn't even need to vote)
+		// Dancing and sniffing coke
+		// Slapping and beating hoe's
+		// (Yeah)
+		// I know that you will miss Obama
+		// (Ah-ha)
+		// I was born in the Bahamas's
+		// (Hey, hey)
+		// My dad never met my mama
+		// He was Bill Cosby
+		// I know that you will miss Obama
+		// (Yeah)
+		// Don't lie you gun' miss the drama
+		// (Hey, hey)
+		// I'm black and my dick is larger
+		// Ask your bitch for me
+		// I blowed up lots of folks
+		// And I give them iPads and soap
+		// (Yeah)
+		// I'd like to invite all you over for fried meatloaf
+		// (Common, hey, hey)
+		// I hope you enjoyed the great American dark, dark age
+		// (Get it!)
+		// I know you will miss the days
+		// When I ran the United States
+		// I'm Broke
 		"zpos"			"3"
 		"wide"			"72"
 		"tall"			"20"

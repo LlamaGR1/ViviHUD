@@ -116,7 +116,7 @@
 
 		"ItemLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"

@@ -52,15 +52,15 @@
 
 			"quantitylabel"
 			{
-				"controlname"	"label"
-				"font"			"HudFontSmallestBold"
-				"textalignment"	"north-east"
+				"controlname"	"Label"
 				"xpos"			"70"
 				"ypos"			"45"
 				"zpos"			"15"
 				"wide"			"16"
 				"tall"			"10"
 				"labeltext"		"%quantity%"
+				"font"			"HudFontSmallestBold"
+				"textalignment"	"north-east"
 			}
 
 			"SeparatorLine"
@@ -70,8 +70,8 @@
 				"zpos"			"5"
 				"wide"			"580"
 				"tall"			"5"
-				"image"			"loadout_solid_line"
 				"tileimage"		"1"
+				"image"			"loadout_solid_line"
 			}
 
 			"RemoveButton"
@@ -93,17 +93,16 @@
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
 				"border_selected"	"MainMenuButtonDepressed"
-				"border_disabled"	"MainMenuButtonDisabled"
+			//	"border_disabled"	"MainMenuButtonDisabled"
 				"paintbackground"	"0"
 
 				"fgcolor"					"Black"
 				"defaultfgcolor_override"	"Black"
-				"selectedfgcolor_override"	"Black"
 			}
 
 			"PriceLabel"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"font"			"FontCartPrice"
 				"textalignment"	"east"
 				"xpos"			"475"
@@ -116,7 +115,7 @@
 
 			"PreviewItemLabel"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"font"			"HudFontSmallest"
 				"textalignment"	"center"
 				"xpos"			"110"
@@ -199,68 +198,63 @@
 		"CartItemsLabel"
 		{
 			"controlname"	"CExLabel"
-			"font"			"HudFontMediumBold"
-			"labeltext"		"%storecart%"
 			"xpos"			"c-300"
 			"ypos"			"25"
 			"zpos"			"1"
 			"wide"			"350"
 			"tall"			"20"
+			"labeltext"		"%storecart%"
+			"font"			"HudFontMediumBold"
 		}
 
-		"SeparatorLine"
-		{
-			"controlname"	"ImagePanel"
-			"xpos"			"c-300"
-			"ypos"			"60"
-			"zpos"			"5"
-			"wide"			"600"
-			"tall"			"5"
-			"tileimage"		"1"
-			"image"			"loadout_solid_line"
-		}
+		// "SeparatorLine"
+		// {
+		// 	"controlname"	"ImagePanel"
+		// 	"xpos"			"c-300"
+		// 	"ypos"			"60"
+		// 	"zpos"			"5"
+		// 	"wide"			"600"
+		// 	"tall"			"5"
+		// 	"tileimage"		"1"
+		// 	"image"			"loadout_solid_line"
+		// }
 
 		"EmptyCartLabel"
 		{
-			"controlname"	"label"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"#Store_CartIsEmpty"
-			"textalignment"	"center"
+			"controlname"	"Label"
 			"xpos"			"c-300"
 			"ypos"			"62"
 			"zpos"			"6"
 			"wide"			"600"
 			"tall"			"240"
 			"visible"		"0"
+			"labeltext"		"#Store_CartIsEmpty"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"center"
 		}
 
 		"ItemListContainerScroller"
 		{
 			"controlname"	"EditablePanel"
-			"xpos"			"c-300"
+			"xpos"			"c-292"
 			"ypos"			"61"
 			"zpos"			"6"
-			"wide"			"600"
+			"wide"			"588"
 			"tall"			"240"
 			"autohide_buttons"	"1"
-			"fgcolor_override"	"118 107 94 255"
+		//	"fgcolor_override"	"218 107 94 255"
 			"bgcolor_override"	"38 35 33 245" // 51 47 46 255
 			"paintbackgroundtype"	"2"
 
-			"roundedcorners"	"12"
+		//	"roundedcorners"	"12"
 
 			"Scrollbar"		//		fix
 			{
-				"xpos"			"586"
-				"wide"			"11"
+				"xpos"			"rs1-1"
+				"zpos"			"1069"
+				"wide"			"8"
 				"tall"			"240"
-				"zpos"			"1000"
-
-				"Slider"
-				{
-					"paintbackgroundtype"	"2"
-				}
-
+				"proportionaltoparent"	"1"
 				"nobuttons"		"1"
 
 				"UpButton"
@@ -307,56 +301,56 @@
 					"EstimatedTotalLabel"
 					{
 						"controlname"	"CExLabel"
-						"font"			"HudFontSmall"
-						"labeltext"		"#Store_EstimatedTotal"
-						"textalignment"	"south-east"
 						"xpos"			"0"
 						"ypos"			"15"
 						"zpos"			"100"
 						"wide"			"425"
 						"tall"			"15"
+						"labeltext"		"#Store_EstimatedTotal"
+						"font"			"HudFontSmall"
+						"textalignment"	"south-east"
 					}
 
-					"WashingtonStateSalesTaxLabel"
+					"WashingtonStateSalesTaxLabel2"		//		hidden by default
 					{
 						"controlname"	"CExLabel"
-						"font"			"HudFontSmallest"
-						"labeltext"		"#Store_WAStateSalesTax"
-						"textalignment"	"north-east"
 						"xpos"			"0"
 						"ypos"			"29"
 						"zpos"			"100"
 						"wide"			"425"
 						"tall"			"12"
-						"fgcolor_override"	"130 120 104 255"
+						"labeltext"		"#Store_WAStateSalesTax"
+						"font"			"HudFontSmallest"
+						"textalignment"	"north-east"
+					//	"fgcolor_override"	"130 120 104 255"
 					}
 
 					"TotalSubtextLabelB"
 					{
 						"controlname"	"CExLabel"
-						"font"			"HudFontSmallest"
-						"labeltext"		"#Store_TotalSubtextB"
-						"textalignment"	"north-east"
 						"xpos"			"0"
 						"ypos"			"39"
 						"zpos"			"100"
 						"wide"			"425"
 						"tall"			"12"
-						"fgcolor_override"	"130 120 104 255"
+						"labeltext"		"#Store_TotalSubtextB"
+						"font"			"HudFontSmallest"
+						"textalignment"	"north-east"
+					//	"fgcolor_override"	"130 120 104 255"
 					}
 
 					"TotalPriceLabel"
 					{
-						"controlname"	"label"
-						"font"			"FontCartPrice"
-						"textalignment"	"east"
+						"controlname"	"Label"
 						"xpos"			"475"
 						"ypos"			"0"
 						"zpos"			"15"
 						"wide"			"100"
 						"tall"			"60"
 						"labeltext"		"%totalprice%"
-						"fgcolor_override"	"130 120 104 255"
+						"font"			"FontCartPrice"
+						"textalignment"	"east"
+						//"fgcolor_override"	"130 120 104 255"
 					}
 				}
 			}
@@ -382,11 +376,10 @@
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
 		"border_selected"	"MainMenuButtonDepressed"
-		"border_disabled"	"MainMenuButtonDisabled"
+	//	"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"CloseButton2"
@@ -417,10 +410,9 @@
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
 		"border_selected"	"MainMenuButtonDepressed"
-		"border_disabled"	"MainMenuButtonDisabled"
+	//	"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 }

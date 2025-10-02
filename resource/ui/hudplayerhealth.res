@@ -3,7 +3,6 @@
 	"HudPlayerHealth"
 	{
 		"controlname"	"EditablePanel"
-		"fieldname"		"HudPlayerHealth"
 	//	"xpos"			"0"
 	//	"xpos_minmode"	"-5"
 	//	"ypos"			"r120"
@@ -117,16 +116,16 @@
 	"PlayerStatusMaxHealthValue"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"107"
-		"ypos"			"r52"
+		"xpos"			"60"
+		"ypos"			"r89"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"15"
 		"labeltext"		"%MaxHealth%"
 		"font"			"HudFontSmall"
-		"textalignment"	"center"
-	//	"fgcolor"		"255 124 69 200"
-	//	"bgcolor_override"		"255 0 0 100"
+		"textalignment"	"east"
+		"fgcolor"		"255 124 69 200"
+	//	"bgcolor_override"		"255 0 0 0"
 	}
 
 

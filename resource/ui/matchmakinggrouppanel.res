@@ -20,6 +20,6 @@
 		"fgcolor"		"TanLight"
 		"smallcheckimage"	"1"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 }

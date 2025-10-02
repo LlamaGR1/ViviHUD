@@ -52,7 +52,7 @@
 
 			"AutoJoinLabel"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"0"
 				"ypos"			"rs1-17"
 				"wide"			"f0"
@@ -138,7 +138,7 @@
 
 			"JoiningLabel"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"cs-1"
 				"ypos"			"rs1-17"
 				"wide"			"f0"

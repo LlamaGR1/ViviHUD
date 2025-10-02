@@ -1,9 +1,84 @@
 "inspectionpanel"
 {
+	"CaratLabel"
+	{
+		"controlname"	"CExLabel"
+		"xpos"			"c-295"
+		"ypos"			"11"
+		"zpos"			"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
+		"labeltext"		">>"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"LightRed"
+
+		"fixed_paintkit"
+		{
+			"visible"		"0"
+		}
+	}
+
+	"WarPaintsLabel"
+	{
+		"controlname"	"CExLabel"
+		"xpos"			"-15"
+		"zpos"			"2"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
+		"labeltext"		"#PaintkitTitle"
+		"font"			"HudFontBiggerBold"
+
+		"pin_to_sibling" "CaratLabel"
+
+		"fixed_paintkit"
+		{
+			"visible"		"0"
+		}
+	}
+
+	"WarPaintsLabelShadow"
+	{
+		"controlname"	"CExLabel"
+		"xpos"			"-17"
+		"ypos"			"-3"
+		"zpos"			"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
+		"labeltext"		"#PaintkitTitle"
+		"font"			"HudFontBiggerBold"
+		"fgcolor"		"65 65 65 255"
+
+		"pin_to_sibling" "CaratLabel"
+
+		"fixed_paintkit"
+		{
+			"visible"		"0"
+		}
+	}
+
+	"TopLine"
+	{
+		"controlname"	"ImagePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"42"
+		"zpos"			"1"
+		"wide"			"560"
+		"tall"			"10"
+		"tileimage"		"1"
+		"tilevertically" "0"
+		"image"			"loadout_dotted_line"
+
+		"fixed_paintkit"
+		{
+			"visible"		"0"
+		}
+	}
+
 	"BGImage"
 	{
 		"controlname"	"ImagePanel"
 		"xpos"			"c-50"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"o1"
 		"tall"			"350"
@@ -13,8 +88,9 @@
 
 		"fixed_paintkit"
 		{
-			"xpos"		"cs-0.5"
-			"tall"		"p0.75"
+			"xpos"			"cs-0.5"
+			"ypos"			"0"
+			"tall"			"p0.75"
 		}
 	}
 
@@ -28,25 +104,35 @@
 		"proportionaltoparent"	"1"
 		"paintborder"	"0"
 
-		"text_ypos"		"15"
+		"text_ypos"		"50"
 		"model_hide"	"1"
 		"text_forcesize"	"4"
 		"name_only"		"1"
+
+		"fixed_paintkit"
+		{
+			"text_ypos"		"10"
+		}
 	}
 
 	"ModelInspectionPanel"
 	{
-		"xpos"			"c-90"
-		"ypos"			"30"
+		"xpos"			"c-170"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"o1.5"
-		"tall"			"p0.8"
+		"wide"			"600"
+		"tall"			"365"
 		"proportionaltoparent"	"1"
+		"paintBackground"   "1"
+		"bgcolor_override"	"255 0 0 0"
 
 		"fixed_paintkit"
 		{
-			"xpos"		"cs-0.5"
-			"ypos"		"20"
+			"xpos"			"cs-0.5"
+			"ypos"			"20"
+			"wide"			"o1.5"
+			"tall"			"p0.8"
+			"fov"			"75"
 		}
 
 		"force_use_model"	"1"
@@ -55,12 +141,13 @@
 		"max_pitch"		"69"
 		"use_pedestal"	"1"
 		"use_particle"	"1"
-		"fov"			"75"
+		"fov"			"90"
 
 		"model"
 		{
 			"force_pos"		"1"
-			"origin_y"		"0"
+			"origin_z"		"0"
+			"origin_y"		"1"
 		}
 
 		"lights"
@@ -83,38 +170,40 @@
 	"TeamNavPanel"
 	{
 		"controlname"	"CNavigationPanel"
-		"xpos"			"c-92"
-		"ypos"			"38"
+		"xpos"			"c-103"
+		"ypos"			"75"
 		"zpos"			"100"
-		"wide"			"45"
-		"tall"			"20"
+		"wide"			"43"
+		"tall"			"17"
 		"proportionaltoparent"	"1"
 
 		"auto_layout"	"1"
+		"auto_layout_horizontal_buffer"	"3"
 
 		"fixed_paintkit"
 		{
-			"xpos"		"cs-0.5"
-			"ypos"		"p.7-22"
+			"xpos"			"cs-0.5"
+			"ypos"			"p.7-22"
 		}
 
 		"ButtonSettings"
 		{
-			"wide"				"20"
-			"tall"				"20"
+			"wide"				"17"
+			"tall"				"17"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
+			"stayselectedonclick"		"1"
+			"button_activation_type"	"2"
+
 			"paintbackground"	"0"
 
-			"stayselectedonclick"	"1"
-
-			"image_drawcolor"		"200 200 200 255"
+			"image_drawcolor"	"200 200 200 255"
 			"subimage"
 			{
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"17"
+				"tall"			"17"
 				"scaleimage"	"1"
 			}				
 		}
@@ -123,14 +212,14 @@
 		{
 			"red"
 			{
-				"userdata"			"2"
-				"image_default"		"replay/thumbnails/loadout/loadout_red"				
+				"userdata"		"2"
+				"image_default"	"replay/thumbnails/loadout/loadout_red"				
 			}
 
 			"blu"
 			{
-				"userdata"			"3"
-				"image_default"		"replay/thumbnails/loadout/loadout_blu"			
+				"userdata"		"3"
+				"image_default"	"replay/thumbnails/loadout/loadout_blu"			
 			}
 		}
 	}
@@ -138,8 +227,8 @@
 	"PaintkitPreviewContainer"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"c-270" 
-		"ypos"			"60"
+		"xpos"			"c-281" 
+		"ypos"			"70"
 		"zpos"			"3"
 		"wide"			"225"
 		"tall"			"235"
@@ -158,13 +247,12 @@
 		"PaintkitLabel"
 		{
 			"controlname"	"CExLabel"
-			"font"			"HudFontSmallestBold"
-			"labeltext"		"#TF_ItemPreview_ItemPaintkit"
 			"xpos"			"10"
 			"ypos"			"4"
-			"wide"			"100"
+			"wide"			"160"
 			"tall"			"20"
-//			"bgcolor_override"	"200 0 0 100"
+			"labeltext"		"#TF_ItemPreview_ItemPaintkit"
+			"font"			"HudFontSmallestBold"
 
 			"fixed_paintkit"
 			{
@@ -175,23 +263,23 @@
 		"ComboBoxValidPaintkits"
 		{
 			"controlname"	"ComboBox"
-			"font"			"HudFontSmallestBold"
 			"xpos"			"cs-0.5"
 			"ypos"			"25"
 //			"zpos"			"1"
 			"wide"			"205"
 			"tall"			"20"
 			"proportionaltoparent"	"1"
+			"font"			"HudFontSmallestBold"
 			"actionsignallevel"	"2"
 			"editable"		"0"
 			"border_override"	"ViviButtonOne"
 
-			"fgcolor_override"			"TanLight"
-			"selectionColor_override"	"Blank"
+			"selectionTextColor_override"	"TanLight"
+			"selectionColor_override"		"Blank"
 
 			"fixed_paintkit"
 			{
-				"visible"	"0"
+				"visible"		"0"
 				//"ypos"		"54" // 5
 			}
 		}
@@ -199,61 +287,59 @@
 		"ItemLabel"
 		{
 			"controlname"	"CExLabel"
-			"font"			"HudFontSmallestBold"
-			"labeltext"		"#TF_ItemPreview_ItemPreview"
 			"xpos"			"10"
 			"ypos"			"47"
-			"wide"			"100"
+			"wide"			"160"
 			"tall"			"20"
-//			"bgcolor_override"	"200 0 0 100"
+			"labeltext"		"#TF_ItemPreview_ItemPreview"
+			"font"			"HudFontSmallestBold"
 
 			"fixed_paintkit"
 			{
-				"labeltext"	"#TF_ItemPreview_RedeemItem"
-				"ypos"		"9"
+				"ypos"			"9"
+				"labeltext"		"#TF_ItemPreview_RedeemItem"
 			}
 		}
 
 		"ComboBoxValidItems"
 		{
 			"controlname"	"ComboBox"
-			"font"			"HudFontSmallestBold"
 			"xpos"			"cs-0.5"
 			"ypos"			"68"
 //			"zpos"			"1"
 			"wide"			"205"
 			"tall"			"20"
 			"proportionaltoparent"	"1"
+			"font"			"HudFontSmallestBold"
 			"actionsignallevel"	"2"
 			"editable"		"0"
 			"border_override"	"ViviButtonOne"
 
-			"fgcolor_override"			"TanLight"
-			"selectionColor_override"	"Blank"
+			"selectionTextColor_override"	"TanLight"
+			"selectionColor_override"		"Blank"
 
 			"fixed_paintkit"
 			{
-				"xpos"		"110"
-				"ypos"		"9" // 5
-				"wide"		"180"
+				"xpos"			"110"
+				"ypos"			"9" // 5
+				"wide"			"180"
 			}
 		}
 
 		"WearLabel"
 		{
 			"controlname"	"CExLabel"
-			"font"			"HudFontSmallestBold"
-			"labeltext"		"#TF_ItemPreview_ItemWear"
 			"xpos"			"10"
 			"ypos"			"90"
-			"wide"			"100"
+			"wide"			"160"
 			"tall"			"20"
-//			"bgcolor_override"	"200 0 0 100"
+			"labeltext"		"#TF_ItemPreview_ItemWear"
+			"font"			"HudFontSmallestBold"
 
 			"fixed_paintkit"
 			{
 				//"ypos"		"37"
-				"visible"	"0"
+				"visible"		"0"
 			}
 		}
 
@@ -265,20 +351,20 @@
 //			"zpos"			"3"
 			"wide"			"212"
 			"tall"			"30"
+			"proportionaltoparent"	"1"
+			"actionsignallevel"	"2"
 			"numticks"		"4"
 			"rangemin"		"1"
 			"rangemax"		"5"
 			"lefttext"		"#TFUI_InvTooltip_BattleScared"
 			"righttext"		"#TFUI_InvTooltip_FactoryNew"
-			"proportionaltoparent"	"1"
-			"actionsignallevel"	"2"
 
 			"fixed_paintkit"
 			{
-				"xpos"		"110"
-				"ypos"		"26" // 5
-				"wide"		"180"
-				"visible"	"0"
+				"xpos"			"110"
+				"ypos"			"26" // 5
+				"wide"			"180"
+				"visible"		"0"
 			}
 		}
 
@@ -358,13 +444,12 @@
 
 			"fgcolor"					"Black"
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 
 			"fixed_paintkit"
 			{
-				"xpos"		"8"
-				"ypos"		"37"
-				"wide"		"130"
+				"xpos"			"8"
+				"ypos"			"37"
+				"wide"			"130"
 			}
 		}
 
@@ -386,20 +471,19 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuButtonDefault"
+			"border_default"	"MainMenuBGBorder"
 			"border_armed"		"MainMenuButtonArmed"
-			"border_selected"	"MainMenuButtonDepressed"
+			"border_selected"	"MainMenuButtonDepressedArmed"
 			"paintbackground"	"0"
 
-			"fgcolor"					"Black"
-			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
+			"depressedfgcolor_override"	"TanLightDark"
+			"selectedfgcolor_override"	"TanLightDark"
 
 			"fixed_paintkit"
 			{
-				"xpos"		"162"
-				"ypos"		"37"
-				"wide"		"130"
+				"xpos"			"162"
+				"ypos"			"37"
+				"wide"			"130"
 			}
 		}
 

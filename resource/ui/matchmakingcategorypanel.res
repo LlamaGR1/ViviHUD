@@ -52,8 +52,7 @@
 			"command"		"toggle_collapse"
 			"actionsignallevel"	"2"
 			"sound_armed"		"ui/buttonrollover.wav"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			"sound_released"	"ui/panel_open.wav"
 
 			"roundedcorners"			"0"
 			"button_activation_type"	"1"
@@ -84,7 +83,7 @@
 			"wide"			"f0"
 			"tall"			"57"
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Blank"
 			"mouseinputenabled"	"0"
 		}
 
@@ -99,7 +98,7 @@
 			"proportionaltoparent"	"1"
 			"smallcheckimage"	"1"
 			"sound_armed"		"ui/buttonrollover.wav"
-			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_depressed"	"ui/panel_open.wav"
 		}
 
 		"Title"

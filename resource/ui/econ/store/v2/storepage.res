@@ -45,13 +45,13 @@
 			"BottomBG"
 			{
 				"controlname"	"EditablePanel"
-				"ypos"			"r13"
+				"ypos"			"r18"
 				"wide"			"f0"
-				"tall"			"13"
+				"tall"			"18"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"		"Black"
-				"paintbackgroundtype"	"2"
 				"roundedcorners"		"12"
+				"paintbackgroundtype"	"2"
+				"bgcolor_override"		"Black"
 				"mouseinputenabled"		"0"
 			}
 
@@ -186,9 +186,10 @@
 			"sound_released"	"ui/buttonclickrelease.wav"
 			"sound_armed"		"ui/buttonrollover.wav"
 
-			"paintbackground"	"0"
+			"stayselectedonclick"		"1"
+			"button_activation_type"	"2"
 
-			"stayselectedonclick"	"1"
+			"paintbackground"	"0"
 
 			"image_drawcolor"		"251 235 202 255" // 235 226 202 255
 			"image_armedcolor"		"240 207 78 255"
@@ -310,14 +311,13 @@
 		"border_override"	"ViviStoreButton"
 
 		"fgcolor_override"				"Black"
-		"selectionColor_override"		"Blank"
 		"selectionTextColor_override"	"Black"
+		"selectionColor_override"		"Blank"
 
 		"Button"
 		{
 			"button_activation_type"	"2"
 			"defaultfgcolor_override"	"Black"
-			"armedfgcolor_override"		"140 42 43 255"
 		}
 	}
 
@@ -343,14 +343,13 @@
 		"border_override"	"ViviStoreButton"
 
 		"fgcolor_override"				"Black"
-		"selectionColor_override"		"Blank"
 		"selectionTextColor_override"	"Black"
+		"selectionColor_override"		"Blank"
 
 		"Button"
 		{
 			"button_activation_type"	"2"
 			"defaultfgcolor_override"	"Black"
-			"armedfgcolor_override"		"140 42 43 255"
 		}
 	}
 
@@ -403,7 +402,7 @@
 		"textalignment"	"center"
 		"command"		"show_explanations"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 		"sound_released"	"ui/hint.wav"
 
 		"button_activation_type"	"2"
@@ -436,7 +435,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "1"
@@ -486,7 +484,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_to_sibling_corner" "1"
@@ -528,7 +525,7 @@
 
 		"image_drawcolor"		"235 226 202 255"
 		"image_armedcolor"		"235 226 202 255"
-		"image_selectedcolor"	"169 163 146 255"
+		"image_selectedcolor"	"142 134 115 255"
 		"subimage"
 		{
 			"xpos"			"4"
@@ -631,7 +628,6 @@
 		"PositionLabel"
 		{
 			"controlname"	"CExLabel"
-			"xpos"			"0"
 			"ypos"			"120"
 			"zpos"			"-1"
 			"wide"			"300"

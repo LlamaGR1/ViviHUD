@@ -1,12 +1,12 @@
-r_decal_cullsize 1
+//r_decal_cullsize 1				not used anymore
 exec joystick.cfg
 exec autoexec.cfg
-stuffcmds
-startupmenu
-sv_unlockedchapters 99
+//stuffcmds
+//startupmenu
+//sv_unlockedchapters 99
 
 con_enable 1
-wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1
+wait 2; showconsole; incrementvar mat_aaquality 0 1 1; hideconsole
 
 tf_dashboard_slide_time 0.2
 tf_mm_dashboard_slide_panel_step 0
@@ -16,7 +16,78 @@ vgui_cache_res_files 0
 hud_combattext_red 200
 
 alias 1q "toggle mat_aaquality"
-alias zz "mp_respawnwavetime -1; mp_disable_respawn_times 1; sv_vote_creation_timer 1; sv_vote_failure_timer 1; sv_vote_issue_autobalance_cooldown 10; map itemtest; tf_bot_add 1"
+alias zz "maxplayers 101; mp_respawnwavetime -1; mp_disable_respawn_times 1; sv_vote_creation_timer 1; sv_vote_failure_timer 1; sv_vote_issue_autobalance_cooldown 10; map itemtest; tf_bot_add 1"
 alias xx "sv_allow_point_servercommand always; map workshop/606778917"
 
 exec music.cfg
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+alias "vivihud_folder" "ds_dir cfg/vivihud; ds_log 0; ds_record; ds_stop"
+vivihud_folder
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+alias bgs_clear "sixense_clear_bindings; sixense_write_bindings vivihud/theme.txt"
+alias bgs_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/vivihud/theme.txt"
+alias bgs_unlog "con_logfile console.log"
+
+alias bgs_vivi "bgs_clear; bgs_log; exec backgrounds.cfg; bgs_unlog; toggle mat_aaquality"
+alias bgs_tf2 "bgs_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+alias 2bgs_clear "sixense_clear_bindings; sixense_write_bindings vivihud/messages.txt"
+alias 2bgs_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/vivihud/messages.txt"
+alias 2bgs_unlog "con_logfile console.log"
+
+alias 2bgs_vivi "2bgs_clear; 2bgs_log; exec messages.cfg; 2bgs_unlog; toggle mat_aaquality"
+alias 2bgs_vivi123123 "2bgs_clear; 2bgs_log; exec messages77.cfg; 2bgs_unlog; toggle mat_aaquality"
+alias 2bgs_tf2 "2bgs_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+alias ci_clear "sixense_clear_bindings; sixense_write_bindings vivihud/character_image.txt"
+alias ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/vivihud/character_image.txt"
+alias ci_unlog "con_logfile console.log"
+
+alias ci_vivi "ci_clear; ci_log; exec character_image.cfg; ci_unlog; toggle mat_aaquality"
+alias ci_tf2 "ci_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+alias 2ci_clear "sixense_clear_bindings; sixense_write_bindings vivihud/rank.txt"
+alias 2ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/vivihud/rank.txt"
+alias 2ci_unlog "con_logfile console.log"
+
+alias 2ci_vivi "2ci_clear; 2ci_log; exec rank.cfg; 2ci_unlog; toggle mat_aaquality"
+alias 2ci_tf2 "2ci_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+alias 3ci_clear "sixense_clear_bindings; sixense_write_bindings vivihud/avatar.txt"
+alias 3ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/vivihud/avatar.txt"
+alias 3ci_unlog "con_logfile console.log"
+
+alias 3ci_vivi "3ci_clear; 3ci_log; exec avatar.cfg; 3ci_unlog; toggle mat_aaquality"
+alias 3ci_tf2 "3ci_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////	4:3		16:10	fix
+
+alias 31ci_clear "sixense_clear_bindings; sixense_write_bindings vivihud/ratio.txt"
+alias 31ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/vivihud/ratio.txt"
+alias 31ci_unlog "con_logfile console.log"
+
+//alias 169ratio "31ci_clear; 31ci_log; exec ratio169.cfg; 31ci_unlog; toggle mat_aaquality"
+alias 1610ratio "31ci_clear; 31ci_log; exec ratio1610.cfg; 31ci_unlog; toggle mat_aaquality"
+alias 43ratio "31ci_clear; 31ci_log; exec ratio43.cfg; 31ci_unlog; toggle mat_aaquality"
+alias 169ratio "31ci_clear; toggle mat_aaquality"
+
+////////////////////////////////////////////////////////////////////////////////////////////////	loadout		class	icon
+
+alias 32ci_clear "sixense_clear_bindings; sixense_write_bindings vivihud/loadoutclass.txt"
+alias 32ci_log "con_filter_text #base; con_filter_enable 1; con_logfile cfg/vivihud/loadoutclass.txt"
+alias 32ci_unlog "con_logfile console.log"
+
+alias classiconv2 "32ci_clear; 32ci_log; exec classicon.cfg; 32ci_unlog; toggle mat_aaquality"
+alias classiconv1 "32ci_clear; toggle mat_aaquality"

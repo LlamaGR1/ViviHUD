@@ -31,7 +31,7 @@
 					"particle_xpos"		"c0"
 					"particle_ypos"		"c0"
 					"particle_scale"	"3"
-					"particleName"		"rankup_base"
+					"particlename"		"rankup_base"
 					"start_activated"	"0"
 					"loop"				"0"
 				}
@@ -121,8 +121,8 @@
 				{
 					"particle_xpos"		"c0"
 					"particle_ypos"		"c0"
-					"particle_scale"	"5"
-					"particleName"		"rankup_glitter"
+					"particle_scale"	"3"
+					"particlename"		"rankup_glitter"
 					"start_activated"	"0"
 					"loop"				"0"
 				}
@@ -131,8 +131,8 @@
 				{
 					"particle_xpos"		"c0"
 					"particle_ypos"		"c0"
-					"particle_scale"	"4"
-					"particleName"		"badgepress_base"
+					"particle_scale"	"3"
+					"particlename"		"badgepress_base"
 					"start_activated"	"0"
 					"loop"				"0"
 				}
@@ -141,8 +141,8 @@
 				{
 					"particle_xpos"		"c-8"
 					"particle_ypos"		"c0"
-					"particle_scale"	"4"
-					"particleName"		"rankdown_base"
+					"particle_scale"	"2"
+					"particlename"		"rankdown_base"
 					"start_activated"	"0"
 					"loop"				"0"
 				}
@@ -205,7 +205,7 @@
 
 		"NameLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"21"
 			"ypos"			"24"
 			"zpos"			"100"
@@ -308,7 +308,7 @@
 
 				"CurrentXPLabel"
 				{
-					"controlname"	"label"
+					"controlname"	"Label"
 					"xpos"			"0"
 					"ypos"			"rs1"
 					"zpos"			"0"
@@ -323,7 +323,7 @@
 
 				"NextLevelXPLabel"
 				{
-					"controlname"	"label"
+					"controlname"	"Label"
 					"xpos"			"rs1"
 					"ypos"			"rs1"
 					"zpos"			"0"
@@ -417,7 +417,7 @@
 
 				"GamesLabel"
 				{
-					"controlname"	"label"
+					"controlname"	"Label"
 					"xpos"			"10"
 					"ypos"			"0"
 					"zpos"			"0"
@@ -432,7 +432,7 @@
 
 				"KillsLabel"
 				{
-					"controlname"	"label"
+					"controlname"	"Label"
 					"xpos"			"10"
 					"ypos"			"10"
 					"zpos"			"0"
@@ -447,7 +447,7 @@
 
 				"DeathsLabel"
 				{
-					"controlname"	"label"
+					"controlname"	"Label"
 					"xpos"			"10"
 					"ypos"			"20"
 					"zpos"			"0"
@@ -462,7 +462,7 @@
 
 				"DamageLabel"
 				{
-					"controlname"	"label"
+					"controlname"	"Label"
 					"xpos"			"c-20"
 					"ypos"			"0"
 					"zpos"			"0"
@@ -477,7 +477,7 @@
 
 				"HealingLabel"
 				{
-					"controlname"	"label"
+					"controlname"	"Label"
 					"xpos"			"c-20"
 					"ypos"			"10"
 					"zpos"			"0"
@@ -492,7 +492,7 @@
 
 				"SupportLabel"
 				{
-					"controlname"	"label"
+					"controlname"	"Label"
 					"xpos"			"c-20"
 					"ypos"			"20"
 					"zpos"			"0"
@@ -507,7 +507,7 @@
 
 				"ScoreLabel"
 				{
-					"controlname"	"label"
+					"controlname"	"Label"
 					"xpos"			"rs1"
 					"ypos"			"0"
 					"zpos"			"0"

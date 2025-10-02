@@ -61,8 +61,8 @@
 		"tall"			"34"
 		"labeltext"		"#TF_MvM_HeaderCoop"
 		"font"			"HudFontMediumBold"
+		"use_proportional_insets"	"1"
 		"textinsetx"	"18"
-		"use_proportional_insets" "1"
 		"mouseinputenabled"	"0"
 
 		"border_default"	"OutlinedGreyBox"
@@ -102,13 +102,12 @@
 		"wide"			"200"
 		"tall"			"20"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
-
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 
 	"JoinLateLabel"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"xpos"			"c+125"
 		"ypos"			"376"
 		"zpos"			"49"
@@ -131,15 +130,13 @@
 
 		"PlayWithFriendsExplanationTitle"
 		{
-			"controlname"	"CExLabel"
-			"font"			"HudFontSmallBold"
-			"labeltext"		"#TF_Matchmaking_PlayWithFriends"
-			"textalignment"	"center"
-			"xpos"			"0"
-			"ypos"			"0"
+			"controlname"	"Label"
 			"zpos"			"10"
 			"wide"			"200"
 			"tall"			"32"
+			"labeltext"		"#TF_Matchmaking_PlayWithFriends"
+			"font"			"HudFontSmallBold"
+			"textalignment"	"center"
 		}
 
 		"FriendsImage"
@@ -147,7 +144,6 @@
 			"controlname"	"ImagePanel"
 			"xpos"			"10"
 			"ypos"			"32"
-			"zpos"			"0"
 			"wide"			"180"
 			"tall"			"90"
 			"scaleimage"	"1"
@@ -156,15 +152,15 @@
 
 		"PlayWithFriendsExplanationLabel"
 		{
-			"controlname"	"CExLabel"
-			"font"			"HudFontSmall"
-			"labeltext"		"#TF_MvM_PlayWithFriendsExplanation"
-			"textalignment"	"north-west"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"130"
 			"zpos"			"10"
 			"wide"			"180"
 			"tall"			"150"
+			"labeltext"		"#TF_MvM_PlayWithFriendsExplanation"
+			"font"			"HudFontSmall"
+			"textalignment"	"north-west"
 			"wrap"			"1"
 		}
 	}
@@ -184,6 +180,11 @@
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
+
+		"border_default"	"ViviTanDarkBG"
+		"border_armed"		"ViviTFOrangeBG"
+		"border_selected"	"ViviTFOrangeBG"
+		"paintbackground"	"0"
 	}
 
 	"CloseButton"
@@ -208,7 +209,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"MannUpToolTipButtonHack"
@@ -244,7 +244,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"BootCampToolTipButtonHack"
@@ -280,7 +279,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"NextButton"
@@ -306,6 +304,5 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 }

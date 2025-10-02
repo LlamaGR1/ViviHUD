@@ -58,7 +58,7 @@
 				"labeltext"		"#Store_Price_New"
 				"border"		"StoreNewBorder"
 				"fgcolor"		"Black"
-				"mouseinputenabled" "0"
+				"mouseinputenabled"	"0"
 			}
 		}
 
@@ -103,7 +103,7 @@
 				"labeltext"		"#Store_Price_New"
 				"border"		"StoreNewBorder"
 				"fgcolor"		"Black"
-				"mouseinputenabled" "0"
+				"mouseinputenabled"	"0"
 			}
 
 			"use_item_sounds"	"1"
@@ -133,25 +133,25 @@
 	"CaratLabel"
 	{
 		"controlname"	"CExLabel"
-		"font"			"HudFontSmallestBold"
-		"labeltext"		">>"
 		"xpos"			"c-295"
 		"ypos"			"11"
 		"zpos"			"1"
 		"auto_wide_tocontents"	"1"
 		"tall"			"30"
+		"labeltext"		">>"
+		"font"			"HudFontSmallestBold"
 		"fgcolor_override"	"LightRed"
 	}
 
 	"BackpackLabel"
 	{
 		"controlname"	"CExLabel"
-		"font"			"HudFontBiggerBold"
-		"labeltext"		"#BackpackTitle"
 		"xpos"			"-15"
 		"zpos"			"2"
 		"auto_wide_tocontents"	"1"
 		"tall"			"30"
+		"labeltext"		"#BackpackTitle"
+		"font"			"HudFontBiggerBold"
 
 		"pin_to_sibling" "CaratLabel"
 	}
@@ -159,13 +159,13 @@
 	"BackpackLabelShadow"
 	{
 		"controlname"	"CExLabel"
-		"font"			"HudFontBiggerBold"
-		"labeltext"		"#BackpackTitle"
 		"xpos"			"-17"
 		"ypos"			"-3"
 		"zpos"			"1"
 		"auto_wide_tocontents"	"1"
 		"tall"			"30"
+		"labeltext"		"#BackpackTitle"
+		"font"			"HudFontBiggerBold"
 		"fgcolor"		"65 65 65 255"
 
 		"pin_to_sibling" "CaratLabel"
@@ -180,20 +180,20 @@
 		"wide"			"170"
 		"tall"			"10"
 		"tileimage"		"1"
-		"tileVertically" "0"
+		"tilevertically" "0"
 		"image"			"loadout_dotted_line"
 	}
 
 	"ShowBaseItemsLabel"
 	{
 		"controlname"	"CExLabel"
-		"font"			"HudFontSmallestBold"
-		"labeltext"		"#ShowBaseItems"
-		"textalignment"	"east"
 		"xpos"			"3"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"20"
+		"labeltext"		"#ShowBaseItems"
+		"font"			"HudFontSmallestBold"
+		"textalignment"	"east"
 
 		"pin_to_sibling" "ShowBaseItemsCheckbox"
 		"pin_corner_to_sibling" "3"
@@ -203,14 +203,13 @@
 	"ShowBaseItemsCheckbox"
 	{
 		"controlname"	"CheckButton"
-		"labeltext"		""
 		"xpos"			"4"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"smallcheckimage"	"1"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 
 		"pin_to_sibling" "ShowExplanationsButton"
 		"pin_corner_to_sibling" "3"
@@ -220,17 +219,17 @@
 	"ShowRarityComboBox"
 	{
 		"controlname"	"ComboBox"
-		"font"			"FontStorePrice"
 		"xpos"			"c74"
 		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"187"
 		"tall"			"15"
+		"font"			"FontStorePrice"
 		"editable"		"0"
 		"border_override"	"ViviButtonOne"
 
-		"fgcolor_override"			"TanLight"
-		"selectionColor_override"	"Blank"
+		"selectionTextColor_override"	"TanLight"
+		"selectionColor_override"		"Blank"
 	}
 
 	"ShowExplanationsButton"
@@ -246,7 +245,7 @@
 		"textalignment"	"center"
 		"command"		"show_explanations"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 		"sound_released"	"ui/hint.wav"
 
 		"border_default"	"ViviButtonOne"
@@ -267,7 +266,7 @@
 		"wide"			"207"
 		"tall"			"10"
 		"tileimage"		"1"
-		"tileVertically" "0"
+		"tilevertically"	"0"
 		"image"			"loadout_dotted_line"
 	}
 
@@ -316,7 +315,7 @@
 		"wide"			"560"
 		"tall"			"10"
 		"tileimage"		"1"
-		"tileVertically" "0"
+		"tilevertically"	"0"
 		"image"			"loadout_dotted_line"
 	}
 
@@ -332,8 +331,8 @@
 		"editable"		"0"
 		"border_override"	"ViviButtonOne"
 
-		"fgcolor_override"			"TanLight"
-		"selectionColor_override"	"Blank"
+		"selectionTextColor_override"	"TanLight"
+		"selectionColor_override"		"Blank"
 	}
 
 	"CancelApplyToolButton"
@@ -384,7 +383,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "1"
@@ -434,7 +432,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_to_sibling_corner" "1"
@@ -494,12 +491,12 @@
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
+	//	"xpos"			"c-70"
+	//	"ypos"			"270"
 		"zpos"			"102"
 		"wide"			"300"
 		"tall"			"300"
-		"noitem_textcolor"	"117 107 94 255"
+	//	"noitem_textcolor"	"TanDark"
 
 		"text_center"		"1"
 		"model_hide"		"1"
@@ -508,15 +505,15 @@
 
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			"labeltext"		"%attriblist%"
+			"font"			"ItemFontAttribLarge"
 			"textalignment"	"center"
 			"centerwrap"	"1"
-			"fgcolor"		"255 107 94 255"
+			"fgcolor"		"LightRed"
 		}
 	}
 
@@ -529,8 +526,8 @@
 		"wide"			"27"
 		"tall"			"21"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"255 107 94 255"
+		"bgcolor_override"		"Blank"
+		"noitem_textcolor"		"LightRed"
 		"paintbackgroundtype"	"2"
 		"paintborder"	"1"
 
@@ -543,7 +540,7 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget"	"0"
 			"allow_rot"				"0"
 		}
 	}
@@ -609,9 +606,9 @@
 
 			"paintbackground"	"0"
 
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"image_selectedcolor" "200 80 60 255"
+			"image_drawcolor"		"117 107 94 255"
+			"image_armedcolor"		"200 80 60 255"
+			"image_selectedcolor"	"200 80 60 255"
 			"subimage"
 			{
 				"wide"			"14"

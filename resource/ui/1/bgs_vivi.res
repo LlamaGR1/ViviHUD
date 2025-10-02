@@ -1,0 +1,26 @@
+"chapters"
+{
+	1	"bgs_vivi/vivian_bg"
+	2	"bgs_vivi/vivian_bg2"
+	3	"bgs_vivi/vivian_bg3"
+	4	"bgs_vivi/vivian_bg4"
+	5	"bgs_vivi/vivian_bg5"
+//	6	"bgs_vivi/vivian_bg6"
+//	7	"bgs_vivi/vivian_bg7"
+	6	"bgs_vivi/vivian_bg8"
+	7	"bgs_vivi/vivian_bg9"
+	8	"bgs_vivi/vivian_bg10"
+	9	"bgs_vivi/vivian_bg11"
+//	10	"bgs_vivi/miyabi_bg"
+	10	"testt/yuzuha_bg"
+
+
+	11	"bgs_vivi/vivian_bg"
+	12	"bgs_vivi/vivian_bg2"
+	13	"bgs_vivi/vivian_bg3"
+	14	"bgs_vivi/vivian_bg5"
+	15	"bgs_vivi/vivian_bg9"
+	16	"bgs_vivi/vivian_bg10"
+	17	"bgs_vivi/vivian_bg11"
+	18	"testt/yuzuha_bg"
+}

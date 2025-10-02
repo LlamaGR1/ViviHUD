@@ -9,7 +9,7 @@
 		"autohide_scrollbar"	"1"
 		"bgcolor_override"		"0 0 0 0"
 
-		"HatUseHeadCheckButton"
+		"HatUseHeadCheckButton"		//		?????????????????????
 		{
 			"controlname"	"CheckButton"
 			"wide"			"140"
@@ -27,6 +27,9 @@
 			"command"		"particle_use_head_clicked"
 
 			"roundedcorners"	"15"
+
+			"sound_armed"		"ui/buttonrollover.wav"
+			"sound_depressed"	"ui/panel_open.wav"
 		}
 
 		"HatParticleSlider"
@@ -34,7 +37,7 @@
 			"controlname"	"CCvarSlider"
 			"wide"			"140"
 			"tall"			"14"
-			"autoResize"	"0"
+			"autoresize"	"0"
 			"visible"		"0"
 			"fgcolor_override"	"TanLight"
 
@@ -63,7 +66,6 @@
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 	}
 }

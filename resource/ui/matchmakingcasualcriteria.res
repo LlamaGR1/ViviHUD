@@ -56,7 +56,7 @@
 
 			"image_drawcolor"		"235 226 202 255"
 			"image_armedcolor"		"235 226 202 255"
-			"image_selectedcolor"	"169 163 146 255"
+			"image_selectedcolor"	"142 134 115 255"
 			"subimage"
 			{
 				"xpos"			"cs-0.5"
@@ -93,7 +93,7 @@
 
 			"image_drawcolor"		"235 226 202 255"
 			"image_armedcolor"		"235 226 202 255"
-			"image_selectedcolor"	"169 163 146 255"
+			"image_selectedcolor"	"142 134 115 255"
 			"subimage"
 			{
 				"xpos"			"cs-0.5"

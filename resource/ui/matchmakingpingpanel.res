@@ -12,7 +12,7 @@
 
 		"BGPanel"
 		{
-			"controlname"	"EditablePanel"
+			"controlname"	"Panel"
 			"xpos"			"cs-0.5"
 			"ypos"			"40"
 			"zpos"			"1"
@@ -42,7 +42,7 @@
 
 	"InviteModeLabel"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"xpos"			"c-116"
 		"ypos"			"45"
 		"zpos"			"2"
@@ -50,7 +50,7 @@
 		"tall"			"20"
 		"labeltext"		"#TF_MM_InviteMode"
 		"font"			"HudFontSmallBold"
-		"fgcolor_override"	"TanDark"
+		"fgcolor_override"	"TFTanDark"
 	}
 
 	"InviteModeComboBox"
@@ -78,7 +78,7 @@
 		"font"			"HudFontSmallBold"
 		"cvar_name"		"tf_party_ignore_invites"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 
 	"CustomPingCheckButton"
@@ -93,7 +93,7 @@
 		"font"			"HudFontSmallBold"
 		"cvar_name"		"tf_mm_custom_ping_enabled"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 
 	"DescLabel"
@@ -108,12 +108,12 @@
 		"textalignment"	"north-west"
 		"font"			"HudFontSmallest"
 		"wrap"			"1"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TFTanDark"
 	}
 
 	"CurrentPingLabel"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"xpos"			"c-120"
 		"ypos"			"167"
 		"zpos"			"2"
@@ -162,7 +162,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"TFTanDark"
 				}
 
 				"UpButton"

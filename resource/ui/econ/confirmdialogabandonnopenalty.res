@@ -72,7 +72,6 @@
 
 	//	"fgcolor_override"			"Black"
 		"defaultfgcolor_override"	"Black"
-	//	"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "Border"
 		"pin_corner_to_sibling" "2"
@@ -102,7 +101,6 @@
 
 	//	"fgcolor"					"Black"
 		"defaultfgcolor_override"	"Black"
-	//	"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "Border"
 		"pin_corner_to_sibling" "3"

@@ -35,7 +35,6 @@
 				"paintbackground"	"0"
 
 				"defaultfgcolor_override"	"Black"
-				"selectedfgcolor_override"	"Black"
 			}
 
 			"avatar"
@@ -72,7 +71,7 @@
 		"ypos"			"80"
 		"wide"			"360"
 		"tall"			"162"
-		"fgcolor_override"		"TanDark"
+		"fgcolor_override"		"TFTanDark"
 		"bgcolor_override"		"0 0 0 69"
 		"paintbackgroundtype"	"2"
 
@@ -138,7 +137,6 @@
 
 			"fgcolor"					"Black"
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 
 		"subbutton1"
@@ -165,7 +163,6 @@
 
 			"fgcolor"					"Black"
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 
 		"subbutton2"
@@ -192,7 +189,6 @@
 
 			"fgcolor"					"Black"
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 	}
 
@@ -278,7 +274,7 @@
 
 		"URLHelpLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"font"			"HudFontSmallest"
 			"labeltext"		"#TF_TradeStartDialog_ProfileHelp"
 			"ypos"			"35"
@@ -290,7 +286,7 @@
 
 		"URLFailLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"font"			"HudFontSmallest"
 			"labeltext"		"#TF_TradeStartDialog_ProfileFail"
 			"ypos"			"107"
@@ -303,7 +299,7 @@
 
 		"URLSearchingLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"font"			"HudFontSmallest"
 			"labeltext"		"#TF_TradeStartDialog_ProfileLookup"
 			"ypos"			"107"
@@ -379,7 +375,6 @@
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 	}
 
@@ -406,7 +401,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"CancelButton2"

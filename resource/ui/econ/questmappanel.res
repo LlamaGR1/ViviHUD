@@ -3,23 +3,14 @@
 	"QuestMap"
 	{
 		"controlname"	"CQuestMapPanel"
-		"fieldname"		"QuestMap"
-		"xpos"			"0"
-		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"paintbackgroundtype" "0"
-		"paintbackground"	"0"
-		"skip_autoresize"	"1"
 
 		"MouseBlocker"
 		{
 			"controlname"	"Panel"
-			"fieldname"		"MouseBlocker"
-			"xpos"			"0"
-			"ypos"			"0"
 			"zpos"			"10000"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -36,7 +27,6 @@
 		"mouseoveritempanel"
 		{
 			"controlname"	"CItemModelPanel"
-			"fieldname"		"mouseoveritempanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
 			"zpos"			"1069"
@@ -68,7 +58,6 @@
 		"TooltipPanel"
 		{
 			"controlname"	"EditablePanel"
-			"fieldname"		"TooltipPanel"
 			"zpos"			"1001"
 			"wide"			"240"
 			"tall"			"50"
@@ -78,7 +67,6 @@
 			"TipLabel"
 			{
 				"controlname"	"CExLabel"
-				"fieldname"		"TipLabel"
 				"font"			"HudFontSmallest"
 				"labeltext"		"%tiptext%"
 				"textalignment"	"center"
@@ -91,7 +79,6 @@
 
 			"QuestObjective"
 			{
-				"fieldname"		"QuestObjective"
 				"zpos"			"1002"
 				"wide"			"200"
 			}
@@ -99,20 +86,110 @@
 
 		"Dimmer"
 		{
-			"controlname"	"EditablePanel"
-			"fieldname"		"Dimmer"
-			"xpos"			"0"
-			"ypos"			"0"
+			"controlname"	"Panel"
 			"zpos"			"-2"
 			"wide"			"f0"
 			"tall"			"f0"
-			"bgcolor_override"	"20 15 5 230"
+			"bgcolor_override"	"0 0 0 230"
+		}
+
+		"FullScreenCloseButtonPin"
+		{
+			"controlname"	"Panel"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"wide"			"610"
+			"tall"			"405"
+			"proportionaltoparent"	"1"
+		}
+
+		"FullScreenCloseButton1"
+		{
+			"controlname"	"Button"
+			"zpos"			"169"
+			"wide"			"f0"
+			"tall"			"f0"
+			"labeltext"		""
+			"command"		"close"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"roundedcorners"			"0"
+			"button_activation_type"	"2"
+
+			"paintbackground"	"0"
+
+			"pin_to_sibling" "FullScreenCloseButtonPin"
+			"pin_corner_to_sibling" "6"
+			"pin_to_sibling_corner" "4"
+		}
+
+		"FullScreenCloseButton2"
+		{
+			"controlname"	"Button"
+			"zpos"			"169"
+			"wide"			"f0"
+			"tall"			"f0"
+			"labeltext"		""
+			"command"		"close"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"roundedcorners"			"0"
+			"button_activation_type"	"2"
+
+			"paintbackground"	"0"
+
+			"pin_to_sibling" "FullScreenCloseButtonPin"
+			"pin_corner_to_sibling" "4"
+			"pin_to_sibling_corner" "6"
+		}
+
+		"FullScreenCloseButton3"
+		{
+			"controlname"	"Button"
+			"zpos"			"169"
+			"wide"			"f0"
+			"tall"			"f0"
+			"labeltext"		""
+			"command"		"close"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"roundedcorners"			"0"
+			"button_activation_type"	"2"
+
+			"paintbackground"	"0"
+
+			"pin_to_sibling" "FullScreenCloseButtonPin"
+			"pin_corner_to_sibling" "5"
+			"pin_to_sibling_corner" "7"
+		}
+
+		"FullScreenCloseButton4"
+		{
+			"controlname"	"Button"
+			"zpos"			"169"
+			"wide"			"f0"
+			"tall"			"f0"
+			"labeltext"		""
+			"command"		"close"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"roundedcorners"			"0"
+			"button_activation_type"	"2"
+
+			"paintbackground"	"0"
+
+			"pin_to_sibling" "FullScreenCloseButtonPin"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
 		}
 
 		"MainContainer"
 		{
 			"controlname"	"EditablePanel"
-			"fieldname"		"MainContainer"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5-20"
 			"zpos"			"1"
@@ -124,7 +201,6 @@
 			"CloseButton"
 			{
 				"controlname"	"CExImageButton"
-				"fieldname"		"CloseButton"
 				"xpos"			"c278"
 				"ypos"			"175"
 				"zpos"			"10"
@@ -144,7 +220,7 @@
 
 				"image_drawcolor"		"235 226 202 255"
 				"image_armedcolor"		"235 226 202 255"
-				"image_selectedcolor"	"169 163 146 255"
+				"image_selectedcolor"	"142 134 115 255"
 				"subimage"
 				{
 					"xpos"			"cs-0.5"
@@ -160,7 +236,6 @@
 			"PowerSwitchButton"
 			{
 				"controlname"	"CExImageButton"
-				"fieldname"		"PowerSwitchButton"
 				"xpos"			"c190"
 				"ypos"			"497"
 				"zpos"			"1000"
@@ -190,8 +265,7 @@
 
 			"PowerLabel"
 			{
-				"controlname"	"label"
-				"fieldname"		"PowerLabel"
+				"controlname"	"Label"
 				"xpos"			"c205"
 				"ypos"			"565"
 				"zpos"			"1000"
@@ -207,7 +281,6 @@
 			"MapButton"
 			{
 				"controlname"	"CExImageButton"
-				"fieldname"		"MapButton"
 				"xpos"			"c-270"
 				"ypos"			"510"
 				"zpos"			"1001"
@@ -241,8 +314,7 @@
 
 			"MapStoreLabel"
 			{
-				"controlname"	"label"
-				"fieldname"		"MapStoreLabel"
+				"controlname"	"Label"
 				"xpos"			"c-258"
 				"ypos"			"553"
 				"zpos"			"1000"
@@ -258,7 +330,6 @@
 			"RewardsStoreButton"
 			{
 				"controlname"	"CExImageButton"
-				"fieldname"		"RewardsStoreButton"
 				"xpos"			"c-185"
 				"ypos"			"510"
 				"zpos"			"1000"
@@ -292,8 +363,7 @@
 
 			"RewardsStoreLabel"
 			{
-				"controlname"	"label"
-				"fieldname"		"RewardsStoreLabel"
+				"controlname"	"Label"
 				"xpos"			"c-200"
 				"ypos"			"553"
 				"zpos"			"1000"
@@ -309,7 +379,6 @@
 			"ScreenBorder"
 			{
 				"controlname"	"ImagePanel"
-				"fieldname"		"ScreenBorder"
 				"xpos"			"cs-0.5-15"
 				"ypos"			"cs-0.5+30"
 				"zpos"			"1"
@@ -326,7 +395,6 @@
 			"MapAreaPanel"
 			{
 				"controlname"	"EditablePanel"
-				"fieldname"		"MapAreaPanel"
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"0"
@@ -338,7 +406,6 @@
 				"Introduction"
 				{
 					"controlname"	"EditablePanel"
-					"fieldname"		"Introduction"
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"8000"
@@ -349,7 +416,6 @@
 					"StaticBG"
 					{
 						"controlname"	"ImagePanel"
-						"fieldname"		"StaticBG"
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"0"
@@ -368,7 +434,6 @@
 					"StaticDarken"
 					{
 						"controlname"	"EditablePanel"
-						"fieldname"		"StaticDarken"
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"0"
@@ -382,7 +447,6 @@
 					"VideoPanel"
 					{
 						"controlname"	"VideoPanel"
-						"fieldname"		"VideoPanel"
 						"xpos"			"r130-s0.5"
 						"ypos"			"50"
 						"zpos"			"100"
@@ -395,44 +459,34 @@
 
 					"IntroTitle"
 					{
-						"controlname"	"label"
-						"fieldname"		"IntroTitle"
-						"labeltext"		"#TF_QuestMap_Intro_Title"
+						"controlname"	"Label"
 						"xpos"			"20"
 						"ypos"			"20"
-						"zpos"			"1"
 						"wide"			"f0"
 						"tall"			"100"
 						"proportionaltoparent"	"1"
+						"labeltext"		"#TF_QuestMap_Intro_Title"
 						"font"			"HudFontMediumBold"
 						"textalignment"	"north-west"
-						"mouseinputenabled"		"0"
 						"fgcolor_override"	"QuestMap_ActiveOrange"
 					}
 
 					"IntroDesc"
 					{
-						"controlname"	"label"
-						"fieldname"		"IntroDesc"
-						"labeltext"		"#TF_QuestMap_Intro_Desc"
-						"xpos"			"0"
+						"controlname"	"Label"
+						"xpos"			"23"
 						"ypos"			"50"
-						"zpos"			"1"
 						"wide"			"p0.5"
 						"tall"			"100"
 						"proportionaltoparent"	"1"
+						"labeltext"		"#TF_QuestMap_Intro_Desc"
 						"font"			"HudFontSmallest"
-						"textalignment"		"north-west"
-						"mouseinputenabled"		"0"
-						"fgcolor_override"	"TanLight"
-						"wrap"	"1"
-						"textinsetx"	"23"
-						"use_proportional_insets"	"1"
+						"textalignment"	"north-west"
+						"wrap"			"1"
 					}
 
 					"HoverButtonStage1"
 					{
-						"fieldname"		"HoverButtonStage1"
 						"xpos"			"23"
 						"ypos"			"135"
 						"zpos"			"1"
@@ -442,15 +496,16 @@
 						"font"			"HudFontSmallBold"
 						"textalignment"	"center"
 
-						"depressedfgcolor_override" "TanLight"
+						"stay_armed_on_click"		"1"
+						"button_activation_type"	"1"
 
-						"defaultbgcolor_override"	"TanDark"
-						"armedbgcolor_override"		"QuestMap_ActiveOrange"
-						"depressedbgcolor_override"	"QuestMap_ActiveOrange"
-						"selectedbgcolor_override"	"QuestMap_ActiveOrange"
+						"border_default"	"MainMenuButtonDefault"
+						"border_armed"		"MainMenuButtonArmed"
+						"paintbackground"	"0"
 
-						"image_armedcolor"		"0 0 0 0"
-						"image_selectedcolor"	"0 0 0 0"
+						"defaultfgcolor_override"	"Black"
+
+						"image_drawcolor"	"50 49 52 255"
 						"subimage"
 						{
 							"xpos"			"rs1-5"
@@ -465,7 +520,6 @@
 
 					"HoverButtonStage2"
 					{
-						"fieldname"		"HoverButtonStage2"
 						"xpos"			"23"
 						"ypos"			"185"
 						"zpos"			"1"
@@ -475,15 +529,16 @@
 						"font"			"HudFontSmallBold"
 						"textalignment"	"center"
 
-						"depressedfgcolor_override" "TanLight"
+						"stay_armed_on_click"		"1"
+						"button_activation_type"	"1"
 
-						"defaultbgcolor_override"	"TanDark"
-						"armedbgcolor_override"		"QuestMap_ActiveOrange"
-						"depressedbgcolor_override"	"QuestMap_ActiveOrange"
-						"selectedbgcolor_override"	"QuestMap_ActiveOrange"
+						"border_default"	"MainMenuButtonDefault"
+						"border_armed"		"MainMenuButtonArmed"
+						"paintbackground"	"0"
 
-						"image_armedcolor"		"0 0 0 0"
-						"image_selectedcolor"	"0 0 0 0"
+						"defaultfgcolor_override"	"Black"
+
+						"image_drawcolor"	"50 49 52 255"
 						"subimage"
 						{
 							"xpos"			"rs1-5"
@@ -498,7 +553,6 @@
 
 					"HoverButtonStage3"
 					{
-						"fieldname"		"HoverButtonStage3"
 						"xpos"			"23"
 						"ypos"			"235"
 						"zpos"			"1"
@@ -508,15 +562,16 @@
 						"font"			"HudFontSmallBold"
 						"textalignment"	"center"
 
-						"depressedfgcolor_override" "TanLight"
+						"stay_armed_on_click"		"1"
+						"button_activation_type"	"1"
 
-						"defaultbgcolor_override"	"TanDark"
-						"armedbgcolor_override"		"QuestMap_ActiveOrange"
-						"depressedbgcolor_override"	"QuestMap_ActiveOrange"
-						"selectedbgcolor_override"	"QuestMap_ActiveOrange"
+						"border_default"	"MainMenuButtonDefault"
+						"border_armed"		"MainMenuButtonArmed"
+						"paintbackground"	"0"
 
-						"image_armedcolor"		"0 0 0 0"
-						"image_selectedcolor"	"0 0 0 0"
+						"defaultfgcolor_override"	"Black"
+
+						"image_drawcolor"	"46 46 51 255"
 						"subimage"
 						{
 							"xpos"			"rs1-5"
@@ -532,7 +587,6 @@
 					"IntroStage0"
 					{
 						"controlname"	"EditablePanel"
-						"fieldname"		"IntroStage0"
 						"xpos"			"cs-0.5"
 						"ypos"			"cs-0.5"
 						"zpos"			"1"
@@ -543,40 +597,30 @@
 						"StartButton"
 						{
 							"controlname"	"CExButton"
-							"fieldname"		"StartButton"
-							"xpos"			"350"
+							"xpos"			"345"
 							"ypos"			"cs-0.5"
-							"zos"			"2"
-							"wide"			"100"
-							"tall"			"20"
+							"wide"			"110"
+							"tall"			"24"
 							"proportionaltoparent"	"1"
-							"textalignment"	"center"
-							"labeltext"		"#TF_QuestMap_Intro_OK"
+							"labeltext"		"#TF_QuestView_Accept"		//		TF_QuestMap_Intro_OK
 							"font"			"HudFontSmallBold"
+							"textalignment"	"center"
 							"command"		"endintro"
 							"actionsignallevel"	"5"
 							"sound_armed"		"ui/buttonrollover.wav"
 							"sound_depressed"	"ui/buttonclick.wav"
 							"sound_released"	"ui/buttonclickrelease.wav"
 
-							"button_activation_type"	"2"
-
-							"paintbackground"	"1"
-
-							"defaultfgcolor_override"	"TanLight"
-							"armedfgcolor_override"		"TanLight"
-						//	"depressedfgcolor_override"	"Black"
-
-							"defaultbgcolor_override"	"StoreGreen"
-							"armedbgcolor_override"		"CreditsGreen"
-						//	"depressedbgcolor_override"	"CreditsGreen"
+							"border_default"	"ViviButtonAd"
+							"border_armed"		"ViviButtonAdArmed"
+							"border_selected"	"ViviButtonAdDepressed"
+							"paintbackground"	"0"
 						}
 					}
 
 					"IntroStage1"
 					{
 						"controlname"	"EditablePanel"
-						"fieldname"		"IntroStage1"
 						"xpos"			"cs-0.5"
 						"ypos"			"cs-0.5"
 						"zpos"			"1"
@@ -589,8 +633,7 @@
 
 						"StageDesc"
 						{
-							"controlname"	"label"
-							"fieldname"		"StageDesc"
+							"controlname"	"Label"
 							"labeltext"		"#TF_QuestMap_Intro_1"
 							"xpos"			"p0.5"
 							"ypos"			"210"
@@ -611,7 +654,6 @@
 					"IntroStage2"
 					{
 						"controlname"	"EditablePanel"
-						"fieldname"		"IntroStage2"
 						"xpos"			"cs-0.5"
 						"ypos"			"cs-0.5"
 						"zpos"			"1"
@@ -624,8 +666,7 @@
 
 						"StageDesc"
 						{
-							"controlname"	"label"
-							"fieldname"		"StageDesc"
+							"controlname"	"Label"
 							"labeltext"		"#TF_QuestMap_Intro_2"
 							"xpos"			"p0.5"
 							"ypos"			"210"
@@ -646,7 +687,6 @@
 					"IntroStage3"
 					{
 						"controlname"	"EditablePanel"
-						"fieldname"		"IntroStage3"
 						"xpos"			"cs-0.5"
 						"ypos"			"cs-0.5"
 						"zpos"			"1"
@@ -659,8 +699,7 @@
 
 						"StageDesc"
 						{
-							"controlname"	"label"
-							"fieldname"		"StageDesc"
+							"controlname"	"Label"
 							"labeltext"		"#TF_QuestMap_Intro_3"
 							"xpos"			"p0.5"
 							"ypos"			"210"
@@ -682,7 +721,6 @@
 				"CyclingAd"
 				{
 					"controlname"	"CCyclingAdContainerPanel"
-					"fieldname"		"CyclingAd"
 					"xpos"			"rs1-10"
 					"ypos"			"rs1-30"
 					"zpos"			"9"
@@ -708,7 +746,6 @@
 				"TurnInCompletePopup"
 				{
 					"controlname"	"EditablePanel"
-					"fieldname"		"TurnInCompletePopup"
 					"xpos"			"cs-0.5"
 					"ypos"			"cs-0.5"
 					"zpos"			"300"
@@ -722,7 +759,6 @@
 					"BorderOverlay"
 					{
 						"controlname"	"Panel"
-						"fieldname"		"BorderOverlay"
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"300"
@@ -736,14 +772,12 @@
 					"CheckImage"
 					{
 						"controlname"	"ImagePanel"
-						"fieldname"		"CheckImage"
 						"xpos"			"cs-0.5"
 						"ypos"			"25"
 						"zpos"			"300"
 						"wide"			"o1"
 						"tall"			"70"
 						"proportionaltoparent"	"1"
-
 						"drawcolor_override"	"QuestMap_ActiveOrange"
 						"scaleimage"	"1"
 						"image"			"cyoa/check"
@@ -751,8 +785,7 @@
 
 					"BodyText"
 					{
-						"controlname"	"label"
-						"fieldname"		"BodyText"
+						"controlname"	"Label"
 						"xpos"			"0"
 						"ypos"			"90"
 						"zpos"			"300"
@@ -770,7 +803,6 @@
 				"GlobalStatus"
 				{
 					"controlname"	"EditablePanel"
-					"fieldname"		"GlobalStatus"
 					"xpos"			"0"
 					"ypos"			"rs1"
 					"zpos"			"3"
@@ -785,7 +817,6 @@
 					"BloodMoneyTooltip"
 					{
 						"controlname"	"Panel"
-						"fieldname"		"BloodMoneyTooltip"
 						"xpos"			"20"
 						"ypos"			"0"
 						"zpos"			"100"
@@ -798,7 +829,6 @@
 					"RewardCreditImage"
 					{
 						"controlname"	"ImagePanel"
-						"fieldname"		"RewardCreditImage"
 						"xpos"			"20"
 						"ypos"			"-1"
 						"zpos"			"0"
@@ -815,8 +845,7 @@
 
 					"RewardCreditsLabel"
 					{
-						"controlname"	"label"
-						"fieldname"		"RewardCreditsLabel"
+						"controlname"	"Label"
 						"labeltext"		"%reward_credits%"
 						"xpos"			"47"
 						"ypos"			"7"
@@ -832,7 +861,6 @@
 					"StarsAvailableTooltip"
 					{
 						"controlname"	"Panel"
-						"fieldname"		"StarsAvailableTooltip"
 						"xpos"			"94"
 						"ypos"			"0"
 						"zpos"			"100"
@@ -845,7 +873,6 @@
 					"AvailableStarsImage"
 					{
 						"controlname"	"ImagePanel"
-						"fieldname"		"AvailableStarsImage"
 						"xpos"			"94"
 						"ypos"			"2"
 						"zpos"			"0"
@@ -862,8 +889,7 @@
 
 					"AvailableStarsLabel"
 					{
-						"controlname"	"label"
-						"fieldname"		"AvailableStarsLabel"
+						"controlname"	"Label"
 						"labeltext"		"%stars_available%"
 						"xpos"			"115"
 						"ypos"			"7"
@@ -879,7 +905,6 @@
 					"TotalStarsTooltip"
 					{
 						"controlname"	"Panel"
-						"fieldname"		"TotalStarsTooltip"
 						"xpos"			"r70"
 						"ypos"			"0"
 						"zpos"			"100"
@@ -893,7 +918,6 @@
 					"TotalStarsImage"
 					{
 						"controlname"	"ImagePanel"
-						"fieldname"		"TotalStarsImage"
 						"xpos"			"r70"
 						"ypos"			"2"
 						"zpos"			"0"
@@ -910,8 +934,7 @@
 
 					"TotalStarsLabel"
 					{
-						"controlname"	"label"
-						"fieldname"		"TotalStarsLabel"
+						"controlname"	"Label"
 						"labeltext"		"%stars_total%"
 						"xpos"			"r50"
 						"ypos"			"7"
@@ -927,7 +950,6 @@
 
 				"SelectedNodeInfoPanel"
 				{
-					"fieldname"		"SelectedNodeInfoPanel"
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"10"
@@ -944,7 +966,6 @@
 
 				"QuestObjective"
 				{
-					"fieldname"		"QuestObjective"
 					"zpos"			"11"
 					"wide"			"200"
 					"visible"		"0"
@@ -955,8 +976,7 @@
 
 					"ObjectivesLabel"
 					{
-						"fieldname"		"ObjectivesLabel"
-						"controlname"	"label"
+						"controlname"	"Label"
 						"xpos"			"2"
 						"ypos"			"2"
 						"zpos"			"100"
@@ -1006,7 +1026,7 @@
 
 							"PointsLabel"
 							{
-								"controlname"	"label"
+								"controlname"	"Label"
 								"labeltext"		"%points%"
 								"xpos"			"0"
 								"ypos"			"0"
@@ -1032,7 +1052,7 @@
 
 								"PointsLabelInvert"
 								{
-									"controlname"	"label"
+									"controlname"	"Label"
 									"labeltext"		"%points%"
 									"xpos"			"0"
 									"ypos"			"0"
@@ -1061,7 +1081,7 @@
 
 								"PointsLabelInvert"
 								{
-									"controlname"	"label"
+									"controlname"	"Label"
 									"labeltext"		"%points%"
 									"xpos"			"0"
 									"ypos"			"0"
@@ -1082,7 +1102,6 @@
 				"RewardsShop"
 				{
 					"controlname"	"EditablePanel"
-					"fieldname"		"RewardsShop"
 					"xpos"			"cs-0.5"
 					"ypos"			"cs-0.5"
 					"zpos"			"2"
@@ -1110,7 +1129,6 @@
 					"Dimmer"
 					{
 						"controlname"	"Panel"
-						"fieldname"		"Dimmer"
 					//	"xpos"			"0"
 					//	"ypos"			"0"
 						"zpos"			"-1"
@@ -1143,7 +1161,7 @@
 
 					"Title"
 					{
-						"controlname"	"label"
+						"controlname"	"Label"
 						"xpos"			"cs-0.5"
 						"ypos"			"20"
 						"zpos"			"10"
@@ -1158,7 +1176,7 @@
 
 					"Description"
 					{
-						"controlname"	"label"
+						"controlname"	"Label"
 						"xpos"			"cs-0.5"
 						"ypos"			"34"
 						"zpos"			"10"
@@ -1192,7 +1210,7 @@
 
 							"Slider"
 							{
-								"fgcolor_override"	"TanDark"
+								"fgcolor_override"	"TFTanDark"
 							}
 
 							"UpButton"
@@ -1219,7 +1237,7 @@
 
 					"IntroDesc"
 					{
-						"controlname"	"label"
+						"controlname"	"Label"
 						"xpos"			"cs-0.5"
 						"ypos"			"cs-0.5"
 						"zpos"			"1"
@@ -1234,7 +1252,6 @@
 					"StaticBackground"
 					{
 						"controlname"	"ImagePanel"
-						"fieldname"		"StaticBackground"
 						"wide"			"f0"
 						"tall"			"f0"
 						"proportionaltoparent"	"1"

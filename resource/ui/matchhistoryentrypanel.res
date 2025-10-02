@@ -39,7 +39,7 @@
 
 		"WinLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -53,7 +53,7 @@
 
 		"LossLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -67,7 +67,7 @@
 
 		"DateLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"p0.2"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -79,7 +79,7 @@
 
 		"MapNameLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"p0.60"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -91,7 +91,7 @@
 
 		"KDLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"p0.9"
 			"wide"			"100"
 			"tall"			"f0"
@@ -142,7 +142,7 @@
 
 			"KillsLabel"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"60"
 				"ypos"			"2"
 				"wide"			"65"
@@ -153,7 +153,7 @@
 
 			"DeathsLabel"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"60"
 				"ypos"			"12"
 				"wide"			"65"
@@ -175,7 +175,7 @@
 
 			"DamageLabel"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"60"
 				"ypos"			"22"
 				"wide"			"65"
@@ -197,7 +197,7 @@
 
 			"HealingLabel"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"135"
 				"ypos"			"2"
 				"wide"			"65"
@@ -219,7 +219,7 @@
 
 			"SupportLabel"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"135"
 				"ypos"			"12"
 				"wide"			"65"
@@ -241,7 +241,7 @@
 
 			"ScoreLabel"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"135"
 				"ypos"			"22"
 				"wide"			"65"

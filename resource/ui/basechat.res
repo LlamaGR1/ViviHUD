@@ -6,7 +6,7 @@
 		"ypos"			"10"		//		260
 		"wide"			"230"
 		"tall"			"115"
-		"bgcolor_override"	"TFBlack"
+		"bgcolor_override"	"0 0 0 255"
 	}
 
 	"HudChatHistory"
@@ -47,9 +47,9 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"TanLight"
-		"armedfgcolor_override"		"169 163 146 255"
-		"depressedfgcolor_override"	"169 163 146 130"
-		"selectedfgcolor_override"	"169 163 146 130"
+		"armedfgcolor_override"		"142 134 115 255"
+		"depressedfgcolor_override"	"99 93 80 255"
+		"selectedfgcolor_override"	"99 93 80 255"
 
 		"pin_to_sibling" "ChatInputLine"
 		"pin_corner_to_sibling" "7"

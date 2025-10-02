@@ -60,20 +60,9 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"Frame"
-	{
-		"Controlname"	"EditablePanel"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"f0"
-		"proportionaltoparent"	"1"
-		"border"		"InnerShadowBorder"
-		"mouseinputenabled"	"0"
-	}
-
 	"FadeTransition"
 	{
-		"ControlName"	"EditablePanel"
+		"controlname"	"EditablePanel"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"

@@ -10,6 +10,7 @@
 		"control_h"		"25"
 		"slider_w"		"500"
 		"slider_h"		"35"
+	//	"font"			"Default"
 	}
 
 	"PanelListPanel"
@@ -21,12 +22,13 @@
 		"wide"			"460"
 		"tall"			"320"
 		"border"		"ViviTransPurpleBG"
+		"font"			"Default"
 		"paintbackground"	"0"
 	}
 
 	"Background"
 	{
-		"controlname"	"EditablePanel"
+		"controlname"	"Panel"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -35,7 +37,7 @@
 
 	"Border"
 	{
-		"controlname"	"EditablePanel"
+		"controlname"	"Panel"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"2"
@@ -46,7 +48,7 @@
 
 	"TitleLabel"
 	{
-		"controlname"	"CExLabel"
+		"controlname"	"Label"
 		"xpos"			"cs-0.5"
 		"ypos"			"50"
 		"zpos"			"4"
@@ -79,7 +81,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"image_drawcolor"		"46 43 42 255"
 		"image_armedcolor"		"235 226 202 255"
@@ -118,7 +119,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"TooltipPanel"

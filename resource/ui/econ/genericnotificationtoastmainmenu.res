@@ -16,8 +16,7 @@
 		"zpos"			"-1"
 		"wide"			"36"
 		"tall"			"36"
-		"paintbackgroundtype"	"2"
-		"bgcolor_override"	"117 107 94 255"
+		"border"		"ViviTanDarkBG"
 	}
 
 	"AvatarImage"

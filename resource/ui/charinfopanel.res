@@ -1,10 +1,14 @@
+#base "../../cfg/vivihud/ratio.txt"
+
+#base "1/169fix/1charinfopanel.res"
+
 "charinfopanel"
 {
 	"character_info"
 	{
 		"controlname"	"EditablePanel"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"365"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetY"	"-50"
 		"clientinsetx_override"	"0"
@@ -12,22 +16,11 @@
 
 	"BackgroundColor"
 	{
-		"controlname"	"EditablePanel"
+		"controlname"	"Panel"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
 		"bgcolor_override"	"BackgroundColor"
-	}
-
-	"BackgroundImage"
-	{
-		"controlname"	"ImagePanel"
-		"zpos"			"-3"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"0"
-		"scaleimage"	"1"
-		"image"			"competitive/comp_background_endscreen01"
 	}
 
 	"BackgroundHeader"
@@ -53,7 +46,7 @@
 
 	"Tab"
 	{
-		"controlname"	"EditablePanel"
+		"controlname"	"Panel"
 		"xpos"			"cs-0.5"
 		"ypos"			"5"
 		"zpos"			"-1"
@@ -87,8 +80,8 @@
 	"Sheet"
 	{
 		"controlname"	"EditablePanel"
-		"tabxindent"	"45"
-		"tabxdelta"		"560"
+	//	"tabxindent"	"45"
+	//	"tabxdelta"		"560"
 		"tabheight"		"34"
 		"transition_time" "0.3"
 
@@ -138,7 +131,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"BackButton2"
@@ -183,7 +175,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"CloseButton2"

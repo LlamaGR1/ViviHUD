@@ -295,10 +295,10 @@
 
 		"force_close"	"1"
 		"end_x"			"55"
-		"end_y"			"181"
+		"end_y"			"166"
 		"end_wide"		"250"
-		"callout_inparents_x"	"c91"
-		"callout_inparents_y"	"c117"
+		"callout_inparents_x"	"377"
+		"callout_inparents_y"	"358"
 
 		"res_file_controls"	"1"
 		"explanation_title"	"#MMenu_TutorialHighlight_Title"

@@ -50,7 +50,7 @@ Scheme
 		"HudWhite"				"255 255 255 255"
 		"HudOffWhite"			"200 187 161 255"
 		"HudBlack"				"65 65 65 255"
-		"ProgressBarBlue"		"91 122 142 255"
+		"ProgressBarBlue"		"83 164 196 255"		//		91 122 142 255
 
 		"CreditsGreen"			"94 150 49 255"
 
@@ -76,7 +76,7 @@ Scheme
 
 		"HudTrainingHint"			"212 160 23 255"
 
-		"TanDark"					"117 107 94 255"
+		"TanDark"					"235 226 202 255"
 		"TanLight"					"235 226 202 255"
 		"TanDarker"					"46 43 42 255"
 
@@ -188,7 +188,8 @@ Scheme
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
 
-		"TanLightDark"			"169 163 146 255"
+		"TanLightDark"			"142 134 115 255"
+		"TFTanDark"				"117 107 94 255"
 		"BackgroundColor"		"45 42 43 255"
 	}
 
@@ -201,13 +202,13 @@ Scheme
 		ReplayBrowser.CollectionTitle.FgColor			"LightRed"
 		ReplayBrowser.Warning.FgColor					"TanLight"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor	"TransparentYellow"
-		ReplayBrowser.Search.BgColor					"TanDark"
+		ReplayBrowser.Search.BgColor					"TFTanDark"
 		ReplayBrowser.Search.FgColor					"TanLight"
 
 		Replay.RenderDialog.BgColor			"LighterDarkBrown"
 
 		Econ.Dialog.BgColor					"Blank"
-		Econ.Button.BgColor					"TanDark"
+		Econ.Button.BgColor					"TFTanDark"
 		Econ.Button.FgColor					"TanLight"
 		Econ.Button.ArmedBgColor			"TFOrange"
 		Econ.Button.ArmedFgColor			"TanLight"
@@ -227,7 +228,7 @@ Scheme
 		Border.Selection					"Gray"
 
 		Button.TextColor					"TanLight"
-		Button.BgColor						"TanDark"
+		Button.BgColor						"TFTanDark"
 		Button.ArmedTextColor				"TanLight"
 		Button.ArmedBgColor					"TFOrange"
 		Button.DepressedTextColor			"Black"
@@ -241,8 +242,8 @@ Scheme
 		CheckButton.Border1					"TanLight"
 		CheckButton.Border2					"Blank"
 		CheckButton.Check					"TanLight"
-		CheckButton.HighlightFgColor		"TFOrange"
-		CheckButton.DisabledFgColor			"TanDark"
+		CheckButton.HighlightFgColor		"140 42 43 255"		//		TFOrange
+		CheckButton.DisabledFgColor			"TFTanDark"
 		CheckButton.DisabledBgColor			"TransparentBlack"
 
 		ComboBoxButton.ArrowColor			"TanLight"
@@ -273,7 +274,7 @@ Scheme
 		GraphPanel.FgColor					"Orange"
 		GraphPanel.BgColor					"TransparentBlack"
 
-		label.TextDullColor					"TanDark"
+		label.TextDullColor					"TFTanDark"
 		label.TextColor						"TanLight"
 		label.TextBrightColor				"TanLight"
 		label.SelectedTextColor				"White"
@@ -289,9 +290,9 @@ Scheme
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
 		Menu.TextColor						"TanLight"
-		Menu.BgColor						"TransparentBlack"
-		Menu.ArmedTextColor					"TanDark"
-		Menu.ArmedBgColor					"TanLight"
+		Menu.BgColor						"Black"
+		Menu.ArmedTextColor					"Black"
+		Menu.ArmedBgColor					"140 42 43 255"		//		TFOrange
 		Menu.TextInset						"3"
 
 		Chat.TypingText						"Orange"
@@ -352,15 +353,15 @@ Scheme
 		Slider.DisabledTextColor1		"117 117 117 255"
 		Slider.DisabledTextColor2		"30 30 30 255"
 
-		TextEntry.TextColor				"Gray"
+		TextEntry.TextColor				"TanLight"
 		TextEntry.BgColor				"Blank"
-		TextEntry.CursorColor			"Gray"
-		TextEntry.DisabledTextColor		"Gray"		//		Gray				169 163 146 255
-		TextEntry.DisabledBgColor		"Blank"
-		TextEntry.SelectedTextColor		"TanLight"
-		TextEntry.SelectedBgColor		"Gray"
-		TextEntry.OutOfFocusSelectedBgColor	"Blank"
-		TextEntry.FocusEdgeColor		"Blank"
+		TextEntry.CursorColor			"140 42 43 255"
+		TextEntry.DisabledTextColor		"TanLightDark"		//		Gray				169 163 146 255
+	//	TextEntry.DisabledBgColor		"Blank"
+		TextEntry.SelectedTextColor		"Black"
+		TextEntry.SelectedBgColor		"140 42 43 255"
+	//	TextEntry.OutOfFocusSelectedBgColor	"Blank"
+	//	TextEntry.FocusEdgeColor		"Blank"
 
 		ToggleButton.SelectedTextColor	"TFOrange"
 
@@ -436,26 +437,28 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"12"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
+			//	"weight"	"900"
+			//	"range"		"0x0000 0x017F"
 				"yres"		"480 599"
+				"antialias"	"1"
 			}
 
 			"2"
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"13"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
+			//	"weight"	"900"
+			//	"range"		"0x0000 0x017F"
 				"yres"		"600 767"
+				"antialias"	"1"
 			}
 
 			"3"
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
+			//	"weight"	"900"
+			//	"range"		"0x0000 0x017F"
 				"yres"		"768 1023"
 				"antialias"	"1"
 			}
@@ -464,8 +467,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
+			//	"weight"	"900"
+			//	"range"		"0x0000 0x017F"
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
@@ -474,8 +477,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"9"
-				"weight"	"900"
-				"range"		"0x0000 0x017F"
+			//	"weight"	"900"
+			//	"range"		"0x0000 0x017F"
 				"antialias"	"1"
 			}
 
@@ -483,16 +486,18 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"12"
-				"range"		"0x0000 0x00FF"
-				"weight"	"900"
+			//	"range"		"0x0000 0x00FF"
+			//	"weight"	"900"
+				"antialias"	"1"
 			}
 
 			"7"
 			{
 				"name"		"Arial"
 				"tall"		"12"
-				"range"		"0x0000 0x00FF"
+			//	"range"		"0x0000 0x00FF"
 				"weight"	"800"
+				"antialias"	"1"
 			}
 		}
 
@@ -1026,7 +1031,7 @@ Scheme
 			}
 		}
 
-		"HudFontSmallBold"
+		"HudFontSmallBold"		//		adv.	options:	header	text	font
 		{
 			"1"
 			{
@@ -1076,7 +1081,7 @@ Scheme
 			}
 		}
 
-		"HudFontSmallestBold"
+		"HudFontSmallestBold"		//		adv.	options:	options	font
 		{
 			"1"
 			{
@@ -1761,7 +1766,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"tall"		"11"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"
 				"antialias"	"1"
@@ -1775,6 +1780,18 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"20"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+
+		"ScoreboardTeamNameLargeShadow"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"20"
+				"weight"	"699"
 				"antialias"	"1"
 				"additive"	"0"
 			}
@@ -3108,8 +3125,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"9"
-				"weight"	"400"
-				"additive"	"0"
+			//	"weight"	"400"
+			//	"additive"	"0"
 				"antialias"	"1"
 			}
 		}
@@ -3466,7 +3483,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -3474,7 +3491,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -3482,7 +3499,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -3490,7 +3507,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 		}
@@ -3854,15 +3871,15 @@ Scheme
 
 		BackpackItemBorder // backpack slots bg
 		{
-		//	"bordertype"			"scalable_image"
-			"color"					"254 50 49 255"
-			"backgroundtype"		"2"
+			"bordertype"			"scalable_image"
+			"color"					"0 0 0 30"
+		//	"backgroundtype"		"2"
 
-			"image"					"replay/thumbnails/loadout/loadout_slot_quality" // idk
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"5"
-			"draw_corner_height"	"5"
+			"image"					"replay/thumbnails/borders/vivi_button" // idk
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
 		}
 
 		BackpackItemMouseOverBorder
@@ -5010,7 +5027,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -5018,7 +5035,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -5026,7 +5043,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -5034,7 +5051,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 		}
@@ -5233,17 +5250,17 @@ Scheme
 			"draw_corner_height"	"2"
 		}
 
-		ViviStoreBG		//		used for		mann co store left bg
-		{
-			"bordertype"			"scalable_image"
-			"color"					"38 35 33 245"
+		// ViviStoreBG		//		used for		mann co store left bg
+		// {
+		// 	"bordertype"			"scalable_image"
+		// 	"color"					"38 35 33 245"
 
-			"image"					"replay/thumbnails/borders/vivi_button"
-			"src_corner_height"		"6"
-			"src_corner_width"		"6"
-			"draw_corner_width"		"2"
-			"draw_corner_height"	"2"
-		}
+		// 	"image"					"replay/thumbnails/borders/vivi_button"
+		// 	"src_corner_height"		"6"
+		// 	"src_corner_width"		"6"
+		// 	"draw_corner_width"		"2"
+		// 	"draw_corner_height"	"2"
+		// }
 
 		ViviTransPurpleBG		//		used for		adv options, training
 		{
@@ -5332,10 +5349,131 @@ Scheme
 		}
 
 
+
+
+
+
 		ViviTanDarkBG
 		{
 			"bordertype"			"scalable_image"
-			"color"					"TanDark"
+			"color"					"TFTanDark"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+		ViviTFOrangeBG
+		{
+			"bordertype"			"scalable_image"
+			"color"					"TFOrange"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+
+
+
+
+		ViviFriendsArmedBG
+		{
+			"bordertype"			"scalable_image"
+			"color"					"140 42 43 80"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+		ViviPartyArmedBG
+		{
+			"bordertype"			"scalable_image"
+			"color"					"123 24 24 100"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+
+
+		ViviButtonAd			//				only used in crafting
+		{
+			"bordertype"			"scalable_image"
+			"color"					"94 150 49 255"
+
+			"image"					"../vgui/replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"8"
+			"src_corner_width"		"8"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+		ViviButtonAdArmed			//				only used in crafting
+		{
+			"bordertype"			"scalable_image"
+			"color"					"94 150 49 150"
+
+			"image"					"../vgui/replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"8"
+			"src_corner_width"		"8"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+		ViviButtonAdDepressed			//				only used in crafting
+		{
+			"bordertype"			"scalable_image"
+			"color"					"94 150 49 95"
+
+			"image"					"../vgui/replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"8"
+			"src_corner_width"		"8"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+
+		ViviTrueBlackBG		//		used in: itemmodelpanel
+		{
+			"bordertype"			"scalable_image"
+			"color"					"0 0 0 255"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+		ViviDarkCyanBG		//		used in: itemmodelpanel		--		crate series number or smth idfk
+		{
+			"bordertype"			"scalable_image"
+			"color"					"0 40 30 255"
+
+			"image"					"replay/thumbnails/borders/vivi_button"
+			"src_corner_height"		"6"
+			"src_corner_width"		"6"
+			"draw_corner_width"		"2"
+			"draw_corner_height"	"2"
+		}
+
+
+
+		ViviPurpleBG3		//		used for: item slot in store item preview
+		{
+			"bordertype"			"scalable_image"
+			"color"					"BackgroundColor"
 
 			"image"					"replay/thumbnails/borders/vivi_button"
 			"src_corner_height"		"6"
@@ -5815,7 +5953,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -5823,7 +5961,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -5831,7 +5969,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -5839,7 +5977,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 		}
@@ -5851,7 +5989,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 		}
@@ -5863,7 +6001,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -5871,7 +6009,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -5879,7 +6017,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -5887,7 +6025,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 		}
@@ -6113,7 +6251,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -6121,7 +6259,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -6129,7 +6267,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 
@@ -6137,7 +6275,7 @@ Scheme
 			{
 				"1"
 				{
-					"color"		"TanDark"
+					"color"		"TFTanDark"
 				}
 			}
 		}

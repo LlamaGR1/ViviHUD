@@ -115,15 +115,61 @@ event HudMedicChargedStop
 
 // event HudHealthBonusPulse
 // {
-// 	Animate		PlayerStatusHealthValueMinMode		fgcolor		"69 190 150 255"	Linear	0.0	0.2
-// 	Animate		PlayerStatusHealthValueMinMode		fgcolor		"69 190 230 255"	Accel	0.2	0.2
+// Animate PlayerStatusHealthValueMinMode fgcolor "69 190 150 255" Linear 0.0 0.2
+// Animate PlayerStatusHealthValueMinMode fgcolor "69 190 230 255" Accel 0.2 0.2
 
-// 	RunEvent	HudHealthBonusPulseLoop				0.4
+// RunEvent HudHealthBonusPulseLoop 0.4
 // }
 
 // event HudHealthBonusPulseStop
 // {
-// 	StopEvent	HudHealthBonusPulse					0.0
+// StopEvent HudHealthBonusPulse 0.0
 
-// 	Animate		PlayerStatusHealthValueMinMode		fgcolor		"TanLight"
+// Animate PlayerStatusHealthValueMinMode fgcolor "TanLight"
 // }
+
+///////////////////////////     RESPAWN TIMER TEAM STATUS        ///////////////////////////
+
+event TeamStatus_PlayerDead
+{
+// SetVisible DeathPanel 1 0
+// SetVisible SkullPanel 1 0
+ SetVisible respawntime 1 0
+
+// Animate DeathPanel ypos 19 Accel 0 0.2
+// Animate SkullPanel ypos 20 Accel 0 0.2
+// Animate respawntime ypos 0 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+// Animate DeathPanel ypos 0 Accel 0 0.2
+// Animate SkullPanel ypos 0 Accel 0 0.2
+// Animate respawntime ypos 0 Accel 0 0.2
+
+// SetVisible DeathPanel 0 0.2
+// SetVisible SkullPanel 0 0.2
+ SetVisible respawntime 0 0.2
+}
+
+event CasualCategory_NotSelected
+{
+ Animate Shade bgcolor "0 0 0 200" deaccel 0 0.2
+ Animate Title fgcolor TFTanDark deaccel 0 0.2
+}
+
+event QuestMapIntro_ShowStage
+{
+ Animate IntroDesc fgcolor TFTanDark linear 0 0.4
+}
+
+event QuestMapIntro_StageReveal
+{
+ Animate StageDesc xpos 300 linear 0 0 
+ Animate StageDesc alpha 0 linear 0 0 
+ Animate StageDesc fgcolor TFTanDark linear 0 0
+
+ Animate StageDesc xpos 270  deaccel 0 0.4
+ Animate StageDesc alpha 255 bias 0.3 0 0.4 
+ Animate StageDesc fgcolor TanLight linear 0.4 0.4
+}

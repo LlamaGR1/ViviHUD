@@ -128,7 +128,7 @@
 		"tall"			"30"
 		"proportionaltoparent"	"1"
 		"labeltext"		"%blueteamplayercount%"
-		"font"			"ScoreboardTeamCountNew"
+		"font"			"ScoreboardTeamNameNew"
 		"textalignment"	"center"
 
 		if_mvm
@@ -198,7 +198,7 @@
 		"tall"			"30"
 		"proportionaltoparent"	"1"
 		"labeltext"		"%redteamplayercount%"
-		"font"			"ScoreboardTeamCountNew"
+		"font"			"ScoreboardTeamNameNew"
 		"textalignment"	"center"
 
 		if_mvm
@@ -248,7 +248,7 @@
 		"ypos"			"45"
 		"zpos"			"20"
 		"wide"			"250"
-		"tall"			"273"
+		"tall"			"201"
 		"linespacing"	"16"
 
 		if_mvm
@@ -281,7 +281,7 @@
 		"ypos"			"45"
 		"zpos"			"20"
 		"wide"			"250"
-		"tall"			"273"
+		"tall"			"201"
 		"proportionaltoparent"	"1"
 		"linespacing"	"16"
 
@@ -338,7 +338,7 @@
 		"wide"			"502"
 		"tall"			"50"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 200"		//		0 0 0 200
+		"bgcolor_override"	"0 0 0 169"		//		0 0 0 200
 
 		if_mvm
 		{

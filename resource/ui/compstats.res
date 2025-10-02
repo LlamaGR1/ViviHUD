@@ -19,10 +19,10 @@
 			"tall"			"16"
 			"proportionaltoparent"	"1"
 			"border"		"ViviPurpleBG"
-		
-			"label"
+
+			"Label"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"cs-0.5"
 				"wide"			"240"
 				"tall"			"16"
@@ -104,7 +104,7 @@
 
 				"SortArrow"
 				{
-					"controlname"	"label"
+					"controlname"	"Label"
 					"wide"			"20"
 					"tall"			"f0"
 					"proportionaltoparent"	"1"
@@ -113,9 +113,9 @@
 					"labeltext"		"6"
 					"font"			"MarlettSmall"
 
-				//	"defaultfgcolor_override" "TanDark"
-				//	"armedfgcolor_override"	"TanDark"
-				//	"selectedfgcolor_override" "TanDark"
+				//	"defaultfgcolor_override" "TFTanDark"
+				//	"armedfgcolor_override"	"TFTanDark"
+				//	"selectedfgcolor_override" "TFTanDark"
 				}
 
 				"ResultButton"
@@ -139,7 +139,7 @@
 					"border_default"	"SortCategoryBorder"
 					"paintbackground"	"0"
 
-					"defaultfgcolor_override"	"TanDark"
+					"defaultfgcolor_override"	"TFTanDark"
 					"armedfgcolor_override"		"Orange"
 					"selectedfgcolor_override"	"TanLight"
 				}
@@ -166,7 +166,7 @@
 					"border_default"	"SortCategoryBorder"
 					"paintbackground"	"0"
 
-					"defaultfgcolor_override"	"TanDark"
+					"defaultfgcolor_override"	"TFTanDark"
 					"armedfgcolor_override"		"Orange"
 					"selectedfgcolor_override"	"TanLight"
 				}
@@ -193,7 +193,7 @@
 					"border_default"	"SortCategoryBorder"
 					"paintbackground"	"0"
 
-					"defaultfgcolor_override"	"TanDark"
+					"defaultfgcolor_override"	"TFTanDark"
 					"armedfgcolor_override"		"Orange"
 					"selectedfgcolor_override"	"TanLight"
 				}
@@ -219,7 +219,7 @@
 
 					"paintbackground"	"0"
 
-					"defaultfgcolor_override"	"TanDark"
+					"defaultfgcolor_override"	"TFTanDark"
 					"armedfgcolor_override"		"Orange"
 					"selectedfgcolor_override"	"TanLight"
 				}

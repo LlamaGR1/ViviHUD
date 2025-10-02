@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/borders/vivi_button_corners"
+	"$vertexalpha"	1
+	"$vertexcolor"	1
+}

@@ -14,6 +14,15 @@
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"border"		"ReplayDefaultBorder"
+
+		"Frame"
+		{
+			"controlname"	"Panel"
+			"wide"			"f0"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+			"border"		"InnerShadowBorder"
+		}
 	}
 
 	"ItemName"
@@ -112,7 +121,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "ItemIcon"
 		"pin_corner_to_sibling" "4"
@@ -143,7 +151,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "ItemIcon"
 		"pin_corner_to_sibling" "4"

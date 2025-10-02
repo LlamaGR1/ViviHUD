@@ -1,5 +1,5 @@
-#base "../#customisation/enabled/tf2_bgs.txt"
-#base "../#customisation/enabled/vivi_bgs.txt"
+#base "../cfg/vivihud/theme.txt"
+#base "../resource/ui/1/bgs_tf2.res"
 
 "chapters"
 {

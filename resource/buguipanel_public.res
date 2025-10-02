@@ -19,24 +19,22 @@
 
 		"1"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"12"
 			"wide"			"125"
 			"tall"			"90"
-			"scaleimage"	"1"
 			"image"			"polaroid_overlay"
 		}
 
 		"2"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"17"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"116"
 			"tall"			"62"
-			"scaleimage"	"1"
-			"image"			"../console/vivian_bg_widescreen"
+			"image"			"../console/bgs_vivi/vivian_bg_widescreen"
 		}
 
 		"3"
@@ -77,24 +75,22 @@
 
 		"1"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"12"
 			"wide"			"125"
 			"tall"			"90"
-			"scaleimage"	"1"
 			"image"			"polaroid_overlay"
 		}
 
 		"2"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"17"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"116"
 			"tall"			"62"
-			"scaleimage"	"1"
-			"image"			"../console/vivian_bg2_widescreen"
+			"image"			"../console/bgs_vivi/vivian_bg2_widescreen"
 		}
 
 		"3"
@@ -135,24 +131,22 @@
 
 		"1"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"12"
 			"wide"			"125"
 			"tall"			"90"
-			"scaleimage"	"1"
 			"image"			"polaroid_overlay"
 		}
 
 		"2"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"17"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"116"
 			"tall"			"62"
-			"scaleimage"	"1"
-			"image"			"../console/vivian_bg3_widescreen"
+			"image"			"../console/bgs_vivi/vivian_bg3_widescreen"
 		}
 
 		"3"
@@ -193,24 +187,22 @@
 
 		"1"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"12"
 			"wide"			"125"
 			"tall"			"90"
-			"scaleimage"	"1"
 			"image"			"polaroid_overlay"
 		}
 
 		"2"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"17"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"116"
 			"tall"			"62"
-			"scaleimage"	"1"
-			"image"			"../console/vivian_bg4_widescreen"
+			"image"			"../console/bgs_vivi/vivian_bg4_widescreen"
 		}
 
 		"3"
@@ -251,24 +243,22 @@
 
 		"1"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"12"
 			"wide"			"125"
 			"tall"			"90"
-			"scaleimage"	"1"
 			"image"			"polaroid_overlay"
 		}
 
 		"2"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"17"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"116"
 			"tall"			"62"
-			"scaleimage"	"1"
-			"image"			"../console/vivian_bg5_widescreen"
+			"image"			"../console/bgs_vivi/vivian_bg5_widescreen"
 		}
 
 		"3"
@@ -309,24 +299,22 @@
 
 		"1"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"12"
 			"wide"			"125"
 			"tall"			"90"
-			"scaleimage"	"1"
 			"image"			"polaroid_overlay"
 		}
 
 		"2"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"17"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"116"
 			"tall"			"62"
-			"scaleimage"	"1"
-			"image"			"../console/vivian_bg6_widescreen"
+			"image"			"../console/bgs_vivi/vivian_bg6_widescreen"
 		}
 
 		"3"
@@ -367,24 +355,22 @@
 
 		"1"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"12"
 			"wide"			"125"
 			"tall"			"90"
-			"scaleimage"	"1"
 			"image"			"polaroid_overlay"
 		}
 
 		"2"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"17"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"116"
 			"tall"			"62"
-			"scaleimage"	"1"
-			"image"			"../console/vivian_bg7_widescreen"
+			"image"			"../console/bgs_vivi/vivian_bg7_widescreen"
 		}
 
 		"3"
@@ -425,24 +411,22 @@
 
 		"1"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"12"
 			"wide"			"125"
 			"tall"			"90"
-			"scaleimage"	"1"
 			"image"			"polaroid_overlay"
 		}
 
 		"2"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"17"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"116"
 			"tall"			"62"
-			"scaleimage"	"1"
-			"image"			"../console/vivian_bg8_widescreen"
+			"image"			"../console/bgs_vivi/vivian_bg8_widescreen"
 		}
 
 		"3"
@@ -500,24 +484,22 @@
 
 		"1"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"12"
 			"wide"			"125"
 			"tall"			"90"
-			"scaleimage"	"1"
 			"image"			"polaroid_overlay"
 		}
 
 		"2"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"17"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"116"
 			"tall"			"62"
-			"scaleimage"	"1"
-			"image"			"../console/vivian_bg9_widescreen"
+			"image"			"../console/bgs_vivi/vivian_bg9_widescreen"
 		}
 
 		"3"
@@ -574,24 +556,22 @@
 
 		"1"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"12"
 			"wide"			"125"
 			"tall"			"90"
-			"scaleimage"	"1"
 			"image"			"polaroid_overlay"
 		}
 
 		"2"
 		{
-			"controlname"	"ImagePanel"
+			"controlname"	"ScalableImagePanel"
 			"xpos"			"17"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"116"
 			"tall"			"62"
-			"scaleimage"	"1"
-			"image"			"../console/vivian_bg10_widescreen"
+			"image"			"../console/bgs_vivi/vivian_bg10_widescreen"
 		}
 
 		"3"
@@ -639,14 +619,13 @@
 
 	"PropagandaImage"
 	{
-		"controlname"	"ImagePanel"
+		"controlname"	"ScalableImagePanel"
 		"xpos"			"530"
 		"ypos"			"195"
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"o3"
 	//	"tooltiptext"	"#Vivi_Image_2"
-		"scaleimage"	"1"
 		"image"			"replay/thumbnails/misc/vivian_propaganda"
 	}
 
@@ -675,9 +654,6 @@
 		"tall"			"24"
 		"labeltext"		"#GameUI_Close"
 		"command"		"cancel"
-	//	"sound_armed"		"ui/buttonrollover.wav"
-	//	"sound_depressed"	"ui/buttonclick.wav"
-	//	"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"OKButton2"
@@ -686,7 +662,6 @@
 		"tall"			"0"
 		"labeltext"		"&q"
 		"command"		"cancel"
-	//	"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"OKButton3"
@@ -695,7 +670,6 @@
 		"tall"			"0"
 		"labeltext"		"&e"
 		"command"		"cancel"
-	//	"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"BugTitle"

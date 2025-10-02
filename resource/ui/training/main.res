@@ -76,7 +76,6 @@
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 
 		"CancelButton2"
@@ -103,7 +102,6 @@
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 
 		"ModeSelectionPanel"

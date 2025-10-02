@@ -8,10 +8,10 @@
 		"wide"			"300"
 		"tall"			"25"
 
-		"starting_width"	"20"
-		"width_per_round"	"24"
+		"starting_width"			"20"
+		"width_per_round"			"24"
 		"indicator_start_offset"	"4"
-		"indicator_max_wide"	"30"
+		"indicator_max_wide"		"30"
 
 		"RoundIndicatorPanel_kv"
 		{

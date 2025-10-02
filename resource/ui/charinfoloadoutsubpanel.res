@@ -1,3 +1,7 @@
+#base "../../cfg/vivihud/loadoutclass.txt"
+
+#base "1/loadoutclass.res"
+
 "charinfoloadoutsubpanel"
 {
 	"CharInfoLoadoutSubPanel"
@@ -82,16 +86,11 @@
 
 		"stay_armed_on_click" "1"
 
-		"image_drawcolor"		"235 226 202 255"
-		"image_armedcolor"		"240 207 78 255"
-		"image_selectedcolor"	"160 140 69 255"
 		"subimage"
 		{
 			"wide"			"45"
 			"tall"			"45"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/classesv1/scout"		//	Retard Fortress 2 Classic
-		//	"image"			"replay/thumbnails/loadout/classesv2/scout"		//	Token
 		}
 
 		"pin_to_sibling" "SoldierButton"
@@ -122,16 +121,11 @@
 
 		"stay_armed_on_click" "1"
 
-		"image_drawcolor"		"235 226 202 255"
-		"image_armedcolor"		"240 207 78 255"
-		"image_selectedcolor"	"160 140 69 255"
 		"subimage"
 		{
 			"wide"			"45"
 			"tall"			"45"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/classesv1/soldier"		//	Retard Fortress 2 Classic
-		//	"image"			"replay/thumbnails/loadout/classesv2/soldier"		//	Token
 		}
 
 		"pin_to_sibling" "PyroButton"
@@ -162,16 +156,11 @@
 
 		"stay_armed_on_click" "1"
 
-		"image_drawcolor"		"235 226 202 255"
-		"image_armedcolor"		"240 207 78 255"
-		"image_selectedcolor"	"160 140 69 255"
 		"subimage"
 		{
 			"wide"			"45"
 			"tall"			"45"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/classesv1/pyro"		//	Retard Fortress 2 Classic
-		//	"image"			"replay/thumbnails/loadout/classesv2/pyro"		//	Token
 		}
 
 		"pin_to_sibling" "DemomanButton"
@@ -202,16 +191,11 @@
 
 		"stay_armed_on_click" "1"
 
-		"image_drawcolor"		"235 226 202 255"
-		"image_armedcolor"		"240 207 78 255"
-		"image_selectedcolor"	"160 140 69 255"
 		"subimage"
 		{
 			"wide"			"45"
 			"tall"			"45"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/classesv1/demo"		//	Retard Fortress 2 Classic
-		//	"image"			"replay/thumbnails/loadout/classesv2/demo"		//	Token
 		}
 
 		"pin_to_sibling" "HeavyButton"
@@ -243,16 +227,11 @@
 
 		"stay_armed_on_click" "1"
 
-		"image_drawcolor"		"235 226 202 255"
-		"image_armedcolor"		"240 207 78 255"
-		"image_selectedcolor"	"160 140 69 255"
 		"subimage"
 		{
 			"wide"			"45"
 			"tall"			"45"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/classesv1/heavy"		//	Retard Fortress 2 Classic
-		//	"image"			"replay/thumbnails/loadout/classesv2/heavy"		//	Token
 		}
 
 	//	"pin_to_sibling" "classmodelpanel"
@@ -283,16 +262,11 @@
 
 		"stay_armed_on_click" "1"
 
-		"image_drawcolor"		"235 226 202 255"
-		"image_armedcolor"		"240 207 78 255"
-		"image_selectedcolor"	"160 140 69 255"
 		"subimage"
 		{
 			"wide"			"45"
 			"tall"			"45"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/classesv1/engi"		//	Retard Fortress 2 Classic
-		//	"image"			"replay/thumbnails/loadout/classesv2/engi"		//	Token
 		}
 
 		"pin_to_sibling" "HeavyButton"
@@ -323,16 +297,11 @@
 
 		"stay_armed_on_click" "1"
 
-		"image_drawcolor"		"235 226 202 255"
-		"image_armedcolor"		"240 207 78 255"
-		"image_selectedcolor"	"160 140 69 255"
 		"subimage"
 		{
 			"wide"			"45"
 			"tall"			"45"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/classesv1/medic"		//	Retard Fortress 2 Classic
-		//	"image"			"replay/thumbnails/loadout/classesv2/medic"		//	Token
 		}
 
 		"pin_to_sibling" "EngineerButton"
@@ -363,16 +332,11 @@
 
 		"stay_armed_on_click" "1"
 
-		"image_drawcolor"		"235 226 202 255"
-		"image_armedcolor"		"240 207 78 255"
-		"image_selectedcolor"	"160 140 69 255"
 		"subimage"
 		{
 			"wide"			"45"
 			"tall"			"45"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/classesv1/sniper"		//	Retard Fortress 2 Classic
-		//	"image"			"replay/thumbnails/loadout/classesv2/sniper"		//	Token
 		}
 
 		"pin_to_sibling" "MedicButton"
@@ -403,16 +367,11 @@
 
 		"stay_armed_on_click" "1"
 
-		"image_drawcolor"		"235 226 202 255"
-		"image_armedcolor"		"240 207 78 255"
-		"image_selectedcolor"	"160 140 69 255"
 		"subimage"
 		{
 			"wide"			"45"
 			"tall"			"45"
 			"scaleimage"	"1"
-			"image"			"replay/thumbnails/loadout/classesv1/spy"			//	Retard Fortress 2 Classic
-		//	"image"			"replay/thumbnails/loadout/classesv2/spy"		//	Token
 		}
 
 		"pin_to_sibling" "SniperButton"
@@ -458,7 +417,7 @@
 
 	"BackpackLabel"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		"#BackpackTitle"
 		"ypos"			"5"
@@ -535,7 +494,7 @@
 
 	"CraftingLabel"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		"#CraftingExplanation_Title"
 		"ypos"			"5"
@@ -609,7 +568,7 @@
 
 	"ArmoryLabel"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		"#Armory"
 		"ypos"			"5"
@@ -686,7 +645,7 @@
 
 	"TradingLabel"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		"#TradingExplanation_Title"
 		"ypos"			"5"
@@ -763,7 +722,7 @@
 
 	"PaintKitsLabel"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		"#PaintkitTitle"
 		"ypos"			"5"
@@ -809,7 +768,7 @@
 
 	"ClassLabel" // ok
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"font"			"HudFontSmallBold"
 		"labeltext"		"classname"
 		"textalignment"	"center"

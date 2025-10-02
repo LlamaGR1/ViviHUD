@@ -2,12 +2,27 @@
 {
 	"avatar"
 	{
-		"xpos"			"1"
-		"ypos"			"1"
+	//	"xpos"			"1"
+	//	"ypos"			"1"
 		"wide"			"o1"
-		"tall"			"f2" // f2
+		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
+	}
+
+	"PartySlot1Corners"
+	{
+		"controlname"	"ImagePanel"
+		"zpos"			"1"
+		"wide"			"o1"
+		"tall"			"f0"
+		"proportionaltoparent"	"1"
+		"drawcolor"		"23 21 18 255"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/borders/vivi_button_corners_l"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "avatar"
 	}
 
 	"InteractButton"
@@ -21,11 +36,10 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-		"roundedcorners"	"0"
+		"button_activation_type"	"2"
 
-		"defaultbgcolor_override"	"0 0 0 0"
-		"armedbgcolor_override"		"140 42 43 80"
-		"depressedbgcolor_override"	"91 27 28 80"
+		"border_armed"		"ViviFriendsArmedBG"
+		"paintbackground"	"0"
 	}
 
 	"NameLabel"
@@ -33,11 +47,10 @@
 		"controlname"	"CAutoFittingLabel"
 		"xpos"			"rs1"
 		"ypos"			"1"
-		"wide"			"76" // 78
+		"wide"			"75"
 		"tall"			"10"
 		"proportionaltoparent"	"1"
 		"labeltext"		"%name%"
-	//	"bgcolor_override"	"0 255 0 30"
 
 		"fonts"
 		{
@@ -62,11 +75,28 @@
 	{
 		"xpos"			"rs1"
 		"ypos"			"10"
-		"wide"			"76" // 78
+		"wide"			"75"
 		"tall"			"10"
 		"proportionaltoparent"	"1"
 		"labeltext"		"%status%"
 		"font"			"ItemFontAttribSmall"
-	//	"bgcolor_override"	"255 0 0 30"
+	}
+
+	"Gradient"
+	{
+		"controlname"	"ImagePanel"
+		"xpos"			"-4"
+		"zpos"			"-1"
+		"wide"			"82"
+		"tall"			"f0"
+		"proportionaltoparent"	"1"
+		"rotation"		"1"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/borders/vivi_gradient_purple"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "avatar"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
 	}
 }

@@ -47,7 +47,7 @@
 		"tabxindent"	"251"
 		"tabxdelta"		"10"
 		"tabheight"		"34"
-		"transition_time"	"0.3" // 0.3
+		"transition_time"	"0.3"
 
 		"BackgroundImage"
 		{
@@ -105,7 +105,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"BackButton2"
@@ -150,7 +149,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"CloseButton2"

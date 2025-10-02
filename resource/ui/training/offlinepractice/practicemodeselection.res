@@ -53,7 +53,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"NextButton"
@@ -79,7 +78,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"GameModeLabel"
@@ -92,8 +90,8 @@
 		"ypos"			"10"
 		"wide"			"500"
 		"tall"			"20"
-	//	"autoResize"	"1"
-	//	"pinCorner"		"0"
+	//	"autoresize"	"1"
+	//	"pincorner"		"0"
 	//	"visible"		"1"
 	//	"enabled"		"1"
 	//	"wrap"			"0"
@@ -111,8 +109,8 @@
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
-	//	"autoResize"	"1"
-	//	"pinCorner"		"0"
+	//	"autoresize"	"1"
+	//	"pincorner"		"0"
 	//	"visible"		"1"
 	//	"enabled"		"1"
 	//	"wrap"			"1"
@@ -129,8 +127,8 @@
 		"ypos"			"232"
 		"wide"			"500"
 		"tall"			"20"
-	//	"autoResize"	"1"
-	//	"pinCorner"		"0"
+	//	"autoresize"	"1"
+	//	"pincorner"		"0"
 	//	"visible"		"1"
 	//	"enabled"		"1"
 	//	"wrap"			"0"
@@ -159,6 +157,5 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 }

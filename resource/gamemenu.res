@@ -111,9 +111,10 @@
 	"CreditsButton"
 	{
 		"label"			""
-		"tooltip"		"#Vivi_MM_Credits"
-		"command"		"openbenchmarkdialog"
+		"tooltip"		"#Vivi_MM_HUD_Options"
+		"command"		"openbenchmarkdialog"		//		OpenChangeGameDialog		openbenchmarkdialog			engine showstatsdlg
 	}
+
 
 
 
@@ -134,6 +135,7 @@
 		"tooltip"		"#Vivi_Utilities_8"
 		"command"		"engine demoui"
 	}
+
 
 
 

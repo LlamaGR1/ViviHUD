@@ -31,7 +31,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"NextButton" // ok
@@ -57,7 +56,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"GradientPanel2"
@@ -147,7 +145,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"DifficultyLabel"
@@ -173,8 +170,8 @@
 		"editable"		"0"
 		"border_override"	"ViviButtonOne"
 
-		"fgcolor_override"			"TanLight"
-		"selectionColor_override"	"Blank"
+		"selectionTextColor_override"	"TanLight"
+		"selectionColor_override"		"Blank"
 	}
 
 	"PlayersLabel"

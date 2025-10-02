@@ -21,7 +21,7 @@
 			"tall"			"16"
 			"proportionaltoparent"	"1"
 			"border"		"ViviPurpleBG"
-			
+
 			"Label"
 			{
 				"controlname"	"Label"

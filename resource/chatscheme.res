@@ -12,7 +12,6 @@ Scheme
 
 		"Blank"					"0 0 0 0"
 
-	 	
 
 
 
@@ -25,11 +24,6 @@ Scheme
 		"White"					"255 255 255 255"
 		"Gray"					"178 178 178 255"
 		"Blank"					"0 0 0 0"
-
-
-
-
-
 	}
 
 	BaseSettings
@@ -105,7 +99,6 @@ Scheme
 
 	Fonts
 	{
-
 		"Default"
 		{
 			"isproportional"	"only"
@@ -166,200 +159,39 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
-		// this is the symbol font
+
 		"Marlett"
 		{
-
 			"1"
 			{
 				"name"		"vivian"
-				"tall"		"8" // 10
-			//	"weight"	"0"
-			//	"yres"		"480 599"
-				"antialias" "1"
+				"tall"		"8"
+				"antialias"	"1"
 				"symbol"	"1"
 			}
-
-	//		"2"
-	//		{
-	//			"name"		"vivian"
-	//			"tall"		"14"
-	//			"weight"	"0"
-	//			"yres"		"600 767"
-	//			"antialias" "1"
-	//			"symbol"	"1"
-	//		}
-
-	//		"3"
-	//		{
-	//			"name"		"vivian"
-	//			"tall"		"13"
-	//			"weight"	"0"
-	//			"yres"		"768 1023"
-	//			"antialias" "1"
-	//			"symbol"	"1"
-	//		}
-
-	//		"4"
-	//		{
-	//			"name"		"vivian"
-	//			"tall"		"17"
-	//			"weight"	"0"
-	//			"yres"		"1024 1199"
-	//			"antialias" "1"
-	//			"symbol"	"1"
-	//		}
-
-	//		"5"
-	//		{
-	//			"name"		"vivian"
-	//			"tall"		"22"
-	//			"weight"	"0"
-	//			"yres"		"1200 10000"
-	//			"antialias" "1"
-	//			"symbol"	"1"
-	//		}
 		}
 
 		"MarlettSmallest"
 		{
-
 			"1"
 			{
 				"name"		"vivian"
 				"tall"		"10"
-				"antialias" "1"
+				"antialias"	"1"
 				"symbol"	"1"
 			}
 		}
 
-
-		// "MarlettSmall"
-		// {
-		// 	"1"
-		// 	{
-		// 		"name"		"vivian"
-		// 		"tall"		"7"
-		// 		"weight"	"0"
-		// 		"yres"		"480 599"
-		// 		"antialias" "1"
-		// 		"symbol"	"1"
-		// 	}
-
-		// 	"2"
-		// 	{
-		// 		"name"		"vivian"
-		// 		"tall"		"9"
-		// 		"weight"	"0"
-		// 		"yres"		"600 767"
-		// 		"antialias" "1"
-		// 		"symbol"	"1"
-		// 	}
-
-		// 	"3"
-		// 	{
-		// 		"name"		"vivian"
-		// 		"tall"		"11"
-		// 		"weight"	"0"
-		// 		"yres"		"768 1023"
-		// 		"antialias" "1"
-		// 		"symbol"	"1"
-		// 	}
-
-		// 	"4"
-		// 	{
-		// 		"name"		"vivian"
-		// 		"tall"		"13"
-		// 		"weight"	"0"
-		// 		"yres"		"1024 1199"
-		// 		"antialias" "1"
-		// 		"symbol"	"1"
-		// 	}
-
-		// 	"5"
-		// 	{
-		// 		"name"		"vivian"
-		// 		"tall"		"17"
-		// 		"weight"	"0"
-		// 		"yres"		"1200 10000"
-		// 		"antialias" "1"
-		// 		"symbol"	"1"
-		// 	}
-		// }
-
 		"ChatFont"
 		{
-		//	"isproportional"	"only"
-
 			"1"
 			{
-				"name"		"ocra"
+				"name"		"TF2 Secondary"
 				"tall"		"8"
-				"antialias" "1"
+				"antialias"	"1"
 				"dropshadow"	"1"
 			}
-
-
-
-			// "1"
-			// {
-			// 	"name"		"TF2 Secondary"
-			// 	"tall"		"12"	[!$POSIX]
-			// 	"tall"		"15"	[$POSIX]
-			// 	"weight"	"700"
-			// 	"yres"		"480 599"
-			// 	"antialias" "1"
-			// 	"dropshadow"	"1"
-			// }
-
-			// "2"
-			// {
-			// 	"name"		"TF2 Secondary"
-			// 	"tall"		"14"	[!$POSIX]
-			// 	"tall"		"17"	[$POSIX]
-			// 	"weight"	"700"
-			// 	"yres"		"600 767"
-			// 	"antialias" "1"
-			// 	"dropshadow"	"1"
-			// }
-
-			// "3"
-			// {
-			// 	"name"		"TF2 Secondary"
-			// 	"tall"		"15"	[!$POSIX]
-			// 	"tall"		"18"	[$POSIX]
-			// 	"weight"	"700"
-			// 	"yres"		"768 1023"
-			// 	"antialias" "1"
-			// 	"dropshadow"	"1"
-			// }
-
-			// "4"
-			// {
-			// 	"name"		"TF2 Secondary"
-			// 	"tall"		"17"	[!$POSIX]
-			// 	"tall"		"20"	[$POSIX]
-			// 	"weight"	"700"
-			// 	"yres"		"1024 1199"
-			// 	"antialias" "1"
-			// 	"dropshadow"	"1"
-			// }
-
-			// "5" // Misyl: Proportional
-			// {
-			// 	"name"		"TF2 Secondary"
-			// 	"tall"		"8"
-			// 	// Misyl: Looks bad when proportional
-			// 	// Removing the weight here.
-			// 	"weight" "300"
-			// 	//"weight"	"700"
-			// 	"dropshadow"	"1"
-			// 	"antialias" "1"
-			// }
 		}
-
-
 	}
 
 	Borders
@@ -374,81 +206,6 @@ Scheme
 			"draw_corner_width"		"4"
 			"draw_corner_height"	"4"
 		}
-
-		// BaseBorder		DepressedBorder
-		// ButtonBorder	RaisedBorder
-
-		// RaisedBorder
-		// {
-		// 	"proportional_scalar"	"0.5"
-		// 	Left
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color"		"Border.Bright"
-		// 		}
-		// 	}
-
-		// 	Right
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color"		"Border.Dark"
-		// 		}
-		// 	}
-
-		// 	Top
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color"		"Border.Bright"
-		// 		}
-		// 	}
-
-		// 	Bottom
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color"		"Border.Dark"
-		// 		}
-		// 	}
-		// }
-
-		// DepressedBorder
-		// {
-		// 	"proportional_scalar"	"0.5"
-		// 	Left
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color"		"Border.Dark"
-		// 		}
-		// 	}
-
-		// 	Right
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color"		"Border.Bright"
-		// 		}
-		// 	}
-
-		// 	Top
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color"		"Border.Dark"
-		// 		}
-		// 	}
-
-		// 	Bottom
-		// 	{
-		// 		"1"
-		// 		{
-		// 			"color"		"Border.Bright"
-		// 		}
-		// 	}
-		// }
 
 		ScrollBarButtonBorder
 		{

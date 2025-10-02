@@ -53,7 +53,7 @@
 				"tall"			"f0"
 				"proportionaltoparent"	"1"
 				"radius"		"10"
-				"velocity"		"100"
+				"velocity"		"80"
 			}
 
 			"QueueText"
@@ -172,7 +172,7 @@
 
 			"PromptText"
 			{
-				"controlname"	"label"
+				"controlname"	"Label"
 				"xpos"			"7"
 				"zpos"			"1"
 				"wide"			"163"

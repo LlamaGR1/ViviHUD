@@ -2,7 +2,6 @@
 {
 	"CDamageAccountPanel"
 	{
-	//	"fieldname"				"CDamageAccountPanel"
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
@@ -16,7 +15,6 @@
 	"AccountValue"
 	{
 		"controlname"	"CExLabel"
-	//	"fieldname"		"AccountValue"
 		"xpos"			"87"
 		"ypos"			"r95"
 		"wide"			"69"

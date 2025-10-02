@@ -3,10 +3,9 @@
 	"ItemSelectionPanel"
 	{
 		"controlname"	"EditablePanel"
-		"fieldname"		"ItemSelectionPanel"
 		"zpos"			"500"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"365"
 
 		"item_ypos"		"52"
 		"item_ydelta"	"80"
@@ -82,7 +81,6 @@
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"fieldname"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -121,7 +119,6 @@
 	"CaratLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		">>"
 		"xpos"			"c-295"
@@ -135,7 +132,6 @@
 	"ClassLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"ClassLabel"
 		"font"			"HudFontBiggerBold"
 		"labeltext"		"#ClassBeingEquipped"
 		"xpos"			"-15"
@@ -149,7 +145,6 @@
 	"ClassLabelShadow"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"ClassLabelShadow"
 		"font"			"HudFontBiggerBold"
 		"labeltext"		"#ClassBeingEquipped"
 		"xpos"			"-17"
@@ -165,21 +160,19 @@
 	"TopLeftLine"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"TopLeftLine"
 		"xpos"			"c-280"
 		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"170"
 		"tall"			"10"
 		"tileimage"		"1"
-		"tileVertically" "0"
+		"tilevertically" "0"
 		"image"			"loadout_dotted_line"
 	}
 
 	"ItemSlotLabel" // are we sure this works
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"ItemSlotLabel"
 		"font"			"HudFontBiggerBold"
 		"textalignment"	"east"
 		"xpos"			"c-108"
@@ -192,35 +185,32 @@
 	"TopRightLine"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"TopRightLine"
 		"xpos"			"c74"
 		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"207"
 		"tall"			"10"
 		"tileimage"		"1"
-		"tileVertically" "0"
+		"tilevertically" "0"
 		"image"			"loadout_dotted_line"
 	}
 
 	"BottomLine"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"BottomLine"
 		"xpos"			"cs-0.5"
 		"ypos"			"313"
 		"zpos"			"1"
 		"wide"			"560"
 		"tall"			"10"
 		"tileimage"		"1"
-		"tileVertically" "0"
+		"tilevertically" "0"
 		"image"			"loadout_dotted_line"
 	}
 
 	"NoItemsLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"NoItemsLabel"
 		"font"			"HudFontSmallBoldShadow"
 		"labeltext"		"#NoItemsToEquip"
 		"textalignment"	"center"
@@ -235,7 +225,6 @@
 	"OnlyAllowUniqueQuality"
 	{
 		"controlname"	"CheckButton"
-		"fieldname"		"OnlyAllowUniqueQuality"
 		"labeltext"		"#Vivi_Only_Unique"
 		"font"			"HudFontSmallestBold"
 		"xpos"			"c-283"
@@ -244,13 +233,12 @@
 		"wide"			"290"
 		"tall"			"25"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 
 	"PrevPageButton"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"PrevPageButton"
 		"xpos"			"-2"
 		"zpos"			"2"
 		"wide"			"26"
@@ -270,7 +258,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "ShowBackpack"
 		"pin_corner_to_sibling" "3"
@@ -289,7 +276,6 @@
 	"ShowBackpack"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"ShowBackpack"
 		"xpos"			"cs-0.5"
 		"ypos"			"322"
 		"zpos"			"20"
@@ -310,13 +296,11 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"ShowSelection"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"ShowSelection"
 		"xpos"			"cs-0.5"
 		"ypos"			"322"
 		"zpos"			"20"
@@ -337,13 +321,11 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"NextPageButton"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"NextPageButton"
 		"xpos"			"-2"
 		"zpos"			"2"
 		"wide"			"26"
@@ -363,7 +345,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "ShowBackpack"
 		"pin_corner_to_sibling" "2"
@@ -382,7 +363,6 @@
 	"CurPageLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"CurPageLabel"
 		"font"			"HudFontSmallBold"
 		"labeltext"		"%backpackpage%"
 		"textalignment"	"center"

@@ -1,9 +1,12 @@
+#base "../../cfg/vivihud/ratio.txt"
+
+#base "1/169fix/1classloadoutpanel.res"
+
 "classloadoutpanel"
 {
 	"class_loadout_panel"
 	{
 		"controlname"	"Frame"
-		"fieldname"		"class_loadout_panel"
 		"wide"			"f0"
 
 		"item_xpos_offcenter_a"	"75" // 110
@@ -84,7 +87,6 @@
 	"classmodelpanel"
 	{
 		"controlname"	"CTFPlayerModelPanel"
-		"fieldname"		"classmodelpanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-1"
@@ -94,7 +96,7 @@
 		"render_texture"	"0"
 		"fov"			"70" // 36
 		"allow_rot"		"1"
-	//	"allow_manip"	"1"
+		"allow_manip"	"1"
 
 		"model"
 		{
@@ -117,7 +119,6 @@
 	"mouseoveritempanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"fieldname"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -147,7 +148,6 @@
 	"ItemOptionsPanel"
 	{
 		"controlname"	"CLoadoutParticleSlider"
-		"fieldname"		"ItemOptionsPanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"100"
@@ -161,7 +161,7 @@
 
 	"BackgroundColor"
 	{
-		"controlname"	"EditablePanel"
+		"controlname"	"Panel"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -171,7 +171,6 @@
 	"BackgroundImage"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"BackgroundImage"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -183,7 +182,6 @@
 	"CaratLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		">>"
 		"xpos"			"c-295"
@@ -197,7 +195,6 @@
 	"ClassLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"ClassLabel"
 		"font"			"HudFontBiggerBold"
 		"labeltext"		"#ClassBeingEquipped"
 		"xpos"			"-15"
@@ -211,7 +208,6 @@
 	"ClassLabelShadow"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"ClassLabelShadow"
 		"font"			"HudFontBiggerBold"
 		"labeltext"		"#ClassBeingEquipped"
 		"xpos"			"-17"
@@ -227,21 +223,19 @@
 	"TopLeftLine"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"TopLeftLine"
 		"xpos"			"c-280"
 		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"170"
 		"tall"			"10"
 		"tileimage"		"1"
-		"tileVertically" "0"
+		"tilevertically" "0"
 		"image"			"loadout_dotted_line"
 	}
 
 	"RedButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"RedButton"
 		"xpos"			"c-280"
 		"ypos"			"52"
 		"zpos"			"3"
@@ -271,7 +265,6 @@
 	"BluButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"BluButton"
 		"xpos"			"-25"
 		"zpos"			"3"
 		"wide"			"20"
@@ -302,7 +295,6 @@
 	"CharacterLoadoutButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"CharacterLoadoutButton"
 		"xpos"			"-25"
 		"zpos"			"3"
 		"wide"			"20"
@@ -333,7 +325,6 @@
 	"TauntLoadoutButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"TauntLoadoutButton"
 		"xpos"			"-25"
 		"zpos"			"3"
 		"wide"			"20"
@@ -364,25 +355,85 @@
 	"LoadoutPresetPin"
 	{
 		"controlname"	"Panel"
-		"xpos"			"c208"
+	//	"xpos"			"c208"
 		"ypos"			"104"
 	}
 	
 	"loadout_preset_panel"
 	{
 		"controlname"	"CLoadoutPresetPanel"
-		"fieldname"		"loadout_preset_panel"
 		"zpos"			"2"
 		"wide"			"75"
 		"tall"			"20"
-		"IgnoreScheme"	"1"
+		"ignorescheme"	"1"
+
 		"pin_to_sibling" "LoadoutPresetPin"
+	}
+
+	"LoadPresetButton0Shadow"
+	{
+		"controlname"	"Label"
+		"xpos"			"c-175"
+		"ypos"			"48"
+		"zpos"			"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
+		"labeltext"		"A"
+		"font"			"HudFontSmallBold"
+		"fgcolor_override"	"65 65 65 255"
+	}
+
+	"LoadPresetButton1Shadow"
+	{
+		"controlname"	"Label"
+	//	"xpos"			"9"
+		"zpos"			"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
+		"labeltext"		"B"
+		"font"			"HudFontSmallBold"
+		"fgcolor_override"	"65 65 65 255"
+
+		"pin_to_sibling" "LoadPresetButton0Shadow"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
+	}
+
+	"LoadPresetButton2Shadow"
+	{
+		"controlname"	"Label"
+	//	"xpos"			"10"
+		"zpos"			"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
+		"labeltext"		"C"
+		"font"			"HudFontSmallBold"
+		"fgcolor_override"	"65 65 65 255"
+
+		"pin_to_sibling" "LoadPresetButton1Shadow"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
+	}
+
+	"LoadPresetButton3Shadow"
+	{
+		"controlname"	"Label"
+	//	"xpos"			"9"
+		"zpos"			"1"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
+		"labeltext"		"D"
+		"font"			"HudFontSmallBold"
+		"fgcolor_override"	"65 65 65 255"
+
+		"pin_to_sibling" "LoadPresetButton2Shadow"
+		"pin_corner_to_sibling" "2"
+		"pin_to_sibling_corner" "3"
 	}
 
 	"PassiveAttribsLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribSmall" // ItemFontAttribLarge
 		"xpos"			"c-280" // c-360
 		"ypos"			"77" // 27
@@ -400,21 +451,19 @@
 	"TopRightLine"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"TopRightLine"
 		"xpos"			"c74"
 		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"207"
 		"tall"			"10"
 		"tileimage"		"1"
-		"tileVertically" "0"
+		"tilevertically" "0"
 		"image"			"loadout_dotted_line"
 	}
 
 	"TauntCaratLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"TauntCaratLabel"
 		"font"			"HudFontSmallestBold"
 		"labeltext"		"<<"
 		"textalignment"	"east"
@@ -429,7 +478,6 @@
 	"TauntLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"TauntLabel"
 		"font"			"HudFontBiggerBold"
 		"labeltext"		"#TF_Taunt"
 		"textalignment"	"east"
@@ -446,7 +494,6 @@
 	"TauntHintLabel"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"TauntHintLabel"
 		"font"			"HudFontBiggerBold"
 		"labeltext"		"#TF_Taunt"
 		"textalignment"	"east"
@@ -460,5 +507,18 @@
 		"pin_to_sibling" "TauntCaratLabel"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
+	}
+
+	"ShowExplanationsButton11"
+	{
+		"controlname"	"CExButton"
+		"xpos"			"c167"
+		"ypos"			"10"
+		"zpos"			"1100"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"0"
+		"labeltext"		"!"
+		"command"		"reloadscheme"
 	}
 }

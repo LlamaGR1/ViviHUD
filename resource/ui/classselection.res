@@ -3,13 +3,12 @@
 	"class"
 	{
 		"controlname"	"Frame"
-		"fieldname"		"class"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"autoresize"	"0"
+		"pincorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -18,13 +17,12 @@
 	"SysMenu"
 	{
 		"controlname"	"Menu"
-		"fieldname"		"SysMenu"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"64"
 		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"autoresize"	"0"
+		"pincorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"	"0"
@@ -44,7 +42,6 @@
 	"CancelButton22"
 	{
 		"controlname"	"CExButton"
-		"fieldname"		"CancelButton22"
 		"xpos"			"r310"
 		"ypos"			"r940"
 		"zpos"			"69"
@@ -66,7 +63,6 @@
 
 //		"fgcolor"					"Black"
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"CancelButton"
@@ -112,30 +108,27 @@
 
 //		"fgcolor"					"Black"
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 
 
 	"ClassSelectLabel"
 	{
-		"controlname"	"CExLabel"
-		"fieldname"		"ClassSelectLabel"
-		"font"			"HudFontMediumSmall"
-		"labeltext"		"#TF_SelectAClass"
+		"controlname"	"Label"
 		"xpos"			"269"
 		"ypos"			"30"
 		"zpos"			"5"
 		"wide"			"240"
 		"tall"			"30"
-		"fgcolor"		"Black"
+		"labeltext"		"#TF_SelectAClass"
+		"font"			"HudFontMediumSmall"
+		"fgcolor_override"	"Black"
 	}
 	
 
 	"Hint"
 	{	
 		"controlname"	"CExLabel"
-		"fieldname"		"Hint"
 		"xpos"			"c-300"
 		"xpos_hidef"	"c-287"
 		"xpos_lodef"	"c-260"
@@ -146,8 +139,8 @@
 		"wide"			"600"
 		"tall"			"50"
 		"tall_lodef"	"30"
-		"autoResize"	"1"
-		"pinCorner"		"2"
+		"autoresize"	"1"
+		"pincorner"		"2"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -155,15 +148,14 @@
 		"textalignment"	"left"
 		"wrap"			"1"
 		"font"			"HudFontMediumSmallSecondary"
-		"font_lodef"	"HudFontMediumSmallSecondary"
+	//	"font_lodef"	"HudFontMediumSmallSecondary"
 		"fgcolor"		"HudTrainingHint"
-		"fgcolor_lodef"	"HudTrainingHint"
+	//	"fgcolor_lodef"	"HudTrainingHint"
 	}
 
 	"localPlayerImage"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"localPlayerImage"
 		"xpos"			"c135"
 		"ypos"			"130"
 		"zpos"			"9"
@@ -175,7 +167,6 @@
 	"localPlayerBG"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"localPlayerBG"
 		"xpos"			"c140"
 		"ypos"			"125"
 		"zpos"			"2"
@@ -191,7 +182,6 @@
 	"countImage0"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage0"
 		"xpos"			"c165"
 		"ypos"			"130"
 		"zpos"			"9"
@@ -203,7 +193,6 @@
 	"countImage1"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage1"
 		"xpos"			"c195"
 		"ypos"			"130"
 		"zpos"			"9"
@@ -215,7 +204,6 @@
 	"countImage2"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage2"
 		"xpos"			"c135"
 		"ypos"			"185"
 		"zpos"			"9"
@@ -227,7 +215,6 @@
 	"countImage3"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage3"
 		"xpos"			"c165"
 		"ypos"			"185"
 		"zpos"			"9"
@@ -239,7 +226,6 @@
 	"countImage4"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage4"
 		"xpos"			"c195"
 		"ypos"			"185"
 		"zpos"			"9"
@@ -251,7 +237,6 @@
 	"countImage5"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage5"
 		"xpos"			"c135"
 		"ypos"			"245"
 		"zpos"			"9"
@@ -263,7 +248,6 @@
 	"countImage6"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage6"
 		"xpos"			"c165"
 		"ypos"			"245"
 		"zpos"			"9"
@@ -275,7 +259,6 @@
 	"countImage7"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage7"
 		"xpos"			"c195"
 		"ypos"			"245"
 		"zpos"			"9"
@@ -287,7 +270,6 @@
 	"countImage8"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage8"
 		"xpos"			"c135"
 		"ypos"			"305"
 		"zpos"			"9"
@@ -299,7 +281,6 @@
 	"countImage9"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage9"
 		"xpos"			"c165"
 		"ypos"			"305"
 		"zpos"			"9"
@@ -311,7 +292,6 @@
 	"countImage10"
 	{
 		"controlname"	"CTFImagePanel"
-		"fieldname"		"countImage10"
 		"xpos"			"c195"
 		"ypos"			"305"
 		"zpos"			"9"
@@ -323,14 +303,13 @@
 	"CountLabel2"
 	{
 		"controlname"	"CExLabel"
-		"fieldname"		"CountLabel2"
 		"xpos"			"c23323232335"
 		"ypos"			"402"
 		"zpos"			"10"
 		"wide"			"150"
 		"tall"			"18"
-		"autoResize"	"1"
-		"pinCorner"		"2"
+		"autoresize"	"1"
+		"pincorner"		"2"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -343,7 +322,6 @@
 	"MvMUpgradeImageScout"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"MvMUpgradeImageScout"
 		"xpos"			"c-270"
 		"ypos"			"30"
 		"zpos"			"10"
@@ -358,7 +336,6 @@
 	"MvMUpgradeImageSolider"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"MvMUpgradeImageSolider"
 		"xpos"			"c-220"
 		"ypos"			"30"
 		"zpos"			"10"
@@ -373,7 +350,6 @@
 	"MvMUpgradeImagePyro" 
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"MvMUpgradeImagePyro" 
 		"xpos"			"c-170"
 		"ypos"			"30"
 		"zpos"			"10"
@@ -388,7 +364,6 @@
 	"MvMUpgradeImageDemoman" 
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"MvMUpgradeImageDemoman" 
 		"xpos"			"c-80"
 		"ypos"			"30"
 		"zpos"			"10"
@@ -403,7 +378,6 @@
 	"MvMUpgradeImageHeavy"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"MvMUpgradeImageHeavy" 
 		"xpos"			"c-30"
 		"ypos"			"30"
 		"zpos"			"10"
@@ -418,7 +392,6 @@
 	"MvMUpgradeImageEngineer"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"MvMUpgradeImageEngineer"
 		"xpos"			"c20"
 		"ypos"			"30"
 		"zpos"			"10"
@@ -433,7 +406,6 @@
 	"MvMUpgradeImageMedic"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"MvMUpgradeImageMedic"
 		"xpos"			"c108"
 		"ypos"			"30"
 		"zpos"			"10"
@@ -448,7 +420,6 @@
 	"MvMUpgradeImageSniper"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"MvMUpgradeImageSniper"
 		"xpos"			"c158"
 		"ypos"			"30"
 		"zpos"			"10"
@@ -463,7 +434,6 @@
 	"MvMUpgradeImageSpy"
 	{
 		"controlname"	"ImagePanel"
-		"fieldname"		"MvMUpgradeImageSpy"
 		"xpos"			"c208"
 		"ypos"			"30"
 		"zpos"			"10"
@@ -478,7 +448,6 @@
 	"StartExplanation"
 	{
 		"controlname"	"CExplanationPopup"
-		"fieldname"		"StartExplanation"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
@@ -501,7 +470,6 @@
 		"TitleLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labeltext"		"#TF_MvM_UpgradeExplanation_Title"
 			"textalignment"	"north"
@@ -509,8 +477,8 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"autoresize"	"0"
+			"pincorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -520,7 +488,6 @@
 		"TextLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labeltext"		"#TF_MvM_UpgradeExplanation_Text"
 			"textalignment"	"north-west"
@@ -528,8 +495,8 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"170"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"autoresize"	"0"
+			"pincorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -539,14 +506,13 @@
 		"CloseButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"CloseButton"
 			"xpos"			"280"
 			"ypos"			"5"
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"autoresize"	"0"
+			"pincorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
@@ -569,7 +535,6 @@
 			"subimage"
 			{
 				"controlname"	"ImagePanel"
-				"fieldname"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -586,7 +551,6 @@
 	"TFPlayerModel"
 	{
 		"controlname"	"CTFPlayerModelPanel"
-		"fieldname"		"TFPlayerModel"
 		
 		"xpos"			"9530" // 0
 		"ypos"			"0"
@@ -594,8 +558,8 @@
 		"wide"			"480"
 		"tall"			"480"
 		
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"autoresize"	"0"
+		"pincorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -630,14 +594,13 @@
 	"ClassTipsPanel"
 	{
 		"controlname"	"CTFClassTipsPanel"
-		"fieldname"		"ClassTipsPanel"
 		"xpos"			"c3328" // c28
 		"ypos"			"c-84"
 		"zpos"			"7"
 		"wide"			"235"
 		"tall"			"165"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"autoresize"	"0"
+		"pincorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -646,7 +609,6 @@
 	"ClassHighlightPanel"
 	{
 		"controlname"	"CExplanationPopup"
-		"fieldname"		"ClassHighlightPanel"
 		"xpos"			"c-75"
 		"ypos"			"280"
 		"zpos"			"100"
@@ -671,7 +633,6 @@
 		"TitleLabel"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labeltext"		"#CMenu_ClassHighlightPanel_Title"
 			"textalignment"	"north-west"
@@ -679,8 +640,8 @@
 			"ypos"			"10"
 			"wide"			"210"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"autoresize"	"0"
+			"pincorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -690,7 +651,6 @@
 		"ClassHighlightText"
 		{
 			"controlname"	"CExLabel"
-			"fieldname"		"ClassHighlightText"
 			"font"			"HudFontSmall"
 			"labeltext"		"%ClassHighlightText%"
 			"textalignment"	"north-west"
@@ -698,8 +658,8 @@
 			"ypos"			"30"
 			"wide"			"210"
 			"tall"			"115"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"autoresize"	"0"
+			"pincorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -709,14 +669,13 @@
 		"CloseButton"
 		{
 			"controlname"	"CExImageButton"
-			"fieldname"		"CloseButton"
 			"xpos"			"255"
 			"ypos"			"5"
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"autoresize"	"0"
+			"pincorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
@@ -739,7 +698,6 @@
 			"subimage"
 			{
 				"controlname"	"ImagePanel"
-				"fieldname"		"subimage"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
@@ -807,7 +765,6 @@
 	"ScoutButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"ScoutButton"
 		"ypos"			"15"
 		"zpos"			"5555"
 		"wide"			"69"
@@ -881,7 +838,6 @@
 	"SoldierButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"SoldierButton"
 		"xpos"			"15"
 		"zpos"			"5555"
 		"wide"			"69"
@@ -955,7 +911,6 @@
 	"PyroButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"PyroButton"
 		"xpos"			"15"
 		"zpos"			"5555"
 		"wide"			"69"
@@ -1052,7 +1007,6 @@
 	"DemomanButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"DemomanButton"
 		"xpos"			"15"
 		"zpos"			"5555"
 		"wide"			"69"
@@ -1126,7 +1080,6 @@
 	"HeavyButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"HeavyButton"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5+5"
 		"zpos"			"5555"
@@ -1198,7 +1151,6 @@
 	"EngineerButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"EngineerButton"
 		"xpos"			"15"
 		"zpos"			"5555"
 		"wide"			"69"
@@ -1301,7 +1253,6 @@
 	"MedicButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"MedicButton"
 		"ypos"			"15"
 		"zpos"			"5555"
 		"wide"			"69"
@@ -1375,7 +1326,6 @@
 	"SniperButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"SniperButton"
 		"xpos"			"15"
 		"zpos"			"5555"
 		"wide"			"69"
@@ -1449,7 +1399,6 @@
 	"SpyButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"SpyButton"
 		"xpos"			"15"
 		"zpos"			"5555"
 		"wide"			"69"
@@ -1523,7 +1472,6 @@
 	"RandomButton"
 	{
 		"controlname"	"CExImageButton"
-		"fieldname"		"RandomButton"
 		"xpos"			"c55"
 		"ypos"			"9"
 		"zpos"			"5555"

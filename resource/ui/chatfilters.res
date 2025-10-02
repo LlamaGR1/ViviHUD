@@ -8,7 +8,7 @@
 		"wide"			"110"
 		"tall"			"70"
 		"visible"		"0"
-		"bgcolor_override"	"46 43 42 130"
+		"bgcolor_override"	"0 0 0 127"
 	}
 
 	"joinleave_button"
@@ -20,7 +20,7 @@
 		"tall"			"10"
 		"labeltext"		"#filter_joinleave"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 
 	"namechange_button"
@@ -32,7 +32,7 @@
 		"tall"			"10"
 		"labeltext"		"#filter_namechange"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 
 	"publicchat_button"
@@ -44,7 +44,7 @@
 		"tall"			"10"
 		"labeltext"		"#filter_publicchat"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 
 	"servermsg_button"
@@ -56,7 +56,7 @@
 		"tall"			"10"
 		"labeltext"		"#filter_servermsg"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 
 	"teamchange_button"
@@ -68,7 +68,7 @@
 		"tall"			"10"
 		"labeltext"		"#filter_teamchange"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 
 	"achivement_button"
@@ -80,6 +80,6 @@
 		"tall"			"10"
 		"labeltext"		"#filter_achievement"
 		"sound_armed"		"ui/buttonrollover.wav"
-		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_depressed"	"ui/panel_open.wav"
 	}
 }

@@ -14,8 +14,8 @@
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
 
-		"thumbnails_x"			"c-300"
-		"thumbnails_y"			"60"
+		"thumbnails_x"			"c-280"
+		"thumbnails_y"			"70"
 		"thumbnails_delta_x"	"8"
 		"thumbnails_delta_y"	"8"
 
@@ -48,7 +48,7 @@
 
 	"BackgroundColor"
 	{
-		"controlname"	"EditablePanel"
+		"controlname"	"Panel"
 		"zpos"			"-3"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -58,11 +58,11 @@
 	"CaratLabel"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"c-300"
-		"ypos"			"7"
+		"xpos"			"c-295"
+		"ypos"			"11"
 		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
 		"labeltext"		">>"
 		"font"			"HudFontSmallestBold"
 		"fgcolor_override"	"LightRed"
@@ -70,80 +70,110 @@
 
 	"ArmoryLabel"
 	{
-		"controlname"	"label"
-		"xpos"			"c-284"
-		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"250"
-		"tall"			"25"
+		"controlname"	"CExLabel"
+		"xpos"			"-15"
+		"zpos"			"2"
+		"auto_wide_tocontents"	"1"
+		"tall"			"30"
 		"labeltext"		"#Armory"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontBiggerBold"
+
+		"pin_to_sibling" "CaratLabel"
 	}
 
 	"ArmoryLabelShadow"
 	{
 		"controlname"	"CExLabel"
-		"xpos"			"c-282"
-		"ypos"			"4"
+		"xpos"			"-17"
+		"ypos"			"-3"
+		"zpos"			"1"
 		"auto_wide_tocontents"	"1"
-		"tall"			"25"
+		"tall"			"30"
 		"labeltext"		"#Armory"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontBiggerBold"
 		"fgcolor"		"65 65 65 255"
+
+		"pin_to_sibling" "CaratLabel"
 	}
 
-	"FiltersLabel"
+	"TopLine"
 	{
-		"controlname"	"CExLabel"
-		"xpos"			"c-300"
-		"ypos"			"32"
+		"controlname"	"ImagePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"42"
 		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"20"
-		"labeltext"		"#Store_FilterLabel"
-		"font"			"HudFontSmallBold"
+		"wide"			"560"
+		"tall"			"10"
+		"tileimage"		"1"
+		"tilevertically" "0"
+		"image"			"loadout_dotted_line"
 	}
+
+	"BottomLine"
+	{
+		"controlname"	"ImagePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"313"
+		"zpos"			"1"
+		"wide"			"560"
+		"tall"			"10"
+		"tileimage"		"1"
+		"tilevertically" "0"
+		"image"			"loadout_dotted_line"
+	}
+
+	// "FiltersLabel"
+	// {
+	// 	"controlname"	"CExLabel"
+	// 	"xpos"			"c-300"
+	// 	"ypos"			"32"
+	// 	"zpos"			"1"
+	// 	"wide"			"60"
+	// 	"tall"			"20"
+	// 	"labeltext"		"#Store_FilterLabel"
+	// 	"font"			"HudFontSmallBold"
+	// }
 
 	"FilterBorder"
 	{
-		"controlname"	"EditablePanel"
-		"xpos"			"c-240"
-		"ypos"			"32"
-		"wide"			"150"
+		"controlname"	"Panel"
+		"xpos"			"c-280"
+		"ypos"			"325"
+		"wide"			"120"
 		"tall"			"20"
-		"border"		"ViviFilterBG"
+		"border"		"ViviButtonOne"	//	ViviFilterBG
 	}
 
 	"FilterComboBox"
 	{
 		"controlname"	"ComboBox"
-		"font"			"HudFontSmallestBold"
-		"xpos"			"c-240"
-		"ypos"			"32"
+		"xpos"			"c-280"
+		"ypos"			"325"
 		"zpos"			"1"
-		"wide"			"150"
+		"wide"			"120"
 		"tall"			"20"
+		"font"			"HudFontSmallestBold"
 		"editable"		"0"
 
-		"fgcolor_override"			"TanLight"
-		"selectionColor_override"	"Blank"
+		"selectionTextColor_override"	"TanLight"
+		"selectionColor_override"		"Blank"
 	}
 
 	"DataPanel"
 	{
 		"controlname"	"EditablePanel"
-		"xpos"			"c20"
-		"ypos"			"30"
-		"wide"			"270"
-		"tall"			"253"
+		"xpos"			"c30"
+		"ypos"			"70"
+		"wide"			"250"
+		"tall"			"220"
 		"border"		"LoadoutItemMouseOverBorder2"
 
 		"Data_TextRichText"
 		{
 			"controlname"	"CEconItemDetailsRichText"
-			"font"			"ScoreboardSmall"
 			"xpos"			"5"
-			"wide"			"260"
+			"wide"			"245"
+			"font"			"ScoreboardSmall"
 			"wrap"			"1"
 			"fgcolor"		"TanLight"
 			"highlight_color"	"Gray"
@@ -161,11 +191,11 @@
 	"SelectedItemModelPanel"
 	{
 		"controlname"	"CItemModelPanel"
-		"xpos"			"c25"
-		"ypos"			"40"
+		"xpos"			"c30"
+		"ypos"			"70"
 		"zpos"			"1"
-		"wide"			"260"
-		"tall"			"135"
+		"wide"			"250"
+		"tall"			"100"
 		"paintborder"	"0"
 
 		"model_hide"	"1"
@@ -199,13 +229,13 @@
 	"StoreButton"
 	{
 		"controlname"	"CExButton"
-		"xpos"			"c-302"
-		"ypos"			"286"
+		"xpos"			"c-148"
+		"ypos"			"322"
 		"zpos"			"20"
-		"wide"			"200"
+		"wide"			"87"
 		"tall"			"26"
 		"labeltext"		"#ArmoryButton_Store"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
 		"textalignment"	"center"
 		"command"		"openstore"
 		"sound_armed"		"ui/buttonrollover.wav"
@@ -243,7 +273,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "1"
@@ -261,14 +290,14 @@
 	"CurPageLabel"
 	{
 		"controlname"	"CExLabel"
-		"font"			"HudFontSmallBold"
-		"labeltext"		"%thumbnailpage%"
-		"textalignment"	"center"
-		"xpos"			"c-70"
-		"ypos"			"286"
+		"xpos"			"cs-0.5"
+		"ypos"			"322"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"26"
+		"labeltext"		"%thumbnailpage%"
+		"font"			"HudFontSmallBold"
+		"textalignment"	"center"
 		"fgcolor_override"	"LightRed"
 	}
 
@@ -293,7 +322,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_to_sibling_corner" "1"
@@ -311,13 +339,13 @@
 	"WikiButton"
 	{
 		"controlname"	"CExButton"
-		"xpos"			"c18"
-		"ypos"			"286"
+		"xpos"			"c176"
+		"ypos"			"322"
 		"zpos"			"20"
-		"wide"			"137"
+		"wide"			"105"
 		"tall"			"26"
 		"labeltext"		"#ArmoryButton_Wiki"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
 		"textalignment"	"center"
 		"command"		"wiki"
 		"sound_armed"		"ui/buttonrollover.wav"
@@ -330,19 +358,18 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"ViewSetButton"
 	{
 		"controlname"	"CExButton"
-		"xpos"			"c155"
-		"ypos"			"286"
+		"xpos"			"c61"
+		"ypos"			"322"
 		"zpos"			"20"
-		"wide"			"137"
+		"wide"			"105"
 		"tall"			"26"
 		"labeltext"		"#ArmoryButton_SetDetails"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
 		"textalignment"	"center"
 		"command"		"viewset"
 		"sound_armed"		"ui/buttonrollover.wav"
@@ -355,6 +382,5 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 }

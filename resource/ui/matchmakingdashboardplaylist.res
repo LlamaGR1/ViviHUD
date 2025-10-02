@@ -32,7 +32,7 @@
 			"proportionaltoparent"	"1"
 			"border"		"ViviPurpleBG"
 
-			"label"
+			"Label"
 			{
 				"controlname"	"CExLabel"
 			//	"xpos"			"cs-0.5"
@@ -69,7 +69,6 @@
 				"paintbackground"	"0"
 
 				"defaultfgcolor_override"	"Black"
-				"selectedfgcolor_override"	"Black"
 			}
 		}
 
@@ -84,7 +83,7 @@
 			"proportionaltoparent"	"1"
 			"border"		"ViviPurpleBG"
 
-			"label"
+			"Label"
 			{
 				"controlname"	"CExLabel"
 			//	"xpos"			"4"
@@ -132,7 +131,6 @@
 				"paintbackground"	"0"
 
 				"defaultfgcolor_override"	"Black"
-				"selectedfgcolor_override"	"Black"
 			}
 		}
 	}

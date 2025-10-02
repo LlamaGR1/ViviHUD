@@ -124,6 +124,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
+		"stay_armed_on_click"		"1"
 		"button_activation_type"	"2"
 
 		"defaultfgcolor_override"	"Black"
@@ -146,6 +147,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
+		"stay_armed_on_click"		"1"
 		"button_activation_type"	"2"
 
 		"defaultfgcolor_override"	"Black"
@@ -176,7 +178,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"CloseButton"
@@ -202,7 +203,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"DiscardButton"
@@ -228,7 +228,7 @@
 
 		"image_drawcolor"		"235 226 202 255"
 		"image_armedcolor"		"235 226 202 255"
-		"image_selectedcolor"	"169 163 146 255"
+		"image_selectedcolor"	"142 134 115 255"
 		"subimage"
 		{
 			"xpos"			"cs-0.5"

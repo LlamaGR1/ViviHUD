@@ -83,7 +83,6 @@
 
 	//	"fgcolor"					"Black"
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"ContinueButton2" // ok
@@ -120,7 +119,7 @@
 	
 	"ShadedBar" // ok
 	{
-		"controlname"	"EditablePanel"
+		"controlname"	"Panel"
 		"xpos"			"0"
 		"ypos"			"r50"
 		"zpos"			"4"
@@ -131,7 +130,7 @@
 	
 	"MessageTitle"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"visible"		"0"
 		"enabled"		"0"
 	}		

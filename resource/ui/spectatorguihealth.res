@@ -74,7 +74,7 @@
 		"labeltext"		"%Health%"
 		"textalignment"	"center"
 		"font"			"StorePromotionsTitle"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TFTanDark"
 	}
 
 	"PlayerStatusHealthValueMinMode"

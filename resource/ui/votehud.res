@@ -23,7 +23,7 @@
 
 		"PassedTitle"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"32"
 			"ypos"			"10"
 			"wide"			"98"
@@ -36,7 +36,7 @@
 
 		"PassedResult"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"29"
 			"wide"			"130"
@@ -62,7 +62,7 @@
 
 		"Header"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"5"
 			"wide"			"130"
@@ -76,7 +76,7 @@
 
 		"Issue"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"22"
 			"wide"			"120"
@@ -113,7 +113,7 @@
 
 		"LabelOption1"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"57"
 			"zpos"			"2"
@@ -138,7 +138,7 @@
 
 		"Option1CountLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"28"
 			"ypos"			"113"
 			"zpos"			"2"
@@ -152,7 +152,7 @@
 
 		"LabelOption2"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"73"
 			"zpos"			"2"
@@ -177,7 +177,7 @@
 
 		"Option2CountLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"74"
 			"ypos"			"113"
 			"zpos"			"2"
@@ -191,7 +191,7 @@
 
 		"LabelOption3"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"89"
 			"zpos"			"2"
@@ -217,7 +217,7 @@
 
 		"LabelOption4"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"105"
 			"wide"			"130"
@@ -243,7 +243,7 @@
 
 		"LabelOption5"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"121"
 			"zpos"			"2"
@@ -279,7 +279,7 @@
 
 		"VoteCountLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"100"
 			"wide"			"140"
@@ -329,7 +329,7 @@
 
 		"FailedTitle"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"32"
 			"ypos"			"10"
 			"wide"			"80"
@@ -342,7 +342,7 @@
 
 		"FailedReason"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"29"
 			"wide"			"140"
@@ -378,7 +378,7 @@
 
 		"FailedTitle"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"32"
 			"ypos"			"10"
 			"wide"			"98"
@@ -391,7 +391,7 @@
 
 		"FailedReason"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"10"
 			"ypos"			"29"
 			"wide"			"130"
@@ -420,7 +420,7 @@
 		"issue_width"		"180"
 		"issue_font"		"ItemFontNameSmall"
 		"issue_fgcolor"		"TanLight"
-		"issue_fgcolor_disabled"	"TanDark"
+		"issue_fgcolor_disabled"	"TFTanDark"
 
 		"parameter_width"	"265" // 370   players kills get cut off				245
 
@@ -500,7 +500,7 @@
 
 		"SelectLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"zpos"			"68"
 			"wide"			"120"
 			"tall"			"10"
@@ -537,7 +537,6 @@
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 
 			"image_drawcolor"		"46 43 42 255"
 			"image_armedcolor"		"235 226 202 255"
@@ -576,7 +575,6 @@
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 
 		"CallVoteButton"

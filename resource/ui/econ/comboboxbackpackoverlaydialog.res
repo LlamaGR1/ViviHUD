@@ -44,34 +44,20 @@
 		}
 	}
 
-	"ComboBoxBG"
-	{
-		"controlname"	"EditablePanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"170"
-		"wide"			"160"
-		"tall"			"20"
-		"proportionaltoparent"	"1"
-		"border"		"ViviButtonOne"
-	}
-
 	"ComboBox"
 	{
 		"controlname"	"ComboBox"
+		"xpos"			"cs-0.5"
+		"ypos"			"170"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"20"
 		"proportionaltoparent"	"1"
-	//	"font"			"HudFontSmallBold"
 		"editable"		"0"
-	//	"enabled"	"0"
+		"border"		"ViviButtonOne"
 
-		"fgcolor_override"			"TanLight"
-		"selectionColor_override"	"Blank"
-
-		"pin_to_sibling" "ComboBoxBG"
-		"pin_corner_to_sibling" "2"
-		"pin_to_sibling_corner" "2"
+		"selectionTextColor_override"	"TanLight"
+		"selectionColor_override"		"Blank"
 	}
 
 	"CancelButton"
@@ -96,7 +82,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"OkButton"
@@ -122,7 +107,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"image_drawcolor"		"46 43 42 255"
 		"image_armedcolor"		"235 226 202 255"

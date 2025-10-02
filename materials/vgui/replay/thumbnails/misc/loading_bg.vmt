@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/misc/loading_bg"
+	"$vertexalpha"	1
+}

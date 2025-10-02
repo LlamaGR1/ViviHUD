@@ -12,6 +12,8 @@ Scheme
 		"Gray"							"178 178 178 255"
 		"Blank"							"0 0 0 0"
 
+		"AchievementsLightGrey"			"36 33 32 255"
+		"AchievementsDarkGrey"			"36 33 32 255"
 
 		"qwertyuiopasdfghjklzxcvbnm1234567890qwertyuiopasdfghjklzxcvbnm1234567890"		"255 255 0 200"
 		"aa"							"255 0 0 255"
@@ -28,6 +30,8 @@ Scheme
 		PropertySheet.TextColor				"TransparentBlack"
 		PropertySheet.SelectedTextColor		"TanLight"
 		PropertySheet.TransitionEffectTime	"0.25"
+
+		QuickListBGSelected				"TFOrange"
 
 		Button.TextColor				"TanLight"
 		Button.BgColor					"TanDark"
@@ -93,6 +97,8 @@ Scheme
 		MainMenu.ArmedTextColor			"will_fix_later" // idk
 		MainMenu.Inset					"32"
 
+		ProgressBar.FgColor				"TanLight"
+
 	//	TreeView.BgColor				"aa"		//vgui draw tree
 
 		// dropdown menu
@@ -120,9 +126,9 @@ Scheme
 		SectionedListPanel.TextColor		"will_fix_later" // idk
 		SectionedListPanel.BrightTextColor	"TanLight"
 		SectionedListPanel.BgColor			"TransparentBlack"
-		SectionedListPanel.SelectedTextColor			"TanLight"
+		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"TFOrange"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"TanLight"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"TFOrange"
 
 		Slider.NobColor					"TFOrange"		// TFOrange
@@ -155,8 +161,8 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
+		//		"weight"	"500"
+		//		"additive"	"0"
 				"antialias"	"1"
 			}
 		}
@@ -167,8 +173,8 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"weight"	"500"
-				"additive"	"0"
+		//		"weight"	"500"
+		//		"additive"	"0"
 				"antialias"	"1"
 			}
 		}
@@ -184,6 +190,55 @@ Scheme
 			}
 		}
 
+
+
+
+
+
+
+
+
+		"fuckassbigs"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"27"
+		//		"weight"	"500"
+		//		"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+
+
+
+
+		"fuckassbig"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"45"
+		//		"weight"	"500"
+		//		"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"fuckassbigshadaow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"45"
+		//		"weight"	"500"
+		//		"additive"	"0"
+				"antialias"	"1"
+				"blur"		"3"
+			}
+		}
+
+
 		"DefaultUnderline"
 		{
 			"1"
@@ -193,6 +248,16 @@ Scheme
 				"weight"	"500"
 				"antialias"	"1"
 				"underline"	"0"
+			}
+		}
+
+		"DefaultLarge"		//		main changes:	hud theme
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"antialias"	"1"
 			}
 		}
 
@@ -218,55 +283,79 @@ Scheme
 			}
 		}
 
+		"DefaultBoldLarge"		//		main changes:	hud theme
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"20"
+				"weight"	"500"
+			//	"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"ChalkboardTitleMedium"		//		main changes:	hud theme
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"24"
+				"antialias"	"1"
+			}
+		}
+
 		"ServerBrowserSmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"		"480 599"
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+			//	"weight"	"0"
+			//	"range"		"0x0000 0x017F"
+			//	"yres"		"480 599"
+				"antialias"	"1"
 			}
 
 			"2"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"		"600 767"
-			}
-
-			"3"
-			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"		"768 1023"
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+			//	"weight"	"0"
+			//	"range"		"0x0000 0x017F"
+			//	"yres"		"600 767"
 				"antialias"	"1"
 			}
 
-			"4"
-			{
-				"name"		"Tahoma"
-				"tall"		"19"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"		"1024 1199"
-				"antialias"	"1"
-			}
+			// "3"
+			// {
+			// 	"name"		"TF2 Secondary"
+			// 	"tall"		"16"
+			// //	"weight"	"0"
+			// //	"range"		"0x0000 0x017F"
+			// //	"yres"		"768 1023"
+			// 	"antialias"	"1"
+			// }
 
-			"5"
-			{
-				"name"		"Tahoma"
-				"tall"		"19"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"		"1200 6000"
-				"antialias"	"1"
-			}
+			// "4"
+			// {
+			// 	"name"		"TF2 Secondary"
+			// 	"tall"		"19"
+			// //	"weight"	"0"
+			// //	"range"		"0x0000 0x017F"
+			// //	"yres"		"1024 1199"
+			// 	"antialias"	"1"
+			// }
+
+			// "5"
+			// {
+			// 	"name"		"TF2 Secondary"
+			// 	"tall"		"19"
+			// //	"weight"	"0"
+			// //	"range"		"0x0000 0x017F"
+			// //	"yres"		"1200 6000"
+			// 	"antialias"	"1"
+			// }
 		}
 
 		AchievementItemTitle
@@ -274,8 +363,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"500"
 				"tall"		"16"
+				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
@@ -285,8 +374,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"weight"	"500"
 				"tall"		"16"
+				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
@@ -296,8 +385,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"weight"	"500" // 1000
-				"tall"		"14" // 14
+				"tall"		"14"
+				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
@@ -373,10 +462,21 @@ Scheme
 			"inset"	"0 0 0 0"
 		}
 
-		ViviPurpleBG23
+		ViviButtonOne
 		{
 			"bordertype"			"scalable_image"
-			"color"					"46 43 42 255"
+
+			"image"					"replay/thumbnails/borders/vivi_button_one"
+			"src_corner_height"		"15"
+			"src_corner_width"		"15"
+			"draw_corner_width"		"3"
+			"draw_corner_height"	"3"
+		}
+
+		ViviPurpleBG
+		{
+			"bordertype"			"scalable_image"
+			"color"					"36 33 32 255"
 
 			"image"					"replay/thumbnails/borders/vivi_button"
 			"src_corner_height"		"6"
@@ -388,94 +488,10 @@ Scheme
 
 	CustomFontFiles
 	{
-		// "6"										//					needed?
-		// {
-		// 	"font" "resource/TF2Build.ttf"
-		// 	"name" "TF2 Build"
-		// 	"swedish"
-		// 	{
-		// 		"range" "0x0000 0x00F6"
-		// 	}
-
-		// 	"spanish"
-		// 	{
-		// 		"range" "0x0000 0x00FC"
-		// 	}
-
-		// 	"romanian"
-		// 	{
-		// 		"range" "0x0000 0x021B"
-		// 	}
-
-		// 	"polish"
-		// 	{
-		// 		"range" "0x0000 0x017C"
-		// 	}
-
-		// 	"norwegian"
-		// 	{
-		// 		"range" "0x0000 0x00F8"
-		// 	}
-
-		// 	"danish"
-		// 	{
-		// 		"range" "0x0000 0x00F8"
-		// 	}
-
-		// 	"hungarian"
-		// 	{
-		// 		"range" "0x0000 0x0171"
-		// 	}
-
-		// 	"german"
-		// 	{
-		// 		"range" "0x0000 0x00FC"
-		// 	}
-
-		// 	"french"
-		// 	{
-		// 		"range" "0x0000 0x0178"
-		// 	}
-
-		// 	"finnish"
-		// 	{
-		// 		"range" "0x0000 0x017E"
-		// 	}
-
-		// 	"czech"
-		// 	{
-		// 		"range" "0x0000 0x017E"
-		// 	}
-
-		// 	"bulgarian"
-		// 	{
-		// 		"range" "0x0000 0x0451"
-		// 	}
-
-		// 	"russian"
-		// 	{
-		// 		"range" "0x0000 0x0451"
-		// 	}
-
-		// 	"turkish"
-		// 	{
-		// 		"range" "0x0000 0x015F"
-		// 	}
-		// }
-
 		"69"
 		{
 			"font"	"resource/vivian.ttf"
 			"name"	"vivian"
 		}
-
-		// "10"	"resource/linux_fonts/DejaVuSans.ttf"							//					needed?
-		// "11"	"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		// "12"	"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		// "13"	"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		// "14"	"resource/linux_fonts/LiberationSans-Regular.ttf"
-		// "15"	"resource/linux_fonts/LiberationSans-Bold.ttf"
-		// "16"	"resource/linux_fonts/LiberationMono-Regular.ttf"
-		// "17"	"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }

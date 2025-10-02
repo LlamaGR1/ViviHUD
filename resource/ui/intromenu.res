@@ -44,7 +44,6 @@
 
 		"fgcolor"					"Black"
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"SkipButton" // ok
@@ -85,7 +84,6 @@
 
 		"fgcolor"					"Black"
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"BackButton" // ok
@@ -110,8 +108,8 @@
 		"zpos"			"3"		
 		"wide"			"300"
 		"tall"			"225"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
+	//	"autoresize"	"0"
+	//	"pincorner"		"0"
 	//	"visible"		"1"
 	//	"enabled"		"1"
 		"start_delay"	"2.0"
@@ -126,8 +124,8 @@
 	//	"zpos"			"0"		
 		"wide"			"f0"
 		"tall"			"480"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
+	//	"autoresize"	"0"
+	//	"pincorner"		"0"
 	//	"visible"		"1"
 	//	"enabled"		"1"
 		"fov"			"20"
@@ -174,8 +172,8 @@
 		"zpos"			"6"
 		"wide"			"300"
 		"tall"			"70"
-	//	"autoResize"	"0"
-	//	"pinCorner"		"0"
+	//	"autoresize"	"0"
+	//	"pincorner"		"0"
 		"visible"		"0"		//		is needed
 	//	"enabled"		"1"
 	//	"labeltext"		" "

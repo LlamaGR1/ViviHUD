@@ -1,0 +1,7 @@
+"unlitgeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/borders/vivi_gradient"
+	"$translucent"	1
+	"$vertexcolor"	1
+	"$color"		"{37 34 33}"
+}

@@ -110,7 +110,7 @@
 
 		"AveragesLabel"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"20"
 			"ypos"			"11"
 			"wide"			"384"
@@ -165,7 +165,7 @@
 
 		"ClassBarLabel1A"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"178"
 			"ypos"			"72"
 			"zpos"			"6"
@@ -177,7 +177,7 @@
 
 		"ClassBarLabel1B"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"192"
 			"ypos"			"72"
 			"zpos"			"6"
@@ -189,7 +189,7 @@
 
 		"ClassLabel1"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"338"
 			"ypos"			"70"
 			"zpos"			"5"
@@ -245,7 +245,7 @@
 
 		"ClassBarLabel2A"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"178"
 			"ypos"			"90"
 			"zpos"			"6"
@@ -257,7 +257,7 @@
 
 		"ClassBarLabel2B"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"192"
 			"ypos"			"90"
 			"zpos"			"6"
@@ -269,7 +269,7 @@
 
 		"ClassLabel2"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"338"
 			"ypos"			"88"
 			"zpos"			"5"
@@ -325,7 +325,7 @@
 
 		"ClassBarLabel3A"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"178"
 			"ypos"			"108"
 			"zpos"			"6"
@@ -337,7 +337,7 @@
 
 		"ClassBarLabel3B"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"192"
 			"ypos"			"108"
 			"zpos"			"6"
@@ -349,7 +349,7 @@
 
 		"ClassLabel3"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"338"
 			"ypos"			"106"
 			"zpos"			"5"
@@ -405,7 +405,7 @@
 
 		"ClassBarLabel4A"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"178"
 			"ypos"			"126"
 			"zpos"			"6"
@@ -417,7 +417,7 @@
 
 		"ClassBarLabel4B"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"192"
 			"ypos"			"126"
 			"zpos"			"6"
@@ -429,7 +429,7 @@
 
 		"ClassLabel4"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"338"
 			"ypos"			"124"
 			"zpos"			"5"
@@ -485,7 +485,7 @@
 
 		"ClassBarLabel5A"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"178"
 			"ypos"			"144"
 			"zpos"			"6"
@@ -497,7 +497,7 @@
 
 		"ClassBarLabel5B"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"192"
 			"ypos"			"144"
 			"zpos"			"6"
@@ -509,7 +509,7 @@
 
 		"ClassLabel5"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"338"
 			"ypos"			"142"
 			"zpos"			"5"
@@ -565,7 +565,7 @@
 
 		"ClassBarLabel6A"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"178"
 			"ypos"			"162"
 			"zpos"			"6"
@@ -577,7 +577,7 @@
 
 		"ClassBarLabel6B"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"192"
 			"ypos"			"162"
 			"zpos"			"6"
@@ -589,7 +589,7 @@
 
 		"ClassLabel6"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"338"
 			"ypos"			"160"
 			"zpos"			"5"
@@ -645,7 +645,7 @@
 
 		"ClassBarLabel7A"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"178"
 			"ypos"			"180"
 			"zpos"			"6"
@@ -657,7 +657,7 @@
 
 		"ClassBarLabel7B"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"192"
 			"ypos"			"180"
 			"zpos"			"6"
@@ -669,7 +669,7 @@
 
 		"ClassLabel7"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"338"
 			"ypos"			"178"
 			"zpos"			"5"
@@ -725,7 +725,7 @@
 
 		"ClassBarLabel8A"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"178"
 			"ypos"			"198"
 			"zpos"			"6"
@@ -737,7 +737,7 @@
 
 		"ClassBarLabel8B"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"192"
 			"ypos"			"198"
 			"zpos"			"6"
@@ -749,7 +749,7 @@
 
 		"ClassLabel8"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"338"
 			"ypos"			"196"
 			"zpos"			"5"
@@ -805,7 +805,7 @@
 
 		"ClassBarLabel9A"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"178"
 			"ypos"			"216"
 			"zpos"			"6"
@@ -817,7 +817,7 @@
 
 		"ClassBarLabel9B"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"192"
 			"ypos"			"216"
 			"zpos"			"6"
@@ -829,7 +829,7 @@
 
 		"ClassLabel9"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"338"
 			"ypos"			"214"
 			"zpos"			"5"
@@ -880,7 +880,7 @@
 
 		"OverallRecord1Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"70"
 			"zpos"			"5"
@@ -892,7 +892,7 @@
 
 		"OverallRecord1Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"70"
 			"zpos"			"5"
@@ -904,7 +904,7 @@
 
 		"OverallRecord2Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"80"
 			"zpos"			"5"
@@ -916,7 +916,7 @@
 
 		"OverallRecord2Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"80"
 			"zpos"			"5"
@@ -928,7 +928,7 @@
 
 		"OverallRecord3Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"90"
 			"zpos"			"5"
@@ -940,7 +940,7 @@
 
 		"OverallRecord3Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"90"
 			"zpos"			"5"
@@ -952,7 +952,7 @@
 
 		"OverallRecord4Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"100"
 			"zpos"			"5"
@@ -964,7 +964,7 @@
 
 		"OverallRecord4Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"100"
 			"zpos"			"5"
@@ -976,7 +976,7 @@
 
 		"OverallRecord5Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"110"
 			"zpos"			"5"
@@ -988,7 +988,7 @@
 
 		"OverallRecord5Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"110"
 			"zpos"			"5"
@@ -1000,7 +1000,7 @@
 
 		"OverallRecord6Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"120"
 			"zpos"			"5"
@@ -1012,7 +1012,7 @@
 
 		"OverallRecord6Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"120"
 			"zpos"			"5"
@@ -1024,7 +1024,7 @@
 
 		"OverallRecord7Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"130"
 			"zpos"			"5"
@@ -1036,7 +1036,7 @@
 
 		"OverallRecord7Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"130"
 			"zpos"			"5"
@@ -1048,7 +1048,7 @@
 
 		"OverallRecord8Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"140"
 			"zpos"			"5"
@@ -1060,7 +1060,7 @@
 
 		"OverallRecord8Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"140"
 			"zpos"			"5"
@@ -1072,7 +1072,7 @@
 
 		"OverallRecord9Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"150"
 			"zpos"			"5"
@@ -1084,7 +1084,7 @@
 
 		"OverallRecord9Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"150"
 			"zpos"			"5"
@@ -1096,7 +1096,7 @@
 
 		"OverallRecord10Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"160"
 			"zpos"			"5"
@@ -1108,7 +1108,7 @@
 
 		"OverallRecord10Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"160"
 			"zpos"			"5"
@@ -1120,7 +1120,7 @@
 
 		"OverallRecord11Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"170"
 			"zpos"			"5"
@@ -1132,7 +1132,7 @@
 
 		"OverallRecord11Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"170"
 			"zpos"			"5"
@@ -1144,7 +1144,7 @@
 
 		"OverallRecord12Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"180"
 			"zpos"			"5"
@@ -1156,7 +1156,7 @@
 
 		"OverallRecord12Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"180"
 			"zpos"			"5"
@@ -1168,7 +1168,7 @@
 
 		"OverallRecord13Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"190"
 			"zpos"			"5"
@@ -1180,7 +1180,7 @@
 
 		"OverallRecord13Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"190"
 			"zpos"			"5"
@@ -1192,7 +1192,7 @@
 
 		"OverallRecord14Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"200"
 			"zpos"			"5"
@@ -1204,7 +1204,7 @@
 
 		"OverallRecord14Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"200"
 			"zpos"			"5"
@@ -1216,7 +1216,7 @@
 
 		"OverallRecord15Label"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"438"
 			"ypos"			"210"
 			"zpos"			"5"
@@ -1228,7 +1228,7 @@
 
 		"OverallRecord15Value"
 		{
-			"controlname"	"label"
+			"controlname"	"Label"
 			"xpos"			"515"
 			"ypos"			"210"
 			"zpos"			"5"
@@ -1252,7 +1252,7 @@
 
 	"TipText"
 	{
-		"controlname"	"label"
+		"controlname"	"Label"
 		"ypos"			"5"
 		"zpos"			"12"
 		"wide"			"390"
@@ -1284,7 +1284,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"ResetStatsButton1"
@@ -1309,7 +1308,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 	}
 
 	"NextTipButton"

@@ -3,7 +3,6 @@
 	"SteamWorkshopDialog"
 	{
 		"controlname"	"CSteamWorkshopDialog"
-		"fieldname"		"SteamWorkshopDialog"
 		"wide"			"f0"
 		"tall"			"481"
 		"bgcolor_override"	"0 0 0 230"
@@ -12,7 +11,6 @@
 	"Container"
 	{
 		"controlname"	"EditablePanel"
-		"fieldname"		"Container"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"wide"			"600"
@@ -22,7 +20,6 @@
 		"Background"
 		{
 			"controlname"	"EditablePanel"
-			"fieldname"		"Background"
 			"zpos"			"1"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -32,7 +29,6 @@
 		"WorkshopBranding"
 		{
 			"controlname"	"ImagePanel"
-			"fieldname"		"WorkshopBranding"
 			"zpos"			"2"
 			"wide"			"600"
 			"tall"			"300"
@@ -42,8 +38,7 @@
 
 		"BackgroundBottom"
 		{
-			"controlname"	"EditablePanel"
-			"fieldname"		"BackgroundBottom"
+			"controlname"	"Panel"
 			"ypos"			"355"
 			"zpos"			"5"
 			"wide"			"f0"
@@ -54,7 +49,6 @@
 		"NoItemsContainer"
 		{
 			"controlname"	"EditablePanel"
-			"fieldname"		"NoItemsContainer"
 			"xpos"			"25"
 			"ypos"			"60"
 			"zpos"			"3"
@@ -65,7 +59,6 @@
 			"Background"
 			{
 				"controlname"	"ImagePanel"
-				"fieldname"		"Background"
 				"xpos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"260"
@@ -79,7 +72,6 @@
 			"TitleLabel"
 			{
 				"controlname"	"CExLabel"
-				"fieldname"		"TitleLabel"
 				"font"			"HudFontMediumBold"
 				"labeltext"		"#TF_SteamWorkshop_Title"
 				"textalignment"	"center"
@@ -95,7 +87,6 @@
 			"DescLabel"
 			{
 				"controlname"	"CExLabel"
-				"fieldname"		"TitleLabel"
 				"font"			"HudFontSmall"
 				"labeltext"		"#TF_SteamWorkshop_Desc"
 				"textalignment"	"north"
@@ -112,7 +103,6 @@
 			"LearnMoreButton"
 			{
 				"controlname"	"CExButton"
-				"fieldname"		"LearnMoreButton"
 				"xpos"			"cs-0.5"
 				"ypos"			"175"
 				"zpos"			"3"
@@ -142,7 +132,6 @@
 		"ItemsContainer"
 		{
 			"controlname"	"EditablePanel"
-			"fieldname"		"ItemsContainer"
 			"xpos"			"25"
 			"ypos"			"60"
 			"zpos"			"4"
@@ -154,7 +143,6 @@
 			"Background"
 			{
 				"controlname"	"ImagePanel"
-				"fieldname"		"Background"
 				"xpos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"260"
@@ -168,7 +156,6 @@
 			"TitleLabel"
 			{
 				"controlname"	"CExLabel"
-				"fieldname"		"TitleLabel"
 				"font"			"HudFontMediumBold"
 				"labeltext"		"#TF_SteamWorkshop_YourItems"
 				"xpos"			"15"
@@ -182,7 +169,6 @@
 			"ViewPublishedButton"
 			{
 				"controlname"	"CExButton"
-				"fieldname"		"ViewPublishedButton"
 				"xpos"			"435"
 				"ypos"			"12"
 				"zpos"			"3"
@@ -210,7 +196,6 @@
 			"SteamWorkshopItem0"
 			{
 				"controlname"	"CSteamWorkshopItemPanel"
-				"fieldname"		"SteamWorkshopItem0"
 				"xpos"			"15"
 				"ypos"			"30"
 				"zpos"			"2"
@@ -221,7 +206,6 @@
 			"SteamWorkshopItem1"
 			{
 				"controlname"	"CSteamWorkshopItemPanel"
-				"fieldname"		"SteamWorkshopItem1"
 				"xpos"			"147"
 				"ypos"			"30"
 				"zpos"			"2"
@@ -232,7 +216,6 @@
 			"SteamWorkshopItem2"
 			{
 				"controlname"	"CSteamWorkshopItemPanel"
-				"fieldname"		"SteamWorkshopItem2"
 				"xpos"			"279"
 				"ypos"			"30"
 				"zpos"			"2"
@@ -243,7 +226,6 @@
 			"SteamWorkshopItem3"
 			{
 				"controlname"	"CSteamWorkshopItemPanel"
-				"fieldname"		"SteamWorkshopItem3"
 				"xpos"			"411"
 				"ypos"			"30"
 				"zpos"			"2"
@@ -254,7 +236,6 @@
 			"EditButton"
 			{
 				"controlname"	"CExImageButton"
-				"fieldname"		"EditButton"
 				"xpos"			"15"
 				"ypos"			"213"
 				"zpos"			"3"
@@ -281,8 +262,8 @@
 
 				"image_drawcolor"		"235 226 202 255"
 				"image_armedcolor"		"235 226 202 255"
-				"image_selectedcolor"	"169 163 146 255"
-				"image_disabledcolor"	"169 163 146 255"
+				"image_selectedcolor"	"142 134 115 255"
+				"image_disabledcolor"	"142 134 115 255"
 				"subimage"
 				{
 					"xpos"			"6"
@@ -297,7 +278,6 @@
 			"ViewButton"
 			{
 				"controlname"	"CExImageButton"
-				"fieldname"		"ViewButton"
 				"xpos"			"115"
 				"ypos"			"213"
 				"zpos"			"3"
@@ -324,8 +304,8 @@
 
 				"image_drawcolor"		"235 226 202 255"
 				"image_armedcolor"		"235 226 202 255"
-				"image_selectedcolor"	"169 163 146 255"
-				"image_disabledcolor"	"169 163 146 255"
+				"image_selectedcolor"	"142 134 115 255"
+				"image_disabledcolor"	"142 134 115 255"
 				"subimage"
 				{
 					"xpos"			"6"
@@ -340,7 +320,6 @@
 			"DeleteButton"
 			{
 				"controlname"	"CExImageButton"
-				"fieldname"		"DeleteButton"
 				"xpos"			"215"
 				"ypos"			"213"
 				"zpos"			"3"
@@ -367,8 +346,8 @@
 
 				"image_drawcolor"		"235 226 202 255"
 				"image_armedcolor"		"235 226 202 255"
-				"image_selectedcolor"	"169 163 146 255"
-				"image_disabledcolor"	"169 163 146 255"
+				"image_selectedcolor"	"142 134 115 255"
+				"image_disabledcolor"	"142 134 115 255"
 				"subimage"
 				{
 					"xpos"			"6"
@@ -383,7 +362,6 @@
 			"SkipToStartButton"
 			{
 				"controlname"	"CExButton"
-				"fieldname"		"SkipToStartButton"
 				"zpos"			"3"
 				"wide"			"26"
 				"tall"			"26"
@@ -413,7 +391,6 @@
 			"PrevPageSkipButton"
 			{
 				"controlname"	"CExButton"
-				"fieldname"		"PrevPageSkipButton"
 				"zpos"			"3"
 				"wide"			"26"
 				"tall"			"26"
@@ -443,7 +420,6 @@
 			"PrevPageButton"
 			{
 				"controlname"	"CExButton"
-				"fieldname"		"PrevPageButton"
 				"zpos"			"3"
 				"wide"			"26"
 				"tall"			"26"
@@ -473,7 +449,6 @@
 			"CurPageLabel"
 			{
 				"controlname"	"CExLabel"
-				"fieldname"		"CurPageLabel"
 				"font"			"HudFontSmallBold"
 				"labeltext"		"%page%"
 				"textalignment"	"center"
@@ -488,7 +463,6 @@
 			"NextPageButton"
 			{
 				"controlname"	"CExButton"
-				"fieldname"		"NextPageButton"
 				"zpos"			"3"
 				"wide"			"26"
 				"tall"			"26"
@@ -517,7 +491,6 @@
 			"NextPageSkipButton"
 			{
 				"controlname"	"CExButton"
-				"fieldname"		"NextPageSkipButton"
 				"zpos"			"3"
 				"wide"			"26"
 				"tall"			"26"
@@ -546,7 +519,6 @@
 			"SkipToEndButton"
 			{
 				"controlname"	"CExButton"
-				"fieldname"		"SkipToEndButton"
 				"zpos"			"3"
 				"wide"			"26"
 				"tall"			"26"
@@ -576,7 +548,6 @@
 		"LearnMore2Button"
 		{
 			"controlname"	"CExButton"
-			"fieldname"		"LearnMore2Button"
 			"xpos"			"cs-0.5"
 			"ypos"			"18"
 			"zpos"			"20"
@@ -605,7 +576,6 @@
 		"ViewLegalAgreementButton"
 		{
 			"controlname"	"CExButton"
-			"fieldname"		"ViewLegalAgreementButton"
 			"xpos"			"407"
 			"ypos"			"20"
 			"zpos"			"20"
@@ -626,13 +596,11 @@
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 
 		"LoadTestMapButton"
 		{
 			"controlname"	"CExButton"
-			"fieldname"		"LoadTestMapButton"
 			"xpos"			"80"
 			"ypos"			"320"
 			"zpos"			"20"
@@ -659,7 +627,6 @@
 		"PublishButton"
 		{
 			"controlname"	"CExButton"
-			"fieldname"		"PublishButton"
 			"xpos"			"320"
 			"ypos"			"320"
 			"zpos"			"20"
@@ -686,7 +653,6 @@
 		"BrowseButton"
 		{
 			"controlname"	"CExButton"
-			"fieldname"		"BrowseButton"
 			"xpos"			"390"
 			"ypos"			"364"
 			"zpos"			"20"
@@ -707,13 +673,11 @@
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 
 		"CancelButton"
 		{
 			"controlname"	"CExButton"
-			"fieldname"		"CancelButton"
 			"xpos"			"10"
 			"ypos"			"364"
 			"zpos"			"20"
@@ -734,7 +698,6 @@
 			"paintbackground"	"0"
 
 			"defaultfgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
 		}
 	}
 }

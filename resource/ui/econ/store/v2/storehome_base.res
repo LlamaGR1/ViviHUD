@@ -48,13 +48,13 @@
 			"BottomBG"
 			{
 				"controlname"	"EditablePanel"
-				"ypos"			"r13"
+				"ypos"			"r18"
 				"wide"			"f0"
-				"tall"			"13"
+				"tall"			"18"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"		"Black"
-				"paintbackgroundtype"	"2"
 				"roundedcorners"		"12"
+				"paintbackgroundtype"	"2"
+				"bgcolor_override"		"Black"
 				"mouseinputenabled"		"0"
 			}
 
@@ -173,12 +173,13 @@
 
 	"CategoriesBG"
 	{
-		"controlname"	"EditablePanel"
+		"controlname"	"Panel"
 		"xpos"			"c-292"
 		"ypos"			"160"
 		"wide"			"163"
 		"tall"			"148"
-		"border"		"ViviStoreBG"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"38 35 33 245"
 	}
 
 	"MarketPlaceButton"
@@ -187,27 +188,38 @@
 		"xpos"			"c-292"
 		"ypos"			"170"
 		"zpos"			"2"
-		"wide"			"163"
+		"auto_wide_tocontents"	"1"
 		"tall"			"20"
 		"labeltext"		"#Store_MarketPlace"
 		"font"			"HudFontSmallBold"
 		"use_proportional_insets"	"1"
-		"textinsetx"	"10" // 30
-	//	"textalignment"	"center"
+		"textinsetx"	"10"
 		"command"		"marketplace"
 		"sound_armed"		"ui/buttonrollover.wav"
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
 
-	//	"border_default"	"MainMenuButtonDefault"
-	//	"border_armed"		"MainMenuButtonArmed"
-	//	"border_selected"	"MainMenuButtonDepressed"
-	//	"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
 
 		"armedfgcolor_override"		"240 207 78 255"
 		"depressedfgcolor_override"	"160 140 69 255"
 		"selectedfgcolor_override"	"160 140 69 255"
+	}
+
+	"MarketPlaceImage"
+	{
+		"controlname"	"ScalableImagePanel"
+		"xpos"			"3"
+		"zpos"			"1"
+		"wide"			"o1"
+		"tall"			"12"
+		"drawcolor"		"240 207 78 255"
+		"image"			"glyph_store"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "MarketPlaceButton"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
 	}
 
 	"MarketPlaceUnderLine"
@@ -231,35 +243,25 @@
 		"tall"			"100"
 
 		"display_vertically"	"1"
+		"auto_layout"			"1"
 
-		"auto_layout"	"1"
-	//	"auto_layout_horizontal_buffer"	"99" // 9
-	//	"auto_layout_vertical_buffer"	"1"
-		
 		"ButtonSettings"
 		{
-			"wide"			"8" // 100
-			"tall"			"1" // 24
-		//	"proportionaltoparent"	"1"
+			"wide"			"8"
+			"tall"			"1"
 			"font"			"QuestMediumText_Merasmus"
 			"use_proportional_insets"	"1"
-			"textinsetx"	"10" // 30
-		//	"textalignment"	"center"
+			"textinsetx"	"10"
 			"sound_armed"		"ui/buttonrollover.wav"
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
-		//	"roundedcorners"	"3"
 			"button_activation_type"	"2"
 
 			"paintbackground"	"0"
 
-		//	"defaultbgcolor_override"	"38 35 33 0"		// 38 35 33 255
-			"defaultfgcolor_override"	"124 114 99 255"
-		//	"armedbgcolor_override"		"24 22 20 0"		// 24 22 20 255
+			"defaultfgcolor_override"	"TFTanDark"
 			"armedfgcolor_override"		"240 207 78 255"
-		//	"selectedbgcolor_override"	"24 22 20 0"		// 24 22 20 255
-		//	"depressedfgcolor_override"	"160 140 69 255"
 			"selectedfgcolor_override"	"160 140 69 255"
 		}
 	}
@@ -291,7 +293,7 @@
 
 		"image_drawcolor"		"235 226 202 255"
 		"image_armedcolor"		"235 226 202 255"
-		"image_selectedcolor"	"169 163 146 255"
+		"image_selectedcolor"	"142 134 115 255"
 		"subimage"
 		{
 			"xpos"			"4"
@@ -315,7 +317,6 @@
 		"labeltext"		"%freebackpackspace%"
 		"font"			"HudFontSmallest"
 		"textAlignment"	"east"
-		"tooltiptext"	"test12399"
 	}
 
 	"TitleLabel"
@@ -371,7 +372,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "1"
@@ -421,7 +421,6 @@
 		"paintbackground"	"0"
 
 		"defaultfgcolor_override"	"Black"
-		"selectedfgcolor_override"	"Black"
 
 		"pin_to_sibling" "CurPageLabel"
 		"pin_to_sibling_corner" "1"
